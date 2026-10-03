@@ -1,0 +1,213 @@
+{
+  "annotated_training_rows": 3238,
+  "training_token_views": 74862,
+  "unseen_entity_pairs": {
+    "sentences": 720,
+    "subject_BIO_exact": 720,
+    "roles": {
+      "subject": {
+        "tp": 1800,
+        "predicted": 1800,
+        "gold": 1800,
+        "exact_sentences": 720,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "actor": {
+        "tp": 1800,
+        "predicted": 1800,
+        "gold": 1800,
+        "exact_sentences": 720,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receiver": {
+        "tp": 1800,
+        "predicted": 1800,
+        "gold": 1800,
+        "exact_sentences": 720,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "relation": {
+        "tp": 720,
+        "predicted": 720,
+        "gold": 720,
+        "exact_sentences": 720,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  },
+  "unseen_structure": {
+    "sentences": 120,
+    "subject_BIO_exact": 0,
+    "roles": {
+      "subject": {
+        "tp": 360,
+        "predicted": 480,
+        "gold": 360,
+        "exact_sentences": 0,
+        "precision": 0.75,
+        "recall": 1.0
+      },
+      "actor": {
+        "tp": 111,
+        "predicted": 351,
+        "gold": 360,
+        "exact_sentences": 0,
+        "precision": 0.3162393162393162,
+        "recall": 0.30833333333333335
+      },
+      "receiver": {
+        "tp": 120,
+        "predicted": 258,
+        "gold": 360,
+        "exact_sentences": 0,
+        "precision": 0.46511627906976744,
+        "recall": 0.3333333333333333
+      },
+      "relation": {
+        "tp": 120,
+        "predicted": 120,
+        "gold": 120,
+        "exact_sentences": 120,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  },
+  "unseen_entities": {
+    "sentences": 108,
+    "subject_BIO_exact": 108,
+    "roles": {
+      "subject": {
+        "tp": 324,
+        "predicted": 324,
+        "gold": 324,
+        "exact_sentences": 108,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "actor": {
+        "tp": 288,
+        "predicted": 324,
+        "gold": 324,
+        "exact_sentences": 36,
+        "precision": 0.8888888888888888,
+        "recall": 0.8888888888888888
+      },
+      "receiver": {
+        "tp": 288,
+        "predicted": 288,
+        "gold": 324,
+        "exact_sentences": 72,
+        "precision": 1.0,
+        "recall": 0.8888888888888888
+      },
+      "relation": {
+        "tp": 108,
+        "predicted": 108,
+        "gold": 108,
+        "exact_sentences": 108,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  },
+  "heldout_science": {
+    "sentences": 5,
+    "subject_BIO_exact": 0,
+    "roles": {
+      "subject": {
+        "tp": 4,
+        "predicted": 9,
+        "gold": 6,
+        "exact_sentences": 1,
+        "precision": 0.4444444444444444,
+        "recall": 0.6666666666666666
+      },
+      "actor": {
+        "tp": 0,
+        "predicted": 0,
+        "gold": 0,
+        "exact_sentences": 0,
+        "precision": null,
+        "recall": null
+      },
+      "receiver": {
+        "tp": 0,
+        "predicted": 0,
+        "gold": 0,
+        "exact_sentences": 0,
+        "precision": null,
+        "recall": null
+      },
+      "relation": {
+        "tp": 3,
+        "predicted": 3,
+        "gold": 5,
+        "exact_sentences": 3,
+        "precision": 1.0,
+        "recall": 0.6
+      }
+    }
+  },
+  "previous_roles": {
+    "unseen_pairs": {
+      "correct": 107,
+      "questions": 110
+    },
+    "single_questions": {
+      "correct": 13,
+      "questions": 48
+    }
+  },
+  "revisable_roles": {
+    "unseen_pairs": {
+      "correct": 108,
+      "questions": 110
+    },
+    "single_questions": {
+      "correct": 20,
+      "questions": 48
+    }
+  },
+  "heldout_multiple_clauses": {
+    "sentences": 120,
+    "roles": {
+      "subject": {
+        "tp": 690,
+        "predicted": 690,
+        "gold": 720,
+        "exact_sentences": 90,
+        "precision": 1.0,
+        "recall": 0.9583333333333334
+      },
+      "actor": {
+        "tp": 720,
+        "predicted": 720,
+        "gold": 720,
+        "exact_sentences": 120,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "receiver": {
+        "tp": 700,
+        "predicted": 700,
+        "gold": 720,
+        "exact_sentences": 100,
+        "precision": 1.0,
+        "recall": 0.9722222222222222
+      },
+      "relation": {
+        "tp": 240,
+        "predicted": 240,
+        "gold": 240,
+        "exact_sentences": 120,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  }
+}

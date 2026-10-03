@@ -1,0 +1,48 @@
+{"input": "What are living organisms made from?", "topic": "biology", "answer_id": 0, "answer": "Cells are the basic structural and functional units of living organisms."}
+{"input": "Which units perform the basic functions of life?", "topic": "biology", "answer_id": 0, "answer": "Cells are the basic structural and functional units of living organisms."}
+{"input": "Where is most genetic material stored in a eukaryotic cell?", "topic": "biology", "answer_id": 1, "answer": "In eukaryotic cells, the nucleus contains most of the genetic material."}
+{"input": "Which cell structure holds most DNA in a eukaryote?", "topic": "biology", "answer_id": 1, "answer": "In eukaryotic cells, the nucleus contains most of the genetic material."}
+{"input": "What regulates substances entering a cell?", "topic": "biology", "answer_id": 2, "answer": "The cell membrane forms a boundary and regulates movement of substances into and out of the cell."}
+{"input": "Which boundary controls movement into and out of cells?", "topic": "biology", "answer_id": 2, "answer": "The cell membrane forms a boundary and regulates movement of substances into and out of the cell."}
+{"input": "Which organelles produce much of a cell\u2019s ATP?", "topic": "biology", "answer_id": 3, "answer": "Mitochondria produce much of the ATP used by many eukaryotic cells through cellular respiration."}
+{"input": "Where does much energy-releasing cellular respiration take place in eukaryotes?", "topic": "biology", "answer_id": 3, "answer": "Mitochondria produce much of the ATP used by many eukaryotic cells through cellular respiration."}
+{"input": "How do plants use light to build organic molecules?", "topic": "biology", "answer_id": 4, "answer": "Photosynthesis uses light energy to build organic molecules from carbon dioxide; oxygen is released during oxygenic photosynthesis."}
+{"input": "Which process uses sunlight and carbon dioxide and can release oxygen?", "topic": "biology", "answer_id": 4, "answer": "Photosynthesis uses light energy to build organic molecules from carbon dioxide; oxygen is released during oxygenic photosynthesis."}
+{"input": "Where does photosynthesis occur in plant cells?", "topic": "biology", "answer_id": 5, "answer": "Chloroplasts are organelles where photosynthesis occurs in plants and algae."}
+{"input": "Which organelles use light in plants and algae?", "topic": "biology", "answer_id": 5, "answer": "Chloroplasts are organelles where photosynthesis occurs in plants and algae."}
+{"input": "What transports water through a vascular plant?", "topic": "biology", "answer_id": 6, "answer": "Xylem transports water and dissolved minerals through vascular plants."}
+{"input": "Which plant tissue carries dissolved minerals with water?", "topic": "biology", "answer_id": 6, "answer": "Xylem transports water and dissolved minerals through vascular plants."}
+{"input": "What carries sugars through plants?", "topic": "biology", "answer_id": 7, "answer": "Phloem transports sugars and other organic substances through vascular plants."}
+{"input": "Which plant transport tissue moves organic substances?", "topic": "biology", "answer_id": 7, "answer": "Phloem transports sugars and other organic substances through vascular plants."}
+{"input": "What carries hereditary information?", "topic": "biology", "answer_id": 8, "answer": "DNA carries hereditary information in living organisms."}
+{"input": "Which molecule stores genetic instructions in living organisms?", "topic": "biology", "answer_id": 8, "answer": "DNA carries hereditary information in living organisms."}
+{"input": "What speeds biological reactions without being consumed?", "topic": "biology", "answer_id": 9, "answer": "Enzymes are biological catalysts that increase reaction rates without being consumed by the reaction."}
+{"input": "What are biological catalysts called?", "topic": "biology", "answer_id": 9, "answer": "Enzymes are biological catalysts that increase reaction rates without being consumed by the reaction."}
+{"input": "What includes organisms and their physical surroundings?", "topic": "biology", "answer_id": 10, "answer": "An ecosystem includes organisms and their interactions with the physical environment."}
+{"input": "What system includes living things interacting with their environment?", "topic": "biology", "answer_id": 10, "answer": "An ecosystem includes organisms and their interactions with the physical environment."}
+{"input": "What describes feeding links between organisms?", "topic": "biology", "answer_id": 11, "answer": "Food chains describe transfers of matter and energy as organisms eat other organisms."}
+{"input": "How can we represent energy transfer through organisms eating one another?", "topic": "biology", "answer_id": 11, "answer": "Food chains describe transfers of matter and energy as organisms eat other organisms."}
+{"input": "What can change an object\u2019s momentum?", "topic": "physics", "answer_id": 12, "answer": "A net force can change an object\u2019s momentum; for constant mass, net force equals mass times acceleration."}
+{"input": "Which quantity equals mass times acceleration for constant mass?", "topic": "physics", "answer_id": 12, "answer": "A net force can change an object\u2019s momentum; for constant mass, net force equals mass times acceleration."}
+{"input": "What is resistance to a change in motion called?", "topic": "physics", "answer_id": 13, "answer": "Inertia is the tendency of an object to maintain its state of motion unless a net external force acts."}
+{"input": "Why does motion stay unchanged without a net external force?", "topic": "physics", "answer_id": 13, "answer": "Inertia is the tendency of an object to maintain its state of motion unless a net external force acts."}
+{"input": "How do we calculate average speed?", "topic": "physics", "answer_id": 14, "answer": "Average speed is total distance travelled divided by elapsed time."}
+{"input": "What quantity is distance divided by elapsed time?", "topic": "physics", "answer_id": 14, "answer": "Average speed is total distance travelled divided by elapsed time."}
+{"input": "What motion quantity includes direction?", "topic": "physics", "answer_id": 15, "answer": "Velocity describes the rate of change of position and includes direction."}
+{"input": "Which quantity describes the rate of change of position?", "topic": "physics", "answer_id": 15, "answer": "Velocity describes the rate of change of position and includes direction."}
+{"input": "What measures how quickly velocity changes?", "topic": "physics", "answer_id": 16, "answer": "Acceleration is the rate of change of velocity with time."}
+{"input": "What is change in velocity per unit time called?", "topic": "physics", "answer_id": 16, "answer": "Acceleration is the rate of change of velocity with time."}
+{"input": "What attraction acts between masses?", "topic": "physics", "answer_id": 17, "answer": "Gravity is an attractive interaction between masses."}
+{"input": "Which interaction pulls masses towards one another?", "topic": "physics", "answer_id": 17, "answer": "Gravity is an attractive interaction between masses."}
+{"input": "What energy does a moving object have?", "topic": "physics", "answer_id": 18, "answer": "Kinetic energy is energy associated with motion."}
+{"input": "What is energy due to motion called?", "topic": "physics", "answer_id": 18, "answer": "Kinetic energy is energy associated with motion."}
+{"input": "What energy is associated with a system\u2019s configuration?", "topic": "physics", "answer_id": 19, "answer": "Potential energy is energy associated with the configuration of a system."}
+{"input": "What kind of energy can be stored in a stretched spring?", "topic": "physics", "answer_id": 19, "answer": "Potential energy is energy associated with the configuration of a system."}
+{"input": "What is the rate of flow of electric charge?", "topic": "physics", "answer_id": 20, "answer": "Electric current is the rate of flow of electric charge."}
+{"input": "Which quantity measures charge passing a point per unit time?", "topic": "physics", "answer_id": 20, "answer": "Electric current is the rate of flow of electric charge."}
+{"input": "What is electric potential difference called?", "topic": "physics", "answer_id": 21, "answer": "Voltage is electric potential difference, measured in volts."}
+{"input": "Which quantity is measured in volts?", "topic": "physics", "answer_id": 21, "answer": "Voltage is electric potential difference, measured in volts."}
+{"input": "What opposes electric current in a circuit?", "topic": "physics", "answer_id": 22, "answer": "Electrical resistance relates voltage and current; an ohmic conductor follows voltage equals current times resistance."}
+{"input": "Which quantity connects voltage and current in Ohm\u2019s law?", "topic": "physics", "answer_id": 22, "answer": "Electrical resistance relates voltage and current; an ohmic conductor follows voltage equals current times resistance."}
+{"input": "Why cannot sound travel through a vacuum?", "topic": "physics", "answer_id": 23, "answer": "Sound is a mechanical wave and requires a material medium to propagate."}
+{"input": "Which wave needs matter to carry vibrations?", "topic": "physics", "answer_id": 23, "answer": "Sound is a mechanical wave and requires a material medium to propagate."}
