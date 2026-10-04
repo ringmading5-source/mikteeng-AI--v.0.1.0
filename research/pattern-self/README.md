@@ -109,3 +109,33 @@ Tokenizer supports character and word levels. Word tokens retain whitespace and 
 Checkpoint save/load uses pickle: never load untrusted files. Histories and context counts are not bounded for production. Responses include traces; frequencies and selector scores are not calibrated certainty. Supported operations are observe, train_responses, respond, feedback, save, load; these do not execute external tools.
 
 All 24 unit checks pass. The two trained question forms produced Alice and Brian respectively; five checked corrections changed the first to Brian. Numeric +5 gave 120. Tokenizers reconstructed code exactly; text/code continuation tables and save/load worked. These are small functional/integration checks, not new generalization benchmarks. The unsupported notebook question returned Alice despite lacking evidence. A paraphrase also returned Alice but that alone cannot distinguish learned reasoning from short-suffix fallback. `unified_results.json` records these probes. Reliable abstention and evidence binding remain unresolved.
+
+## Observation-grounded candidate responses
+
+`EvidenceSelf` is now callable through `UnifiedSelf.train_evidence`. Once trained, `respond(question, observations=nonempty_text)` uses it automatically; `task='evidence_answer'` explicitly selects it even for empty observations. `feedback` with that task supplies a checked token or None for missing evidence. Text/code continuation, stored question responses without observations, and numeric processing remain separate. Routing is infrastructure, not learned intent.
+
+Each observed word is a candidate, plus a missing-evidence candidate. There are no who/holds/actor/subject-specific answer branches. Supervised answer labels teach categorical feature counts: sentence-local question overlap, relative positions to question words, candidate position, neighbor tokens and candidate-kind interactions with global overlap. Sentence splitting, token regex, position clipping and these feature constructors ARE programmed assumptions. Output labels select an observed token; role categories are not separately inferred. This is a familiar count-based likelihood-ratio technique implemented directly, not a claim of an unprecedented learning algorithm or absence of machine learning.
+
+For candidate feature f and label l (correct or incorrect), use a smoothed estimate:
+
+    p(f|l) = (count(f,l)+1)/(number_of_candidates_with_label_l+2)
+    score(candidate) = log prior odds + sum_present_known_features log[p(f|correct)/p(f|incorrect)]
+
+Select the candidate with highest score; unknown feature values are ignored. Scores are uncalibrated. The independence approximation, smoothing, label structure and argmax are fixed. If the missing candidate wins, return status insufficient_evidence and empty text. That execution behavior is programmed; its selection is learned. No general causal or semantic understanding is implied.
+
+```python
+from unified_self import UnifiedSelf
+from evaluate_evidence import dataset
+ai=UnifiedSelf().train_evidence([
+    {'question':q,'observations':o,'answer':a}
+    for q,o,a in dataset(['Alice','Brian','Carol','David'],['book','cup','bag','key'])
+])
+print(ai.respond('Who holds the pencil?',observations='Nia holds the pencil.'))
+print(ai.respond('Who holds the pencil?',observations='Omar holds the pencil.'))
+print(ai.respond('Who holds the pencil?',observations='The pencil is on the table.'))
+ai.feedback('Who holds the pencil?',observations='Nia holds the pencil.',actual='Nia')
+```
+
+Run `python evaluate_evidence.py`. Training has 80 labeled rows. Test has 80 rows with disjoint names and object vocabulary, familiar grammar/question shape: 80/80 correct including 32/32 missing cases, and single/two-sentence distractors in either order. Candidate names are copied from observations and can be unseen in training. Tests establish token selection for this narrow structure, not sentence generation or generalization to every question. Passive wording incorrectly withheld an answer. Untrained 'never holds' incorrectly answered 'never'. 'Does not hold' withheld correctly, but that can follow lexical overlap failure and does not prove negation comprehension. A carries variant succeeded in one probe only. All 29 unit checks pass. Reports retain all evaluated predictions in evidence_results.json.
+
+This research component is NOT connected to the deployed chatbot or its previously trained sklearn heads. New examples can update its counts but are not automatically verified. Earlier pickled UnifiedSelf objects lack the new evidence attribute; rebuild this research object for the updated API. General answer spans, contradictions, arbitrary sentence structure, token-to-role hierarchy and calibrated abstention remain unfinished.

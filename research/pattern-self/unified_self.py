@@ -1,6 +1,7 @@
 """Explicit interface integration; no claim of joint cross-modality learning."""
 import re,pickle
 from pathlib import Path
+from evidence_self import EvidenceSelf
 from pattern_self import AdaptivePredictionSelf,PatternSelf,RecursiveNumericSelf
 
 class Tokenizer:
@@ -22,6 +23,7 @@ class UnifiedSelf:
         self.numeric=RecursiveNumericSelf()
         self.response=AdaptivePredictionSelf(PatternSelf(max_context))
         self.interactions=[]
+        self.evidence=EvidenceSelf()
 
     def observe(self,observation,modality='text'):
         if modality=='numeric':
@@ -48,8 +50,19 @@ class UnifiedSelf:
             self.response.observe(sequence)
         return self
 
+    def train_evidence(self, rows):
+        rows=list(rows)
+        if not rows:raise ValueError('Empty evidence training data')
+        for row in rows:
+            self.evidence.learn(row['question'],row['observations'],row['answer'])
+        return self
+
     def respond(self,question=None,observations='',task='answer',modality='text',max_tokens=64):
         if not isinstance(max_tokens,int) or isinstance(max_tokens,bool) or max_tokens<1:raise ValueError('Positive token limit required')
+        if task=='evidence_answer' or (task=='answer' and observations and self.evidence.totals[1]):
+            if modality!='text':raise ValueError('Evidence answers require text')
+            if not isinstance(question,str) or not question.strip():raise ValueError('Question required')
+            return self.evidence.predict(question,observations)
         if task=='numeric_next':
             if modality!='numeric':raise ValueError('numeric_next requires numeric modality')
             result=self.numeric.predict(observations)
@@ -70,6 +83,9 @@ class UnifiedSelf:
         return {'status':status,'text':self.tokenizer.decode(output),'trace':trace}
 
     def feedback(self,question=None,observations='',actual=None,task='answer',modality='text'):
+        if task=='evidence_answer' or (task=='answer' and observations and self.evidence.totals[1]):
+            if modality!='text':raise ValueError('Evidence answers require text')
+            self.evidence.learn(question,observations,actual);return self
         if task=='numeric_next':
             if modality!='numeric':raise ValueError('numeric_next requires numeric modality')
             self.numeric.feedback(observations,actual);return self

@@ -1,0 +1,684 @@
+{
+  "training_rows": 80,
+  "test_rows": 80,
+  "correct": 80,
+  "missing_correct": 32,
+  "missing_total": 32,
+  "scope": "All test names and object words are absent from training; grammar and question shape are familiar. Single-token supervised answer selection.",
+  "probes": [
+    {
+      "question": "Who holds the pencil?",
+      "observations": "The pencil is held by Nia.",
+      "answer": "Nia",
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": false
+    },
+    {
+      "question": "Who carries the pencil?",
+      "observations": "Nia carries the pencil.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Nia does not hold the pencil.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Nia never holds the pencil.",
+      "answer": null,
+      "prediction": "never",
+      "status": "experimental_answer",
+      "correct": false
+    }
+  ],
+  "results": [
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Nia holds the pencil.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Omar holds the basket. Nia holds the pencil.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Nia holds the pencil. Omar holds the basket.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Nia holds the basket.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "The pencil is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Nia holds the basket.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Omar holds the coin. Nia holds the basket.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Nia holds the basket. Omar holds the coin.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Nia holds the coin.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "The basket is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Nia holds the coin.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Omar holds the bottle. Nia holds the coin.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Nia holds the coin. Omar holds the bottle.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Nia holds the bottle.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "The coin is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Nia holds the bottle.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Omar holds the pencil. Nia holds the bottle.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Nia holds the bottle. Omar holds the pencil.",
+      "answer": "Nia",
+      "prediction": "Nia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Nia holds the pencil.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "The bottle is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Omar holds the pencil.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Pia holds the basket. Omar holds the pencil.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Omar holds the pencil. Pia holds the basket.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Omar holds the basket.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "The pencil is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Omar holds the basket.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Pia holds the coin. Omar holds the basket.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Omar holds the basket. Pia holds the coin.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Omar holds the coin.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "The basket is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Omar holds the coin.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Pia holds the bottle. Omar holds the coin.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Omar holds the coin. Pia holds the bottle.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Omar holds the bottle.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "The coin is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Omar holds the bottle.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Pia holds the pencil. Omar holds the bottle.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Omar holds the bottle. Pia holds the pencil.",
+      "answer": "Omar",
+      "prediction": "Omar",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Omar holds the pencil.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "The bottle is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Pia holds the pencil.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Ravi holds the basket. Pia holds the pencil.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Pia holds the pencil. Ravi holds the basket.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Pia holds the basket.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "The pencil is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Pia holds the basket.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Ravi holds the coin. Pia holds the basket.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Pia holds the basket. Ravi holds the coin.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Pia holds the coin.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "The basket is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Pia holds the coin.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Ravi holds the bottle. Pia holds the coin.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Pia holds the coin. Ravi holds the bottle.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Pia holds the bottle.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "The coin is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Pia holds the bottle.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Ravi holds the pencil. Pia holds the bottle.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Pia holds the bottle. Ravi holds the pencil.",
+      "answer": "Pia",
+      "prediction": "Pia",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Pia holds the pencil.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "The bottle is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Ravi holds the pencil.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Nia holds the basket. Ravi holds the pencil.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Ravi holds the pencil. Nia holds the basket.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "Ravi holds the basket.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the pencil?",
+      "observations": "The pencil is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Ravi holds the basket.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Nia holds the coin. Ravi holds the basket.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Ravi holds the basket. Nia holds the coin.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "Ravi holds the coin.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the basket?",
+      "observations": "The basket is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Ravi holds the coin.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Nia holds the bottle. Ravi holds the coin.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Ravi holds the coin. Nia holds the bottle.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "Ravi holds the bottle.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the coin?",
+      "observations": "The coin is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Ravi holds the bottle.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Nia holds the pencil. Ravi holds the bottle.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Ravi holds the bottle. Nia holds the pencil.",
+      "answer": "Ravi",
+      "prediction": "Ravi",
+      "status": "experimental_answer",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "Ravi holds the pencil.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    },
+    {
+      "question": "Who holds the bottle?",
+      "observations": "The bottle is on the table.",
+      "answer": null,
+      "prediction": "",
+      "status": "insufficient_evidence",
+      "correct": true
+    }
+  ]
+}
