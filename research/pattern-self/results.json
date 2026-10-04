@@ -1,0 +1,25 @@
+{
+  "numeric_known_changes_new_start_values": {
+    "correct": 300,
+    "total": 300
+  },
+  "untrained_change": {
+    "input": [
+      100,
+      105,
+      110,
+      115
+    ],
+    "prediction": 117,
+    "expected": 120
+  },
+  "negation_not_learned": {
+    "input": [
+      "seed",
+      "no",
+      "water"
+    ],
+    "prediction": "grow"
+  },
+  "unit_tests_passed": 7
+}
