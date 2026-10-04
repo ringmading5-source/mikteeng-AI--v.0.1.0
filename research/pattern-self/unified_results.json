@@ -1,0 +1,24 @@
+{
+  "trained_questions": [
+    {
+      "question": "Who holds the book?",
+      "response": "Alice."
+    },
+    {
+      "question": "Who holds the cup?",
+      "response": "Brian."
+    }
+  ],
+  "unsupported_question": {
+    "question": "Who holds the notebook?",
+    "response": "Alice."
+  },
+  "untrained_wording": {
+    "question": "Who is carrying the book?",
+    "response": "Alice."
+  },
+  "numeric_prediction": 120,
+  "unit_checks": 24,
+  "scope": "Integration checks on two trained questions; no language generalization claim.",
+  "after_five_checked_corrections": "Brian."
+}
