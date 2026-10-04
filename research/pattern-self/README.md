@@ -139,3 +139,34 @@ ai.feedback('Who holds the pencil?',observations='Nia holds the pencil.',actual=
 Run `python evaluate_evidence.py`. Training has 80 labeled rows. Test has 80 rows with disjoint names and object vocabulary, familiar grammar/question shape: 80/80 correct including 32/32 missing cases, and single/two-sentence distractors in either order. Candidate names are copied from observations and can be unseen in training. Tests establish token selection for this narrow structure, not sentence generation or generalization to every question. Passive wording incorrectly withheld an answer. Untrained 'never holds' incorrectly answered 'never'. 'Does not hold' withheld correctly, but that can follow lexical overlap failure and does not prove negation comprehension. A carries variant succeeded in one probe only. All 29 unit checks pass. Reports retain all evaluated predictions in evidence_results.json.
 
 This research component is NOT connected to the deployed chatbot or its previously trained sklearn heads. New examples can update its counts but are not automatically verified. Earlier pickled UnifiedSelf objects lack the new evidence attribute; rebuild this research object for the updated API. General answer spans, contradictions, arbitrary sentence structure, token-to-role hierarchy and calibrated abstention remain unfinished.
+
+## Passive/negation repair and retention audit
+
+`repair_evidence.py` adds 192 labeled examples to the original 80: passive is/was held by, never holds, does not hold, and another holder as a distractor or positive alternative. No passive/negative inference dispatch was added. An optional generic missing-candidate feature combines each sentence's query-presence mask with its observed words; this is a designed representation, not discovered semantics.
+
+More data with the original count scorer regressed retention to 32/80 and reached 128/192 on new structures. Adding contextual features alone did not repair this. The working optional alternative, RankedEvidenceSelf, uses structured perceptron updates implemented in Python:
+
+    prediction = argmax_candidate w dot features(candidate)
+    if prediction differs from checked answer:
+        w <- w + features(correct_candidate) - features(predicted_candidate)
+
+This is a known discriminative ranking algorithm, not a newly discovered mathematical principle or a neural network. Candidate extraction, smoothing for the older scorer, feature constructors, candidate-kind marker, training labels, epoch count and task routing remain explicit design choices. The ranking alternative trains for 30 passes over 272 labeled examples. Its weights learn from mistakes; passive and negation words get their statistical effect from these labels. Arbitrary negation reasoning is not established.
+
+Use it through the connected API:
+
+```python
+from unified_self import UnifiedSelf
+from evaluate_evidence import dataset
+from repair_evidence import additions
+rows = dataset(['Alice','Brian','Carol','David'],['book','cup','bag','key'])
+rows += additions(['Alice','Brian','Carol','David'],['book','cup','bag','key'])
+ai = UnifiedSelf().train_evidence([
+    {'question':q,'observations':o,'answer':a} for q,o,a in rows
+] * 30, method='ranking')
+print(ai.respond('Who holds the pencil?', observations='The pencil is held by Nia.'))
+print(ai.respond('Who holds the pencil?', observations='Nia never holds the pencil. Omar holds the pencil.'))
+```
+
+Specifying method='ranking' or method='counts' replaces the evidence learner and fits the supplied examples; retain prior examples when rebuilding. Omitting method appends observations to the current learner. Feedback updates the active learner. Defaults remain the previous count scorer so earlier experimental results are reproducible. No public chatbot replacement occurs.
+
+Results: original retention 80/80; trained passive/negative forms with unseen names/objects 192/192; a fresh entity/object test on the same grammar 153/153. Development used the 80/192 task shapes to repair the scorer, so they are development/retention metrics, not untouched broad-language benchmarks. The 153 fresh cases use disjoint entities but familiar grammar. Multiword Mary Jane still fails because outputs are single tokens. Two other out-of-structure probes withheld correctly, which is not proof of understanding those constructions. All 32 unit checks pass, including legacy behavior, numeric preservation, and failure checks. repaired_evidence_results.json records all four comparison variants; repaired_evidence_training.json retains all 272 original/additional examples. No general grammar mastery or autonomous tool use is claimed.

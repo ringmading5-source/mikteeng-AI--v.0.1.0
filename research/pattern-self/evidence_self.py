@@ -4,14 +4,21 @@ from collections import Counter
 from math import log
 
 class EvidenceSelf:
-    def __init__(self):
+    def __init__(self, contextual_missing=False):
+        self.contextual_missing=contextual_missing
         self.counts=[Counter(),Counter()];self.totals=[0,0]
     def views(self,question,observations):
         q=re.findall(r'\w+',question.lower())
         sentences=[re.findall(r'\w+',s) for s in re.split(r'[.!?]+',observations) if s.strip()]
         allwords={w.lower() for s in sentences for w in s}
         global_features={f'global:q{j}:{int(w in allwords)}' for j,w in enumerate(q)}
-        yield None,global_features|{'kind:missing'}|{'missing:'+f for f in global_features}
+        missing=global_features|{'kind:missing'}|{'missing:'+f for f in global_features}
+        if self.contextual_missing:
+            for sentence in sentences:
+                lower=[w.lower() for w in sentence]
+                mask=''.join(str(int(w in lower)) for w in q)
+                missing |= {f'missing:sentence:{mask}:word:{w}' for w in lower}
+        yield None,missing
         for sentence in sentences:
             lower=[w.lower() for w in sentence]
             for i,word in enumerate(sentence):
@@ -48,3 +55,19 @@ class EvidenceSelf:
         best=max(candidates,key=lambda c:c['score'])
         return {'status':'insufficient_evidence' if best['token'] is None else 'experimental_answer',
                 'text':'' if best['token'] is None else best['token'],'candidates':candidates}
+
+class RankedEvidenceSelf(EvidenceSelf):
+    """Structured perceptron ranking, implemented with sparse Python counts."""
+    def __init__(self):
+        super().__init__(contextual_missing=True)
+        self.weights=Counter();self.updates=0
+    def score(self,features):return sum(self.weights[f] for f in features)
+    def learn(self,question,observations,answer):
+        views=list(self.views(question,observations))
+        correct=[(word,f) for word,f in views if (word is None and answer is None) or (word is not None and answer is not None and word.lower()==answer.lower())]
+        if not correct:raise ValueError('Answer must be an observed single token, or None')
+        best=max(views,key=lambda v:self.score(v[1]));target=max(correct,key=lambda v:self.score(v[1]))
+        if best[0]!=target[0]:
+            self.weights.update(target[1]);self.weights.subtract(best[1]);self.updates+=1
+        self.totals[1]+=1
+        return self
