@@ -1,0 +1,2498 @@
+[
+  {
+    "observations": [
+      "alice selects the maize.",
+      "alice plants the maize.",
+      "alice waters the maize.",
+      "alice checks the maize.",
+      "alice harvests the maize.",
+      "alice cleans the maize.",
+      "alice stores the maize."
+    ],
+    "question": "Name the person who waters the maize.",
+    "answer": "alice"
+  },
+  {
+    "observations": [
+      "alice selects the maize.",
+      "alice plants the maize.",
+      "alice waters the maize.",
+      "alice checks the maize.",
+      "alice harvests the maize.",
+      "alice cleans the maize.",
+      "alice stores the maize."
+    ],
+    "question": "Who eats the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the maize.",
+      "alice plants the maize.",
+      "alice waters the maize.",
+      "alice checks the maize.",
+      "alice harvests the maize.",
+      "alice cleans the maize.",
+      "alice stores the maize."
+    ],
+    "question": "Why does alice water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the maize.",
+      "alice plants the maize.",
+      "alice waters the maize.",
+      "alice checks the maize.",
+      "alice harvests the maize.",
+      "alice cleans the maize.",
+      "alice stores the maize."
+    ],
+    "question": "Who does not water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the rice.",
+      "alice plants the rice.",
+      "alice waters the rice.",
+      "alice checks the rice.",
+      "alice harvests the rice.",
+      "alice cleans the rice.",
+      "alice stores the rice."
+    ],
+    "question": "Name the person who waters the rice.",
+    "answer": "alice"
+  },
+  {
+    "observations": [
+      "alice selects the rice.",
+      "alice plants the rice.",
+      "alice waters the rice.",
+      "alice checks the rice.",
+      "alice harvests the rice.",
+      "alice cleans the rice.",
+      "alice stores the rice."
+    ],
+    "question": "Who eats the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the rice.",
+      "alice plants the rice.",
+      "alice waters the rice.",
+      "alice checks the rice.",
+      "alice harvests the rice.",
+      "alice cleans the rice.",
+      "alice stores the rice."
+    ],
+    "question": "Why does alice water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the rice.",
+      "alice plants the rice.",
+      "alice waters the rice.",
+      "alice checks the rice.",
+      "alice harvests the rice.",
+      "alice cleans the rice.",
+      "alice stores the rice."
+    ],
+    "question": "Who does not water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the wheat.",
+      "alice plants the wheat.",
+      "alice waters the wheat.",
+      "alice checks the wheat.",
+      "alice harvests the wheat.",
+      "alice cleans the wheat.",
+      "alice stores the wheat."
+    ],
+    "question": "Name the person who waters the wheat.",
+    "answer": "alice"
+  },
+  {
+    "observations": [
+      "alice selects the wheat.",
+      "alice plants the wheat.",
+      "alice waters the wheat.",
+      "alice checks the wheat.",
+      "alice harvests the wheat.",
+      "alice cleans the wheat.",
+      "alice stores the wheat."
+    ],
+    "question": "Who eats the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the wheat.",
+      "alice plants the wheat.",
+      "alice waters the wheat.",
+      "alice checks the wheat.",
+      "alice harvests the wheat.",
+      "alice cleans the wheat.",
+      "alice stores the wheat."
+    ],
+    "question": "Why does alice water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the wheat.",
+      "alice plants the wheat.",
+      "alice waters the wheat.",
+      "alice checks the wheat.",
+      "alice harvests the wheat.",
+      "alice cleans the wheat.",
+      "alice stores the wheat."
+    ],
+    "question": "Who does not water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the millet.",
+      "alice plants the millet.",
+      "alice waters the millet.",
+      "alice checks the millet.",
+      "alice harvests the millet.",
+      "alice cleans the millet.",
+      "alice stores the millet."
+    ],
+    "question": "Name the person who waters the millet.",
+    "answer": "alice"
+  },
+  {
+    "observations": [
+      "alice selects the millet.",
+      "alice plants the millet.",
+      "alice waters the millet.",
+      "alice checks the millet.",
+      "alice harvests the millet.",
+      "alice cleans the millet.",
+      "alice stores the millet."
+    ],
+    "question": "Who eats the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the millet.",
+      "alice plants the millet.",
+      "alice waters the millet.",
+      "alice checks the millet.",
+      "alice harvests the millet.",
+      "alice cleans the millet.",
+      "alice stores the millet."
+    ],
+    "question": "Why does alice water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the millet.",
+      "alice plants the millet.",
+      "alice waters the millet.",
+      "alice checks the millet.",
+      "alice harvests the millet.",
+      "alice cleans the millet.",
+      "alice stores the millet."
+    ],
+    "question": "Who does not water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the sorghum.",
+      "alice plants the sorghum.",
+      "alice waters the sorghum.",
+      "alice checks the sorghum.",
+      "alice harvests the sorghum.",
+      "alice cleans the sorghum.",
+      "alice stores the sorghum."
+    ],
+    "question": "Name the person who waters the sorghum.",
+    "answer": "alice"
+  },
+  {
+    "observations": [
+      "alice selects the sorghum.",
+      "alice plants the sorghum.",
+      "alice waters the sorghum.",
+      "alice checks the sorghum.",
+      "alice harvests the sorghum.",
+      "alice cleans the sorghum.",
+      "alice stores the sorghum."
+    ],
+    "question": "Who eats the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the sorghum.",
+      "alice plants the sorghum.",
+      "alice waters the sorghum.",
+      "alice checks the sorghum.",
+      "alice harvests the sorghum.",
+      "alice cleans the sorghum.",
+      "alice stores the sorghum."
+    ],
+    "question": "Why does alice water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the sorghum.",
+      "alice plants the sorghum.",
+      "alice waters the sorghum.",
+      "alice checks the sorghum.",
+      "alice harvests the sorghum.",
+      "alice cleans the sorghum.",
+      "alice stores the sorghum."
+    ],
+    "question": "Who does not water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the lentils.",
+      "alice plants the lentils.",
+      "alice waters the lentils.",
+      "alice checks the lentils.",
+      "alice harvests the lentils.",
+      "alice cleans the lentils.",
+      "alice stores the lentils."
+    ],
+    "question": "Name the person who waters the lentils.",
+    "answer": "alice"
+  },
+  {
+    "observations": [
+      "alice selects the lentils.",
+      "alice plants the lentils.",
+      "alice waters the lentils.",
+      "alice checks the lentils.",
+      "alice harvests the lentils.",
+      "alice cleans the lentils.",
+      "alice stores the lentils."
+    ],
+    "question": "Who eats the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the lentils.",
+      "alice plants the lentils.",
+      "alice waters the lentils.",
+      "alice checks the lentils.",
+      "alice harvests the lentils.",
+      "alice cleans the lentils.",
+      "alice stores the lentils."
+    ],
+    "question": "Why does alice water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "alice selects the lentils.",
+      "alice plants the lentils.",
+      "alice waters the lentils.",
+      "alice checks the lentils.",
+      "alice harvests the lentils.",
+      "alice cleans the lentils.",
+      "alice stores the lentils."
+    ],
+    "question": "Who does not water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the beans.",
+      "brian plants the beans.",
+      "brian waters the beans.",
+      "brian checks the beans.",
+      "brian harvests the beans.",
+      "brian cleans the beans.",
+      "brian stores the beans."
+    ],
+    "question": "Name the person who waters the beans.",
+    "answer": "brian"
+  },
+  {
+    "observations": [
+      "brian selects the beans.",
+      "brian plants the beans.",
+      "brian waters the beans.",
+      "brian checks the beans.",
+      "brian harvests the beans.",
+      "brian cleans the beans.",
+      "brian stores the beans."
+    ],
+    "question": "Who eats the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the beans.",
+      "brian plants the beans.",
+      "brian waters the beans.",
+      "brian checks the beans.",
+      "brian harvests the beans.",
+      "brian cleans the beans.",
+      "brian stores the beans."
+    ],
+    "question": "Why does brian water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the beans.",
+      "brian plants the beans.",
+      "brian waters the beans.",
+      "brian checks the beans.",
+      "brian harvests the beans.",
+      "brian cleans the beans.",
+      "brian stores the beans."
+    ],
+    "question": "Who does not water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the maize.",
+      "brian plants the maize.",
+      "brian waters the maize.",
+      "brian checks the maize.",
+      "brian harvests the maize.",
+      "brian cleans the maize.",
+      "brian stores the maize."
+    ],
+    "question": "Name the person who waters the maize.",
+    "answer": "brian"
+  },
+  {
+    "observations": [
+      "brian selects the maize.",
+      "brian plants the maize.",
+      "brian waters the maize.",
+      "brian checks the maize.",
+      "brian harvests the maize.",
+      "brian cleans the maize.",
+      "brian stores the maize."
+    ],
+    "question": "Who eats the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the maize.",
+      "brian plants the maize.",
+      "brian waters the maize.",
+      "brian checks the maize.",
+      "brian harvests the maize.",
+      "brian cleans the maize.",
+      "brian stores the maize."
+    ],
+    "question": "Why does brian water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the maize.",
+      "brian plants the maize.",
+      "brian waters the maize.",
+      "brian checks the maize.",
+      "brian harvests the maize.",
+      "brian cleans the maize.",
+      "brian stores the maize."
+    ],
+    "question": "Who does not water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the rice.",
+      "brian plants the rice.",
+      "brian waters the rice.",
+      "brian checks the rice.",
+      "brian harvests the rice.",
+      "brian cleans the rice.",
+      "brian stores the rice."
+    ],
+    "question": "Name the person who waters the rice.",
+    "answer": "brian"
+  },
+  {
+    "observations": [
+      "brian selects the rice.",
+      "brian plants the rice.",
+      "brian waters the rice.",
+      "brian checks the rice.",
+      "brian harvests the rice.",
+      "brian cleans the rice.",
+      "brian stores the rice."
+    ],
+    "question": "Who eats the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the rice.",
+      "brian plants the rice.",
+      "brian waters the rice.",
+      "brian checks the rice.",
+      "brian harvests the rice.",
+      "brian cleans the rice.",
+      "brian stores the rice."
+    ],
+    "question": "Why does brian water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the rice.",
+      "brian plants the rice.",
+      "brian waters the rice.",
+      "brian checks the rice.",
+      "brian harvests the rice.",
+      "brian cleans the rice.",
+      "brian stores the rice."
+    ],
+    "question": "Who does not water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the peas.",
+      "brian plants the peas.",
+      "brian waters the peas.",
+      "brian checks the peas.",
+      "brian harvests the peas.",
+      "brian cleans the peas.",
+      "brian stores the peas."
+    ],
+    "question": "Name the person who waters the peas.",
+    "answer": "brian"
+  },
+  {
+    "observations": [
+      "brian selects the peas.",
+      "brian plants the peas.",
+      "brian waters the peas.",
+      "brian checks the peas.",
+      "brian harvests the peas.",
+      "brian cleans the peas.",
+      "brian stores the peas."
+    ],
+    "question": "Who eats the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the peas.",
+      "brian plants the peas.",
+      "brian waters the peas.",
+      "brian checks the peas.",
+      "brian harvests the peas.",
+      "brian cleans the peas.",
+      "brian stores the peas."
+    ],
+    "question": "Why does brian water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the peas.",
+      "brian plants the peas.",
+      "brian waters the peas.",
+      "brian checks the peas.",
+      "brian harvests the peas.",
+      "brian cleans the peas.",
+      "brian stores the peas."
+    ],
+    "question": "Who does not water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the millet.",
+      "brian plants the millet.",
+      "brian waters the millet.",
+      "brian checks the millet.",
+      "brian harvests the millet.",
+      "brian cleans the millet.",
+      "brian stores the millet."
+    ],
+    "question": "Name the person who waters the millet.",
+    "answer": "brian"
+  },
+  {
+    "observations": [
+      "brian selects the millet.",
+      "brian plants the millet.",
+      "brian waters the millet.",
+      "brian checks the millet.",
+      "brian harvests the millet.",
+      "brian cleans the millet.",
+      "brian stores the millet."
+    ],
+    "question": "Who eats the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the millet.",
+      "brian plants the millet.",
+      "brian waters the millet.",
+      "brian checks the millet.",
+      "brian harvests the millet.",
+      "brian cleans the millet.",
+      "brian stores the millet."
+    ],
+    "question": "Why does brian water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the millet.",
+      "brian plants the millet.",
+      "brian waters the millet.",
+      "brian checks the millet.",
+      "brian harvests the millet.",
+      "brian cleans the millet.",
+      "brian stores the millet."
+    ],
+    "question": "Who does not water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the sorghum.",
+      "brian plants the sorghum.",
+      "brian waters the sorghum.",
+      "brian checks the sorghum.",
+      "brian harvests the sorghum.",
+      "brian cleans the sorghum.",
+      "brian stores the sorghum."
+    ],
+    "question": "Name the person who waters the sorghum.",
+    "answer": "brian"
+  },
+  {
+    "observations": [
+      "brian selects the sorghum.",
+      "brian plants the sorghum.",
+      "brian waters the sorghum.",
+      "brian checks the sorghum.",
+      "brian harvests the sorghum.",
+      "brian cleans the sorghum.",
+      "brian stores the sorghum."
+    ],
+    "question": "Who eats the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the sorghum.",
+      "brian plants the sorghum.",
+      "brian waters the sorghum.",
+      "brian checks the sorghum.",
+      "brian harvests the sorghum.",
+      "brian cleans the sorghum.",
+      "brian stores the sorghum."
+    ],
+    "question": "Why does brian water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "brian selects the sorghum.",
+      "brian plants the sorghum.",
+      "brian waters the sorghum.",
+      "brian checks the sorghum.",
+      "brian harvests the sorghum.",
+      "brian cleans the sorghum.",
+      "brian stores the sorghum."
+    ],
+    "question": "Who does not water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the beans.",
+      "carol plants the beans.",
+      "carol waters the beans.",
+      "carol checks the beans.",
+      "carol harvests the beans.",
+      "carol cleans the beans.",
+      "carol stores the beans."
+    ],
+    "question": "Name the person who waters the beans.",
+    "answer": "carol"
+  },
+  {
+    "observations": [
+      "carol selects the beans.",
+      "carol plants the beans.",
+      "carol waters the beans.",
+      "carol checks the beans.",
+      "carol harvests the beans.",
+      "carol cleans the beans.",
+      "carol stores the beans."
+    ],
+    "question": "Who eats the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the beans.",
+      "carol plants the beans.",
+      "carol waters the beans.",
+      "carol checks the beans.",
+      "carol harvests the beans.",
+      "carol cleans the beans.",
+      "carol stores the beans."
+    ],
+    "question": "Why does carol water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the beans.",
+      "carol plants the beans.",
+      "carol waters the beans.",
+      "carol checks the beans.",
+      "carol harvests the beans.",
+      "carol cleans the beans.",
+      "carol stores the beans."
+    ],
+    "question": "Who does not water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the maize.",
+      "carol plants the maize.",
+      "carol waters the maize.",
+      "carol checks the maize.",
+      "carol harvests the maize.",
+      "carol cleans the maize.",
+      "carol stores the maize."
+    ],
+    "question": "Name the person who waters the maize.",
+    "answer": "carol"
+  },
+  {
+    "observations": [
+      "carol selects the maize.",
+      "carol plants the maize.",
+      "carol waters the maize.",
+      "carol checks the maize.",
+      "carol harvests the maize.",
+      "carol cleans the maize.",
+      "carol stores the maize."
+    ],
+    "question": "Who eats the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the maize.",
+      "carol plants the maize.",
+      "carol waters the maize.",
+      "carol checks the maize.",
+      "carol harvests the maize.",
+      "carol cleans the maize.",
+      "carol stores the maize."
+    ],
+    "question": "Why does carol water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the maize.",
+      "carol plants the maize.",
+      "carol waters the maize.",
+      "carol checks the maize.",
+      "carol harvests the maize.",
+      "carol cleans the maize.",
+      "carol stores the maize."
+    ],
+    "question": "Who does not water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the wheat.",
+      "carol plants the wheat.",
+      "carol waters the wheat.",
+      "carol checks the wheat.",
+      "carol harvests the wheat.",
+      "carol cleans the wheat.",
+      "carol stores the wheat."
+    ],
+    "question": "Name the person who waters the wheat.",
+    "answer": "carol"
+  },
+  {
+    "observations": [
+      "carol selects the wheat.",
+      "carol plants the wheat.",
+      "carol waters the wheat.",
+      "carol checks the wheat.",
+      "carol harvests the wheat.",
+      "carol cleans the wheat.",
+      "carol stores the wheat."
+    ],
+    "question": "Who eats the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the wheat.",
+      "carol plants the wheat.",
+      "carol waters the wheat.",
+      "carol checks the wheat.",
+      "carol harvests the wheat.",
+      "carol cleans the wheat.",
+      "carol stores the wheat."
+    ],
+    "question": "Why does carol water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the wheat.",
+      "carol plants the wheat.",
+      "carol waters the wheat.",
+      "carol checks the wheat.",
+      "carol harvests the wheat.",
+      "carol cleans the wheat.",
+      "carol stores the wheat."
+    ],
+    "question": "Who does not water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the peas.",
+      "carol plants the peas.",
+      "carol waters the peas.",
+      "carol checks the peas.",
+      "carol harvests the peas.",
+      "carol cleans the peas.",
+      "carol stores the peas."
+    ],
+    "question": "Name the person who waters the peas.",
+    "answer": "carol"
+  },
+  {
+    "observations": [
+      "carol selects the peas.",
+      "carol plants the peas.",
+      "carol waters the peas.",
+      "carol checks the peas.",
+      "carol harvests the peas.",
+      "carol cleans the peas.",
+      "carol stores the peas."
+    ],
+    "question": "Who eats the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the peas.",
+      "carol plants the peas.",
+      "carol waters the peas.",
+      "carol checks the peas.",
+      "carol harvests the peas.",
+      "carol cleans the peas.",
+      "carol stores the peas."
+    ],
+    "question": "Why does carol water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the peas.",
+      "carol plants the peas.",
+      "carol waters the peas.",
+      "carol checks the peas.",
+      "carol harvests the peas.",
+      "carol cleans the peas.",
+      "carol stores the peas."
+    ],
+    "question": "Who does not water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the millet.",
+      "carol plants the millet.",
+      "carol waters the millet.",
+      "carol checks the millet.",
+      "carol harvests the millet.",
+      "carol cleans the millet.",
+      "carol stores the millet."
+    ],
+    "question": "Name the person who waters the millet.",
+    "answer": "carol"
+  },
+  {
+    "observations": [
+      "carol selects the millet.",
+      "carol plants the millet.",
+      "carol waters the millet.",
+      "carol checks the millet.",
+      "carol harvests the millet.",
+      "carol cleans the millet.",
+      "carol stores the millet."
+    ],
+    "question": "Who eats the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the millet.",
+      "carol plants the millet.",
+      "carol waters the millet.",
+      "carol checks the millet.",
+      "carol harvests the millet.",
+      "carol cleans the millet.",
+      "carol stores the millet."
+    ],
+    "question": "Why does carol water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the millet.",
+      "carol plants the millet.",
+      "carol waters the millet.",
+      "carol checks the millet.",
+      "carol harvests the millet.",
+      "carol cleans the millet.",
+      "carol stores the millet."
+    ],
+    "question": "Who does not water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the lentils.",
+      "carol plants the lentils.",
+      "carol waters the lentils.",
+      "carol checks the lentils.",
+      "carol harvests the lentils.",
+      "carol cleans the lentils.",
+      "carol stores the lentils."
+    ],
+    "question": "Name the person who waters the lentils.",
+    "answer": "carol"
+  },
+  {
+    "observations": [
+      "carol selects the lentils.",
+      "carol plants the lentils.",
+      "carol waters the lentils.",
+      "carol checks the lentils.",
+      "carol harvests the lentils.",
+      "carol cleans the lentils.",
+      "carol stores the lentils."
+    ],
+    "question": "Who eats the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the lentils.",
+      "carol plants the lentils.",
+      "carol waters the lentils.",
+      "carol checks the lentils.",
+      "carol harvests the lentils.",
+      "carol cleans the lentils.",
+      "carol stores the lentils."
+    ],
+    "question": "Why does carol water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "carol selects the lentils.",
+      "carol plants the lentils.",
+      "carol waters the lentils.",
+      "carol checks the lentils.",
+      "carol harvests the lentils.",
+      "carol cleans the lentils.",
+      "carol stores the lentils."
+    ],
+    "question": "Who does not water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the beans.",
+      "david plants the beans.",
+      "david waters the beans.",
+      "david checks the beans.",
+      "david harvests the beans.",
+      "david cleans the beans.",
+      "david stores the beans."
+    ],
+    "question": "Name the person who waters the beans.",
+    "answer": "david"
+  },
+  {
+    "observations": [
+      "david selects the beans.",
+      "david plants the beans.",
+      "david waters the beans.",
+      "david checks the beans.",
+      "david harvests the beans.",
+      "david cleans the beans.",
+      "david stores the beans."
+    ],
+    "question": "Who eats the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the beans.",
+      "david plants the beans.",
+      "david waters the beans.",
+      "david checks the beans.",
+      "david harvests the beans.",
+      "david cleans the beans.",
+      "david stores the beans."
+    ],
+    "question": "Why does david water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the beans.",
+      "david plants the beans.",
+      "david waters the beans.",
+      "david checks the beans.",
+      "david harvests the beans.",
+      "david cleans the beans.",
+      "david stores the beans."
+    ],
+    "question": "Who does not water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the rice.",
+      "david plants the rice.",
+      "david waters the rice.",
+      "david checks the rice.",
+      "david harvests the rice.",
+      "david cleans the rice.",
+      "david stores the rice."
+    ],
+    "question": "Name the person who waters the rice.",
+    "answer": "david"
+  },
+  {
+    "observations": [
+      "david selects the rice.",
+      "david plants the rice.",
+      "david waters the rice.",
+      "david checks the rice.",
+      "david harvests the rice.",
+      "david cleans the rice.",
+      "david stores the rice."
+    ],
+    "question": "Who eats the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the rice.",
+      "david plants the rice.",
+      "david waters the rice.",
+      "david checks the rice.",
+      "david harvests the rice.",
+      "david cleans the rice.",
+      "david stores the rice."
+    ],
+    "question": "Why does david water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the rice.",
+      "david plants the rice.",
+      "david waters the rice.",
+      "david checks the rice.",
+      "david harvests the rice.",
+      "david cleans the rice.",
+      "david stores the rice."
+    ],
+    "question": "Who does not water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the wheat.",
+      "david plants the wheat.",
+      "david waters the wheat.",
+      "david checks the wheat.",
+      "david harvests the wheat.",
+      "david cleans the wheat.",
+      "david stores the wheat."
+    ],
+    "question": "Name the person who waters the wheat.",
+    "answer": "david"
+  },
+  {
+    "observations": [
+      "david selects the wheat.",
+      "david plants the wheat.",
+      "david waters the wheat.",
+      "david checks the wheat.",
+      "david harvests the wheat.",
+      "david cleans the wheat.",
+      "david stores the wheat."
+    ],
+    "question": "Who eats the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the wheat.",
+      "david plants the wheat.",
+      "david waters the wheat.",
+      "david checks the wheat.",
+      "david harvests the wheat.",
+      "david cleans the wheat.",
+      "david stores the wheat."
+    ],
+    "question": "Why does david water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the wheat.",
+      "david plants the wheat.",
+      "david waters the wheat.",
+      "david checks the wheat.",
+      "david harvests the wheat.",
+      "david cleans the wheat.",
+      "david stores the wheat."
+    ],
+    "question": "Who does not water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the peas.",
+      "david plants the peas.",
+      "david waters the peas.",
+      "david checks the peas.",
+      "david harvests the peas.",
+      "david cleans the peas.",
+      "david stores the peas."
+    ],
+    "question": "Name the person who waters the peas.",
+    "answer": "david"
+  },
+  {
+    "observations": [
+      "david selects the peas.",
+      "david plants the peas.",
+      "david waters the peas.",
+      "david checks the peas.",
+      "david harvests the peas.",
+      "david cleans the peas.",
+      "david stores the peas."
+    ],
+    "question": "Who eats the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the peas.",
+      "david plants the peas.",
+      "david waters the peas.",
+      "david checks the peas.",
+      "david harvests the peas.",
+      "david cleans the peas.",
+      "david stores the peas."
+    ],
+    "question": "Why does david water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the peas.",
+      "david plants the peas.",
+      "david waters the peas.",
+      "david checks the peas.",
+      "david harvests the peas.",
+      "david cleans the peas.",
+      "david stores the peas."
+    ],
+    "question": "Who does not water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the sorghum.",
+      "david plants the sorghum.",
+      "david waters the sorghum.",
+      "david checks the sorghum.",
+      "david harvests the sorghum.",
+      "david cleans the sorghum.",
+      "david stores the sorghum."
+    ],
+    "question": "Name the person who waters the sorghum.",
+    "answer": "david"
+  },
+  {
+    "observations": [
+      "david selects the sorghum.",
+      "david plants the sorghum.",
+      "david waters the sorghum.",
+      "david checks the sorghum.",
+      "david harvests the sorghum.",
+      "david cleans the sorghum.",
+      "david stores the sorghum."
+    ],
+    "question": "Who eats the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the sorghum.",
+      "david plants the sorghum.",
+      "david waters the sorghum.",
+      "david checks the sorghum.",
+      "david harvests the sorghum.",
+      "david cleans the sorghum.",
+      "david stores the sorghum."
+    ],
+    "question": "Why does david water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the sorghum.",
+      "david plants the sorghum.",
+      "david waters the sorghum.",
+      "david checks the sorghum.",
+      "david harvests the sorghum.",
+      "david cleans the sorghum.",
+      "david stores the sorghum."
+    ],
+    "question": "Who does not water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the lentils.",
+      "david plants the lentils.",
+      "david waters the lentils.",
+      "david checks the lentils.",
+      "david harvests the lentils.",
+      "david cleans the lentils.",
+      "david stores the lentils."
+    ],
+    "question": "Name the person who waters the lentils.",
+    "answer": "david"
+  },
+  {
+    "observations": [
+      "david selects the lentils.",
+      "david plants the lentils.",
+      "david waters the lentils.",
+      "david checks the lentils.",
+      "david harvests the lentils.",
+      "david cleans the lentils.",
+      "david stores the lentils."
+    ],
+    "question": "Who eats the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the lentils.",
+      "david plants the lentils.",
+      "david waters the lentils.",
+      "david checks the lentils.",
+      "david harvests the lentils.",
+      "david cleans the lentils.",
+      "david stores the lentils."
+    ],
+    "question": "Why does david water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "david selects the lentils.",
+      "david plants the lentils.",
+      "david waters the lentils.",
+      "david checks the lentils.",
+      "david harvests the lentils.",
+      "david cleans the lentils.",
+      "david stores the lentils."
+    ],
+    "question": "Who does not water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the maize.",
+      "eva plants the maize.",
+      "eva waters the maize.",
+      "eva checks the maize.",
+      "eva harvests the maize.",
+      "eva cleans the maize.",
+      "eva stores the maize."
+    ],
+    "question": "Name the person who waters the maize.",
+    "answer": "eva"
+  },
+  {
+    "observations": [
+      "eva selects the maize.",
+      "eva plants the maize.",
+      "eva waters the maize.",
+      "eva checks the maize.",
+      "eva harvests the maize.",
+      "eva cleans the maize.",
+      "eva stores the maize."
+    ],
+    "question": "Who eats the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the maize.",
+      "eva plants the maize.",
+      "eva waters the maize.",
+      "eva checks the maize.",
+      "eva harvests the maize.",
+      "eva cleans the maize.",
+      "eva stores the maize."
+    ],
+    "question": "Why does eva water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the maize.",
+      "eva plants the maize.",
+      "eva waters the maize.",
+      "eva checks the maize.",
+      "eva harvests the maize.",
+      "eva cleans the maize.",
+      "eva stores the maize."
+    ],
+    "question": "Who does not water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the rice.",
+      "eva plants the rice.",
+      "eva waters the rice.",
+      "eva checks the rice.",
+      "eva harvests the rice.",
+      "eva cleans the rice.",
+      "eva stores the rice."
+    ],
+    "question": "Name the person who waters the rice.",
+    "answer": "eva"
+  },
+  {
+    "observations": [
+      "eva selects the rice.",
+      "eva plants the rice.",
+      "eva waters the rice.",
+      "eva checks the rice.",
+      "eva harvests the rice.",
+      "eva cleans the rice.",
+      "eva stores the rice."
+    ],
+    "question": "Who eats the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the rice.",
+      "eva plants the rice.",
+      "eva waters the rice.",
+      "eva checks the rice.",
+      "eva harvests the rice.",
+      "eva cleans the rice.",
+      "eva stores the rice."
+    ],
+    "question": "Why does eva water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the rice.",
+      "eva plants the rice.",
+      "eva waters the rice.",
+      "eva checks the rice.",
+      "eva harvests the rice.",
+      "eva cleans the rice.",
+      "eva stores the rice."
+    ],
+    "question": "Who does not water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the wheat.",
+      "eva plants the wheat.",
+      "eva waters the wheat.",
+      "eva checks the wheat.",
+      "eva harvests the wheat.",
+      "eva cleans the wheat.",
+      "eva stores the wheat."
+    ],
+    "question": "Name the person who waters the wheat.",
+    "answer": "eva"
+  },
+  {
+    "observations": [
+      "eva selects the wheat.",
+      "eva plants the wheat.",
+      "eva waters the wheat.",
+      "eva checks the wheat.",
+      "eva harvests the wheat.",
+      "eva cleans the wheat.",
+      "eva stores the wheat."
+    ],
+    "question": "Who eats the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the wheat.",
+      "eva plants the wheat.",
+      "eva waters the wheat.",
+      "eva checks the wheat.",
+      "eva harvests the wheat.",
+      "eva cleans the wheat.",
+      "eva stores the wheat."
+    ],
+    "question": "Why does eva water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the wheat.",
+      "eva plants the wheat.",
+      "eva waters the wheat.",
+      "eva checks the wheat.",
+      "eva harvests the wheat.",
+      "eva cleans the wheat.",
+      "eva stores the wheat."
+    ],
+    "question": "Who does not water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the millet.",
+      "eva plants the millet.",
+      "eva waters the millet.",
+      "eva checks the millet.",
+      "eva harvests the millet.",
+      "eva cleans the millet.",
+      "eva stores the millet."
+    ],
+    "question": "Name the person who waters the millet.",
+    "answer": "eva"
+  },
+  {
+    "observations": [
+      "eva selects the millet.",
+      "eva plants the millet.",
+      "eva waters the millet.",
+      "eva checks the millet.",
+      "eva harvests the millet.",
+      "eva cleans the millet.",
+      "eva stores the millet."
+    ],
+    "question": "Who eats the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the millet.",
+      "eva plants the millet.",
+      "eva waters the millet.",
+      "eva checks the millet.",
+      "eva harvests the millet.",
+      "eva cleans the millet.",
+      "eva stores the millet."
+    ],
+    "question": "Why does eva water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the millet.",
+      "eva plants the millet.",
+      "eva waters the millet.",
+      "eva checks the millet.",
+      "eva harvests the millet.",
+      "eva cleans the millet.",
+      "eva stores the millet."
+    ],
+    "question": "Who does not water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the sorghum.",
+      "eva plants the sorghum.",
+      "eva waters the sorghum.",
+      "eva checks the sorghum.",
+      "eva harvests the sorghum.",
+      "eva cleans the sorghum.",
+      "eva stores the sorghum."
+    ],
+    "question": "Name the person who waters the sorghum.",
+    "answer": "eva"
+  },
+  {
+    "observations": [
+      "eva selects the sorghum.",
+      "eva plants the sorghum.",
+      "eva waters the sorghum.",
+      "eva checks the sorghum.",
+      "eva harvests the sorghum.",
+      "eva cleans the sorghum.",
+      "eva stores the sorghum."
+    ],
+    "question": "Who eats the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the sorghum.",
+      "eva plants the sorghum.",
+      "eva waters the sorghum.",
+      "eva checks the sorghum.",
+      "eva harvests the sorghum.",
+      "eva cleans the sorghum.",
+      "eva stores the sorghum."
+    ],
+    "question": "Why does eva water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the sorghum.",
+      "eva plants the sorghum.",
+      "eva waters the sorghum.",
+      "eva checks the sorghum.",
+      "eva harvests the sorghum.",
+      "eva cleans the sorghum.",
+      "eva stores the sorghum."
+    ],
+    "question": "Who does not water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the lentils.",
+      "eva plants the lentils.",
+      "eva waters the lentils.",
+      "eva checks the lentils.",
+      "eva harvests the lentils.",
+      "eva cleans the lentils.",
+      "eva stores the lentils."
+    ],
+    "question": "Name the person who waters the lentils.",
+    "answer": "eva"
+  },
+  {
+    "observations": [
+      "eva selects the lentils.",
+      "eva plants the lentils.",
+      "eva waters the lentils.",
+      "eva checks the lentils.",
+      "eva harvests the lentils.",
+      "eva cleans the lentils.",
+      "eva stores the lentils."
+    ],
+    "question": "Who eats the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the lentils.",
+      "eva plants the lentils.",
+      "eva waters the lentils.",
+      "eva checks the lentils.",
+      "eva harvests the lentils.",
+      "eva cleans the lentils.",
+      "eva stores the lentils."
+    ],
+    "question": "Why does eva water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "eva selects the lentils.",
+      "eva plants the lentils.",
+      "eva waters the lentils.",
+      "eva checks the lentils.",
+      "eva harvests the lentils.",
+      "eva cleans the lentils.",
+      "eva stores the lentils."
+    ],
+    "question": "Who does not water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the beans.",
+      "frank plants the beans.",
+      "frank waters the beans.",
+      "frank checks the beans.",
+      "frank harvests the beans.",
+      "frank cleans the beans.",
+      "frank stores the beans."
+    ],
+    "question": "Name the person who waters the beans.",
+    "answer": "frank"
+  },
+  {
+    "observations": [
+      "frank selects the beans.",
+      "frank plants the beans.",
+      "frank waters the beans.",
+      "frank checks the beans.",
+      "frank harvests the beans.",
+      "frank cleans the beans.",
+      "frank stores the beans."
+    ],
+    "question": "Who eats the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the beans.",
+      "frank plants the beans.",
+      "frank waters the beans.",
+      "frank checks the beans.",
+      "frank harvests the beans.",
+      "frank cleans the beans.",
+      "frank stores the beans."
+    ],
+    "question": "Why does frank water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the beans.",
+      "frank plants the beans.",
+      "frank waters the beans.",
+      "frank checks the beans.",
+      "frank harvests the beans.",
+      "frank cleans the beans.",
+      "frank stores the beans."
+    ],
+    "question": "Who does not water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the maize.",
+      "frank plants the maize.",
+      "frank waters the maize.",
+      "frank checks the maize.",
+      "frank harvests the maize.",
+      "frank cleans the maize.",
+      "frank stores the maize."
+    ],
+    "question": "Name the person who waters the maize.",
+    "answer": "frank"
+  },
+  {
+    "observations": [
+      "frank selects the maize.",
+      "frank plants the maize.",
+      "frank waters the maize.",
+      "frank checks the maize.",
+      "frank harvests the maize.",
+      "frank cleans the maize.",
+      "frank stores the maize."
+    ],
+    "question": "Who eats the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the maize.",
+      "frank plants the maize.",
+      "frank waters the maize.",
+      "frank checks the maize.",
+      "frank harvests the maize.",
+      "frank cleans the maize.",
+      "frank stores the maize."
+    ],
+    "question": "Why does frank water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the maize.",
+      "frank plants the maize.",
+      "frank waters the maize.",
+      "frank checks the maize.",
+      "frank harvests the maize.",
+      "frank cleans the maize.",
+      "frank stores the maize."
+    ],
+    "question": "Who does not water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the rice.",
+      "frank plants the rice.",
+      "frank waters the rice.",
+      "frank checks the rice.",
+      "frank harvests the rice.",
+      "frank cleans the rice.",
+      "frank stores the rice."
+    ],
+    "question": "Name the person who waters the rice.",
+    "answer": "frank"
+  },
+  {
+    "observations": [
+      "frank selects the rice.",
+      "frank plants the rice.",
+      "frank waters the rice.",
+      "frank checks the rice.",
+      "frank harvests the rice.",
+      "frank cleans the rice.",
+      "frank stores the rice."
+    ],
+    "question": "Who eats the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the rice.",
+      "frank plants the rice.",
+      "frank waters the rice.",
+      "frank checks the rice.",
+      "frank harvests the rice.",
+      "frank cleans the rice.",
+      "frank stores the rice."
+    ],
+    "question": "Why does frank water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the rice.",
+      "frank plants the rice.",
+      "frank waters the rice.",
+      "frank checks the rice.",
+      "frank harvests the rice.",
+      "frank cleans the rice.",
+      "frank stores the rice."
+    ],
+    "question": "Who does not water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the peas.",
+      "frank plants the peas.",
+      "frank waters the peas.",
+      "frank checks the peas.",
+      "frank harvests the peas.",
+      "frank cleans the peas.",
+      "frank stores the peas."
+    ],
+    "question": "Name the person who waters the peas.",
+    "answer": "frank"
+  },
+  {
+    "observations": [
+      "frank selects the peas.",
+      "frank plants the peas.",
+      "frank waters the peas.",
+      "frank checks the peas.",
+      "frank harvests the peas.",
+      "frank cleans the peas.",
+      "frank stores the peas."
+    ],
+    "question": "Who eats the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the peas.",
+      "frank plants the peas.",
+      "frank waters the peas.",
+      "frank checks the peas.",
+      "frank harvests the peas.",
+      "frank cleans the peas.",
+      "frank stores the peas."
+    ],
+    "question": "Why does frank water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the peas.",
+      "frank plants the peas.",
+      "frank waters the peas.",
+      "frank checks the peas.",
+      "frank harvests the peas.",
+      "frank cleans the peas.",
+      "frank stores the peas."
+    ],
+    "question": "Who does not water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the millet.",
+      "frank plants the millet.",
+      "frank waters the millet.",
+      "frank checks the millet.",
+      "frank harvests the millet.",
+      "frank cleans the millet.",
+      "frank stores the millet."
+    ],
+    "question": "Name the person who waters the millet.",
+    "answer": "frank"
+  },
+  {
+    "observations": [
+      "frank selects the millet.",
+      "frank plants the millet.",
+      "frank waters the millet.",
+      "frank checks the millet.",
+      "frank harvests the millet.",
+      "frank cleans the millet.",
+      "frank stores the millet."
+    ],
+    "question": "Who eats the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the millet.",
+      "frank plants the millet.",
+      "frank waters the millet.",
+      "frank checks the millet.",
+      "frank harvests the millet.",
+      "frank cleans the millet.",
+      "frank stores the millet."
+    ],
+    "question": "Why does frank water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the millet.",
+      "frank plants the millet.",
+      "frank waters the millet.",
+      "frank checks the millet.",
+      "frank harvests the millet.",
+      "frank cleans the millet.",
+      "frank stores the millet."
+    ],
+    "question": "Who does not water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the sorghum.",
+      "frank plants the sorghum.",
+      "frank waters the sorghum.",
+      "frank checks the sorghum.",
+      "frank harvests the sorghum.",
+      "frank cleans the sorghum.",
+      "frank stores the sorghum."
+    ],
+    "question": "Name the person who waters the sorghum.",
+    "answer": "frank"
+  },
+  {
+    "observations": [
+      "frank selects the sorghum.",
+      "frank plants the sorghum.",
+      "frank waters the sorghum.",
+      "frank checks the sorghum.",
+      "frank harvests the sorghum.",
+      "frank cleans the sorghum.",
+      "frank stores the sorghum."
+    ],
+    "question": "Who eats the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the sorghum.",
+      "frank plants the sorghum.",
+      "frank waters the sorghum.",
+      "frank checks the sorghum.",
+      "frank harvests the sorghum.",
+      "frank cleans the sorghum.",
+      "frank stores the sorghum."
+    ],
+    "question": "Why does frank water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "frank selects the sorghum.",
+      "frank plants the sorghum.",
+      "frank waters the sorghum.",
+      "frank checks the sorghum.",
+      "frank harvests the sorghum.",
+      "frank cleans the sorghum.",
+      "frank stores the sorghum."
+    ],
+    "question": "Who does not water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the beans.",
+      "grace plants the beans.",
+      "grace waters the beans.",
+      "grace checks the beans.",
+      "grace harvests the beans.",
+      "grace cleans the beans.",
+      "grace stores the beans."
+    ],
+    "question": "Name the person who waters the beans.",
+    "answer": "grace"
+  },
+  {
+    "observations": [
+      "grace selects the beans.",
+      "grace plants the beans.",
+      "grace waters the beans.",
+      "grace checks the beans.",
+      "grace harvests the beans.",
+      "grace cleans the beans.",
+      "grace stores the beans."
+    ],
+    "question": "Who eats the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the beans.",
+      "grace plants the beans.",
+      "grace waters the beans.",
+      "grace checks the beans.",
+      "grace harvests the beans.",
+      "grace cleans the beans.",
+      "grace stores the beans."
+    ],
+    "question": "Why does grace water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the beans.",
+      "grace plants the beans.",
+      "grace waters the beans.",
+      "grace checks the beans.",
+      "grace harvests the beans.",
+      "grace cleans the beans.",
+      "grace stores the beans."
+    ],
+    "question": "Who does not water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the maize.",
+      "grace plants the maize.",
+      "grace waters the maize.",
+      "grace checks the maize.",
+      "grace harvests the maize.",
+      "grace cleans the maize.",
+      "grace stores the maize."
+    ],
+    "question": "Name the person who waters the maize.",
+    "answer": "grace"
+  },
+  {
+    "observations": [
+      "grace selects the maize.",
+      "grace plants the maize.",
+      "grace waters the maize.",
+      "grace checks the maize.",
+      "grace harvests the maize.",
+      "grace cleans the maize.",
+      "grace stores the maize."
+    ],
+    "question": "Who eats the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the maize.",
+      "grace plants the maize.",
+      "grace waters the maize.",
+      "grace checks the maize.",
+      "grace harvests the maize.",
+      "grace cleans the maize.",
+      "grace stores the maize."
+    ],
+    "question": "Why does grace water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the maize.",
+      "grace plants the maize.",
+      "grace waters the maize.",
+      "grace checks the maize.",
+      "grace harvests the maize.",
+      "grace cleans the maize.",
+      "grace stores the maize."
+    ],
+    "question": "Who does not water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the wheat.",
+      "grace plants the wheat.",
+      "grace waters the wheat.",
+      "grace checks the wheat.",
+      "grace harvests the wheat.",
+      "grace cleans the wheat.",
+      "grace stores the wheat."
+    ],
+    "question": "Name the person who waters the wheat.",
+    "answer": "grace"
+  },
+  {
+    "observations": [
+      "grace selects the wheat.",
+      "grace plants the wheat.",
+      "grace waters the wheat.",
+      "grace checks the wheat.",
+      "grace harvests the wheat.",
+      "grace cleans the wheat.",
+      "grace stores the wheat."
+    ],
+    "question": "Who eats the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the wheat.",
+      "grace plants the wheat.",
+      "grace waters the wheat.",
+      "grace checks the wheat.",
+      "grace harvests the wheat.",
+      "grace cleans the wheat.",
+      "grace stores the wheat."
+    ],
+    "question": "Why does grace water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the wheat.",
+      "grace plants the wheat.",
+      "grace waters the wheat.",
+      "grace checks the wheat.",
+      "grace harvests the wheat.",
+      "grace cleans the wheat.",
+      "grace stores the wheat."
+    ],
+    "question": "Who does not water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the peas.",
+      "grace plants the peas.",
+      "grace waters the peas.",
+      "grace checks the peas.",
+      "grace harvests the peas.",
+      "grace cleans the peas.",
+      "grace stores the peas."
+    ],
+    "question": "Name the person who waters the peas.",
+    "answer": "grace"
+  },
+  {
+    "observations": [
+      "grace selects the peas.",
+      "grace plants the peas.",
+      "grace waters the peas.",
+      "grace checks the peas.",
+      "grace harvests the peas.",
+      "grace cleans the peas.",
+      "grace stores the peas."
+    ],
+    "question": "Who eats the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the peas.",
+      "grace plants the peas.",
+      "grace waters the peas.",
+      "grace checks the peas.",
+      "grace harvests the peas.",
+      "grace cleans the peas.",
+      "grace stores the peas."
+    ],
+    "question": "Why does grace water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the peas.",
+      "grace plants the peas.",
+      "grace waters the peas.",
+      "grace checks the peas.",
+      "grace harvests the peas.",
+      "grace cleans the peas.",
+      "grace stores the peas."
+    ],
+    "question": "Who does not water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the millet.",
+      "grace plants the millet.",
+      "grace waters the millet.",
+      "grace checks the millet.",
+      "grace harvests the millet.",
+      "grace cleans the millet.",
+      "grace stores the millet."
+    ],
+    "question": "Name the person who waters the millet.",
+    "answer": "grace"
+  },
+  {
+    "observations": [
+      "grace selects the millet.",
+      "grace plants the millet.",
+      "grace waters the millet.",
+      "grace checks the millet.",
+      "grace harvests the millet.",
+      "grace cleans the millet.",
+      "grace stores the millet."
+    ],
+    "question": "Who eats the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the millet.",
+      "grace plants the millet.",
+      "grace waters the millet.",
+      "grace checks the millet.",
+      "grace harvests the millet.",
+      "grace cleans the millet.",
+      "grace stores the millet."
+    ],
+    "question": "Why does grace water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the millet.",
+      "grace plants the millet.",
+      "grace waters the millet.",
+      "grace checks the millet.",
+      "grace harvests the millet.",
+      "grace cleans the millet.",
+      "grace stores the millet."
+    ],
+    "question": "Who does not water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the lentils.",
+      "grace plants the lentils.",
+      "grace waters the lentils.",
+      "grace checks the lentils.",
+      "grace harvests the lentils.",
+      "grace cleans the lentils.",
+      "grace stores the lentils."
+    ],
+    "question": "Name the person who waters the lentils.",
+    "answer": "grace"
+  },
+  {
+    "observations": [
+      "grace selects the lentils.",
+      "grace plants the lentils.",
+      "grace waters the lentils.",
+      "grace checks the lentils.",
+      "grace harvests the lentils.",
+      "grace cleans the lentils.",
+      "grace stores the lentils."
+    ],
+    "question": "Who eats the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the lentils.",
+      "grace plants the lentils.",
+      "grace waters the lentils.",
+      "grace checks the lentils.",
+      "grace harvests the lentils.",
+      "grace cleans the lentils.",
+      "grace stores the lentils."
+    ],
+    "question": "Why does grace water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "grace selects the lentils.",
+      "grace plants the lentils.",
+      "grace waters the lentils.",
+      "grace checks the lentils.",
+      "grace harvests the lentils.",
+      "grace cleans the lentils.",
+      "grace stores the lentils."
+    ],
+    "question": "Who does not water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the beans.",
+      "henry plants the beans.",
+      "henry waters the beans.",
+      "henry checks the beans.",
+      "henry harvests the beans.",
+      "henry cleans the beans.",
+      "henry stores the beans."
+    ],
+    "question": "Name the person who waters the beans.",
+    "answer": "henry"
+  },
+  {
+    "observations": [
+      "henry selects the beans.",
+      "henry plants the beans.",
+      "henry waters the beans.",
+      "henry checks the beans.",
+      "henry harvests the beans.",
+      "henry cleans the beans.",
+      "henry stores the beans."
+    ],
+    "question": "Who eats the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the beans.",
+      "henry plants the beans.",
+      "henry waters the beans.",
+      "henry checks the beans.",
+      "henry harvests the beans.",
+      "henry cleans the beans.",
+      "henry stores the beans."
+    ],
+    "question": "Why does henry water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the beans.",
+      "henry plants the beans.",
+      "henry waters the beans.",
+      "henry checks the beans.",
+      "henry harvests the beans.",
+      "henry cleans the beans.",
+      "henry stores the beans."
+    ],
+    "question": "Who does not water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the rice.",
+      "henry plants the rice.",
+      "henry waters the rice.",
+      "henry checks the rice.",
+      "henry harvests the rice.",
+      "henry cleans the rice.",
+      "henry stores the rice."
+    ],
+    "question": "Name the person who waters the rice.",
+    "answer": "henry"
+  },
+  {
+    "observations": [
+      "henry selects the rice.",
+      "henry plants the rice.",
+      "henry waters the rice.",
+      "henry checks the rice.",
+      "henry harvests the rice.",
+      "henry cleans the rice.",
+      "henry stores the rice."
+    ],
+    "question": "Who eats the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the rice.",
+      "henry plants the rice.",
+      "henry waters the rice.",
+      "henry checks the rice.",
+      "henry harvests the rice.",
+      "henry cleans the rice.",
+      "henry stores the rice."
+    ],
+    "question": "Why does henry water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the rice.",
+      "henry plants the rice.",
+      "henry waters the rice.",
+      "henry checks the rice.",
+      "henry harvests the rice.",
+      "henry cleans the rice.",
+      "henry stores the rice."
+    ],
+    "question": "Who does not water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the wheat.",
+      "henry plants the wheat.",
+      "henry waters the wheat.",
+      "henry checks the wheat.",
+      "henry harvests the wheat.",
+      "henry cleans the wheat.",
+      "henry stores the wheat."
+    ],
+    "question": "Name the person who waters the wheat.",
+    "answer": "henry"
+  },
+  {
+    "observations": [
+      "henry selects the wheat.",
+      "henry plants the wheat.",
+      "henry waters the wheat.",
+      "henry checks the wheat.",
+      "henry harvests the wheat.",
+      "henry cleans the wheat.",
+      "henry stores the wheat."
+    ],
+    "question": "Who eats the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the wheat.",
+      "henry plants the wheat.",
+      "henry waters the wheat.",
+      "henry checks the wheat.",
+      "henry harvests the wheat.",
+      "henry cleans the wheat.",
+      "henry stores the wheat."
+    ],
+    "question": "Why does henry water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the wheat.",
+      "henry plants the wheat.",
+      "henry waters the wheat.",
+      "henry checks the wheat.",
+      "henry harvests the wheat.",
+      "henry cleans the wheat.",
+      "henry stores the wheat."
+    ],
+    "question": "Who does not water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the peas.",
+      "henry plants the peas.",
+      "henry waters the peas.",
+      "henry checks the peas.",
+      "henry harvests the peas.",
+      "henry cleans the peas.",
+      "henry stores the peas."
+    ],
+    "question": "Name the person who waters the peas.",
+    "answer": "henry"
+  },
+  {
+    "observations": [
+      "henry selects the peas.",
+      "henry plants the peas.",
+      "henry waters the peas.",
+      "henry checks the peas.",
+      "henry harvests the peas.",
+      "henry cleans the peas.",
+      "henry stores the peas."
+    ],
+    "question": "Who eats the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the peas.",
+      "henry plants the peas.",
+      "henry waters the peas.",
+      "henry checks the peas.",
+      "henry harvests the peas.",
+      "henry cleans the peas.",
+      "henry stores the peas."
+    ],
+    "question": "Why does henry water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the peas.",
+      "henry plants the peas.",
+      "henry waters the peas.",
+      "henry checks the peas.",
+      "henry harvests the peas.",
+      "henry cleans the peas.",
+      "henry stores the peas."
+    ],
+    "question": "Who does not water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the sorghum.",
+      "henry plants the sorghum.",
+      "henry waters the sorghum.",
+      "henry checks the sorghum.",
+      "henry harvests the sorghum.",
+      "henry cleans the sorghum.",
+      "henry stores the sorghum."
+    ],
+    "question": "Name the person who waters the sorghum.",
+    "answer": "henry"
+  },
+  {
+    "observations": [
+      "henry selects the sorghum.",
+      "henry plants the sorghum.",
+      "henry waters the sorghum.",
+      "henry checks the sorghum.",
+      "henry harvests the sorghum.",
+      "henry cleans the sorghum.",
+      "henry stores the sorghum."
+    ],
+    "question": "Who eats the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the sorghum.",
+      "henry plants the sorghum.",
+      "henry waters the sorghum.",
+      "henry checks the sorghum.",
+      "henry harvests the sorghum.",
+      "henry cleans the sorghum.",
+      "henry stores the sorghum."
+    ],
+    "question": "Why does henry water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the sorghum.",
+      "henry plants the sorghum.",
+      "henry waters the sorghum.",
+      "henry checks the sorghum.",
+      "henry harvests the sorghum.",
+      "henry cleans the sorghum.",
+      "henry stores the sorghum."
+    ],
+    "question": "Who does not water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the lentils.",
+      "henry plants the lentils.",
+      "henry waters the lentils.",
+      "henry checks the lentils.",
+      "henry harvests the lentils.",
+      "henry cleans the lentils.",
+      "henry stores the lentils."
+    ],
+    "question": "Name the person who waters the lentils.",
+    "answer": "henry"
+  },
+  {
+    "observations": [
+      "henry selects the lentils.",
+      "henry plants the lentils.",
+      "henry waters the lentils.",
+      "henry checks the lentils.",
+      "henry harvests the lentils.",
+      "henry cleans the lentils.",
+      "henry stores the lentils."
+    ],
+    "question": "Who eats the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the lentils.",
+      "henry plants the lentils.",
+      "henry waters the lentils.",
+      "henry checks the lentils.",
+      "henry harvests the lentils.",
+      "henry cleans the lentils.",
+      "henry stores the lentils."
+    ],
+    "question": "Why does henry water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "observations": [
+      "henry selects the lentils.",
+      "henry plants the lentils.",
+      "henry waters the lentils.",
+      "henry checks the lentils.",
+      "henry harvests the lentils.",
+      "henry cleans the lentils.",
+      "henry stores the lentils."
+    ],
+    "question": "Who does not water the lentils?",
+    "answer": "insufficient evidence."
+  }
+]

@@ -1,0 +1,3418 @@
+[
+  {
+    "family": "paraphrase",
+    "observations": [
+      "alice selects the beans.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Name the person who waters the beans.",
+    "answer": "alice"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "alice selects the beans.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Who eats the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "alice selects the beans.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Why does alice water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "alice selects the beans.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Who does not water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "alice selects the beans.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "brian checks the maize.",
+      "brian harvests the maize.",
+      "brian cleans the maize.",
+      "brian stores the maize."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "alice"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "alice selects the beans.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "brian checks the maize.",
+      "brian harvests the maize.",
+      "brian cleans the maize.",
+      "brian stores the maize."
+    ],
+    "question": "Which crop does brian harvests?",
+    "answer": "maize"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The beans are watered by alice.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "alice"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "alice never waters the beans.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "alice selects the maize.",
+      "alice plants the maize.",
+      "alice waters the maize.",
+      "brian checks the rice.",
+      "brian harvests the rice.",
+      "brian cleans the rice.",
+      "brian stores the rice."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "alice"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "alice selects the maize.",
+      "alice plants the maize.",
+      "alice waters the maize.",
+      "brian checks the rice.",
+      "brian harvests the rice.",
+      "brian cleans the rice.",
+      "brian stores the rice."
+    ],
+    "question": "Which crop does brian harvests?",
+    "answer": "rice"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "alice selects the rice.",
+      "alice plants the rice.",
+      "alice waters the rice.",
+      "brian checks the wheat.",
+      "brian harvests the wheat.",
+      "brian cleans the wheat.",
+      "brian stores the wheat."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "alice"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "alice selects the rice.",
+      "alice plants the rice.",
+      "alice waters the rice.",
+      "brian checks the wheat.",
+      "brian harvests the wheat.",
+      "brian cleans the wheat.",
+      "brian stores the wheat."
+    ],
+    "question": "Which crop does brian harvests?",
+    "answer": "wheat"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "alice selects the wheat.",
+      "alice plants the wheat.",
+      "alice waters the wheat.",
+      "brian checks the peas.",
+      "brian harvests the peas.",
+      "brian cleans the peas.",
+      "brian stores the peas."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "alice"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "alice selects the wheat.",
+      "alice plants the wheat.",
+      "alice waters the wheat.",
+      "brian checks the peas.",
+      "brian harvests the peas.",
+      "brian cleans the peas.",
+      "brian stores the peas."
+    ],
+    "question": "Which crop does brian harvests?",
+    "answer": "peas"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "alice selects the peas.",
+      "alice plants the peas.",
+      "alice waters the peas.",
+      "alice checks the peas.",
+      "alice harvests the peas.",
+      "alice cleans the peas.",
+      "alice stores the peas."
+    ],
+    "question": "Name the person who waters the peas.",
+    "answer": "alice"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "alice selects the peas.",
+      "alice plants the peas.",
+      "alice waters the peas.",
+      "alice checks the peas.",
+      "alice harvests the peas.",
+      "alice cleans the peas.",
+      "alice stores the peas."
+    ],
+    "question": "Who eats the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "alice selects the peas.",
+      "alice plants the peas.",
+      "alice waters the peas.",
+      "alice checks the peas.",
+      "alice harvests the peas.",
+      "alice cleans the peas.",
+      "alice stores the peas."
+    ],
+    "question": "Why does alice water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "alice selects the peas.",
+      "alice plants the peas.",
+      "alice waters the peas.",
+      "alice checks the peas.",
+      "alice harvests the peas.",
+      "alice cleans the peas.",
+      "alice stores the peas."
+    ],
+    "question": "Who does not water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "alice selects the peas.",
+      "alice plants the peas.",
+      "alice waters the peas.",
+      "brian checks the millet.",
+      "brian harvests the millet.",
+      "brian cleans the millet.",
+      "brian stores the millet."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "alice"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "alice selects the peas.",
+      "alice plants the peas.",
+      "alice waters the peas.",
+      "brian checks the millet.",
+      "brian harvests the millet.",
+      "brian cleans the millet.",
+      "brian stores the millet."
+    ],
+    "question": "Which crop does brian harvests?",
+    "answer": "millet"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The peas are watered by alice.",
+      "alice plants the peas.",
+      "alice waters the peas.",
+      "alice checks the peas.",
+      "alice harvests the peas.",
+      "alice cleans the peas.",
+      "alice stores the peas."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "alice"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "alice never waters the peas.",
+      "alice plants the peas.",
+      "alice waters the peas.",
+      "alice checks the peas.",
+      "alice harvests the peas.",
+      "alice cleans the peas.",
+      "alice stores the peas."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "alice selects the millet.",
+      "alice plants the millet.",
+      "alice waters the millet.",
+      "brian checks the sorghum.",
+      "brian harvests the sorghum.",
+      "brian cleans the sorghum.",
+      "brian stores the sorghum."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "alice"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "alice selects the millet.",
+      "alice plants the millet.",
+      "alice waters the millet.",
+      "brian checks the sorghum.",
+      "brian harvests the sorghum.",
+      "brian cleans the sorghum.",
+      "brian stores the sorghum."
+    ],
+    "question": "Which crop does brian harvests?",
+    "answer": "sorghum"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "alice selects the sorghum.",
+      "alice plants the sorghum.",
+      "alice waters the sorghum.",
+      "brian checks the lentils.",
+      "brian harvests the lentils.",
+      "brian cleans the lentils.",
+      "brian stores the lentils."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "alice"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "alice selects the sorghum.",
+      "alice plants the sorghum.",
+      "alice waters the sorghum.",
+      "brian checks the lentils.",
+      "brian harvests the lentils.",
+      "brian cleans the lentils.",
+      "brian stores the lentils."
+    ],
+    "question": "Which crop does brian harvests?",
+    "answer": "lentils"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "alice selects the lentils.",
+      "alice plants the lentils.",
+      "alice waters the lentils.",
+      "brian checks the beans.",
+      "brian harvests the beans.",
+      "brian cleans the beans.",
+      "brian stores the beans."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "alice"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "alice selects the lentils.",
+      "alice plants the lentils.",
+      "alice waters the lentils.",
+      "brian checks the beans.",
+      "brian harvests the beans.",
+      "brian cleans the beans.",
+      "brian stores the beans."
+    ],
+    "question": "Which crop does brian harvests?",
+    "answer": "beans"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "brian selects the beans.",
+      "brian plants the beans.",
+      "brian waters the beans.",
+      "carol checks the maize.",
+      "carol harvests the maize.",
+      "carol cleans the maize.",
+      "carol stores the maize."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "brian"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "brian selects the beans.",
+      "brian plants the beans.",
+      "brian waters the beans.",
+      "carol checks the maize.",
+      "carol harvests the maize.",
+      "carol cleans the maize.",
+      "carol stores the maize."
+    ],
+    "question": "Which crop does carol harvests?",
+    "answer": "maize"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "brian selects the maize.",
+      "brian plants the maize.",
+      "brian waters the maize.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "brian"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "brian selects the maize.",
+      "brian plants the maize.",
+      "brian waters the maize.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Which crop does carol harvests?",
+    "answer": "rice"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "brian selects the rice.",
+      "brian plants the rice.",
+      "brian waters the rice.",
+      "carol checks the wheat.",
+      "carol harvests the wheat.",
+      "carol cleans the wheat.",
+      "carol stores the wheat."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "brian"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "brian selects the rice.",
+      "brian plants the rice.",
+      "brian waters the rice.",
+      "carol checks the wheat.",
+      "carol harvests the wheat.",
+      "carol cleans the wheat.",
+      "carol stores the wheat."
+    ],
+    "question": "Which crop does carol harvests?",
+    "answer": "wheat"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "brian selects the wheat.",
+      "brian plants the wheat.",
+      "brian waters the wheat.",
+      "brian checks the wheat.",
+      "brian harvests the wheat.",
+      "brian cleans the wheat.",
+      "brian stores the wheat."
+    ],
+    "question": "Name the person who waters the wheat.",
+    "answer": "brian"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "brian selects the wheat.",
+      "brian plants the wheat.",
+      "brian waters the wheat.",
+      "brian checks the wheat.",
+      "brian harvests the wheat.",
+      "brian cleans the wheat.",
+      "brian stores the wheat."
+    ],
+    "question": "Who eats the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "brian selects the wheat.",
+      "brian plants the wheat.",
+      "brian waters the wheat.",
+      "brian checks the wheat.",
+      "brian harvests the wheat.",
+      "brian cleans the wheat.",
+      "brian stores the wheat."
+    ],
+    "question": "Why does brian water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "brian selects the wheat.",
+      "brian plants the wheat.",
+      "brian waters the wheat.",
+      "brian checks the wheat.",
+      "brian harvests the wheat.",
+      "brian cleans the wheat.",
+      "brian stores the wheat."
+    ],
+    "question": "Who does not water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "brian selects the wheat.",
+      "brian plants the wheat.",
+      "brian waters the wheat.",
+      "carol checks the peas.",
+      "carol harvests the peas.",
+      "carol cleans the peas.",
+      "carol stores the peas."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "brian"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "brian selects the wheat.",
+      "brian plants the wheat.",
+      "brian waters the wheat.",
+      "carol checks the peas.",
+      "carol harvests the peas.",
+      "carol cleans the peas.",
+      "carol stores the peas."
+    ],
+    "question": "Which crop does carol harvests?",
+    "answer": "peas"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The wheat are watered by brian.",
+      "brian plants the wheat.",
+      "brian waters the wheat.",
+      "brian checks the wheat.",
+      "brian harvests the wheat.",
+      "brian cleans the wheat.",
+      "brian stores the wheat."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "brian"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "brian never waters the wheat.",
+      "brian plants the wheat.",
+      "brian waters the wheat.",
+      "brian checks the wheat.",
+      "brian harvests the wheat.",
+      "brian cleans the wheat.",
+      "brian stores the wheat."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "brian selects the peas.",
+      "brian plants the peas.",
+      "brian waters the peas.",
+      "carol checks the millet.",
+      "carol harvests the millet.",
+      "carol cleans the millet.",
+      "carol stores the millet."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "brian"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "brian selects the peas.",
+      "brian plants the peas.",
+      "brian waters the peas.",
+      "carol checks the millet.",
+      "carol harvests the millet.",
+      "carol cleans the millet.",
+      "carol stores the millet."
+    ],
+    "question": "Which crop does carol harvests?",
+    "answer": "millet"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "brian selects the millet.",
+      "brian plants the millet.",
+      "brian waters the millet.",
+      "carol checks the sorghum.",
+      "carol harvests the sorghum.",
+      "carol cleans the sorghum.",
+      "carol stores the sorghum."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "brian"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "brian selects the millet.",
+      "brian plants the millet.",
+      "brian waters the millet.",
+      "carol checks the sorghum.",
+      "carol harvests the sorghum.",
+      "carol cleans the sorghum.",
+      "carol stores the sorghum."
+    ],
+    "question": "Which crop does carol harvests?",
+    "answer": "sorghum"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "brian selects the sorghum.",
+      "brian plants the sorghum.",
+      "brian waters the sorghum.",
+      "carol checks the lentils.",
+      "carol harvests the lentils.",
+      "carol cleans the lentils.",
+      "carol stores the lentils."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "brian"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "brian selects the sorghum.",
+      "brian plants the sorghum.",
+      "brian waters the sorghum.",
+      "carol checks the lentils.",
+      "carol harvests the lentils.",
+      "carol cleans the lentils.",
+      "carol stores the lentils."
+    ],
+    "question": "Which crop does carol harvests?",
+    "answer": "lentils"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "brian selects the lentils.",
+      "brian plants the lentils.",
+      "brian waters the lentils.",
+      "brian checks the lentils.",
+      "brian harvests the lentils.",
+      "brian cleans the lentils.",
+      "brian stores the lentils."
+    ],
+    "question": "Name the person who waters the lentils.",
+    "answer": "brian"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "brian selects the lentils.",
+      "brian plants the lentils.",
+      "brian waters the lentils.",
+      "brian checks the lentils.",
+      "brian harvests the lentils.",
+      "brian cleans the lentils.",
+      "brian stores the lentils."
+    ],
+    "question": "Who eats the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "brian selects the lentils.",
+      "brian plants the lentils.",
+      "brian waters the lentils.",
+      "brian checks the lentils.",
+      "brian harvests the lentils.",
+      "brian cleans the lentils.",
+      "brian stores the lentils."
+    ],
+    "question": "Why does brian water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "brian selects the lentils.",
+      "brian plants the lentils.",
+      "brian waters the lentils.",
+      "brian checks the lentils.",
+      "brian harvests the lentils.",
+      "brian cleans the lentils.",
+      "brian stores the lentils."
+    ],
+    "question": "Who does not water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "brian selects the lentils.",
+      "brian plants the lentils.",
+      "brian waters the lentils.",
+      "carol checks the beans.",
+      "carol harvests the beans.",
+      "carol cleans the beans.",
+      "carol stores the beans."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "brian"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "brian selects the lentils.",
+      "brian plants the lentils.",
+      "brian waters the lentils.",
+      "carol checks the beans.",
+      "carol harvests the beans.",
+      "carol cleans the beans.",
+      "carol stores the beans."
+    ],
+    "question": "Which crop does carol harvests?",
+    "answer": "beans"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The lentils are watered by brian.",
+      "brian plants the lentils.",
+      "brian waters the lentils.",
+      "brian checks the lentils.",
+      "brian harvests the lentils.",
+      "brian cleans the lentils.",
+      "brian stores the lentils."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "brian"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "brian never waters the lentils.",
+      "brian plants the lentils.",
+      "brian waters the lentils.",
+      "brian checks the lentils.",
+      "brian harvests the lentils.",
+      "brian cleans the lentils.",
+      "brian stores the lentils."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "carol selects the beans.",
+      "carol plants the beans.",
+      "carol waters the beans.",
+      "david checks the maize.",
+      "david harvests the maize.",
+      "david cleans the maize.",
+      "david stores the maize."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "carol"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "carol selects the beans.",
+      "carol plants the beans.",
+      "carol waters the beans.",
+      "david checks the maize.",
+      "david harvests the maize.",
+      "david cleans the maize.",
+      "david stores the maize."
+    ],
+    "question": "Which crop does david harvests?",
+    "answer": "maize"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "carol selects the maize.",
+      "carol plants the maize.",
+      "carol waters the maize.",
+      "david checks the rice.",
+      "david harvests the rice.",
+      "david cleans the rice.",
+      "david stores the rice."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "carol"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "carol selects the maize.",
+      "carol plants the maize.",
+      "carol waters the maize.",
+      "david checks the rice.",
+      "david harvests the rice.",
+      "david cleans the rice.",
+      "david stores the rice."
+    ],
+    "question": "Which crop does david harvests?",
+    "answer": "rice"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "carol selects the rice.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Name the person who waters the rice.",
+    "answer": "carol"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "carol selects the rice.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Who eats the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "carol selects the rice.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Why does carol water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "carol selects the rice.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Who does not water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "carol selects the rice.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "david checks the wheat.",
+      "david harvests the wheat.",
+      "david cleans the wheat.",
+      "david stores the wheat."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "carol"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "carol selects the rice.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "david checks the wheat.",
+      "david harvests the wheat.",
+      "david cleans the wheat.",
+      "david stores the wheat."
+    ],
+    "question": "Which crop does david harvests?",
+    "answer": "wheat"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The rice are watered by carol.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "carol"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "carol never waters the rice.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "carol selects the wheat.",
+      "carol plants the wheat.",
+      "carol waters the wheat.",
+      "david checks the peas.",
+      "david harvests the peas.",
+      "david cleans the peas.",
+      "david stores the peas."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "carol"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "carol selects the wheat.",
+      "carol plants the wheat.",
+      "carol waters the wheat.",
+      "david checks the peas.",
+      "david harvests the peas.",
+      "david cleans the peas.",
+      "david stores the peas."
+    ],
+    "question": "Which crop does david harvests?",
+    "answer": "peas"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "carol selects the peas.",
+      "carol plants the peas.",
+      "carol waters the peas.",
+      "david checks the millet.",
+      "david harvests the millet.",
+      "david cleans the millet.",
+      "david stores the millet."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "carol"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "carol selects the peas.",
+      "carol plants the peas.",
+      "carol waters the peas.",
+      "david checks the millet.",
+      "david harvests the millet.",
+      "david cleans the millet.",
+      "david stores the millet."
+    ],
+    "question": "Which crop does david harvests?",
+    "answer": "millet"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "carol selects the millet.",
+      "carol plants the millet.",
+      "carol waters the millet.",
+      "david checks the sorghum.",
+      "david harvests the sorghum.",
+      "david cleans the sorghum.",
+      "david stores the sorghum."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "carol"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "carol selects the millet.",
+      "carol plants the millet.",
+      "carol waters the millet.",
+      "david checks the sorghum.",
+      "david harvests the sorghum.",
+      "david cleans the sorghum.",
+      "david stores the sorghum."
+    ],
+    "question": "Which crop does david harvests?",
+    "answer": "sorghum"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "carol selects the sorghum.",
+      "carol plants the sorghum.",
+      "carol waters the sorghum.",
+      "carol checks the sorghum.",
+      "carol harvests the sorghum.",
+      "carol cleans the sorghum.",
+      "carol stores the sorghum."
+    ],
+    "question": "Name the person who waters the sorghum.",
+    "answer": "carol"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "carol selects the sorghum.",
+      "carol plants the sorghum.",
+      "carol waters the sorghum.",
+      "carol checks the sorghum.",
+      "carol harvests the sorghum.",
+      "carol cleans the sorghum.",
+      "carol stores the sorghum."
+    ],
+    "question": "Who eats the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "carol selects the sorghum.",
+      "carol plants the sorghum.",
+      "carol waters the sorghum.",
+      "carol checks the sorghum.",
+      "carol harvests the sorghum.",
+      "carol cleans the sorghum.",
+      "carol stores the sorghum."
+    ],
+    "question": "Why does carol water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "carol selects the sorghum.",
+      "carol plants the sorghum.",
+      "carol waters the sorghum.",
+      "carol checks the sorghum.",
+      "carol harvests the sorghum.",
+      "carol cleans the sorghum.",
+      "carol stores the sorghum."
+    ],
+    "question": "Who does not water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "carol selects the sorghum.",
+      "carol plants the sorghum.",
+      "carol waters the sorghum.",
+      "david checks the lentils.",
+      "david harvests the lentils.",
+      "david cleans the lentils.",
+      "david stores the lentils."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "carol"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "carol selects the sorghum.",
+      "carol plants the sorghum.",
+      "carol waters the sorghum.",
+      "david checks the lentils.",
+      "david harvests the lentils.",
+      "david cleans the lentils.",
+      "david stores the lentils."
+    ],
+    "question": "Which crop does david harvests?",
+    "answer": "lentils"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The sorghum are watered by carol.",
+      "carol plants the sorghum.",
+      "carol waters the sorghum.",
+      "carol checks the sorghum.",
+      "carol harvests the sorghum.",
+      "carol cleans the sorghum.",
+      "carol stores the sorghum."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "carol"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "carol never waters the sorghum.",
+      "carol plants the sorghum.",
+      "carol waters the sorghum.",
+      "carol checks the sorghum.",
+      "carol harvests the sorghum.",
+      "carol cleans the sorghum.",
+      "carol stores the sorghum."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "carol selects the lentils.",
+      "carol plants the lentils.",
+      "carol waters the lentils.",
+      "david checks the beans.",
+      "david harvests the beans.",
+      "david cleans the beans.",
+      "david stores the beans."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "carol"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "carol selects the lentils.",
+      "carol plants the lentils.",
+      "carol waters the lentils.",
+      "david checks the beans.",
+      "david harvests the beans.",
+      "david cleans the beans.",
+      "david stores the beans."
+    ],
+    "question": "Which crop does david harvests?",
+    "answer": "beans"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "david selects the beans.",
+      "david plants the beans.",
+      "david waters the beans.",
+      "eva checks the maize.",
+      "eva harvests the maize.",
+      "eva cleans the maize.",
+      "eva stores the maize."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "david"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "david selects the beans.",
+      "david plants the beans.",
+      "david waters the beans.",
+      "eva checks the maize.",
+      "eva harvests the maize.",
+      "eva cleans the maize.",
+      "eva stores the maize."
+    ],
+    "question": "Which crop does eva harvests?",
+    "answer": "maize"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "david selects the maize.",
+      "david plants the maize.",
+      "david waters the maize.",
+      "david checks the maize.",
+      "david harvests the maize.",
+      "david cleans the maize.",
+      "david stores the maize."
+    ],
+    "question": "Name the person who waters the maize.",
+    "answer": "david"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "david selects the maize.",
+      "david plants the maize.",
+      "david waters the maize.",
+      "david checks the maize.",
+      "david harvests the maize.",
+      "david cleans the maize.",
+      "david stores the maize."
+    ],
+    "question": "Who eats the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "david selects the maize.",
+      "david plants the maize.",
+      "david waters the maize.",
+      "david checks the maize.",
+      "david harvests the maize.",
+      "david cleans the maize.",
+      "david stores the maize."
+    ],
+    "question": "Why does david water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "david selects the maize.",
+      "david plants the maize.",
+      "david waters the maize.",
+      "david checks the maize.",
+      "david harvests the maize.",
+      "david cleans the maize.",
+      "david stores the maize."
+    ],
+    "question": "Who does not water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "david selects the maize.",
+      "david plants the maize.",
+      "david waters the maize.",
+      "eva checks the rice.",
+      "eva harvests the rice.",
+      "eva cleans the rice.",
+      "eva stores the rice."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "david"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "david selects the maize.",
+      "david plants the maize.",
+      "david waters the maize.",
+      "eva checks the rice.",
+      "eva harvests the rice.",
+      "eva cleans the rice.",
+      "eva stores the rice."
+    ],
+    "question": "Which crop does eva harvests?",
+    "answer": "rice"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The maize are watered by david.",
+      "david plants the maize.",
+      "david waters the maize.",
+      "david checks the maize.",
+      "david harvests the maize.",
+      "david cleans the maize.",
+      "david stores the maize."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "david"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "david never waters the maize.",
+      "david plants the maize.",
+      "david waters the maize.",
+      "david checks the maize.",
+      "david harvests the maize.",
+      "david cleans the maize.",
+      "david stores the maize."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "david selects the rice.",
+      "david plants the rice.",
+      "david waters the rice.",
+      "eva checks the wheat.",
+      "eva harvests the wheat.",
+      "eva cleans the wheat.",
+      "eva stores the wheat."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "david"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "david selects the rice.",
+      "david plants the rice.",
+      "david waters the rice.",
+      "eva checks the wheat.",
+      "eva harvests the wheat.",
+      "eva cleans the wheat.",
+      "eva stores the wheat."
+    ],
+    "question": "Which crop does eva harvests?",
+    "answer": "wheat"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "david selects the wheat.",
+      "david plants the wheat.",
+      "david waters the wheat.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "david"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "david selects the wheat.",
+      "david plants the wheat.",
+      "david waters the wheat.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Which crop does eva harvests?",
+    "answer": "peas"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "david selects the peas.",
+      "david plants the peas.",
+      "david waters the peas.",
+      "eva checks the millet.",
+      "eva harvests the millet.",
+      "eva cleans the millet.",
+      "eva stores the millet."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "david"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "david selects the peas.",
+      "david plants the peas.",
+      "david waters the peas.",
+      "eva checks the millet.",
+      "eva harvests the millet.",
+      "eva cleans the millet.",
+      "eva stores the millet."
+    ],
+    "question": "Which crop does eva harvests?",
+    "answer": "millet"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "david selects the millet.",
+      "david plants the millet.",
+      "david waters the millet.",
+      "david checks the millet.",
+      "david harvests the millet.",
+      "david cleans the millet.",
+      "david stores the millet."
+    ],
+    "question": "Name the person who waters the millet.",
+    "answer": "david"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "david selects the millet.",
+      "david plants the millet.",
+      "david waters the millet.",
+      "david checks the millet.",
+      "david harvests the millet.",
+      "david cleans the millet.",
+      "david stores the millet."
+    ],
+    "question": "Who eats the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "david selects the millet.",
+      "david plants the millet.",
+      "david waters the millet.",
+      "david checks the millet.",
+      "david harvests the millet.",
+      "david cleans the millet.",
+      "david stores the millet."
+    ],
+    "question": "Why does david water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "david selects the millet.",
+      "david plants the millet.",
+      "david waters the millet.",
+      "david checks the millet.",
+      "david harvests the millet.",
+      "david cleans the millet.",
+      "david stores the millet."
+    ],
+    "question": "Who does not water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "david selects the millet.",
+      "david plants the millet.",
+      "david waters the millet.",
+      "eva checks the sorghum.",
+      "eva harvests the sorghum.",
+      "eva cleans the sorghum.",
+      "eva stores the sorghum."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "david"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "david selects the millet.",
+      "david plants the millet.",
+      "david waters the millet.",
+      "eva checks the sorghum.",
+      "eva harvests the sorghum.",
+      "eva cleans the sorghum.",
+      "eva stores the sorghum."
+    ],
+    "question": "Which crop does eva harvests?",
+    "answer": "sorghum"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The millet are watered by david.",
+      "david plants the millet.",
+      "david waters the millet.",
+      "david checks the millet.",
+      "david harvests the millet.",
+      "david cleans the millet.",
+      "david stores the millet."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "david"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "david never waters the millet.",
+      "david plants the millet.",
+      "david waters the millet.",
+      "david checks the millet.",
+      "david harvests the millet.",
+      "david cleans the millet.",
+      "david stores the millet."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "david selects the sorghum.",
+      "david plants the sorghum.",
+      "david waters the sorghum.",
+      "eva checks the lentils.",
+      "eva harvests the lentils.",
+      "eva cleans the lentils.",
+      "eva stores the lentils."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "david"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "david selects the sorghum.",
+      "david plants the sorghum.",
+      "david waters the sorghum.",
+      "eva checks the lentils.",
+      "eva harvests the lentils.",
+      "eva cleans the lentils.",
+      "eva stores the lentils."
+    ],
+    "question": "Which crop does eva harvests?",
+    "answer": "lentils"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "david selects the lentils.",
+      "david plants the lentils.",
+      "david waters the lentils.",
+      "eva checks the beans.",
+      "eva harvests the beans.",
+      "eva cleans the beans.",
+      "eva stores the beans."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "david"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "david selects the lentils.",
+      "david plants the lentils.",
+      "david waters the lentils.",
+      "eva checks the beans.",
+      "eva harvests the beans.",
+      "eva cleans the beans.",
+      "eva stores the beans."
+    ],
+    "question": "Which crop does eva harvests?",
+    "answer": "beans"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "eva selects the beans.",
+      "eva plants the beans.",
+      "eva waters the beans.",
+      "eva checks the beans.",
+      "eva harvests the beans.",
+      "eva cleans the beans.",
+      "eva stores the beans."
+    ],
+    "question": "Name the person who waters the beans.",
+    "answer": "eva"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "eva selects the beans.",
+      "eva plants the beans.",
+      "eva waters the beans.",
+      "eva checks the beans.",
+      "eva harvests the beans.",
+      "eva cleans the beans.",
+      "eva stores the beans."
+    ],
+    "question": "Who eats the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "eva selects the beans.",
+      "eva plants the beans.",
+      "eva waters the beans.",
+      "eva checks the beans.",
+      "eva harvests the beans.",
+      "eva cleans the beans.",
+      "eva stores the beans."
+    ],
+    "question": "Why does eva water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "eva selects the beans.",
+      "eva plants the beans.",
+      "eva waters the beans.",
+      "eva checks the beans.",
+      "eva harvests the beans.",
+      "eva cleans the beans.",
+      "eva stores the beans."
+    ],
+    "question": "Who does not water the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "eva selects the beans.",
+      "eva plants the beans.",
+      "eva waters the beans.",
+      "frank checks the maize.",
+      "frank harvests the maize.",
+      "frank cleans the maize.",
+      "frank stores the maize."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "eva"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "eva selects the beans.",
+      "eva plants the beans.",
+      "eva waters the beans.",
+      "frank checks the maize.",
+      "frank harvests the maize.",
+      "frank cleans the maize.",
+      "frank stores the maize."
+    ],
+    "question": "Which crop does frank harvests?",
+    "answer": "maize"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The beans are watered by eva.",
+      "eva plants the beans.",
+      "eva waters the beans.",
+      "eva checks the beans.",
+      "eva harvests the beans.",
+      "eva cleans the beans.",
+      "eva stores the beans."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "eva"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "eva never waters the beans.",
+      "eva plants the beans.",
+      "eva waters the beans.",
+      "eva checks the beans.",
+      "eva harvests the beans.",
+      "eva cleans the beans.",
+      "eva stores the beans."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "eva selects the maize.",
+      "eva plants the maize.",
+      "eva waters the maize.",
+      "frank checks the rice.",
+      "frank harvests the rice.",
+      "frank cleans the rice.",
+      "frank stores the rice."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "eva"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "eva selects the maize.",
+      "eva plants the maize.",
+      "eva waters the maize.",
+      "frank checks the rice.",
+      "frank harvests the rice.",
+      "frank cleans the rice.",
+      "frank stores the rice."
+    ],
+    "question": "Which crop does frank harvests?",
+    "answer": "rice"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "eva selects the rice.",
+      "eva plants the rice.",
+      "eva waters the rice.",
+      "frank checks the wheat.",
+      "frank harvests the wheat.",
+      "frank cleans the wheat.",
+      "frank stores the wheat."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "eva"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "eva selects the rice.",
+      "eva plants the rice.",
+      "eva waters the rice.",
+      "frank checks the wheat.",
+      "frank harvests the wheat.",
+      "frank cleans the wheat.",
+      "frank stores the wheat."
+    ],
+    "question": "Which crop does frank harvests?",
+    "answer": "wheat"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "eva selects the wheat.",
+      "eva plants the wheat.",
+      "eva waters the wheat.",
+      "frank checks the peas.",
+      "frank harvests the peas.",
+      "frank cleans the peas.",
+      "frank stores the peas."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "eva"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "eva selects the wheat.",
+      "eva plants the wheat.",
+      "eva waters the wheat.",
+      "frank checks the peas.",
+      "frank harvests the peas.",
+      "frank cleans the peas.",
+      "frank stores the peas."
+    ],
+    "question": "Which crop does frank harvests?",
+    "answer": "peas"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "eva selects the peas.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Name the person who waters the peas.",
+    "answer": "eva"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "eva selects the peas.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Who eats the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "eva selects the peas.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Why does eva water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "eva selects the peas.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Who does not water the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "eva selects the peas.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "frank checks the millet.",
+      "frank harvests the millet.",
+      "frank cleans the millet.",
+      "frank stores the millet."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "eva"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "eva selects the peas.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "frank checks the millet.",
+      "frank harvests the millet.",
+      "frank cleans the millet.",
+      "frank stores the millet."
+    ],
+    "question": "Which crop does frank harvests?",
+    "answer": "millet"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The peas are watered by eva.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "eva"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "eva never waters the peas.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "eva selects the millet.",
+      "eva plants the millet.",
+      "eva waters the millet.",
+      "frank checks the sorghum.",
+      "frank harvests the sorghum.",
+      "frank cleans the sorghum.",
+      "frank stores the sorghum."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "eva"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "eva selects the millet.",
+      "eva plants the millet.",
+      "eva waters the millet.",
+      "frank checks the sorghum.",
+      "frank harvests the sorghum.",
+      "frank cleans the sorghum.",
+      "frank stores the sorghum."
+    ],
+    "question": "Which crop does frank harvests?",
+    "answer": "sorghum"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "eva selects the sorghum.",
+      "eva plants the sorghum.",
+      "eva waters the sorghum.",
+      "frank checks the lentils.",
+      "frank harvests the lentils.",
+      "frank cleans the lentils.",
+      "frank stores the lentils."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "eva"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "eva selects the sorghum.",
+      "eva plants the sorghum.",
+      "eva waters the sorghum.",
+      "frank checks the lentils.",
+      "frank harvests the lentils.",
+      "frank cleans the lentils.",
+      "frank stores the lentils."
+    ],
+    "question": "Which crop does frank harvests?",
+    "answer": "lentils"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "eva selects the lentils.",
+      "eva plants the lentils.",
+      "eva waters the lentils.",
+      "frank checks the beans.",
+      "frank harvests the beans.",
+      "frank cleans the beans.",
+      "frank stores the beans."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "eva"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "eva selects the lentils.",
+      "eva plants the lentils.",
+      "eva waters the lentils.",
+      "frank checks the beans.",
+      "frank harvests the beans.",
+      "frank cleans the beans.",
+      "frank stores the beans."
+    ],
+    "question": "Which crop does frank harvests?",
+    "answer": "beans"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "frank selects the beans.",
+      "frank plants the beans.",
+      "frank waters the beans.",
+      "grace checks the maize.",
+      "grace harvests the maize.",
+      "grace cleans the maize.",
+      "grace stores the maize."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "frank"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "frank selects the beans.",
+      "frank plants the beans.",
+      "frank waters the beans.",
+      "grace checks the maize.",
+      "grace harvests the maize.",
+      "grace cleans the maize.",
+      "grace stores the maize."
+    ],
+    "question": "Which crop does grace harvests?",
+    "answer": "maize"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "frank selects the maize.",
+      "frank plants the maize.",
+      "frank waters the maize.",
+      "grace checks the rice.",
+      "grace harvests the rice.",
+      "grace cleans the rice.",
+      "grace stores the rice."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "frank"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "frank selects the maize.",
+      "frank plants the maize.",
+      "frank waters the maize.",
+      "grace checks the rice.",
+      "grace harvests the rice.",
+      "grace cleans the rice.",
+      "grace stores the rice."
+    ],
+    "question": "Which crop does grace harvests?",
+    "answer": "rice"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "frank selects the rice.",
+      "frank plants the rice.",
+      "frank waters the rice.",
+      "grace checks the wheat.",
+      "grace harvests the wheat.",
+      "grace cleans the wheat.",
+      "grace stores the wheat."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "frank"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "frank selects the rice.",
+      "frank plants the rice.",
+      "frank waters the rice.",
+      "grace checks the wheat.",
+      "grace harvests the wheat.",
+      "grace cleans the wheat.",
+      "grace stores the wheat."
+    ],
+    "question": "Which crop does grace harvests?",
+    "answer": "wheat"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "frank selects the wheat.",
+      "frank plants the wheat.",
+      "frank waters the wheat.",
+      "frank checks the wheat.",
+      "frank harvests the wheat.",
+      "frank cleans the wheat.",
+      "frank stores the wheat."
+    ],
+    "question": "Name the person who waters the wheat.",
+    "answer": "frank"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "frank selects the wheat.",
+      "frank plants the wheat.",
+      "frank waters the wheat.",
+      "frank checks the wheat.",
+      "frank harvests the wheat.",
+      "frank cleans the wheat.",
+      "frank stores the wheat."
+    ],
+    "question": "Who eats the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "frank selects the wheat.",
+      "frank plants the wheat.",
+      "frank waters the wheat.",
+      "frank checks the wheat.",
+      "frank harvests the wheat.",
+      "frank cleans the wheat.",
+      "frank stores the wheat."
+    ],
+    "question": "Why does frank water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "frank selects the wheat.",
+      "frank plants the wheat.",
+      "frank waters the wheat.",
+      "frank checks the wheat.",
+      "frank harvests the wheat.",
+      "frank cleans the wheat.",
+      "frank stores the wheat."
+    ],
+    "question": "Who does not water the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "frank selects the wheat.",
+      "frank plants the wheat.",
+      "frank waters the wheat.",
+      "grace checks the peas.",
+      "grace harvests the peas.",
+      "grace cleans the peas.",
+      "grace stores the peas."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "frank"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "frank selects the wheat.",
+      "frank plants the wheat.",
+      "frank waters the wheat.",
+      "grace checks the peas.",
+      "grace harvests the peas.",
+      "grace cleans the peas.",
+      "grace stores the peas."
+    ],
+    "question": "Which crop does grace harvests?",
+    "answer": "peas"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The wheat are watered by frank.",
+      "frank plants the wheat.",
+      "frank waters the wheat.",
+      "frank checks the wheat.",
+      "frank harvests the wheat.",
+      "frank cleans the wheat.",
+      "frank stores the wheat."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "frank"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "frank never waters the wheat.",
+      "frank plants the wheat.",
+      "frank waters the wheat.",
+      "frank checks the wheat.",
+      "frank harvests the wheat.",
+      "frank cleans the wheat.",
+      "frank stores the wheat."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "frank selects the peas.",
+      "frank plants the peas.",
+      "frank waters the peas.",
+      "grace checks the millet.",
+      "grace harvests the millet.",
+      "grace cleans the millet.",
+      "grace stores the millet."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "frank"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "frank selects the peas.",
+      "frank plants the peas.",
+      "frank waters the peas.",
+      "grace checks the millet.",
+      "grace harvests the millet.",
+      "grace cleans the millet.",
+      "grace stores the millet."
+    ],
+    "question": "Which crop does grace harvests?",
+    "answer": "millet"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "frank selects the millet.",
+      "frank plants the millet.",
+      "frank waters the millet.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "frank"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "frank selects the millet.",
+      "frank plants the millet.",
+      "frank waters the millet.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Which crop does grace harvests?",
+    "answer": "sorghum"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "frank selects the sorghum.",
+      "frank plants the sorghum.",
+      "frank waters the sorghum.",
+      "grace checks the lentils.",
+      "grace harvests the lentils.",
+      "grace cleans the lentils.",
+      "grace stores the lentils."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "frank"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "frank selects the sorghum.",
+      "frank plants the sorghum.",
+      "frank waters the sorghum.",
+      "grace checks the lentils.",
+      "grace harvests the lentils.",
+      "grace cleans the lentils.",
+      "grace stores the lentils."
+    ],
+    "question": "Which crop does grace harvests?",
+    "answer": "lentils"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "frank selects the lentils.",
+      "frank plants the lentils.",
+      "frank waters the lentils.",
+      "frank checks the lentils.",
+      "frank harvests the lentils.",
+      "frank cleans the lentils.",
+      "frank stores the lentils."
+    ],
+    "question": "Name the person who waters the lentils.",
+    "answer": "frank"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "frank selects the lentils.",
+      "frank plants the lentils.",
+      "frank waters the lentils.",
+      "frank checks the lentils.",
+      "frank harvests the lentils.",
+      "frank cleans the lentils.",
+      "frank stores the lentils."
+    ],
+    "question": "Who eats the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "frank selects the lentils.",
+      "frank plants the lentils.",
+      "frank waters the lentils.",
+      "frank checks the lentils.",
+      "frank harvests the lentils.",
+      "frank cleans the lentils.",
+      "frank stores the lentils."
+    ],
+    "question": "Why does frank water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "frank selects the lentils.",
+      "frank plants the lentils.",
+      "frank waters the lentils.",
+      "frank checks the lentils.",
+      "frank harvests the lentils.",
+      "frank cleans the lentils.",
+      "frank stores the lentils."
+    ],
+    "question": "Who does not water the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "frank selects the lentils.",
+      "frank plants the lentils.",
+      "frank waters the lentils.",
+      "grace checks the beans.",
+      "grace harvests the beans.",
+      "grace cleans the beans.",
+      "grace stores the beans."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "frank"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "frank selects the lentils.",
+      "frank plants the lentils.",
+      "frank waters the lentils.",
+      "grace checks the beans.",
+      "grace harvests the beans.",
+      "grace cleans the beans.",
+      "grace stores the beans."
+    ],
+    "question": "Which crop does grace harvests?",
+    "answer": "beans"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The lentils are watered by frank.",
+      "frank plants the lentils.",
+      "frank waters the lentils.",
+      "frank checks the lentils.",
+      "frank harvests the lentils.",
+      "frank cleans the lentils.",
+      "frank stores the lentils."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "frank"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "frank never waters the lentils.",
+      "frank plants the lentils.",
+      "frank waters the lentils.",
+      "frank checks the lentils.",
+      "frank harvests the lentils.",
+      "frank cleans the lentils.",
+      "frank stores the lentils."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "grace selects the beans.",
+      "grace plants the beans.",
+      "grace waters the beans.",
+      "henry checks the maize.",
+      "henry harvests the maize.",
+      "henry cleans the maize.",
+      "henry stores the maize."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "grace"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "grace selects the beans.",
+      "grace plants the beans.",
+      "grace waters the beans.",
+      "henry checks the maize.",
+      "henry harvests the maize.",
+      "henry cleans the maize.",
+      "henry stores the maize."
+    ],
+    "question": "Which crop does henry harvests?",
+    "answer": "maize"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "grace selects the maize.",
+      "grace plants the maize.",
+      "grace waters the maize.",
+      "henry checks the rice.",
+      "henry harvests the rice.",
+      "henry cleans the rice.",
+      "henry stores the rice."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "grace"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "grace selects the maize.",
+      "grace plants the maize.",
+      "grace waters the maize.",
+      "henry checks the rice.",
+      "henry harvests the rice.",
+      "henry cleans the rice.",
+      "henry stores the rice."
+    ],
+    "question": "Which crop does henry harvests?",
+    "answer": "rice"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "grace selects the rice.",
+      "grace plants the rice.",
+      "grace waters the rice.",
+      "grace checks the rice.",
+      "grace harvests the rice.",
+      "grace cleans the rice.",
+      "grace stores the rice."
+    ],
+    "question": "Name the person who waters the rice.",
+    "answer": "grace"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "grace selects the rice.",
+      "grace plants the rice.",
+      "grace waters the rice.",
+      "grace checks the rice.",
+      "grace harvests the rice.",
+      "grace cleans the rice.",
+      "grace stores the rice."
+    ],
+    "question": "Who eats the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "grace selects the rice.",
+      "grace plants the rice.",
+      "grace waters the rice.",
+      "grace checks the rice.",
+      "grace harvests the rice.",
+      "grace cleans the rice.",
+      "grace stores the rice."
+    ],
+    "question": "Why does grace water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "grace selects the rice.",
+      "grace plants the rice.",
+      "grace waters the rice.",
+      "grace checks the rice.",
+      "grace harvests the rice.",
+      "grace cleans the rice.",
+      "grace stores the rice."
+    ],
+    "question": "Who does not water the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "grace selects the rice.",
+      "grace plants the rice.",
+      "grace waters the rice.",
+      "henry checks the wheat.",
+      "henry harvests the wheat.",
+      "henry cleans the wheat.",
+      "henry stores the wheat."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "grace"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "grace selects the rice.",
+      "grace plants the rice.",
+      "grace waters the rice.",
+      "henry checks the wheat.",
+      "henry harvests the wheat.",
+      "henry cleans the wheat.",
+      "henry stores the wheat."
+    ],
+    "question": "Which crop does henry harvests?",
+    "answer": "wheat"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The rice are watered by grace.",
+      "grace plants the rice.",
+      "grace waters the rice.",
+      "grace checks the rice.",
+      "grace harvests the rice.",
+      "grace cleans the rice.",
+      "grace stores the rice."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "grace"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "grace never waters the rice.",
+      "grace plants the rice.",
+      "grace waters the rice.",
+      "grace checks the rice.",
+      "grace harvests the rice.",
+      "grace cleans the rice.",
+      "grace stores the rice."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "grace selects the wheat.",
+      "grace plants the wheat.",
+      "grace waters the wheat.",
+      "henry checks the peas.",
+      "henry harvests the peas.",
+      "henry cleans the peas.",
+      "henry stores the peas."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "grace"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "grace selects the wheat.",
+      "grace plants the wheat.",
+      "grace waters the wheat.",
+      "henry checks the peas.",
+      "henry harvests the peas.",
+      "henry cleans the peas.",
+      "henry stores the peas."
+    ],
+    "question": "Which crop does henry harvests?",
+    "answer": "peas"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "grace selects the peas.",
+      "grace plants the peas.",
+      "grace waters the peas.",
+      "henry checks the millet.",
+      "henry harvests the millet.",
+      "henry cleans the millet.",
+      "henry stores the millet."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "grace"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "grace selects the peas.",
+      "grace plants the peas.",
+      "grace waters the peas.",
+      "henry checks the millet.",
+      "henry harvests the millet.",
+      "henry cleans the millet.",
+      "henry stores the millet."
+    ],
+    "question": "Which crop does henry harvests?",
+    "answer": "millet"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "grace selects the millet.",
+      "grace plants the millet.",
+      "grace waters the millet.",
+      "henry checks the sorghum.",
+      "henry harvests the sorghum.",
+      "henry cleans the sorghum.",
+      "henry stores the sorghum."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "grace"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "grace selects the millet.",
+      "grace plants the millet.",
+      "grace waters the millet.",
+      "henry checks the sorghum.",
+      "henry harvests the sorghum.",
+      "henry cleans the sorghum.",
+      "henry stores the sorghum."
+    ],
+    "question": "Which crop does henry harvests?",
+    "answer": "sorghum"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "grace selects the sorghum.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Name the person who waters the sorghum.",
+    "answer": "grace"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "grace selects the sorghum.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Who eats the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "grace selects the sorghum.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Why does grace water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "grace selects the sorghum.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Who does not water the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "grace selects the sorghum.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "henry checks the lentils.",
+      "henry harvests the lentils.",
+      "henry cleans the lentils.",
+      "henry stores the lentils."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "grace"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "grace selects the sorghum.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "henry checks the lentils.",
+      "henry harvests the lentils.",
+      "henry cleans the lentils.",
+      "henry stores the lentils."
+    ],
+    "question": "Which crop does henry harvests?",
+    "answer": "lentils"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The sorghum are watered by grace.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "grace"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "grace never waters the sorghum.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "grace selects the lentils.",
+      "grace plants the lentils.",
+      "grace waters the lentils.",
+      "henry checks the beans.",
+      "henry harvests the beans.",
+      "henry cleans the beans.",
+      "henry stores the beans."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "grace"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "grace selects the lentils.",
+      "grace plants the lentils.",
+      "grace waters the lentils.",
+      "henry checks the beans.",
+      "henry harvests the beans.",
+      "henry cleans the beans.",
+      "henry stores the beans."
+    ],
+    "question": "Which crop does henry harvests?",
+    "answer": "beans"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "henry selects the beans.",
+      "henry plants the beans.",
+      "henry waters the beans.",
+      "alice checks the maize.",
+      "alice harvests the maize.",
+      "alice cleans the maize.",
+      "alice stores the maize."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "henry"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "henry selects the beans.",
+      "henry plants the beans.",
+      "henry waters the beans.",
+      "alice checks the maize.",
+      "alice harvests the maize.",
+      "alice cleans the maize.",
+      "alice stores the maize."
+    ],
+    "question": "Which crop does alice harvests?",
+    "answer": "maize"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "henry selects the maize.",
+      "henry plants the maize.",
+      "henry waters the maize.",
+      "henry checks the maize.",
+      "henry harvests the maize.",
+      "henry cleans the maize.",
+      "henry stores the maize."
+    ],
+    "question": "Name the person who waters the maize.",
+    "answer": "henry"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "henry selects the maize.",
+      "henry plants the maize.",
+      "henry waters the maize.",
+      "henry checks the maize.",
+      "henry harvests the maize.",
+      "henry cleans the maize.",
+      "henry stores the maize."
+    ],
+    "question": "Who eats the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "henry selects the maize.",
+      "henry plants the maize.",
+      "henry waters the maize.",
+      "henry checks the maize.",
+      "henry harvests the maize.",
+      "henry cleans the maize.",
+      "henry stores the maize."
+    ],
+    "question": "Why does henry water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "henry selects the maize.",
+      "henry plants the maize.",
+      "henry waters the maize.",
+      "henry checks the maize.",
+      "henry harvests the maize.",
+      "henry cleans the maize.",
+      "henry stores the maize."
+    ],
+    "question": "Who does not water the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "henry selects the maize.",
+      "henry plants the maize.",
+      "henry waters the maize.",
+      "alice checks the rice.",
+      "alice harvests the rice.",
+      "alice cleans the rice.",
+      "alice stores the rice."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "henry"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "henry selects the maize.",
+      "henry plants the maize.",
+      "henry waters the maize.",
+      "alice checks the rice.",
+      "alice harvests the rice.",
+      "alice cleans the rice.",
+      "alice stores the rice."
+    ],
+    "question": "Which crop does alice harvests?",
+    "answer": "rice"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The maize are watered by henry.",
+      "henry plants the maize.",
+      "henry waters the maize.",
+      "henry checks the maize.",
+      "henry harvests the maize.",
+      "henry cleans the maize.",
+      "henry stores the maize."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "henry"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "henry never waters the maize.",
+      "henry plants the maize.",
+      "henry waters the maize.",
+      "henry checks the maize.",
+      "henry harvests the maize.",
+      "henry cleans the maize.",
+      "henry stores the maize."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "henry selects the rice.",
+      "henry plants the rice.",
+      "henry waters the rice.",
+      "alice checks the wheat.",
+      "alice harvests the wheat.",
+      "alice cleans the wheat.",
+      "alice stores the wheat."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "henry"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "henry selects the rice.",
+      "henry plants the rice.",
+      "henry waters the rice.",
+      "alice checks the wheat.",
+      "alice harvests the wheat.",
+      "alice cleans the wheat.",
+      "alice stores the wheat."
+    ],
+    "question": "Which crop does alice harvests?",
+    "answer": "wheat"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "henry selects the wheat.",
+      "henry plants the wheat.",
+      "henry waters the wheat.",
+      "alice checks the peas.",
+      "alice harvests the peas.",
+      "alice cleans the peas.",
+      "alice stores the peas."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "henry"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "henry selects the wheat.",
+      "henry plants the wheat.",
+      "henry waters the wheat.",
+      "alice checks the peas.",
+      "alice harvests the peas.",
+      "alice cleans the peas.",
+      "alice stores the peas."
+    ],
+    "question": "Which crop does alice harvests?",
+    "answer": "peas"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "henry selects the peas.",
+      "henry plants the peas.",
+      "henry waters the peas.",
+      "alice checks the millet.",
+      "alice harvests the millet.",
+      "alice cleans the millet.",
+      "alice stores the millet."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "henry"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "henry selects the peas.",
+      "henry plants the peas.",
+      "henry waters the peas.",
+      "alice checks the millet.",
+      "alice harvests the millet.",
+      "alice cleans the millet.",
+      "alice stores the millet."
+    ],
+    "question": "Which crop does alice harvests?",
+    "answer": "millet"
+  },
+  {
+    "family": "paraphrase",
+    "observations": [
+      "henry selects the millet.",
+      "henry plants the millet.",
+      "henry waters the millet.",
+      "henry checks the millet.",
+      "henry harvests the millet.",
+      "henry cleans the millet.",
+      "henry stores the millet."
+    ],
+    "question": "Name the person who waters the millet.",
+    "answer": "henry"
+  },
+  {
+    "family": "missing_relation",
+    "observations": [
+      "henry selects the millet.",
+      "henry plants the millet.",
+      "henry waters the millet.",
+      "henry checks the millet.",
+      "henry harvests the millet.",
+      "henry cleans the millet.",
+      "henry stores the millet."
+    ],
+    "question": "Who eats the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "why_absent",
+    "observations": [
+      "henry selects the millet.",
+      "henry plants the millet.",
+      "henry waters the millet.",
+      "henry checks the millet.",
+      "henry harvests the millet.",
+      "henry cleans the millet.",
+      "henry stores the millet."
+    ],
+    "question": "Why does henry water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "negative_question",
+    "observations": [
+      "henry selects the millet.",
+      "henry plants the millet.",
+      "henry waters the millet.",
+      "henry checks the millet.",
+      "henry harvests the millet.",
+      "henry cleans the millet.",
+      "henry stores the millet."
+    ],
+    "question": "Who does not water the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "henry selects the millet.",
+      "henry plants the millet.",
+      "henry waters the millet.",
+      "alice checks the sorghum.",
+      "alice harvests the sorghum.",
+      "alice cleans the sorghum.",
+      "alice stores the sorghum."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "henry"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "henry selects the millet.",
+      "henry plants the millet.",
+      "henry waters the millet.",
+      "alice checks the sorghum.",
+      "alice harvests the sorghum.",
+      "alice cleans the sorghum.",
+      "alice stores the sorghum."
+    ],
+    "question": "Which crop does alice harvests?",
+    "answer": "sorghum"
+  },
+  {
+    "family": "unseen_grammar",
+    "observations": [
+      "The millet are watered by henry.",
+      "henry plants the millet.",
+      "henry waters the millet.",
+      "henry checks the millet.",
+      "henry harvests the millet.",
+      "henry cleans the millet.",
+      "henry stores the millet."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "henry"
+  },
+  {
+    "family": "negated_observation",
+    "observations": [
+      "henry never waters the millet.",
+      "henry plants the millet.",
+      "henry waters the millet.",
+      "henry checks the millet.",
+      "henry harvests the millet.",
+      "henry cleans the millet.",
+      "henry stores the millet."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "henry selects the sorghum.",
+      "henry plants the sorghum.",
+      "henry waters the sorghum.",
+      "alice checks the lentils.",
+      "alice harvests the lentils.",
+      "alice cleans the lentils.",
+      "alice stores the lentils."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "henry"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "henry selects the sorghum.",
+      "henry plants the sorghum.",
+      "henry waters the sorghum.",
+      "alice checks the lentils.",
+      "alice harvests the lentils.",
+      "alice cleans the lentils.",
+      "alice stores the lentils."
+    ],
+    "question": "Which crop does alice harvests?",
+    "answer": "lentils"
+  },
+  {
+    "family": "changing_actor",
+    "observations": [
+      "henry selects the lentils.",
+      "henry plants the lentils.",
+      "henry waters the lentils.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "henry"
+  },
+  {
+    "family": "changing_object",
+    "observations": [
+      "henry selects the lentils.",
+      "henry plants the lentils.",
+      "henry waters the lentils.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Which crop does alice harvests?",
+    "answer": "beans"
+  },
+  {
+    "family": "new_vocabulary",
+    "observations": [
+      "nia selects the pencil.",
+      "nia plants the pencil.",
+      "nia waters the pencil.",
+      "nia checks the pencil.",
+      "nia harvests the pencil.",
+      "nia cleans the pencil.",
+      "nia stores the pencil."
+    ],
+    "question": "Who waters the pencil?",
+    "answer": "nia"
+  },
+  {
+    "family": "new_vocabulary",
+    "observations": [
+      "omar selects the pencil.",
+      "omar plants the pencil.",
+      "omar waters the pencil.",
+      "omar checks the pencil.",
+      "omar harvests the pencil.",
+      "omar cleans the pencil.",
+      "omar stores the pencil."
+    ],
+    "question": "Who waters the pencil?",
+    "answer": "omar"
+  },
+  {
+    "family": "new_vocabulary",
+    "observations": [
+      "pia selects the pencil.",
+      "pia plants the pencil.",
+      "pia waters the pencil.",
+      "pia checks the pencil.",
+      "pia harvests the pencil.",
+      "pia cleans the pencil.",
+      "pia stores the pencil."
+    ],
+    "question": "Who waters the pencil?",
+    "answer": "pia"
+  },
+  {
+    "family": "new_vocabulary",
+    "observations": [
+      "ravi selects the pencil.",
+      "ravi plants the pencil.",
+      "ravi waters the pencil.",
+      "ravi checks the pencil.",
+      "ravi harvests the pencil.",
+      "ravi cleans the pencil.",
+      "ravi stores the pencil."
+    ],
+    "question": "Who waters the pencil?",
+    "answer": "ravi"
+  },
+  {
+    "family": "fresh_wording",
+    "observations": [
+      "alice selects the beans.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Tell me who waters the beans.",
+    "answer": "alice"
+  },
+  {
+    "family": "fresh_missing_wording",
+    "observations": [
+      "alice selects the beans.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Name the person who eats the beans.",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "fresh_wording",
+    "observations": [
+      "brian selects the maize.",
+      "brian plants the maize.",
+      "brian waters the maize.",
+      "brian checks the maize.",
+      "brian harvests the maize.",
+      "brian cleans the maize.",
+      "brian stores the maize."
+    ],
+    "question": "Tell me who waters the maize.",
+    "answer": "brian"
+  },
+  {
+    "family": "fresh_missing_wording",
+    "observations": [
+      "brian selects the maize.",
+      "brian plants the maize.",
+      "brian waters the maize.",
+      "brian checks the maize.",
+      "brian harvests the maize.",
+      "brian cleans the maize.",
+      "brian stores the maize."
+    ],
+    "question": "Name the person who eats the maize.",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "fresh_wording",
+    "observations": [
+      "carol selects the rice.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Tell me who waters the rice.",
+    "answer": "carol"
+  },
+  {
+    "family": "fresh_missing_wording",
+    "observations": [
+      "carol selects the rice.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Name the person who eats the rice.",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "fresh_wording",
+    "observations": [
+      "david selects the wheat.",
+      "david plants the wheat.",
+      "david waters the wheat.",
+      "david checks the wheat.",
+      "david harvests the wheat.",
+      "david cleans the wheat.",
+      "david stores the wheat."
+    ],
+    "question": "Tell me who waters the wheat.",
+    "answer": "david"
+  },
+  {
+    "family": "fresh_missing_wording",
+    "observations": [
+      "david selects the wheat.",
+      "david plants the wheat.",
+      "david waters the wheat.",
+      "david checks the wheat.",
+      "david harvests the wheat.",
+      "david cleans the wheat.",
+      "david stores the wheat."
+    ],
+    "question": "Name the person who eats the wheat.",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "fresh_wording",
+    "observations": [
+      "eva selects the peas.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Tell me who waters the peas.",
+    "answer": "eva"
+  },
+  {
+    "family": "fresh_missing_wording",
+    "observations": [
+      "eva selects the peas.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Name the person who eats the peas.",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "fresh_wording",
+    "observations": [
+      "frank selects the millet.",
+      "frank plants the millet.",
+      "frank waters the millet.",
+      "frank checks the millet.",
+      "frank harvests the millet.",
+      "frank cleans the millet.",
+      "frank stores the millet."
+    ],
+    "question": "Tell me who waters the millet.",
+    "answer": "frank"
+  },
+  {
+    "family": "fresh_missing_wording",
+    "observations": [
+      "frank selects the millet.",
+      "frank plants the millet.",
+      "frank waters the millet.",
+      "frank checks the millet.",
+      "frank harvests the millet.",
+      "frank cleans the millet.",
+      "frank stores the millet."
+    ],
+    "question": "Name the person who eats the millet.",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "fresh_wording",
+    "observations": [
+      "grace selects the sorghum.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Tell me who waters the sorghum.",
+    "answer": "grace"
+  },
+  {
+    "family": "fresh_missing_wording",
+    "observations": [
+      "grace selects the sorghum.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Name the person who eats the sorghum.",
+    "answer": "insufficient evidence."
+  },
+  {
+    "family": "fresh_wording",
+    "observations": [
+      "henry selects the lentils.",
+      "henry plants the lentils.",
+      "henry waters the lentils.",
+      "henry checks the lentils.",
+      "henry harvests the lentils.",
+      "henry cleans the lentils.",
+      "henry stores the lentils."
+    ],
+    "question": "Tell me who waters the lentils.",
+    "answer": "henry"
+  },
+  {
+    "family": "fresh_missing_wording",
+    "observations": [
+      "henry selects the lentils.",
+      "henry plants the lentils.",
+      "henry waters the lentils.",
+      "henry checks the lentils.",
+      "henry harvests the lentils.",
+      "henry cleans the lentils.",
+      "henry stores the lentils."
+    ],
+    "question": "Name the person who eats the lentils.",
+    "answer": "insufficient evidence."
+  }
+]

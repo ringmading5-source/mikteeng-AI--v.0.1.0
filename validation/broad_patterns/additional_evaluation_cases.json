@@ -1,0 +1,482 @@
+[
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "alice waters the beans.",
+      "brian waters the beans.",
+      "alice checks the beans."
+    ],
+    "question": "Name everyone who waters the beans.",
+    "answer": "alice and brian"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "alice owns the beans.",
+      "brian waters the beans.",
+      "alice checks the beans."
+    ],
+    "question": "Who owns the beans?",
+    "answer": "alice"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "alice waters the beans because the beans need water.",
+      "alice checks the beans.",
+      "alice harvests the beans."
+    ],
+    "question": "Why does alice water the beans?",
+    "answer": "the beans need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "alice waters the maize.",
+      "brian waters the maize.",
+      "alice checks the maize."
+    ],
+    "question": "Name everyone who waters the maize.",
+    "answer": "alice and brian"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "alice owns the maize.",
+      "brian waters the maize.",
+      "alice checks the maize."
+    ],
+    "question": "Who owns the maize?",
+    "answer": "alice"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "alice waters the maize because the maize need water.",
+      "alice checks the maize.",
+      "alice harvests the maize."
+    ],
+    "question": "Why does alice water the maize?",
+    "answer": "the maize need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "alice waters the rice.",
+      "brian waters the rice.",
+      "alice checks the rice."
+    ],
+    "question": "Name everyone who waters the rice.",
+    "answer": "alice and brian"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "alice owns the rice.",
+      "brian waters the rice.",
+      "alice checks the rice."
+    ],
+    "question": "Who owns the rice?",
+    "answer": "alice"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "alice waters the rice because the rice need water.",
+      "alice checks the rice.",
+      "alice harvests the rice."
+    ],
+    "question": "Why does alice water the rice?",
+    "answer": "the rice need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "alice waters the wheat.",
+      "brian waters the wheat.",
+      "alice checks the wheat."
+    ],
+    "question": "Name everyone who waters the wheat.",
+    "answer": "alice and brian"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "alice owns the wheat.",
+      "brian waters the wheat.",
+      "alice checks the wheat."
+    ],
+    "question": "Who owns the wheat?",
+    "answer": "alice"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "alice waters the wheat because the wheat need water.",
+      "alice checks the wheat.",
+      "alice harvests the wheat."
+    ],
+    "question": "Why does alice water the wheat?",
+    "answer": "the wheat need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "brian waters the beans.",
+      "carol waters the beans.",
+      "brian checks the beans."
+    ],
+    "question": "Name everyone who waters the beans.",
+    "answer": "brian and carol"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "brian owns the beans.",
+      "carol waters the beans.",
+      "brian checks the beans."
+    ],
+    "question": "Who owns the beans?",
+    "answer": "brian"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "brian waters the beans because the beans need water.",
+      "brian checks the beans.",
+      "brian harvests the beans."
+    ],
+    "question": "Why does brian water the beans?",
+    "answer": "the beans need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "brian waters the maize.",
+      "carol waters the maize.",
+      "brian checks the maize."
+    ],
+    "question": "Name everyone who waters the maize.",
+    "answer": "brian and carol"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "brian owns the maize.",
+      "carol waters the maize.",
+      "brian checks the maize."
+    ],
+    "question": "Who owns the maize?",
+    "answer": "brian"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "brian waters the maize because the maize need water.",
+      "brian checks the maize.",
+      "brian harvests the maize."
+    ],
+    "question": "Why does brian water the maize?",
+    "answer": "the maize need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "brian waters the rice.",
+      "carol waters the rice.",
+      "brian checks the rice."
+    ],
+    "question": "Name everyone who waters the rice.",
+    "answer": "brian and carol"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "brian owns the rice.",
+      "carol waters the rice.",
+      "brian checks the rice."
+    ],
+    "question": "Who owns the rice?",
+    "answer": "brian"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "brian waters the rice because the rice need water.",
+      "brian checks the rice.",
+      "brian harvests the rice."
+    ],
+    "question": "Why does brian water the rice?",
+    "answer": "the rice need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "brian waters the wheat.",
+      "carol waters the wheat.",
+      "brian checks the wheat."
+    ],
+    "question": "Name everyone who waters the wheat.",
+    "answer": "brian and carol"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "brian owns the wheat.",
+      "carol waters the wheat.",
+      "brian checks the wheat."
+    ],
+    "question": "Who owns the wheat?",
+    "answer": "brian"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "brian waters the wheat because the wheat need water.",
+      "brian checks the wheat.",
+      "brian harvests the wheat."
+    ],
+    "question": "Why does brian water the wheat?",
+    "answer": "the wheat need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "carol waters the beans.",
+      "david waters the beans.",
+      "carol checks the beans."
+    ],
+    "question": "Name everyone who waters the beans.",
+    "answer": "carol and david"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "carol owns the beans.",
+      "david waters the beans.",
+      "carol checks the beans."
+    ],
+    "question": "Who owns the beans?",
+    "answer": "carol"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "carol waters the beans because the beans need water.",
+      "carol checks the beans.",
+      "carol harvests the beans."
+    ],
+    "question": "Why does carol water the beans?",
+    "answer": "the beans need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "carol waters the maize.",
+      "david waters the maize.",
+      "carol checks the maize."
+    ],
+    "question": "Name everyone who waters the maize.",
+    "answer": "carol and david"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "carol owns the maize.",
+      "david waters the maize.",
+      "carol checks the maize."
+    ],
+    "question": "Who owns the maize?",
+    "answer": "carol"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "carol waters the maize because the maize need water.",
+      "carol checks the maize.",
+      "carol harvests the maize."
+    ],
+    "question": "Why does carol water the maize?",
+    "answer": "the maize need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "carol waters the rice.",
+      "david waters the rice.",
+      "carol checks the rice."
+    ],
+    "question": "Name everyone who waters the rice.",
+    "answer": "carol and david"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "carol owns the rice.",
+      "david waters the rice.",
+      "carol checks the rice."
+    ],
+    "question": "Who owns the rice?",
+    "answer": "carol"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "carol waters the rice because the rice need water.",
+      "carol checks the rice.",
+      "carol harvests the rice."
+    ],
+    "question": "Why does carol water the rice?",
+    "answer": "the rice need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "carol waters the wheat.",
+      "david waters the wheat.",
+      "carol checks the wheat."
+    ],
+    "question": "Name everyone who waters the wheat.",
+    "answer": "carol and david"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "carol owns the wheat.",
+      "david waters the wheat.",
+      "carol checks the wheat."
+    ],
+    "question": "Who owns the wheat?",
+    "answer": "carol"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "carol waters the wheat because the wheat need water.",
+      "carol checks the wheat.",
+      "carol harvests the wheat."
+    ],
+    "question": "Why does carol water the wheat?",
+    "answer": "the wheat need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "david waters the beans.",
+      "alice waters the beans.",
+      "david checks the beans."
+    ],
+    "question": "Name everyone who waters the beans.",
+    "answer": "david and alice"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "david owns the beans.",
+      "alice waters the beans.",
+      "david checks the beans."
+    ],
+    "question": "Who owns the beans?",
+    "answer": "david"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "david waters the beans because the beans need water.",
+      "david checks the beans.",
+      "david harvests the beans."
+    ],
+    "question": "Why does david water the beans?",
+    "answer": "the beans need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "david waters the maize.",
+      "alice waters the maize.",
+      "david checks the maize."
+    ],
+    "question": "Name everyone who waters the maize.",
+    "answer": "david and alice"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "david owns the maize.",
+      "alice waters the maize.",
+      "david checks the maize."
+    ],
+    "question": "Who owns the maize?",
+    "answer": "david"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "david waters the maize because the maize need water.",
+      "david checks the maize.",
+      "david harvests the maize."
+    ],
+    "question": "Why does david water the maize?",
+    "answer": "the maize need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "david waters the rice.",
+      "alice waters the rice.",
+      "david checks the rice."
+    ],
+    "question": "Name everyone who waters the rice.",
+    "answer": "david and alice"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "david owns the rice.",
+      "alice waters the rice.",
+      "david checks the rice."
+    ],
+    "question": "Who owns the rice?",
+    "answer": "david"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "david waters the rice because the rice need water.",
+      "david checks the rice.",
+      "david harvests the rice."
+    ],
+    "question": "Why does david water the rice?",
+    "answer": "the rice need water"
+  },
+  {
+    "family": "multiple_actors",
+    "observations": [
+      "david waters the wheat.",
+      "alice waters the wheat.",
+      "david checks the wheat."
+    ],
+    "question": "Name everyone who waters the wheat.",
+    "answer": "david and alice"
+  },
+  {
+    "family": "possession",
+    "observations": [
+      "david owns the wheat.",
+      "alice waters the wheat.",
+      "david checks the wheat."
+    ],
+    "question": "Who owns the wheat?",
+    "answer": "david"
+  },
+  {
+    "family": "explicit_cause",
+    "observations": [
+      "david waters the wheat because the wheat need water.",
+      "david checks the wheat.",
+      "david harvests the wheat."
+    ],
+    "question": "Why does david water the wheat?",
+    "answer": "the wheat need water"
+  }
+]
