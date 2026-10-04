@@ -71,3 +71,27 @@ class RankedEvidenceSelf(EvidenceSelf):
             self.weights.update(target[1]);self.weights.subtract(best[1]);self.updates+=1
         self.totals[1]+=1
         return self
+
+class SpanEvidenceSelf(RankedEvidenceSelf):
+    """Learn contiguous word-span selection with a bounded candidate window."""
+    def __init__(self,max_span=3):
+        if not isinstance(max_span,int) or max_span<1:raise ValueError('Positive span bound required')
+        super().__init__();self.max_span=max_span
+    def views(self,question,observations):
+        original=iter(super().views(question,observations))
+        yield next(original)
+        sentences=[re.findall(r'\w+',s) for s in re.split(r'[.!?]+',observations) if s.strip()]
+        for sentence in sentences:
+            token_features=[next(original)[1] for _ in sentence]
+            for start in range(len(sentence)):
+                for length in range(1,min(self.max_span,len(sentence)-start)+1):
+                    end=start+length-1
+                    features={'span:length:'+str(length)}
+                    features|={'start:'+f for f in token_features[start] if not f.startswith('neighbor:')}
+                    features|={'end:'+f for f in token_features[end] if not f.startswith('neighbor:')}
+                    features.add('span:sentence_start:'+str(int(start==0)))
+                    features.add('span:sentence_end:'+str(int(end==len(sentence)-1)))
+                    for offset in [1,2]:
+                        if end+offset<len(sentence):features.add(f'after:{offset}:{sentence[end+offset].lower()}')
+                        if start-offset>=0:features.add(f'before:{offset}:{sentence[start-offset].lower()}')
+                    yield ' '.join(sentence[start:end+1]),features

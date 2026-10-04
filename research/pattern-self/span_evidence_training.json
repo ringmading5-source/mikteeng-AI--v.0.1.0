@@ -1,0 +1,2722 @@
+[
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice holds the book.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian holds the cup. Alice holds the book.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice holds the book. Brian holds the cup.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice holds the cup.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian holds the bag. Alice holds the cup.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice holds the cup. Brian holds the bag.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice holds the bag.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian holds the key. Alice holds the bag.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice holds the bag. Brian holds the key.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice holds the key.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian holds the book. Alice holds the key.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice holds the key. Brian holds the book.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian holds the book.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol holds the cup. Brian holds the book.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian holds the book. Carol holds the cup.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian holds the cup.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol holds the bag. Brian holds the cup.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian holds the cup. Carol holds the bag.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian holds the bag.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol holds the key. Brian holds the bag.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian holds the bag. Carol holds the key.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian holds the key.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol holds the book. Brian holds the key.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian holds the key. Carol holds the book.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol holds the book.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David holds the cup. Carol holds the book.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol holds the book. David holds the cup.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol holds the cup.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David holds the bag. Carol holds the cup.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol holds the cup. David holds the bag.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol holds the bag.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David holds the key. Carol holds the bag.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol holds the bag. David holds the key.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol holds the key.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David holds the book. Carol holds the key.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol holds the key. David holds the book.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David holds the book.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice holds the cup. David holds the book.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David holds the book. Alice holds the cup.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David holds the cup.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice holds the bag. David holds the cup.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David holds the cup. Alice holds the bag.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David holds the bag.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice holds the key. David holds the bag.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David holds the bag. Alice holds the key.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David holds the key.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice holds the book. David holds the key.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David holds the key. Alice holds the book.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian holds the cup. The book is held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book was held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian holds the cup. The book was held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice never holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice never holds the book. Brian holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice never holds the book. Brian holds the book.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian holds the book. Alice never holds the book.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice does not hold the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice does not hold the book. Brian holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice does not hold the book. Brian holds the book.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian holds the book. Alice does not hold the book.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian holds the bag. The cup is held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup was held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian holds the bag. The cup was held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice never holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice never holds the cup. Brian holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice never holds the cup. Brian holds the cup.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian holds the cup. Alice never holds the cup.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice does not hold the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice does not hold the cup. Brian holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice does not hold the cup. Brian holds the cup.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian holds the cup. Alice does not hold the cup.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian holds the key. The bag is held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag was held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian holds the key. The bag was held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice never holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice never holds the bag. Brian holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice never holds the bag. Brian holds the bag.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian holds the bag. Alice never holds the bag.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice does not hold the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice does not hold the bag. Brian holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice does not hold the bag. Brian holds the bag.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian holds the bag. Alice does not hold the bag.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian holds the book. The key is held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key was held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian holds the book. The key was held by Alice.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice never holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice never holds the key. Brian holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice never holds the key. Brian holds the key.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian holds the key. Alice never holds the key.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice does not hold the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice does not hold the key. Brian holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice does not hold the key. Brian holds the key.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian holds the key. Alice does not hold the key.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol holds the cup. The book is held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book was held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol holds the cup. The book was held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian never holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian never holds the book. Carol holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian never holds the book. Carol holds the book.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol holds the book. Brian never holds the book.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian does not hold the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian does not hold the book. Carol holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Brian does not hold the book. Carol holds the book.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol holds the book. Brian does not hold the book.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol holds the bag. The cup is held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup was held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol holds the bag. The cup was held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian never holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian never holds the cup. Carol holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian never holds the cup. Carol holds the cup.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol holds the cup. Brian never holds the cup.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian does not hold the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian does not hold the cup. Carol holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Brian does not hold the cup. Carol holds the cup.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol holds the cup. Brian does not hold the cup.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol holds the key. The bag is held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag was held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol holds the key. The bag was held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian never holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian never holds the bag. Carol holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian never holds the bag. Carol holds the bag.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol holds the bag. Brian never holds the bag.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian does not hold the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian does not hold the bag. Carol holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Brian does not hold the bag. Carol holds the bag.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol holds the bag. Brian does not hold the bag.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol holds the book. The key is held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key was held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol holds the book. The key was held by Brian.",
+    "answer": "Brian"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian never holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian never holds the key. Carol holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian never holds the key. Carol holds the key.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol holds the key. Brian never holds the key.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian does not hold the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian does not hold the key. Carol holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Brian does not hold the key. Carol holds the key.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol holds the key. Brian does not hold the key.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David holds the cup. The book is held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book was held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David holds the cup. The book was held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol never holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol never holds the book. David holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol never holds the book. David holds the book.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David holds the book. Carol never holds the book.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol does not hold the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol does not hold the book. David holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Carol does not hold the book. David holds the book.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David holds the book. Carol does not hold the book.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David holds the bag. The cup is held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup was held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David holds the bag. The cup was held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol never holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol never holds the cup. David holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol never holds the cup. David holds the cup.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David holds the cup. Carol never holds the cup.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol does not hold the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol does not hold the cup. David holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Carol does not hold the cup. David holds the cup.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David holds the cup. Carol does not hold the cup.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David holds the key. The bag is held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag was held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David holds the key. The bag was held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol never holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol never holds the bag. David holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol never holds the bag. David holds the bag.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David holds the bag. Carol never holds the bag.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol does not hold the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol does not hold the bag. David holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Carol does not hold the bag. David holds the bag.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David holds the bag. Carol does not hold the bag.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David holds the book. The key is held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key was held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David holds the book. The key was held by Carol.",
+    "answer": "Carol"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol never holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol never holds the key. David holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol never holds the key. David holds the key.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David holds the key. Carol never holds the key.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol does not hold the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol does not hold the key. David holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Carol does not hold the key. David holds the key.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David holds the key. Carol does not hold the key.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice holds the cup. The book is held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book was held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice holds the cup. The book was held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David never holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David never holds the book. Alice holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David never holds the book. Alice holds the book.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice holds the book. David never holds the book.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David does not hold the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David does not hold the book. Alice holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "David does not hold the book. Alice holds the book.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Alice holds the book. David does not hold the book.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice holds the bag. The cup is held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup was held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice holds the bag. The cup was held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David never holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David never holds the cup. Alice holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David never holds the cup. Alice holds the cup.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice holds the cup. David never holds the cup.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David does not hold the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David does not hold the cup. Alice holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "David does not hold the cup. Alice holds the cup.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Alice holds the cup. David does not hold the cup.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice holds the key. The bag is held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag was held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice holds the key. The bag was held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David never holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David never holds the bag. Alice holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David never holds the bag. Alice holds the bag.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice holds the bag. David never holds the bag.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David does not hold the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David does not hold the bag. Alice holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "David does not hold the bag. Alice holds the bag.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Alice holds the bag. David does not hold the bag.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice holds the book. The key is held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key was held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice holds the book. The key was held by David.",
+    "answer": "David"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David never holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David never holds the key. Alice holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David never holds the key. Alice holds the key.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice holds the key. David never holds the key.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David does not hold the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David does not hold the key. Alice holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "David does not hold the key. Alice holds the key.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Alice holds the key. David does not hold the key.",
+    "answer": "Alice"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane holds the book.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul holds the cup. Mary Jane holds the book.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane holds the book. John Paul holds the cup.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane holds the cup.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul holds the bag. Mary Jane holds the cup.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane holds the cup. John Paul holds the bag.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane holds the bag.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul holds the key. Mary Jane holds the bag.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane holds the bag. John Paul holds the key.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane holds the key.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul holds the book. Mary Jane holds the key.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane holds the key. John Paul holds the book.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul holds the book.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee holds the cup. John Paul holds the book.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul holds the book. Anna Maria Lee holds the cup.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul holds the cup.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee holds the bag. John Paul holds the cup.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul holds the cup. Anna Maria Lee holds the bag.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul holds the bag.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee holds the key. John Paul holds the bag.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul holds the bag. Anna Maria Lee holds the key.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul holds the key.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee holds the book. John Paul holds the key.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul holds the key. Anna Maria Lee holds the book.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee holds the book.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole holds the cup. Anna Maria Lee holds the book.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee holds the book. James Arthur Cole holds the cup.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee holds the cup.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole holds the bag. Anna Maria Lee holds the cup.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee holds the cup. James Arthur Cole holds the bag.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee holds the bag.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole holds the key. Anna Maria Lee holds the bag.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee holds the bag. James Arthur Cole holds the key.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee holds the key.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole holds the book. Anna Maria Lee holds the key.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee holds the key. James Arthur Cole holds the book.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole holds the book.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane holds the cup. James Arthur Cole holds the book.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole holds the book. Mary Jane holds the cup.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole holds the cup.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane holds the bag. James Arthur Cole holds the cup.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole holds the cup. Mary Jane holds the bag.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole holds the bag.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane holds the key. James Arthur Cole holds the bag.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole holds the bag. Mary Jane holds the key.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole holds the key.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane holds the book. James Arthur Cole holds the key.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole holds the key. Mary Jane holds the book.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is on the table.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul holds the cup. The book is held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book was held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul holds the cup. The book was held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane never holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane never holds the book. John Paul holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane never holds the book. John Paul holds the book.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul holds the book. Mary Jane never holds the book.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane does not hold the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane does not hold the book. John Paul holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane does not hold the book. John Paul holds the book.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul holds the book. Mary Jane does not hold the book.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul holds the bag. The cup is held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup was held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul holds the bag. The cup was held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane never holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane never holds the cup. John Paul holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane never holds the cup. John Paul holds the cup.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul holds the cup. Mary Jane never holds the cup.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane does not hold the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane does not hold the cup. John Paul holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane does not hold the cup. John Paul holds the cup.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul holds the cup. Mary Jane does not hold the cup.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul holds the key. The bag is held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag was held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul holds the key. The bag was held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane never holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane never holds the bag. John Paul holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane never holds the bag. John Paul holds the bag.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul holds the bag. Mary Jane never holds the bag.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane does not hold the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane does not hold the bag. John Paul holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane does not hold the bag. John Paul holds the bag.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul holds the bag. Mary Jane does not hold the bag.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul holds the book. The key is held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key was held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul holds the book. The key was held by Mary Jane.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane never holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane never holds the key. John Paul holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane never holds the key. John Paul holds the key.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul holds the key. Mary Jane never holds the key.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane does not hold the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane does not hold the key. John Paul holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane does not hold the key. John Paul holds the key.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul holds the key. Mary Jane does not hold the key.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee holds the cup. The book is held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book was held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee holds the cup. The book was held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul never holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul never holds the book. Anna Maria Lee holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul never holds the book. Anna Maria Lee holds the book.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee holds the book. John Paul never holds the book.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul does not hold the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul does not hold the book. Anna Maria Lee holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "John Paul does not hold the book. Anna Maria Lee holds the book.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee holds the book. John Paul does not hold the book.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee holds the bag. The cup is held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup was held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee holds the bag. The cup was held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul never holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul never holds the cup. Anna Maria Lee holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul never holds the cup. Anna Maria Lee holds the cup.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee holds the cup. John Paul never holds the cup.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul does not hold the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul does not hold the cup. Anna Maria Lee holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "John Paul does not hold the cup. Anna Maria Lee holds the cup.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee holds the cup. John Paul does not hold the cup.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee holds the key. The bag is held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag was held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee holds the key. The bag was held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul never holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul never holds the bag. Anna Maria Lee holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul never holds the bag. Anna Maria Lee holds the bag.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee holds the bag. John Paul never holds the bag.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul does not hold the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul does not hold the bag. Anna Maria Lee holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "John Paul does not hold the bag. Anna Maria Lee holds the bag.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee holds the bag. John Paul does not hold the bag.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee holds the book. The key is held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key was held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee holds the book. The key was held by John Paul.",
+    "answer": "John Paul"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul never holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul never holds the key. Anna Maria Lee holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul never holds the key. Anna Maria Lee holds the key.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee holds the key. John Paul never holds the key.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul does not hold the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul does not hold the key. Anna Maria Lee holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "John Paul does not hold the key. Anna Maria Lee holds the key.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee holds the key. John Paul does not hold the key.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole holds the cup. The book is held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book was held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole holds the cup. The book was held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee never holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee never holds the book. James Arthur Cole holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee never holds the book. James Arthur Cole holds the book.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole holds the book. Anna Maria Lee never holds the book.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee does not hold the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee does not hold the book. James Arthur Cole holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Anna Maria Lee does not hold the book. James Arthur Cole holds the book.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole holds the book. Anna Maria Lee does not hold the book.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole holds the bag. The cup is held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup was held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole holds the bag. The cup was held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee never holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee never holds the cup. James Arthur Cole holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee never holds the cup. James Arthur Cole holds the cup.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole holds the cup. Anna Maria Lee never holds the cup.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee does not hold the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee does not hold the cup. James Arthur Cole holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Anna Maria Lee does not hold the cup. James Arthur Cole holds the cup.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole holds the cup. Anna Maria Lee does not hold the cup.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole holds the key. The bag is held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag was held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole holds the key. The bag was held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee never holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee never holds the bag. James Arthur Cole holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee never holds the bag. James Arthur Cole holds the bag.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole holds the bag. Anna Maria Lee never holds the bag.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee does not hold the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee does not hold the bag. James Arthur Cole holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Anna Maria Lee does not hold the bag. James Arthur Cole holds the bag.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole holds the bag. Anna Maria Lee does not hold the bag.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole holds the book. The key is held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key was held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole holds the book. The key was held by Anna Maria Lee.",
+    "answer": "Anna Maria Lee"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee never holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee never holds the key. James Arthur Cole holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee never holds the key. James Arthur Cole holds the key.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole holds the key. Anna Maria Lee never holds the key.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee does not hold the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee does not hold the key. James Arthur Cole holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Anna Maria Lee does not hold the key. James Arthur Cole holds the key.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole holds the key. Anna Maria Lee does not hold the key.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book is held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane holds the cup. The book is held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "The book was held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane holds the cup. The book was held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole never holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole never holds the book. Mary Jane holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole never holds the book. Mary Jane holds the book.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane holds the book. James Arthur Cole never holds the book.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole does not hold the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole does not hold the book. Mary Jane holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "James Arthur Cole does not hold the book. Mary Jane holds the book.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the book?",
+    "observations": "Mary Jane holds the book. James Arthur Cole does not hold the book.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup is held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane holds the bag. The cup is held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "The cup was held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane holds the bag. The cup was held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole never holds the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole never holds the cup. Mary Jane holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole never holds the cup. Mary Jane holds the cup.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane holds the cup. James Arthur Cole never holds the cup.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole does not hold the cup.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole does not hold the cup. Mary Jane holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "James Arthur Cole does not hold the cup. Mary Jane holds the cup.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the cup?",
+    "observations": "Mary Jane holds the cup. James Arthur Cole does not hold the cup.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag is held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane holds the key. The bag is held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "The bag was held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane holds the key. The bag was held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole never holds the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole never holds the bag. Mary Jane holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole never holds the bag. Mary Jane holds the bag.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane holds the bag. James Arthur Cole never holds the bag.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole does not hold the bag.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole does not hold the bag. Mary Jane holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "James Arthur Cole does not hold the bag. Mary Jane holds the bag.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the bag?",
+    "observations": "Mary Jane holds the bag. James Arthur Cole does not hold the bag.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key is held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane holds the book. The key is held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "The key was held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane holds the book. The key was held by James Arthur Cole.",
+    "answer": "James Arthur Cole"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole never holds the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole never holds the key. Mary Jane holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole never holds the key. Mary Jane holds the key.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane holds the key. James Arthur Cole never holds the key.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole does not hold the key.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole does not hold the key. Mary Jane holds the book.",
+    "answer": null
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "James Arthur Cole does not hold the key. Mary Jane holds the key.",
+    "answer": "Mary Jane"
+  },
+  {
+    "question": "Who holds the key?",
+    "observations": "Mary Jane holds the key. James Arthur Cole does not hold the key.",
+    "answer": "Mary Jane"
+  }
+]

@@ -1,0 +1,4918 @@
+{
+  "training_rows": 544,
+  "passes": 30,
+  "max_span": 3,
+  "scope": "Unseen names/objects; familiar grammar, contiguous answers up to 3 words. Designed span enumeration and boundary features.",
+  "tests": {
+    "prior_single_token": {
+      "correct": 272,
+      "total": 272,
+      "outputs": [
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia holds the pencil.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar holds the basket. Nia holds the pencil.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia holds the pencil. Omar holds the basket.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia holds the basket.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar holds the coin. Nia holds the basket.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia holds the basket. Omar holds the coin.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia holds the coin.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar holds the bottle. Nia holds the coin.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia holds the coin. Omar holds the bottle.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia holds the bottle.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar holds the pencil. Nia holds the bottle.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia holds the bottle. Omar holds the pencil.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar holds the pencil.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia holds the basket. Omar holds the pencil.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar holds the pencil. Pia holds the basket.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar holds the basket.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia holds the coin. Omar holds the basket.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar holds the basket. Pia holds the coin.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar holds the coin.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia holds the bottle. Omar holds the coin.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar holds the coin. Pia holds the bottle.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar holds the bottle.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia holds the pencil. Omar holds the bottle.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar holds the bottle. Pia holds the pencil.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia holds the pencil.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi holds the basket. Pia holds the pencil.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia holds the pencil. Ravi holds the basket.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia holds the basket.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi holds the coin. Pia holds the basket.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia holds the basket. Ravi holds the coin.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia holds the coin.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi holds the bottle. Pia holds the coin.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia holds the coin. Ravi holds the bottle.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia holds the bottle.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi holds the pencil. Pia holds the bottle.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia holds the bottle. Ravi holds the pencil.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi holds the pencil.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia holds the basket. Ravi holds the pencil.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi holds the pencil. Nia holds the basket.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi holds the basket.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia holds the coin. Ravi holds the basket.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi holds the basket. Nia holds the coin.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi holds the coin.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia holds the bottle. Ravi holds the coin.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi holds the coin. Nia holds the bottle.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi holds the bottle.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia holds the pencil. Ravi holds the bottle.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi holds the bottle. Nia holds the pencil.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar holds the basket. The pencil is held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil was held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar holds the basket. The pencil was held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia never holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia never holds the pencil. Omar holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia never holds the pencil. Omar holds the pencil.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar holds the pencil. Nia never holds the pencil.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia does not hold the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia does not hold the pencil. Omar holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia does not hold the pencil. Omar holds the pencil.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar holds the pencil. Nia does not hold the pencil.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar holds the coin. The basket is held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket was held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar holds the coin. The basket was held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia never holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia never holds the basket. Omar holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia never holds the basket. Omar holds the basket.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar holds the basket. Nia never holds the basket.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia does not hold the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia does not hold the basket. Omar holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia does not hold the basket. Omar holds the basket.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar holds the basket. Nia does not hold the basket.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar holds the bottle. The coin is held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin was held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar holds the bottle. The coin was held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia never holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia never holds the coin. Omar holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia never holds the coin. Omar holds the coin.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar holds the coin. Nia never holds the coin.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia does not hold the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia does not hold the coin. Omar holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia does not hold the coin. Omar holds the coin.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar holds the coin. Nia does not hold the coin.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar holds the pencil. The bottle is held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle was held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar holds the pencil. The bottle was held by Nia.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia never holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia never holds the bottle. Omar holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia never holds the bottle. Omar holds the bottle.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar holds the bottle. Nia never holds the bottle.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia does not hold the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia does not hold the bottle. Omar holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia does not hold the bottle. Omar holds the bottle.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar holds the bottle. Nia does not hold the bottle.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia holds the basket. The pencil is held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil was held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia holds the basket. The pencil was held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar never holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar never holds the pencil. Pia holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar never holds the pencil. Pia holds the pencil.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia holds the pencil. Omar never holds the pencil.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar does not hold the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar does not hold the pencil. Pia holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar does not hold the pencil. Pia holds the pencil.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia holds the pencil. Omar does not hold the pencil.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia holds the coin. The basket is held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket was held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia holds the coin. The basket was held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar never holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar never holds the basket. Pia holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar never holds the basket. Pia holds the basket.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia holds the basket. Omar never holds the basket.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar does not hold the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar does not hold the basket. Pia holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar does not hold the basket. Pia holds the basket.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia holds the basket. Omar does not hold the basket.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia holds the bottle. The coin is held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin was held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia holds the bottle. The coin was held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar never holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar never holds the coin. Pia holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar never holds the coin. Pia holds the coin.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia holds the coin. Omar never holds the coin.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar does not hold the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar does not hold the coin. Pia holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar does not hold the coin. Pia holds the coin.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia holds the coin. Omar does not hold the coin.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia holds the pencil. The bottle is held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle was held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia holds the pencil. The bottle was held by Omar.",
+          "expected": "Omar",
+          "prediction": "Omar",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar never holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar never holds the bottle. Pia holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar never holds the bottle. Pia holds the bottle.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia holds the bottle. Omar never holds the bottle.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar does not hold the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar does not hold the bottle. Pia holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar does not hold the bottle. Pia holds the bottle.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia holds the bottle. Omar does not hold the bottle.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi holds the basket. The pencil is held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil was held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi holds the basket. The pencil was held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia never holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia never holds the pencil. Ravi holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia never holds the pencil. Ravi holds the pencil.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi holds the pencil. Pia never holds the pencil.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia does not hold the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia does not hold the pencil. Ravi holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia does not hold the pencil. Ravi holds the pencil.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi holds the pencil. Pia does not hold the pencil.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi holds the coin. The basket is held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket was held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi holds the coin. The basket was held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia never holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia never holds the basket. Ravi holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia never holds the basket. Ravi holds the basket.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi holds the basket. Pia never holds the basket.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia does not hold the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia does not hold the basket. Ravi holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia does not hold the basket. Ravi holds the basket.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi holds the basket. Pia does not hold the basket.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi holds the bottle. The coin is held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin was held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi holds the bottle. The coin was held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia never holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia never holds the coin. Ravi holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia never holds the coin. Ravi holds the coin.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi holds the coin. Pia never holds the coin.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia does not hold the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia does not hold the coin. Ravi holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia does not hold the coin. Ravi holds the coin.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi holds the coin. Pia does not hold the coin.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi holds the pencil. The bottle is held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle was held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi holds the pencil. The bottle was held by Pia.",
+          "expected": "Pia",
+          "prediction": "Pia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia never holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia never holds the bottle. Ravi holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia never holds the bottle. Ravi holds the bottle.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi holds the bottle. Pia never holds the bottle.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia does not hold the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia does not hold the bottle. Ravi holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia does not hold the bottle. Ravi holds the bottle.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi holds the bottle. Pia does not hold the bottle.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia holds the basket. The pencil is held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil was held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia holds the basket. The pencil was held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi never holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi never holds the pencil. Nia holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi never holds the pencil. Nia holds the pencil.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia holds the pencil. Ravi never holds the pencil.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi does not hold the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi does not hold the pencil. Nia holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi does not hold the pencil. Nia holds the pencil.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia holds the pencil. Ravi does not hold the pencil.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia holds the coin. The basket is held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket was held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia holds the coin. The basket was held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi never holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi never holds the basket. Nia holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi never holds the basket. Nia holds the basket.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia holds the basket. Ravi never holds the basket.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi does not hold the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi does not hold the basket. Nia holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi does not hold the basket. Nia holds the basket.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Nia holds the basket. Ravi does not hold the basket.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia holds the bottle. The coin is held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin was held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia holds the bottle. The coin was held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi never holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi never holds the coin. Nia holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi never holds the coin. Nia holds the coin.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia holds the coin. Ravi never holds the coin.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi does not hold the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi does not hold the coin. Nia holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi does not hold the coin. Nia holds the coin.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Nia holds the coin. Ravi does not hold the coin.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia holds the pencil. The bottle is held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle was held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia holds the pencil. The bottle was held by Ravi.",
+          "expected": "Ravi",
+          "prediction": "Ravi",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi never holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi never holds the bottle. Nia holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi never holds the bottle. Nia holds the bottle.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia holds the bottle. Ravi never holds the bottle.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi does not hold the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi does not hold the bottle. Nia holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi does not hold the bottle. Nia holds the bottle.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Nia holds the bottle. Ravi does not hold the bottle.",
+          "expected": "Nia",
+          "prediction": "Nia",
+          "correct": true
+        }
+      ]
+    },
+    "unseen_multiword_names": {
+      "correct": 200,
+      "total": 272,
+      "outputs": [
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose holds the pencil.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali holds the basket. Lina Rose holds the pencil.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose holds the pencil. Omar Ali holds the basket.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose holds the basket.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali holds the coin. Lina Rose holds the basket.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose holds the basket. Omar Ali holds the coin.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose holds the coin.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali holds the bottle. Lina Rose holds the coin.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose holds the coin. Omar Ali holds the bottle.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose holds the bottle.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali holds the pencil. Lina Rose holds the bottle.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose holds the bottle. Omar Ali holds the pencil.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali holds the pencil.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon holds the basket. Omar Ali holds the pencil.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali holds the pencil. Pia Sera Moon holds the basket.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali holds the basket.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon holds the coin. Omar Ali holds the basket.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali holds the basket. Pia Sera Moon holds the coin.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali holds the coin.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon holds the bottle. Omar Ali holds the coin.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali holds the coin. Pia Sera Moon holds the bottle.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali holds the bottle.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon holds the pencil. Omar Ali holds the bottle.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali holds the bottle. Pia Sera Moon holds the pencil.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon holds the pencil.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev holds the basket. Pia Sera Moon holds the pencil.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon holds the pencil. Ravi Arun Dev holds the basket.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon holds the basket.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev holds the coin. Pia Sera Moon holds the basket.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon holds the basket. Ravi Arun Dev holds the coin.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon holds the coin.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev holds the bottle. Pia Sera Moon holds the coin.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon holds the coin. Ravi Arun Dev holds the bottle.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon holds the bottle.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev holds the pencil. Pia Sera Moon holds the bottle.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon holds the bottle. Ravi Arun Dev holds the pencil.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev holds the pencil.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose holds the basket. Ravi Arun Dev holds the pencil.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev holds the pencil. Lina Rose holds the basket.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev holds the basket.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose holds the coin. Ravi Arun Dev holds the basket.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev holds the basket. Lina Rose holds the coin.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev holds the coin.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose holds the bottle. Ravi Arun Dev holds the coin.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev holds the coin. Lina Rose holds the bottle.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev holds the bottle.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose holds the pencil. Ravi Arun Dev holds the bottle.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev holds the bottle. Lina Rose holds the pencil.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali holds the basket. The pencil is held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil was held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali holds the basket. The pencil was held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose never holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose never holds the pencil. Omar Ali holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose never holds the pencil. Omar Ali holds the pencil.",
+          "expected": "Omar Ali",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali holds the pencil. Lina Rose never holds the pencil.",
+          "expected": "Omar Ali",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose does not hold the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose does not hold the pencil. Omar Ali holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose does not hold the pencil. Omar Ali holds the pencil.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali holds the pencil. Lina Rose does not hold the pencil.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali holds the coin. The basket is held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket was held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali holds the coin. The basket was held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose never holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose never holds the basket. Omar Ali holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose never holds the basket. Omar Ali holds the basket.",
+          "expected": "Omar Ali",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali holds the basket. Lina Rose never holds the basket.",
+          "expected": "Omar Ali",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose does not hold the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose does not hold the basket. Omar Ali holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose does not hold the basket. Omar Ali holds the basket.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali holds the basket. Lina Rose does not hold the basket.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali holds the bottle. The coin is held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin was held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali holds the bottle. The coin was held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose never holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose never holds the coin. Omar Ali holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose never holds the coin. Omar Ali holds the coin.",
+          "expected": "Omar Ali",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali holds the coin. Lina Rose never holds the coin.",
+          "expected": "Omar Ali",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose does not hold the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose does not hold the coin. Omar Ali holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose does not hold the coin. Omar Ali holds the coin.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali holds the coin. Lina Rose does not hold the coin.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali holds the pencil. The bottle is held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle was held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali holds the pencil. The bottle was held by Lina Rose.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose never holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose never holds the bottle. Omar Ali holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose never holds the bottle. Omar Ali holds the bottle.",
+          "expected": "Omar Ali",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali holds the bottle. Lina Rose never holds the bottle.",
+          "expected": "Omar Ali",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose does not hold the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose does not hold the bottle. Omar Ali holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose does not hold the bottle. Omar Ali holds the bottle.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali holds the bottle. Lina Rose does not hold the bottle.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon holds the basket. The pencil is held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil was held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon holds the basket. The pencil was held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali never holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali never holds the pencil. Pia Sera Moon holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali never holds the pencil. Pia Sera Moon holds the pencil.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon holds the pencil. Omar Ali never holds the pencil.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali does not hold the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali does not hold the pencil. Pia Sera Moon holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Omar Ali does not hold the pencil. Pia Sera Moon holds the pencil.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon holds the pencil. Omar Ali does not hold the pencil.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon holds the coin. The basket is held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket was held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon holds the coin. The basket was held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali never holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali never holds the basket. Pia Sera Moon holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali never holds the basket. Pia Sera Moon holds the basket.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon holds the basket. Omar Ali never holds the basket.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali does not hold the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali does not hold the basket. Pia Sera Moon holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Omar Ali does not hold the basket. Pia Sera Moon holds the basket.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon holds the basket. Omar Ali does not hold the basket.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon holds the bottle. The coin is held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin was held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon holds the bottle. The coin was held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali never holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali never holds the coin. Pia Sera Moon holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali never holds the coin. Pia Sera Moon holds the coin.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon holds the coin. Omar Ali never holds the coin.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali does not hold the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali does not hold the coin. Pia Sera Moon holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Omar Ali does not hold the coin. Pia Sera Moon holds the coin.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon holds the coin. Omar Ali does not hold the coin.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon holds the pencil. The bottle is held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle was held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon holds the pencil. The bottle was held by Omar Ali.",
+          "expected": "Omar Ali",
+          "prediction": "Omar Ali",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali never holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali never holds the bottle. Pia Sera Moon holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali never holds the bottle. Pia Sera Moon holds the bottle.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon holds the bottle. Omar Ali never holds the bottle.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali does not hold the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali does not hold the bottle. Pia Sera Moon holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Omar Ali does not hold the bottle. Pia Sera Moon holds the bottle.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon holds the bottle. Omar Ali does not hold the bottle.",
+          "expected": "Pia Sera Moon",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev holds the basket. The pencil is held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil was held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev holds the basket. The pencil was held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon never holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon never holds the pencil. Ravi Arun Dev holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon never holds the pencil. Ravi Arun Dev holds the pencil.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev holds the pencil. Pia Sera Moon never holds the pencil.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon does not hold the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon does not hold the pencil. Ravi Arun Dev holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Pia Sera Moon does not hold the pencil. Ravi Arun Dev holds the pencil.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev holds the pencil. Pia Sera Moon does not hold the pencil.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev holds the coin. The basket is held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket was held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev holds the coin. The basket was held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon never holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon never holds the basket. Ravi Arun Dev holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon never holds the basket. Ravi Arun Dev holds the basket.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev holds the basket. Pia Sera Moon never holds the basket.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon does not hold the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon does not hold the basket. Ravi Arun Dev holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Pia Sera Moon does not hold the basket. Ravi Arun Dev holds the basket.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev holds the basket. Pia Sera Moon does not hold the basket.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev holds the bottle. The coin is held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin was held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev holds the bottle. The coin was held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon never holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon never holds the coin. Ravi Arun Dev holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon never holds the coin. Ravi Arun Dev holds the coin.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev holds the coin. Pia Sera Moon never holds the coin.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon does not hold the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon does not hold the coin. Ravi Arun Dev holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Pia Sera Moon does not hold the coin. Ravi Arun Dev holds the coin.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev holds the coin. Pia Sera Moon does not hold the coin.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev holds the pencil. The bottle is held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle was held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev holds the pencil. The bottle was held by Pia Sera Moon.",
+          "expected": "Pia Sera Moon",
+          "prediction": "Pia Sera Moon",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon never holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon never holds the bottle. Ravi Arun Dev holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon never holds the bottle. Ravi Arun Dev holds the bottle.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev holds the bottle. Pia Sera Moon never holds the bottle.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon does not hold the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon does not hold the bottle. Ravi Arun Dev holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Pia Sera Moon does not hold the bottle. Ravi Arun Dev holds the bottle.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev holds the bottle. Pia Sera Moon does not hold the bottle.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil is held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose holds the basket. The pencil is held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "The pencil was held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose holds the basket. The pencil was held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev never holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev never holds the pencil. Lina Rose holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev never holds the pencil. Lina Rose holds the pencil.",
+          "expected": "Lina Rose",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose holds the pencil. Ravi Arun Dev never holds the pencil.",
+          "expected": "Lina Rose",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev does not hold the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev does not hold the pencil. Lina Rose holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Ravi Arun Dev does not hold the pencil. Lina Rose holds the pencil.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Lina Rose holds the pencil. Ravi Arun Dev does not hold the pencil.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket is held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose holds the coin. The basket is held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "The basket was held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose holds the coin. The basket was held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev never holds the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev never holds the basket. Lina Rose holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev never holds the basket. Lina Rose holds the basket.",
+          "expected": "Lina Rose",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose holds the basket. Ravi Arun Dev never holds the basket.",
+          "expected": "Lina Rose",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev does not hold the basket.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev does not hold the basket. Lina Rose holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Ravi Arun Dev does not hold the basket. Lina Rose holds the basket.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the basket?",
+          "observations": "Lina Rose holds the basket. Ravi Arun Dev does not hold the basket.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin is held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose holds the bottle. The coin is held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "The coin was held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose holds the bottle. The coin was held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev never holds the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev never holds the coin. Lina Rose holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev never holds the coin. Lina Rose holds the coin.",
+          "expected": "Lina Rose",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose holds the coin. Ravi Arun Dev never holds the coin.",
+          "expected": "Lina Rose",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev does not hold the coin.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev does not hold the coin. Lina Rose holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Ravi Arun Dev does not hold the coin. Lina Rose holds the coin.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the coin?",
+          "observations": "Lina Rose holds the coin. Ravi Arun Dev does not hold the coin.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle is held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose holds the pencil. The bottle is held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "The bottle was held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose holds the pencil. The bottle was held by Ravi Arun Dev.",
+          "expected": "Ravi Arun Dev",
+          "prediction": "Ravi Arun Dev",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev never holds the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev never holds the bottle. Lina Rose holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev never holds the bottle. Lina Rose holds the bottle.",
+          "expected": "Lina Rose",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose holds the bottle. Ravi Arun Dev never holds the bottle.",
+          "expected": "Lina Rose",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev does not hold the bottle.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev does not hold the bottle. Lina Rose holds the pencil.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Ravi Arun Dev does not hold the bottle. Lina Rose holds the bottle.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        },
+        {
+          "question": "Who holds the bottle?",
+          "observations": "Lina Rose holds the bottle. Ravi Arun Dev does not hold the bottle.",
+          "expected": "Lina Rose",
+          "prediction": "Lina Rose",
+          "correct": true
+        }
+      ]
+    },
+    "fresh_mixed_names": {
+      "correct": 126,
+      "total": 153,
+      "outputs": [
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin holds the rope.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor holds the stone. Elin holds the rope.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin holds the rope. Farah Noor holds the stone.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "The rope is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin holds the stone.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor holds the hat. Elin holds the stone.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin holds the stone. Farah Noor holds the hat.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "The stone is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin holds the hat.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor holds the rope. Elin holds the hat.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin holds the hat. Farah Noor holds the rope.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "The hat is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor holds the rope.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim holds the stone. Farah Noor holds the rope.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor holds the rope. Goran Ayo Kim holds the stone.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "The rope is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor holds the stone.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim holds the hat. Farah Noor holds the stone.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor holds the stone. Goran Ayo Kim holds the hat.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "The stone is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor holds the hat.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim holds the rope. Farah Noor holds the hat.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor holds the hat. Goran Ayo Kim holds the rope.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "The hat is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim holds the rope.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin holds the stone. Goran Ayo Kim holds the rope.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim holds the rope. Elin holds the stone.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "The rope is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim holds the stone.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin holds the hat. Goran Ayo Kim holds the stone.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim holds the stone. Elin holds the hat.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "The stone is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim holds the hat.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin holds the rope. Goran Ayo Kim holds the hat.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim holds the hat. Elin holds the rope.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "The hat is on the table.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "The rope is held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor holds the stone. The rope is held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "The rope was held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor holds the stone. The rope was held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin never holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin never holds the rope. Farah Noor holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin never holds the rope. Farah Noor holds the rope.",
+          "expected": "Farah Noor",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor holds the rope. Elin never holds the rope.",
+          "expected": "Farah Noor",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin does not hold the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin does not hold the rope. Farah Noor holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin does not hold the rope. Farah Noor holds the rope.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor holds the rope. Elin does not hold the rope.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "The stone is held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor holds the hat. The stone is held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "The stone was held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor holds the hat. The stone was held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin never holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin never holds the stone. Farah Noor holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin never holds the stone. Farah Noor holds the stone.",
+          "expected": "Farah Noor",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor holds the stone. Elin never holds the stone.",
+          "expected": "Farah Noor",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin does not hold the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin does not hold the stone. Farah Noor holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin does not hold the stone. Farah Noor holds the stone.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor holds the stone. Elin does not hold the stone.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "The hat is held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor holds the rope. The hat is held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "The hat was held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor holds the rope. The hat was held by Elin.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin never holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin never holds the hat. Farah Noor holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin never holds the hat. Farah Noor holds the hat.",
+          "expected": "Farah Noor",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor holds the hat. Elin never holds the hat.",
+          "expected": "Farah Noor",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin does not hold the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin does not hold the hat. Farah Noor holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin does not hold the hat. Farah Noor holds the hat.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor holds the hat. Elin does not hold the hat.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "The rope is held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim holds the stone. The rope is held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "The rope was held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim holds the stone. The rope was held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor never holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor never holds the rope. Goran Ayo Kim holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor never holds the rope. Goran Ayo Kim holds the rope.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim holds the rope. Farah Noor never holds the rope.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor does not hold the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor does not hold the rope. Goran Ayo Kim holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Farah Noor does not hold the rope. Goran Ayo Kim holds the rope.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim holds the rope. Farah Noor does not hold the rope.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "The stone is held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim holds the hat. The stone is held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "The stone was held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim holds the hat. The stone was held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor never holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor never holds the stone. Goran Ayo Kim holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor never holds the stone. Goran Ayo Kim holds the stone.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim holds the stone. Farah Noor never holds the stone.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor does not hold the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor does not hold the stone. Goran Ayo Kim holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Farah Noor does not hold the stone. Goran Ayo Kim holds the stone.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim holds the stone. Farah Noor does not hold the stone.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "The hat is held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim holds the rope. The hat is held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "The hat was held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim holds the rope. The hat was held by Farah Noor.",
+          "expected": "Farah Noor",
+          "prediction": "Farah Noor",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor never holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor never holds the hat. Goran Ayo Kim holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor never holds the hat. Goran Ayo Kim holds the hat.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim holds the hat. Farah Noor never holds the hat.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor does not hold the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor does not hold the hat. Goran Ayo Kim holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Farah Noor does not hold the hat. Goran Ayo Kim holds the hat.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim holds the hat. Farah Noor does not hold the hat.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "",
+          "correct": false
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "The rope is held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin holds the stone. The rope is held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "The rope was held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin holds the stone. The rope was held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim never holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim never holds the rope. Elin holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim never holds the rope. Elin holds the rope.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin holds the rope. Goran Ayo Kim never holds the rope.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim does not hold the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim does not hold the rope. Elin holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Goran Ayo Kim does not hold the rope. Elin holds the rope.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the rope?",
+          "observations": "Elin holds the rope. Goran Ayo Kim does not hold the rope.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "The stone is held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin holds the hat. The stone is held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "The stone was held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin holds the hat. The stone was held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim never holds the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim never holds the stone. Elin holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim never holds the stone. Elin holds the stone.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin holds the stone. Goran Ayo Kim never holds the stone.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim does not hold the stone.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim does not hold the stone. Elin holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Goran Ayo Kim does not hold the stone. Elin holds the stone.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the stone?",
+          "observations": "Elin holds the stone. Goran Ayo Kim does not hold the stone.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "The hat is held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin holds the rope. The hat is held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "The hat was held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin holds the rope. The hat was held by Goran Ayo Kim.",
+          "expected": "Goran Ayo Kim",
+          "prediction": "Goran Ayo Kim",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim never holds the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim never holds the hat. Elin holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim never holds the hat. Elin holds the hat.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin holds the hat. Goran Ayo Kim never holds the hat.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim does not hold the hat.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim does not hold the hat. Elin holds the rope.",
+          "expected": null,
+          "prediction": "",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Goran Ayo Kim does not hold the hat. Elin holds the hat.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        },
+        {
+          "question": "Who holds the hat?",
+          "observations": "Elin holds the hat. Goran Ayo Kim does not hold the hat.",
+          "expected": "Elin",
+          "prediction": "Elin",
+          "correct": true
+        }
+      ]
+    },
+    "outside_span_bound": {
+      "correct": 0,
+      "total": 1,
+      "outputs": [
+        {
+          "question": "Who holds the pencil?",
+          "observations": "Nia Rose Ayo Moon holds the pencil.",
+          "expected": "Nia Rose Ayo Moon",
+          "prediction": "",
+          "correct": false
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 """Explicit interface integration; no claim of joint cross-modality learning."""
 import re,pickle
 from pathlib import Path
-from evidence_self import EvidenceSelf, RankedEvidenceSelf
+from evidence_self import EvidenceSelf, RankedEvidenceSelf, SpanEvidenceSelf
 from pattern_self import AdaptivePredictionSelf,PatternSelf,RecursiveNumericSelf
 
 class Tokenizer:
@@ -54,8 +54,8 @@ class UnifiedSelf:
         rows=list(rows)
         if not rows:raise ValueError('Empty evidence training data')
         if method is not None:
-            if method not in ('counts','ranking'):raise ValueError('Methods: counts, ranking')
-            self.evidence=RankedEvidenceSelf() if method=='ranking' else EvidenceSelf()
+            if method not in ('counts','ranking','spans'):raise ValueError('Methods: counts, ranking, spans')
+            self.evidence=SpanEvidenceSelf() if method=='spans' else (RankedEvidenceSelf() if method=='ranking' else EvidenceSelf())
         if contextual_missing is not None:
             self.evidence.contextual_missing=bool(contextual_missing)
         for row in rows:
