@@ -1,0 +1,450 @@
+[
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "alice selects the beans.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "alice"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "alice selects the beans.",
+      "alice plants the beans.",
+      "alice waters the beans.",
+      "eva checks the peas.",
+      "eva harvests the peas.",
+      "eva cleans the peas.",
+      "eva stores the peas."
+    ],
+    "question": "Which crop does eva harvests?",
+    "answer": "peas"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "alice selects the peas.",
+      "alice plants the peas.",
+      "alice waters the peas.",
+      "eva checks the beans.",
+      "eva harvests the beans.",
+      "eva cleans the beans.",
+      "eva stores the beans."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "alice"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "alice selects the peas.",
+      "alice plants the peas.",
+      "alice waters the peas.",
+      "eva checks the beans.",
+      "eva harvests the beans.",
+      "eva cleans the beans.",
+      "eva stores the beans."
+    ],
+    "question": "Which crop does eva harvests?",
+    "answer": "beans"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "brian selects the wheat.",
+      "brian plants the wheat.",
+      "brian waters the wheat.",
+      "frank checks the lentils.",
+      "frank harvests the lentils.",
+      "frank cleans the lentils.",
+      "frank stores the lentils."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "brian"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "brian selects the wheat.",
+      "brian plants the wheat.",
+      "brian waters the wheat.",
+      "frank checks the lentils.",
+      "frank harvests the lentils.",
+      "frank cleans the lentils.",
+      "frank stores the lentils."
+    ],
+    "question": "Which crop does frank harvests?",
+    "answer": "lentils"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "brian selects the lentils.",
+      "brian plants the lentils.",
+      "brian waters the lentils.",
+      "frank checks the wheat.",
+      "frank harvests the wheat.",
+      "frank cleans the wheat.",
+      "frank stores the wheat."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "brian"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "brian selects the lentils.",
+      "brian plants the lentils.",
+      "brian waters the lentils.",
+      "frank checks the wheat.",
+      "frank harvests the wheat.",
+      "frank cleans the wheat.",
+      "frank stores the wheat."
+    ],
+    "question": "Which crop does frank harvests?",
+    "answer": "wheat"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "carol selects the rice.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "carol"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "carol selects the rice.",
+      "carol plants the rice.",
+      "carol waters the rice.",
+      "grace checks the sorghum.",
+      "grace harvests the sorghum.",
+      "grace cleans the sorghum.",
+      "grace stores the sorghum."
+    ],
+    "question": "Which crop does grace harvests?",
+    "answer": "sorghum"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "carol selects the sorghum.",
+      "carol plants the sorghum.",
+      "carol waters the sorghum.",
+      "grace checks the rice.",
+      "grace harvests the rice.",
+      "grace cleans the rice.",
+      "grace stores the rice."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "carol"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "carol selects the sorghum.",
+      "carol plants the sorghum.",
+      "carol waters the sorghum.",
+      "grace checks the rice.",
+      "grace harvests the rice.",
+      "grace cleans the rice.",
+      "grace stores the rice."
+    ],
+    "question": "Which crop does grace harvests?",
+    "answer": "rice"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "david selects the maize.",
+      "david plants the maize.",
+      "david waters the maize.",
+      "henry checks the millet.",
+      "henry harvests the millet.",
+      "henry cleans the millet.",
+      "henry stores the millet."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "david"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "david selects the maize.",
+      "david plants the maize.",
+      "david waters the maize.",
+      "henry checks the millet.",
+      "henry harvests the millet.",
+      "henry cleans the millet.",
+      "henry stores the millet."
+    ],
+    "question": "Which crop does henry harvests?",
+    "answer": "millet"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "david selects the millet.",
+      "david plants the millet.",
+      "david waters the millet.",
+      "henry checks the maize.",
+      "henry harvests the maize.",
+      "henry cleans the maize.",
+      "henry stores the maize."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "david"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "david selects the millet.",
+      "david plants the millet.",
+      "david waters the millet.",
+      "henry checks the maize.",
+      "henry harvests the maize.",
+      "henry cleans the maize.",
+      "henry stores the maize."
+    ],
+    "question": "Which crop does henry harvests?",
+    "answer": "maize"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "eva selects the beans.",
+      "eva plants the beans.",
+      "eva waters the beans.",
+      "alice checks the peas.",
+      "alice harvests the peas.",
+      "alice cleans the peas.",
+      "alice stores the peas."
+    ],
+    "question": "Who waters the beans?",
+    "answer": "eva"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "eva selects the beans.",
+      "eva plants the beans.",
+      "eva waters the beans.",
+      "alice checks the peas.",
+      "alice harvests the peas.",
+      "alice cleans the peas.",
+      "alice stores the peas."
+    ],
+    "question": "Which crop does alice harvests?",
+    "answer": "peas"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "eva selects the peas.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Who waters the peas?",
+    "answer": "eva"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "eva selects the peas.",
+      "eva plants the peas.",
+      "eva waters the peas.",
+      "alice checks the beans.",
+      "alice harvests the beans.",
+      "alice cleans the beans.",
+      "alice stores the beans."
+    ],
+    "question": "Which crop does alice harvests?",
+    "answer": "beans"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "frank selects the wheat.",
+      "frank plants the wheat.",
+      "frank waters the wheat.",
+      "brian checks the lentils.",
+      "brian harvests the lentils.",
+      "brian cleans the lentils.",
+      "brian stores the lentils."
+    ],
+    "question": "Who waters the wheat?",
+    "answer": "frank"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "frank selects the wheat.",
+      "frank plants the wheat.",
+      "frank waters the wheat.",
+      "brian checks the lentils.",
+      "brian harvests the lentils.",
+      "brian cleans the lentils.",
+      "brian stores the lentils."
+    ],
+    "question": "Which crop does brian harvests?",
+    "answer": "lentils"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "frank selects the lentils.",
+      "frank plants the lentils.",
+      "frank waters the lentils.",
+      "brian checks the wheat.",
+      "brian harvests the wheat.",
+      "brian cleans the wheat.",
+      "brian stores the wheat."
+    ],
+    "question": "Who waters the lentils?",
+    "answer": "frank"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "frank selects the lentils.",
+      "frank plants the lentils.",
+      "frank waters the lentils.",
+      "brian checks the wheat.",
+      "brian harvests the wheat.",
+      "brian cleans the wheat.",
+      "brian stores the wheat."
+    ],
+    "question": "Which crop does brian harvests?",
+    "answer": "wheat"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "grace selects the rice.",
+      "grace plants the rice.",
+      "grace waters the rice.",
+      "carol checks the sorghum.",
+      "carol harvests the sorghum.",
+      "carol cleans the sorghum.",
+      "carol stores the sorghum."
+    ],
+    "question": "Who waters the rice?",
+    "answer": "grace"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "grace selects the rice.",
+      "grace plants the rice.",
+      "grace waters the rice.",
+      "carol checks the sorghum.",
+      "carol harvests the sorghum.",
+      "carol cleans the sorghum.",
+      "carol stores the sorghum."
+    ],
+    "question": "Which crop does carol harvests?",
+    "answer": "sorghum"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "grace selects the sorghum.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Who waters the sorghum?",
+    "answer": "grace"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "grace selects the sorghum.",
+      "grace plants the sorghum.",
+      "grace waters the sorghum.",
+      "carol checks the rice.",
+      "carol harvests the rice.",
+      "carol cleans the rice.",
+      "carol stores the rice."
+    ],
+    "question": "Which crop does carol harvests?",
+    "answer": "rice"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "henry selects the maize.",
+      "henry plants the maize.",
+      "henry waters the maize.",
+      "david checks the millet.",
+      "david harvests the millet.",
+      "david cleans the millet.",
+      "david stores the millet."
+    ],
+    "question": "Who waters the maize?",
+    "answer": "henry"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "henry selects the maize.",
+      "henry plants the maize.",
+      "henry waters the maize.",
+      "david checks the millet.",
+      "david harvests the millet.",
+      "david cleans the millet.",
+      "david stores the millet."
+    ],
+    "question": "Which crop does david harvests?",
+    "answer": "millet"
+  },
+  {
+    "family": "fresh_actor_binding",
+    "observations": [
+      "henry selects the millet.",
+      "henry plants the millet.",
+      "henry waters the millet.",
+      "david checks the maize.",
+      "david harvests the maize.",
+      "david cleans the maize.",
+      "david stores the maize."
+    ],
+    "question": "Who waters the millet?",
+    "answer": "henry"
+  },
+  {
+    "family": "fresh_object_binding",
+    "observations": [
+      "henry selects the millet.",
+      "henry plants the millet.",
+      "henry waters the millet.",
+      "david checks the maize.",
+      "david harvests the maize.",
+      "david cleans the maize.",
+      "david stores the maize."
+    ],
+    "question": "Which crop does david harvests?",
+    "answer": "maize"
+  }
+]

@@ -82,6 +82,17 @@ class MikteengAI:
         if model is None:raise RuntimeError('train sentence representation first')
         self.relational_predictor=RelationalPredictor(model).fit(examples)
         return self
+    def train_subject_conditioned_questions(self, data, *, role_model=None):
+        import copy
+        from .question_prediction import QuestionConditionedPredictor
+        model=getattr(self,'sentence_pattern_model',None)
+        roles=role_model if role_model is not None else self.roles
+        if model is None:raise RuntimeError('train sentence patterns first')
+        if roles is None:raise RuntimeError('train or supply the existing role model first')
+        # Train a replacement before attaching; preserve existing role/sequence weights.
+        predictor=QuestionConditionedPredictor(model,self_source='hybrid',role_model=copy.deepcopy(roles)).fit(data)
+        self.subject_conditioned_predictor=predictor
+        return self
     def train_question_conditioned_predictions(self, data):
         from .question_prediction import QuestionConditionedPredictor
         model=getattr(self,'sentence_pattern_model',None)
@@ -199,6 +210,8 @@ class MikteengAI:
     def respond_self(self, predicted_self, question, *, min_score=.65, threshold=.9, joining_contexts=None):
         from .prediction_patterns import PredictionPatternSelf
         if isinstance(predicted_self,PredictionPatternSelf):
+            if getattr(self,'subject_conditioned_predictor',None) is not None:
+                return self.subject_conditioned_predictor.respond(predicted_self,question)
             if getattr(self,'character_conditioned_predictor',None) is not None:
                 return self.character_conditioned_predictor.respond(predicted_self,question)
             if getattr(self,'relational_predictor',None) is not None:
