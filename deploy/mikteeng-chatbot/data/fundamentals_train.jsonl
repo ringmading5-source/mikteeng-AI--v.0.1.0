@@ -1,0 +1,575 @@
+{"subject": "Mathematics", "topic": "addition", "input": "What is addition?", "answer": "Addition combines quantities into a total."}
+{"subject": "Mathematics", "topic": "addition", "input": "Define addition.", "answer": "Addition combines quantities into a total."}
+{"subject": "Mathematics", "topic": "addition", "input": "Explain addition.", "answer": "Addition combines quantities into a total."}
+{"subject": "Mathematics", "topic": "addition", "input": "What does addition mean?", "answer": "Addition combines quantities into a total."}
+{"subject": "Mathematics", "topic": "addition", "input": "Tell me about addition.", "answer": "Addition combines quantities into a total."}
+{"subject": "Mathematics", "topic": "subtraction", "input": "What is subtraction?", "answer": "Subtraction finds the difference between quantities."}
+{"subject": "Mathematics", "topic": "subtraction", "input": "Define subtraction.", "answer": "Subtraction finds the difference between quantities."}
+{"subject": "Mathematics", "topic": "subtraction", "input": "Explain subtraction.", "answer": "Subtraction finds the difference between quantities."}
+{"subject": "Mathematics", "topic": "subtraction", "input": "What does subtraction mean?", "answer": "Subtraction finds the difference between quantities."}
+{"subject": "Mathematics", "topic": "subtraction", "input": "Tell me about subtraction.", "answer": "Subtraction finds the difference between quantities."}
+{"subject": "Mathematics", "topic": "multiplication", "input": "What is multiplication?", "answer": "Multiplication combines equal groups."}
+{"subject": "Mathematics", "topic": "multiplication", "input": "Define multiplication.", "answer": "Multiplication combines equal groups."}
+{"subject": "Mathematics", "topic": "multiplication", "input": "Explain multiplication.", "answer": "Multiplication combines equal groups."}
+{"subject": "Mathematics", "topic": "multiplication", "input": "What does multiplication mean?", "answer": "Multiplication combines equal groups."}
+{"subject": "Mathematics", "topic": "multiplication", "input": "Tell me about multiplication.", "answer": "Multiplication combines equal groups."}
+{"subject": "Mathematics", "topic": "division", "input": "What is division?", "answer": "Division splits a quantity into equal groups."}
+{"subject": "Mathematics", "topic": "division", "input": "Define division.", "answer": "Division splits a quantity into equal groups."}
+{"subject": "Mathematics", "topic": "division", "input": "Explain division.", "answer": "Division splits a quantity into equal groups."}
+{"subject": "Mathematics", "topic": "division", "input": "What does division mean?", "answer": "Division splits a quantity into equal groups."}
+{"subject": "Mathematics", "topic": "division", "input": "Tell me about division.", "answer": "Division splits a quantity into equal groups."}
+{"subject": "Mathematics", "topic": "fraction", "input": "What is fraction?", "answer": "A fraction represents part of a whole."}
+{"subject": "Mathematics", "topic": "fraction", "input": "Define fraction.", "answer": "A fraction represents part of a whole."}
+{"subject": "Mathematics", "topic": "fraction", "input": "Explain fraction.", "answer": "A fraction represents part of a whole."}
+{"subject": "Mathematics", "topic": "fraction", "input": "What does fraction mean?", "answer": "A fraction represents part of a whole."}
+{"subject": "Mathematics", "topic": "fraction", "input": "Tell me about fraction.", "answer": "A fraction represents part of a whole."}
+{"subject": "Mathematics", "topic": "percentage", "input": "What is percentage?", "answer": "A percentage expresses a quantity out of one hundred."}
+{"subject": "Mathematics", "topic": "percentage", "input": "Define percentage.", "answer": "A percentage expresses a quantity out of one hundred."}
+{"subject": "Mathematics", "topic": "percentage", "input": "Explain percentage.", "answer": "A percentage expresses a quantity out of one hundred."}
+{"subject": "Mathematics", "topic": "percentage", "input": "What does percentage mean?", "answer": "A percentage expresses a quantity out of one hundred."}
+{"subject": "Mathematics", "topic": "percentage", "input": "Tell me about percentage.", "answer": "A percentage expresses a quantity out of one hundred."}
+{"subject": "Mathematics", "topic": "algebra", "input": "What is algebra?", "answer": "Algebra uses symbols to represent numbers and relationships."}
+{"subject": "Mathematics", "topic": "algebra", "input": "Define algebra.", "answer": "Algebra uses symbols to represent numbers and relationships."}
+{"subject": "Mathematics", "topic": "algebra", "input": "Explain algebra.", "answer": "Algebra uses symbols to represent numbers and relationships."}
+{"subject": "Mathematics", "topic": "algebra", "input": "What does algebra mean?", "answer": "Algebra uses symbols to represent numbers and relationships."}
+{"subject": "Mathematics", "topic": "algebra", "input": "Tell me about algebra.", "answer": "Algebra uses symbols to represent numbers and relationships."}
+{"subject": "Mathematics", "topic": "equation", "input": "What is equation?", "answer": "An equation states that two expressions are equal."}
+{"subject": "Mathematics", "topic": "equation", "input": "Define equation.", "answer": "An equation states that two expressions are equal."}
+{"subject": "Mathematics", "topic": "equation", "input": "Explain equation.", "answer": "An equation states that two expressions are equal."}
+{"subject": "Mathematics", "topic": "equation", "input": "What does equation mean?", "answer": "An equation states that two expressions are equal."}
+{"subject": "Mathematics", "topic": "equation", "input": "Tell me about equation.", "answer": "An equation states that two expressions are equal."}
+{"subject": "Mathematics", "topic": "geometry", "input": "What is geometry?", "answer": "Geometry studies shapes, sizes, and spatial relationships."}
+{"subject": "Mathematics", "topic": "geometry", "input": "Define geometry.", "answer": "Geometry studies shapes, sizes, and spatial relationships."}
+{"subject": "Mathematics", "topic": "geometry", "input": "Explain geometry.", "answer": "Geometry studies shapes, sizes, and spatial relationships."}
+{"subject": "Mathematics", "topic": "geometry", "input": "What does geometry mean?", "answer": "Geometry studies shapes, sizes, and spatial relationships."}
+{"subject": "Mathematics", "topic": "geometry", "input": "Tell me about geometry.", "answer": "Geometry studies shapes, sizes, and spatial relationships."}
+{"subject": "Mathematics", "topic": "derivative", "input": "What is derivative?", "answer": "A derivative describes an instantaneous rate of change."}
+{"subject": "Mathematics", "topic": "derivative", "input": "Define derivative.", "answer": "A derivative describes an instantaneous rate of change."}
+{"subject": "Mathematics", "topic": "derivative", "input": "Explain derivative.", "answer": "A derivative describes an instantaneous rate of change."}
+{"subject": "Mathematics", "topic": "derivative", "input": "What does derivative mean?", "answer": "A derivative describes an instantaneous rate of change."}
+{"subject": "Mathematics", "topic": "derivative", "input": "Tell me about derivative.", "answer": "A derivative describes an instantaneous rate of change."}
+{"subject": "Mathematics", "topic": "integral", "input": "What is integral?", "answer": "An integral measures accumulation, including area under a curve."}
+{"subject": "Mathematics", "topic": "integral", "input": "Define integral.", "answer": "An integral measures accumulation, including area under a curve."}
+{"subject": "Mathematics", "topic": "integral", "input": "Explain integral.", "answer": "An integral measures accumulation, including area under a curve."}
+{"subject": "Mathematics", "topic": "integral", "input": "What does integral mean?", "answer": "An integral measures accumulation, including area under a curve."}
+{"subject": "Mathematics", "topic": "integral", "input": "Tell me about integral.", "answer": "An integral measures accumulation, including area under a curve."}
+{"subject": "Statistics", "topic": "mean", "input": "What is mean?", "answer": "The mean is the sum of values divided by their count."}
+{"subject": "Statistics", "topic": "mean", "input": "Define mean.", "answer": "The mean is the sum of values divided by their count."}
+{"subject": "Statistics", "topic": "mean", "input": "Explain mean.", "answer": "The mean is the sum of values divided by their count."}
+{"subject": "Statistics", "topic": "mean", "input": "What does mean mean?", "answer": "The mean is the sum of values divided by their count."}
+{"subject": "Statistics", "topic": "mean", "input": "Tell me about mean.", "answer": "The mean is the sum of values divided by their count."}
+{"subject": "Statistics", "topic": "median", "input": "What is median?", "answer": "The median is the middle value in an ordered dataset."}
+{"subject": "Statistics", "topic": "median", "input": "Define median.", "answer": "The median is the middle value in an ordered dataset."}
+{"subject": "Statistics", "topic": "median", "input": "Explain median.", "answer": "The median is the middle value in an ordered dataset."}
+{"subject": "Statistics", "topic": "median", "input": "What does median mean?", "answer": "The median is the middle value in an ordered dataset."}
+{"subject": "Statistics", "topic": "median", "input": "Tell me about median.", "answer": "The median is the middle value in an ordered dataset."}
+{"subject": "Statistics", "topic": "mode", "input": "What is mode?", "answer": "The mode is the most frequent value in a dataset."}
+{"subject": "Statistics", "topic": "mode", "input": "Define mode.", "answer": "The mode is the most frequent value in a dataset."}
+{"subject": "Statistics", "topic": "mode", "input": "Explain mode.", "answer": "The mode is the most frequent value in a dataset."}
+{"subject": "Statistics", "topic": "mode", "input": "What does mode mean?", "answer": "The mode is the most frequent value in a dataset."}
+{"subject": "Statistics", "topic": "mode", "input": "Tell me about mode.", "answer": "The mode is the most frequent value in a dataset."}
+{"subject": "Statistics", "topic": "probability", "input": "What is probability?", "answer": "Probability measures how likely an event is."}
+{"subject": "Statistics", "topic": "probability", "input": "Define probability.", "answer": "Probability measures how likely an event is."}
+{"subject": "Statistics", "topic": "probability", "input": "Explain probability.", "answer": "Probability measures how likely an event is."}
+{"subject": "Statistics", "topic": "probability", "input": "What does probability mean?", "answer": "Probability measures how likely an event is."}
+{"subject": "Statistics", "topic": "probability", "input": "Tell me about probability.", "answer": "Probability measures how likely an event is."}
+{"subject": "Statistics", "topic": "sample", "input": "What is sample?", "answer": "A sample is a subset of a population used for study."}
+{"subject": "Statistics", "topic": "sample", "input": "Define sample.", "answer": "A sample is a subset of a population used for study."}
+{"subject": "Statistics", "topic": "sample", "input": "Explain sample.", "answer": "A sample is a subset of a population used for study."}
+{"subject": "Statistics", "topic": "sample", "input": "What does sample mean?", "answer": "A sample is a subset of a population used for study."}
+{"subject": "Statistics", "topic": "sample", "input": "Tell me about sample.", "answer": "A sample is a subset of a population used for study."}
+{"subject": "Statistics", "topic": "correlation", "input": "What is correlation?", "answer": "Correlation describes association between variables. It does not establish causation."}
+{"subject": "Statistics", "topic": "correlation", "input": "Define correlation.", "answer": "Correlation describes association between variables. It does not establish causation."}
+{"subject": "Statistics", "topic": "correlation", "input": "Explain correlation.", "answer": "Correlation describes association between variables. It does not establish causation."}
+{"subject": "Statistics", "topic": "correlation", "input": "What does correlation mean?", "answer": "Correlation describes association between variables. It does not establish causation."}
+{"subject": "Statistics", "topic": "correlation", "input": "Tell me about correlation.", "answer": "Correlation describes association between variables. It does not establish causation."}
+{"subject": "Physics", "topic": "physics", "input": "What is physics?", "answer": "Physics studies matter, energy, motion, and their interactions."}
+{"subject": "Physics", "topic": "physics", "input": "Define physics.", "answer": "Physics studies matter, energy, motion, and their interactions."}
+{"subject": "Physics", "topic": "physics", "input": "Explain physics.", "answer": "Physics studies matter, energy, motion, and their interactions."}
+{"subject": "Physics", "topic": "physics", "input": "What does physics mean?", "answer": "Physics studies matter, energy, motion, and their interactions."}
+{"subject": "Physics", "topic": "physics", "input": "Tell me about physics.", "answer": "Physics studies matter, energy, motion, and their interactions."}
+{"subject": "Physics", "topic": "speed", "input": "What is speed?", "answer": "Speed is distance travelled divided by elapsed time."}
+{"subject": "Physics", "topic": "speed", "input": "Define speed.", "answer": "Speed is distance travelled divided by elapsed time."}
+{"subject": "Physics", "topic": "speed", "input": "Explain speed.", "answer": "Speed is distance travelled divided by elapsed time."}
+{"subject": "Physics", "topic": "speed", "input": "What does speed mean?", "answer": "Speed is distance travelled divided by elapsed time."}
+{"subject": "Physics", "topic": "speed", "input": "Tell me about speed.", "answer": "Speed is distance travelled divided by elapsed time."}
+{"subject": "Physics", "topic": "velocity", "input": "What is velocity?", "answer": "Velocity describes speed and direction."}
+{"subject": "Physics", "topic": "velocity", "input": "Define velocity.", "answer": "Velocity describes speed and direction."}
+{"subject": "Physics", "topic": "velocity", "input": "Explain velocity.", "answer": "Velocity describes speed and direction."}
+{"subject": "Physics", "topic": "velocity", "input": "What does velocity mean?", "answer": "Velocity describes speed and direction."}
+{"subject": "Physics", "topic": "velocity", "input": "Tell me about velocity.", "answer": "Velocity describes speed and direction."}
+{"subject": "Physics", "topic": "acceleration", "input": "What is acceleration?", "answer": "Acceleration is the rate of change of velocity."}
+{"subject": "Physics", "topic": "acceleration", "input": "Define acceleration.", "answer": "Acceleration is the rate of change of velocity."}
+{"subject": "Physics", "topic": "acceleration", "input": "Explain acceleration.", "answer": "Acceleration is the rate of change of velocity."}
+{"subject": "Physics", "topic": "acceleration", "input": "What does acceleration mean?", "answer": "Acceleration is the rate of change of velocity."}
+{"subject": "Physics", "topic": "acceleration", "input": "Tell me about acceleration.", "answer": "Acceleration is the rate of change of velocity."}
+{"subject": "Physics", "topic": "force", "input": "What is force?", "answer": "Force is an interaction that can change motion."}
+{"subject": "Physics", "topic": "force", "input": "Define force.", "answer": "Force is an interaction that can change motion."}
+{"subject": "Physics", "topic": "force", "input": "Explain force.", "answer": "Force is an interaction that can change motion."}
+{"subject": "Physics", "topic": "force", "input": "What does force mean?", "answer": "Force is an interaction that can change motion."}
+{"subject": "Physics", "topic": "force", "input": "Tell me about force.", "answer": "Force is an interaction that can change motion."}
+{"subject": "Physics", "topic": "energy", "input": "What is energy?", "answer": "Energy is the capacity to do work or cause change."}
+{"subject": "Physics", "topic": "energy", "input": "Define energy.", "answer": "Energy is the capacity to do work or cause change."}
+{"subject": "Physics", "topic": "energy", "input": "Explain energy.", "answer": "Energy is the capacity to do work or cause change."}
+{"subject": "Physics", "topic": "energy", "input": "What does energy mean?", "answer": "Energy is the capacity to do work or cause change."}
+{"subject": "Physics", "topic": "energy", "input": "Tell me about energy.", "answer": "Energy is the capacity to do work or cause change."}
+{"subject": "Physics", "topic": "electric current", "input": "What is electric current?", "answer": "Electric current is the rate of flow of electric charge."}
+{"subject": "Physics", "topic": "electric current", "input": "Define electric current.", "answer": "Electric current is the rate of flow of electric charge."}
+{"subject": "Physics", "topic": "electric current", "input": "Explain electric current.", "answer": "Electric current is the rate of flow of electric charge."}
+{"subject": "Physics", "topic": "electric current", "input": "What does electric current mean?", "answer": "Electric current is the rate of flow of electric charge."}
+{"subject": "Physics", "topic": "electric current", "input": "Tell me about electric current.", "answer": "Electric current is the rate of flow of electric charge."}
+{"subject": "Physics", "topic": "gravity", "input": "What is gravity?", "answer": "Gravity is the attraction associated with mass."}
+{"subject": "Physics", "topic": "gravity", "input": "Define gravity.", "answer": "Gravity is the attraction associated with mass."}
+{"subject": "Physics", "topic": "gravity", "input": "Explain gravity.", "answer": "Gravity is the attraction associated with mass."}
+{"subject": "Physics", "topic": "gravity", "input": "What does gravity mean?", "answer": "Gravity is the attraction associated with mass."}
+{"subject": "Physics", "topic": "gravity", "input": "Tell me about gravity.", "answer": "Gravity is the attraction associated with mass."}
+{"subject": "Physics", "topic": "wave", "input": "What is wave?", "answer": "A wave transfers energy through a disturbance."}
+{"subject": "Physics", "topic": "wave", "input": "Define wave.", "answer": "A wave transfers energy through a disturbance."}
+{"subject": "Physics", "topic": "wave", "input": "Explain wave.", "answer": "A wave transfers energy through a disturbance."}
+{"subject": "Physics", "topic": "wave", "input": "What does wave mean?", "answer": "A wave transfers energy through a disturbance."}
+{"subject": "Physics", "topic": "wave", "input": "Tell me about wave.", "answer": "A wave transfers energy through a disturbance."}
+{"subject": "Chemistry", "topic": "chemistry", "input": "What is chemistry?", "answer": "Chemistry studies substances, their properties, and their reactions."}
+{"subject": "Chemistry", "topic": "chemistry", "input": "Define chemistry.", "answer": "Chemistry studies substances, their properties, and their reactions."}
+{"subject": "Chemistry", "topic": "chemistry", "input": "Explain chemistry.", "answer": "Chemistry studies substances, their properties, and their reactions."}
+{"subject": "Chemistry", "topic": "chemistry", "input": "What does chemistry mean?", "answer": "Chemistry studies substances, their properties, and their reactions."}
+{"subject": "Chemistry", "topic": "chemistry", "input": "Tell me about chemistry.", "answer": "Chemistry studies substances, their properties, and their reactions."}
+{"subject": "Chemistry", "topic": "atom", "input": "What is atom?", "answer": "An atom is the smallest unit of an element that retains its chemical identity."}
+{"subject": "Chemistry", "topic": "atom", "input": "Define atom.", "answer": "An atom is the smallest unit of an element that retains its chemical identity."}
+{"subject": "Chemistry", "topic": "atom", "input": "Explain atom.", "answer": "An atom is the smallest unit of an element that retains its chemical identity."}
+{"subject": "Chemistry", "topic": "atom", "input": "What does atom mean?", "answer": "An atom is the smallest unit of an element that retains its chemical identity."}
+{"subject": "Chemistry", "topic": "atom", "input": "Tell me about atom.", "answer": "An atom is the smallest unit of an element that retains its chemical identity."}
+{"subject": "Chemistry", "topic": "element", "input": "What is element?", "answer": "An element consists of atoms with the same number of protons."}
+{"subject": "Chemistry", "topic": "element", "input": "Define element.", "answer": "An element consists of atoms with the same number of protons."}
+{"subject": "Chemistry", "topic": "element", "input": "Explain element.", "answer": "An element consists of atoms with the same number of protons."}
+{"subject": "Chemistry", "topic": "element", "input": "What does element mean?", "answer": "An element consists of atoms with the same number of protons."}
+{"subject": "Chemistry", "topic": "element", "input": "Tell me about element.", "answer": "An element consists of atoms with the same number of protons."}
+{"subject": "Chemistry", "topic": "molecule", "input": "What is molecule?", "answer": "A molecule contains atoms joined by chemical bonds."}
+{"subject": "Chemistry", "topic": "molecule", "input": "Define molecule.", "answer": "A molecule contains atoms joined by chemical bonds."}
+{"subject": "Chemistry", "topic": "molecule", "input": "Explain molecule.", "answer": "A molecule contains atoms joined by chemical bonds."}
+{"subject": "Chemistry", "topic": "molecule", "input": "What does molecule mean?", "answer": "A molecule contains atoms joined by chemical bonds."}
+{"subject": "Chemistry", "topic": "molecule", "input": "Tell me about molecule.", "answer": "A molecule contains atoms joined by chemical bonds."}
+{"subject": "Chemistry", "topic": "compound", "input": "What is compound?", "answer": "A compound contains different elements chemically combined in fixed proportions."}
+{"subject": "Chemistry", "topic": "compound", "input": "Define compound.", "answer": "A compound contains different elements chemically combined in fixed proportions."}
+{"subject": "Chemistry", "topic": "compound", "input": "Explain compound.", "answer": "A compound contains different elements chemically combined in fixed proportions."}
+{"subject": "Chemistry", "topic": "compound", "input": "What does compound mean?", "answer": "A compound contains different elements chemically combined in fixed proportions."}
+{"subject": "Chemistry", "topic": "compound", "input": "Tell me about compound.", "answer": "A compound contains different elements chemically combined in fixed proportions."}
+{"subject": "Chemistry", "topic": "chemical reaction", "input": "What is chemical reaction?", "answer": "A chemical reaction rearranges atoms to form new substances."}
+{"subject": "Chemistry", "topic": "chemical reaction", "input": "Define chemical reaction.", "answer": "A chemical reaction rearranges atoms to form new substances."}
+{"subject": "Chemistry", "topic": "chemical reaction", "input": "Explain chemical reaction.", "answer": "A chemical reaction rearranges atoms to form new substances."}
+{"subject": "Chemistry", "topic": "chemical reaction", "input": "What does chemical reaction mean?", "answer": "A chemical reaction rearranges atoms to form new substances."}
+{"subject": "Chemistry", "topic": "chemical reaction", "input": "Tell me about chemical reaction.", "answer": "A chemical reaction rearranges atoms to form new substances."}
+{"subject": "Chemistry", "topic": "mixture", "input": "What is mixture?", "answer": "A mixture contains substances physically combined without fixed chemical proportions."}
+{"subject": "Chemistry", "topic": "mixture", "input": "Define mixture.", "answer": "A mixture contains substances physically combined without fixed chemical proportions."}
+{"subject": "Chemistry", "topic": "mixture", "input": "Explain mixture.", "answer": "A mixture contains substances physically combined without fixed chemical proportions."}
+{"subject": "Chemistry", "topic": "mixture", "input": "What does mixture mean?", "answer": "A mixture contains substances physically combined without fixed chemical proportions."}
+{"subject": "Chemistry", "topic": "mixture", "input": "Tell me about mixture.", "answer": "A mixture contains substances physically combined without fixed chemical proportions."}
+{"subject": "Biology", "topic": "biology", "input": "What is biology?", "answer": "Biology studies living organisms and their interactions."}
+{"subject": "Biology", "topic": "biology", "input": "Define biology.", "answer": "Biology studies living organisms and their interactions."}
+{"subject": "Biology", "topic": "biology", "input": "Explain biology.", "answer": "Biology studies living organisms and their interactions."}
+{"subject": "Biology", "topic": "biology", "input": "What does biology mean?", "answer": "Biology studies living organisms and their interactions."}
+{"subject": "Biology", "topic": "biology", "input": "Tell me about biology.", "answer": "Biology studies living organisms and their interactions."}
+{"subject": "Biology", "topic": "cell", "input": "What is cell?", "answer": "A cell is a basic structural and functional unit of life."}
+{"subject": "Biology", "topic": "cell", "input": "Define cell.", "answer": "A cell is a basic structural and functional unit of life."}
+{"subject": "Biology", "topic": "cell", "input": "Explain cell.", "answer": "A cell is a basic structural and functional unit of life."}
+{"subject": "Biology", "topic": "cell", "input": "What does cell mean?", "answer": "A cell is a basic structural and functional unit of life."}
+{"subject": "Biology", "topic": "cell", "input": "Tell me about cell.", "answer": "A cell is a basic structural and functional unit of life."}
+{"subject": "Biology", "topic": "DNA", "input": "What is DNA?", "answer": "DNA stores hereditary information in living organisms."}
+{"subject": "Biology", "topic": "DNA", "input": "Define DNA.", "answer": "DNA stores hereditary information in living organisms."}
+{"subject": "Biology", "topic": "DNA", "input": "Explain DNA.", "answer": "DNA stores hereditary information in living organisms."}
+{"subject": "Biology", "topic": "DNA", "input": "What does DNA mean?", "answer": "DNA stores hereditary information in living organisms."}
+{"subject": "Biology", "topic": "DNA", "input": "Tell me about DNA.", "answer": "DNA stores hereditary information in living organisms."}
+{"subject": "Biology", "topic": "gene", "input": "What is gene?", "answer": "A gene is a region of DNA involved in producing a functional product."}
+{"subject": "Biology", "topic": "gene", "input": "Define gene.", "answer": "A gene is a region of DNA involved in producing a functional product."}
+{"subject": "Biology", "topic": "gene", "input": "Explain gene.", "answer": "A gene is a region of DNA involved in producing a functional product."}
+{"subject": "Biology", "topic": "gene", "input": "What does gene mean?", "answer": "A gene is a region of DNA involved in producing a functional product."}
+{"subject": "Biology", "topic": "gene", "input": "Tell me about gene.", "answer": "A gene is a region of DNA involved in producing a functional product."}
+{"subject": "Biology", "topic": "photosynthesis", "input": "What is photosynthesis?", "answer": "Photosynthesis uses light energy to make sugars from carbon dioxide and water."}
+{"subject": "Biology", "topic": "photosynthesis", "input": "Define photosynthesis.", "answer": "Photosynthesis uses light energy to make sugars from carbon dioxide and water."}
+{"subject": "Biology", "topic": "photosynthesis", "input": "Explain photosynthesis.", "answer": "Photosynthesis uses light energy to make sugars from carbon dioxide and water."}
+{"subject": "Biology", "topic": "photosynthesis", "input": "What does photosynthesis mean?", "answer": "Photosynthesis uses light energy to make sugars from carbon dioxide and water."}
+{"subject": "Biology", "topic": "photosynthesis", "input": "Tell me about photosynthesis.", "answer": "Photosynthesis uses light energy to make sugars from carbon dioxide and water."}
+{"subject": "Biology", "topic": "respiration", "input": "What is respiration?", "answer": "Cellular respiration releases usable energy from nutrients."}
+{"subject": "Biology", "topic": "respiration", "input": "Define respiration.", "answer": "Cellular respiration releases usable energy from nutrients."}
+{"subject": "Biology", "topic": "respiration", "input": "Explain respiration.", "answer": "Cellular respiration releases usable energy from nutrients."}
+{"subject": "Biology", "topic": "respiration", "input": "What does respiration mean?", "answer": "Cellular respiration releases usable energy from nutrients."}
+{"subject": "Biology", "topic": "respiration", "input": "Tell me about respiration.", "answer": "Cellular respiration releases usable energy from nutrients."}
+{"subject": "Biology", "topic": "ecosystem", "input": "What is ecosystem?", "answer": "An ecosystem includes organisms and their physical environment."}
+{"subject": "Biology", "topic": "ecosystem", "input": "Define ecosystem.", "answer": "An ecosystem includes organisms and their physical environment."}
+{"subject": "Biology", "topic": "ecosystem", "input": "Explain ecosystem.", "answer": "An ecosystem includes organisms and their physical environment."}
+{"subject": "Biology", "topic": "ecosystem", "input": "What does ecosystem mean?", "answer": "An ecosystem includes organisms and their physical environment."}
+{"subject": "Biology", "topic": "ecosystem", "input": "Tell me about ecosystem.", "answer": "An ecosystem includes organisms and their physical environment."}
+{"subject": "Biology", "topic": "evolution", "input": "What is evolution?", "answer": "Evolution is change in inherited characteristics of populations across generations."}
+{"subject": "Biology", "topic": "evolution", "input": "Define evolution.", "answer": "Evolution is change in inherited characteristics of populations across generations."}
+{"subject": "Biology", "topic": "evolution", "input": "Explain evolution.", "answer": "Evolution is change in inherited characteristics of populations across generations."}
+{"subject": "Biology", "topic": "evolution", "input": "What does evolution mean?", "answer": "Evolution is change in inherited characteristics of populations across generations."}
+{"subject": "Biology", "topic": "evolution", "input": "Tell me about evolution.", "answer": "Evolution is change in inherited characteristics of populations across generations."}
+{"subject": "Geography", "topic": "geography", "input": "What is geography?", "answer": "Geography studies places, environments, and relationships between people and places."}
+{"subject": "Geography", "topic": "geography", "input": "Define geography.", "answer": "Geography studies places, environments, and relationships between people and places."}
+{"subject": "Geography", "topic": "geography", "input": "Explain geography.", "answer": "Geography studies places, environments, and relationships between people and places."}
+{"subject": "Geography", "topic": "geography", "input": "What does geography mean?", "answer": "Geography studies places, environments, and relationships between people and places."}
+{"subject": "Geography", "topic": "geography", "input": "Tell me about geography.", "answer": "Geography studies places, environments, and relationships between people and places."}
+{"subject": "Geography", "topic": "weather", "input": "What is weather?", "answer": "Weather describes atmospheric conditions over a short period."}
+{"subject": "Geography", "topic": "weather", "input": "Define weather.", "answer": "Weather describes atmospheric conditions over a short period."}
+{"subject": "Geography", "topic": "weather", "input": "Explain weather.", "answer": "Weather describes atmospheric conditions over a short period."}
+{"subject": "Geography", "topic": "weather", "input": "What does weather mean?", "answer": "Weather describes atmospheric conditions over a short period."}
+{"subject": "Geography", "topic": "weather", "input": "Tell me about weather.", "answer": "Weather describes atmospheric conditions over a short period."}
+{"subject": "Geography", "topic": "climate", "input": "What is climate?", "answer": "Climate describes long term patterns of weather."}
+{"subject": "Geography", "topic": "climate", "input": "Define climate.", "answer": "Climate describes long term patterns of weather."}
+{"subject": "Geography", "topic": "climate", "input": "Explain climate.", "answer": "Climate describes long term patterns of weather."}
+{"subject": "Geography", "topic": "climate", "input": "What does climate mean?", "answer": "Climate describes long term patterns of weather."}
+{"subject": "Geography", "topic": "climate", "input": "Tell me about climate.", "answer": "Climate describes long term patterns of weather."}
+{"subject": "Geography", "topic": "water cycle", "input": "What is water cycle?", "answer": "The water cycle moves water through evaporation, condensation, and precipitation."}
+{"subject": "Geography", "topic": "water cycle", "input": "Define water cycle.", "answer": "The water cycle moves water through evaporation, condensation, and precipitation."}
+{"subject": "Geography", "topic": "water cycle", "input": "Explain water cycle.", "answer": "The water cycle moves water through evaporation, condensation, and precipitation."}
+{"subject": "Geography", "topic": "water cycle", "input": "What does water cycle mean?", "answer": "The water cycle moves water through evaporation, condensation, and precipitation."}
+{"subject": "Geography", "topic": "water cycle", "input": "Tell me about water cycle.", "answer": "The water cycle moves water through evaporation, condensation, and precipitation."}
+{"subject": "Geography", "topic": "map", "input": "What is map?", "answer": "A map represents spatial information about an area."}
+{"subject": "Geography", "topic": "map", "input": "Define map.", "answer": "A map represents spatial information about an area."}
+{"subject": "Geography", "topic": "map", "input": "Explain map.", "answer": "A map represents spatial information about an area."}
+{"subject": "Geography", "topic": "map", "input": "What does map mean?", "answer": "A map represents spatial information about an area."}
+{"subject": "Geography", "topic": "map", "input": "Tell me about map.", "answer": "A map represents spatial information about an area."}
+{"subject": "Geography", "topic": "latitude", "input": "What is latitude?", "answer": "Latitude measures angular distance north or south of the equator."}
+{"subject": "Geography", "topic": "latitude", "input": "Define latitude.", "answer": "Latitude measures angular distance north or south of the equator."}
+{"subject": "Geography", "topic": "latitude", "input": "Explain latitude.", "answer": "Latitude measures angular distance north or south of the equator."}
+{"subject": "Geography", "topic": "latitude", "input": "What does latitude mean?", "answer": "Latitude measures angular distance north or south of the equator."}
+{"subject": "Geography", "topic": "latitude", "input": "Tell me about latitude.", "answer": "Latitude measures angular distance north or south of the equator."}
+{"subject": "Geography", "topic": "longitude", "input": "What is longitude?", "answer": "Longitude measures angular distance east or west of the prime meridian."}
+{"subject": "Geography", "topic": "longitude", "input": "Define longitude.", "answer": "Longitude measures angular distance east or west of the prime meridian."}
+{"subject": "Geography", "topic": "longitude", "input": "Explain longitude.", "answer": "Longitude measures angular distance east or west of the prime meridian."}
+{"subject": "Geography", "topic": "longitude", "input": "What does longitude mean?", "answer": "Longitude measures angular distance east or west of the prime meridian."}
+{"subject": "Geography", "topic": "longitude", "input": "Tell me about longitude.", "answer": "Longitude measures angular distance east or west of the prime meridian."}
+{"subject": "History", "topic": "history", "input": "What is history?", "answer": "History studies the past using evidence and interpretation."}
+{"subject": "History", "topic": "history", "input": "Define history.", "answer": "History studies the past using evidence and interpretation."}
+{"subject": "History", "topic": "history", "input": "Explain history.", "answer": "History studies the past using evidence and interpretation."}
+{"subject": "History", "topic": "history", "input": "What does history mean?", "answer": "History studies the past using evidence and interpretation."}
+{"subject": "History", "topic": "history", "input": "Tell me about history.", "answer": "History studies the past using evidence and interpretation."}
+{"subject": "History", "topic": "primary source", "input": "What is primary source?", "answer": "A primary source provides evidence originating from the period or event studied."}
+{"subject": "History", "topic": "primary source", "input": "Define primary source.", "answer": "A primary source provides evidence originating from the period or event studied."}
+{"subject": "History", "topic": "primary source", "input": "Explain primary source.", "answer": "A primary source provides evidence originating from the period or event studied."}
+{"subject": "History", "topic": "primary source", "input": "What does primary source mean?", "answer": "A primary source provides evidence originating from the period or event studied."}
+{"subject": "History", "topic": "primary source", "input": "Tell me about primary source.", "answer": "A primary source provides evidence originating from the period or event studied."}
+{"subject": "History", "topic": "secondary source", "input": "What is secondary source?", "answer": "A secondary source interprets or analyses primary evidence."}
+{"subject": "History", "topic": "secondary source", "input": "Define secondary source.", "answer": "A secondary source interprets or analyses primary evidence."}
+{"subject": "History", "topic": "secondary source", "input": "Explain secondary source.", "answer": "A secondary source interprets or analyses primary evidence."}
+{"subject": "History", "topic": "secondary source", "input": "What does secondary source mean?", "answer": "A secondary source interprets or analyses primary evidence."}
+{"subject": "History", "topic": "secondary source", "input": "Tell me about secondary source.", "answer": "A secondary source interprets or analyses primary evidence."}
+{"subject": "History", "topic": "chronology", "input": "What is chronology?", "answer": "Chronology arranges events in time order."}
+{"subject": "History", "topic": "chronology", "input": "Define chronology.", "answer": "Chronology arranges events in time order."}
+{"subject": "History", "topic": "chronology", "input": "Explain chronology.", "answer": "Chronology arranges events in time order."}
+{"subject": "History", "topic": "chronology", "input": "What does chronology mean?", "answer": "Chronology arranges events in time order."}
+{"subject": "History", "topic": "chronology", "input": "Tell me about chronology.", "answer": "Chronology arranges events in time order."}
+{"subject": "English", "topic": "noun", "input": "What is noun?", "answer": "A noun names a person, place, thing, or idea."}
+{"subject": "English", "topic": "noun", "input": "Define noun.", "answer": "A noun names a person, place, thing, or idea."}
+{"subject": "English", "topic": "noun", "input": "Explain noun.", "answer": "A noun names a person, place, thing, or idea."}
+{"subject": "English", "topic": "noun", "input": "What does noun mean?", "answer": "A noun names a person, place, thing, or idea."}
+{"subject": "English", "topic": "noun", "input": "Tell me about noun.", "answer": "A noun names a person, place, thing, or idea."}
+{"subject": "English", "topic": "verb", "input": "What is verb?", "answer": "A verb expresses an action, occurrence, or state."}
+{"subject": "English", "topic": "verb", "input": "Define verb.", "answer": "A verb expresses an action, occurrence, or state."}
+{"subject": "English", "topic": "verb", "input": "Explain verb.", "answer": "A verb expresses an action, occurrence, or state."}
+{"subject": "English", "topic": "verb", "input": "What does verb mean?", "answer": "A verb expresses an action, occurrence, or state."}
+{"subject": "English", "topic": "verb", "input": "Tell me about verb.", "answer": "A verb expresses an action, occurrence, or state."}
+{"subject": "English", "topic": "adjective", "input": "What is adjective?", "answer": "An adjective describes or modifies a noun."}
+{"subject": "English", "topic": "adjective", "input": "Define adjective.", "answer": "An adjective describes or modifies a noun."}
+{"subject": "English", "topic": "adjective", "input": "Explain adjective.", "answer": "An adjective describes or modifies a noun."}
+{"subject": "English", "topic": "adjective", "input": "What does adjective mean?", "answer": "An adjective describes or modifies a noun."}
+{"subject": "English", "topic": "adjective", "input": "Tell me about adjective.", "answer": "An adjective describes or modifies a noun."}
+{"subject": "English", "topic": "adverb", "input": "What is adverb?", "answer": "An adverb can modify a verb, adjective, or another adverb."}
+{"subject": "English", "topic": "adverb", "input": "Define adverb.", "answer": "An adverb can modify a verb, adjective, or another adverb."}
+{"subject": "English", "topic": "adverb", "input": "Explain adverb.", "answer": "An adverb can modify a verb, adjective, or another adverb."}
+{"subject": "English", "topic": "adverb", "input": "What does adverb mean?", "answer": "An adverb can modify a verb, adjective, or another adverb."}
+{"subject": "English", "topic": "adverb", "input": "Tell me about adverb.", "answer": "An adverb can modify a verb, adjective, or another adverb."}
+{"subject": "English", "topic": "sentence", "input": "What is sentence?", "answer": "A sentence expresses a grammatically complete thought."}
+{"subject": "English", "topic": "sentence", "input": "Define sentence.", "answer": "A sentence expresses a grammatically complete thought."}
+{"subject": "English", "topic": "sentence", "input": "Explain sentence.", "answer": "A sentence expresses a grammatically complete thought."}
+{"subject": "English", "topic": "sentence", "input": "What does sentence mean?", "answer": "A sentence expresses a grammatically complete thought."}
+{"subject": "English", "topic": "sentence", "input": "Tell me about sentence.", "answer": "A sentence expresses a grammatically complete thought."}
+{"subject": "English", "topic": "grammatical subject", "input": "What is grammatical subject?", "answer": "The grammatical subject is the sentence element about which the predicate makes a statement."}
+{"subject": "English", "topic": "grammatical subject", "input": "Define grammatical subject.", "answer": "The grammatical subject is the sentence element about which the predicate makes a statement."}
+{"subject": "English", "topic": "grammatical subject", "input": "Explain grammatical subject.", "answer": "The grammatical subject is the sentence element about which the predicate makes a statement."}
+{"subject": "English", "topic": "grammatical subject", "input": "What does grammatical subject mean?", "answer": "The grammatical subject is the sentence element about which the predicate makes a statement."}
+{"subject": "English", "topic": "grammatical subject", "input": "Tell me about grammatical subject.", "answer": "The grammatical subject is the sentence element about which the predicate makes a statement."}
+{"subject": "English", "topic": "paragraph", "input": "What is paragraph?", "answer": "A paragraph groups related sentences around a main idea."}
+{"subject": "English", "topic": "paragraph", "input": "Define paragraph.", "answer": "A paragraph groups related sentences around a main idea."}
+{"subject": "English", "topic": "paragraph", "input": "Explain paragraph.", "answer": "A paragraph groups related sentences around a main idea."}
+{"subject": "English", "topic": "paragraph", "input": "What does paragraph mean?", "answer": "A paragraph groups related sentences around a main idea."}
+{"subject": "English", "topic": "paragraph", "input": "Tell me about paragraph.", "answer": "A paragraph groups related sentences around a main idea."}
+{"subject": "Literature", "topic": "literature", "input": "What is literature?", "answer": "Literature includes written or oral works studied for artistic and cultural meaning."}
+{"subject": "Literature", "topic": "literature", "input": "Define literature.", "answer": "Literature includes written or oral works studied for artistic and cultural meaning."}
+{"subject": "Literature", "topic": "literature", "input": "Explain literature.", "answer": "Literature includes written or oral works studied for artistic and cultural meaning."}
+{"subject": "Literature", "topic": "literature", "input": "What does literature mean?", "answer": "Literature includes written or oral works studied for artistic and cultural meaning."}
+{"subject": "Literature", "topic": "literature", "input": "Tell me about literature.", "answer": "Literature includes written or oral works studied for artistic and cultural meaning."}
+{"subject": "Literature", "topic": "theme", "input": "What is theme?", "answer": "A theme is a central idea explored in a work."}
+{"subject": "Literature", "topic": "theme", "input": "Define theme.", "answer": "A theme is a central idea explored in a work."}
+{"subject": "Literature", "topic": "theme", "input": "Explain theme.", "answer": "A theme is a central idea explored in a work."}
+{"subject": "Literature", "topic": "theme", "input": "What does theme mean?", "answer": "A theme is a central idea explored in a work."}
+{"subject": "Literature", "topic": "theme", "input": "Tell me about theme.", "answer": "A theme is a central idea explored in a work."}
+{"subject": "Literature", "topic": "plot", "input": "What is plot?", "answer": "A plot is the arrangement of events in a story."}
+{"subject": "Literature", "topic": "plot", "input": "Define plot.", "answer": "A plot is the arrangement of events in a story."}
+{"subject": "Literature", "topic": "plot", "input": "Explain plot.", "answer": "A plot is the arrangement of events in a story."}
+{"subject": "Literature", "topic": "plot", "input": "What does plot mean?", "answer": "A plot is the arrangement of events in a story."}
+{"subject": "Literature", "topic": "plot", "input": "Tell me about plot.", "answer": "A plot is the arrangement of events in a story."}
+{"subject": "Literature", "topic": "metaphor", "input": "What is metaphor?", "answer": "A metaphor describes one thing in terms of another."}
+{"subject": "Literature", "topic": "metaphor", "input": "Define metaphor.", "answer": "A metaphor describes one thing in terms of another."}
+{"subject": "Literature", "topic": "metaphor", "input": "Explain metaphor.", "answer": "A metaphor describes one thing in terms of another."}
+{"subject": "Literature", "topic": "metaphor", "input": "What does metaphor mean?", "answer": "A metaphor describes one thing in terms of another."}
+{"subject": "Literature", "topic": "metaphor", "input": "Tell me about metaphor.", "answer": "A metaphor describes one thing in terms of another."}
+{"subject": "Literature", "topic": "character", "input": "What is character?", "answer": "A character is a person or other agent represented in a story."}
+{"subject": "Literature", "topic": "character", "input": "Define character.", "answer": "A character is a person or other agent represented in a story."}
+{"subject": "Literature", "topic": "character", "input": "Explain character.", "answer": "A character is a person or other agent represented in a story."}
+{"subject": "Literature", "topic": "character", "input": "What does character mean?", "answer": "A character is a person or other agent represented in a story."}
+{"subject": "Literature", "topic": "character", "input": "Tell me about character.", "answer": "A character is a person or other agent represented in a story."}
+{"subject": "Computer Science", "topic": "computer", "input": "What is computer?", "answer": "A computer processes data according to instructions."}
+{"subject": "Computer Science", "topic": "computer", "input": "Define computer.", "answer": "A computer processes data according to instructions."}
+{"subject": "Computer Science", "topic": "computer", "input": "Explain computer.", "answer": "A computer processes data according to instructions."}
+{"subject": "Computer Science", "topic": "computer", "input": "What does computer mean?", "answer": "A computer processes data according to instructions."}
+{"subject": "Computer Science", "topic": "computer", "input": "Tell me about computer.", "answer": "A computer processes data according to instructions."}
+{"subject": "Computer Science", "topic": "algorithm", "input": "What is algorithm?", "answer": "An algorithm is a finite sequence of steps for solving a problem."}
+{"subject": "Computer Science", "topic": "algorithm", "input": "Define algorithm.", "answer": "An algorithm is a finite sequence of steps for solving a problem."}
+{"subject": "Computer Science", "topic": "algorithm", "input": "Explain algorithm.", "answer": "An algorithm is a finite sequence of steps for solving a problem."}
+{"subject": "Computer Science", "topic": "algorithm", "input": "What does algorithm mean?", "answer": "An algorithm is a finite sequence of steps for solving a problem."}
+{"subject": "Computer Science", "topic": "algorithm", "input": "Tell me about algorithm.", "answer": "An algorithm is a finite sequence of steps for solving a problem."}
+{"subject": "Computer Science", "topic": "variable", "input": "What is variable?", "answer": "A variable represents a value used in a program."}
+{"subject": "Computer Science", "topic": "variable", "input": "Define variable.", "answer": "A variable represents a value used in a program."}
+{"subject": "Computer Science", "topic": "variable", "input": "Explain variable.", "answer": "A variable represents a value used in a program."}
+{"subject": "Computer Science", "topic": "variable", "input": "What does variable mean?", "answer": "A variable represents a value used in a program."}
+{"subject": "Computer Science", "topic": "variable", "input": "Tell me about variable.", "answer": "A variable represents a value used in a program."}
+{"subject": "Computer Science", "topic": "loop", "input": "What is loop?", "answer": "A loop repeats instructions according to a condition or sequence."}
+{"subject": "Computer Science", "topic": "loop", "input": "Define loop.", "answer": "A loop repeats instructions according to a condition or sequence."}
+{"subject": "Computer Science", "topic": "loop", "input": "Explain loop.", "answer": "A loop repeats instructions according to a condition or sequence."}
+{"subject": "Computer Science", "topic": "loop", "input": "What does loop mean?", "answer": "A loop repeats instructions according to a condition or sequence."}
+{"subject": "Computer Science", "topic": "loop", "input": "Tell me about loop.", "answer": "A loop repeats instructions according to a condition or sequence."}
+{"subject": "Computer Science", "topic": "function", "input": "What is function?", "answer": "A function is a reusable unit of computation."}
+{"subject": "Computer Science", "topic": "function", "input": "Define function.", "answer": "A function is a reusable unit of computation."}
+{"subject": "Computer Science", "topic": "function", "input": "Explain function.", "answer": "A function is a reusable unit of computation."}
+{"subject": "Computer Science", "topic": "function", "input": "What does function mean?", "answer": "A function is a reusable unit of computation."}
+{"subject": "Computer Science", "topic": "function", "input": "Tell me about function.", "answer": "A function is a reusable unit of computation."}
+{"subject": "Computer Science", "topic": "database", "input": "What is database?", "answer": "A database stores organised data for retrieval and management."}
+{"subject": "Computer Science", "topic": "database", "input": "Define database.", "answer": "A database stores organised data for retrieval and management."}
+{"subject": "Computer Science", "topic": "database", "input": "Explain database.", "answer": "A database stores organised data for retrieval and management."}
+{"subject": "Computer Science", "topic": "database", "input": "What does database mean?", "answer": "A database stores organised data for retrieval and management."}
+{"subject": "Computer Science", "topic": "database", "input": "Tell me about database.", "answer": "A database stores organised data for retrieval and management."}
+{"subject": "Computer Science", "topic": "machine learning", "input": "What is machine learning?", "answer": "Machine learning fits models to data to make predictions or identify patterns."}
+{"subject": "Computer Science", "topic": "machine learning", "input": "Define machine learning.", "answer": "Machine learning fits models to data to make predictions or identify patterns."}
+{"subject": "Computer Science", "topic": "machine learning", "input": "Explain machine learning.", "answer": "Machine learning fits models to data to make predictions or identify patterns."}
+{"subject": "Computer Science", "topic": "machine learning", "input": "What does machine learning mean?", "answer": "Machine learning fits models to data to make predictions or identify patterns."}
+{"subject": "Computer Science", "topic": "machine learning", "input": "Tell me about machine learning.", "answer": "Machine learning fits models to data to make predictions or identify patterns."}
+{"subject": "Computer Science", "topic": "binary", "input": "What is binary?", "answer": "Binary represents numbers using the digits zero and one."}
+{"subject": "Computer Science", "topic": "binary", "input": "Define binary.", "answer": "Binary represents numbers using the digits zero and one."}
+{"subject": "Computer Science", "topic": "binary", "input": "Explain binary.", "answer": "Binary represents numbers using the digits zero and one."}
+{"subject": "Computer Science", "topic": "binary", "input": "What does binary mean?", "answer": "Binary represents numbers using the digits zero and one."}
+{"subject": "Computer Science", "topic": "binary", "input": "Tell me about binary.", "answer": "Binary represents numbers using the digits zero and one."}
+{"subject": "Economics", "topic": "economics", "input": "What is economics?", "answer": "Economics studies choices about scarce resources."}
+{"subject": "Economics", "topic": "economics", "input": "Define economics.", "answer": "Economics studies choices about scarce resources."}
+{"subject": "Economics", "topic": "economics", "input": "Explain economics.", "answer": "Economics studies choices about scarce resources."}
+{"subject": "Economics", "topic": "economics", "input": "What does economics mean?", "answer": "Economics studies choices about scarce resources."}
+{"subject": "Economics", "topic": "economics", "input": "Tell me about economics.", "answer": "Economics studies choices about scarce resources."}
+{"subject": "Economics", "topic": "scarcity", "input": "What is scarcity?", "answer": "Scarcity means resources are limited relative to wants."}
+{"subject": "Economics", "topic": "scarcity", "input": "Define scarcity.", "answer": "Scarcity means resources are limited relative to wants."}
+{"subject": "Economics", "topic": "scarcity", "input": "Explain scarcity.", "answer": "Scarcity means resources are limited relative to wants."}
+{"subject": "Economics", "topic": "scarcity", "input": "What does scarcity mean?", "answer": "Scarcity means resources are limited relative to wants."}
+{"subject": "Economics", "topic": "scarcity", "input": "Tell me about scarcity.", "answer": "Scarcity means resources are limited relative to wants."}
+{"subject": "Economics", "topic": "opportunity cost", "input": "What is opportunity cost?", "answer": "Opportunity cost is the value of the best alternative forgone."}
+{"subject": "Economics", "topic": "opportunity cost", "input": "Define opportunity cost.", "answer": "Opportunity cost is the value of the best alternative forgone."}
+{"subject": "Economics", "topic": "opportunity cost", "input": "Explain opportunity cost.", "answer": "Opportunity cost is the value of the best alternative forgone."}
+{"subject": "Economics", "topic": "opportunity cost", "input": "What does opportunity cost mean?", "answer": "Opportunity cost is the value of the best alternative forgone."}
+{"subject": "Economics", "topic": "opportunity cost", "input": "Tell me about opportunity cost.", "answer": "Opportunity cost is the value of the best alternative forgone."}
+{"subject": "Economics", "topic": "demand", "input": "What is demand?", "answer": "Demand describes quantities buyers are willing and able to buy at different prices."}
+{"subject": "Economics", "topic": "demand", "input": "Define demand.", "answer": "Demand describes quantities buyers are willing and able to buy at different prices."}
+{"subject": "Economics", "topic": "demand", "input": "Explain demand.", "answer": "Demand describes quantities buyers are willing and able to buy at different prices."}
+{"subject": "Economics", "topic": "demand", "input": "What does demand mean?", "answer": "Demand describes quantities buyers are willing and able to buy at different prices."}
+{"subject": "Economics", "topic": "demand", "input": "Tell me about demand.", "answer": "Demand describes quantities buyers are willing and able to buy at different prices."}
+{"subject": "Economics", "topic": "supply", "input": "What is supply?", "answer": "Supply describes quantities sellers are willing and able to sell at different prices."}
+{"subject": "Economics", "topic": "supply", "input": "Define supply.", "answer": "Supply describes quantities sellers are willing and able to sell at different prices."}
+{"subject": "Economics", "topic": "supply", "input": "Explain supply.", "answer": "Supply describes quantities sellers are willing and able to sell at different prices."}
+{"subject": "Economics", "topic": "supply", "input": "What does supply mean?", "answer": "Supply describes quantities sellers are willing and able to sell at different prices."}
+{"subject": "Economics", "topic": "supply", "input": "Tell me about supply.", "answer": "Supply describes quantities sellers are willing and able to sell at different prices."}
+{"subject": "Economics", "topic": "inflation", "input": "What is inflation?", "answer": "Inflation is a sustained increase in the general price level."}
+{"subject": "Economics", "topic": "inflation", "input": "Define inflation.", "answer": "Inflation is a sustained increase in the general price level."}
+{"subject": "Economics", "topic": "inflation", "input": "Explain inflation.", "answer": "Inflation is a sustained increase in the general price level."}
+{"subject": "Economics", "topic": "inflation", "input": "What does inflation mean?", "answer": "Inflation is a sustained increase in the general price level."}
+{"subject": "Economics", "topic": "inflation", "input": "Tell me about inflation.", "answer": "Inflation is a sustained increase in the general price level."}
+{"subject": "Business and Management", "topic": "management", "input": "What is management?", "answer": "Management coordinates resources through planning, organising, leading, and controlling."}
+{"subject": "Business and Management", "topic": "management", "input": "Define management.", "answer": "Management coordinates resources through planning, organising, leading, and controlling."}
+{"subject": "Business and Management", "topic": "management", "input": "Explain management.", "answer": "Management coordinates resources through planning, organising, leading, and controlling."}
+{"subject": "Business and Management", "topic": "management", "input": "What does management mean?", "answer": "Management coordinates resources through planning, organising, leading, and controlling."}
+{"subject": "Business and Management", "topic": "management", "input": "Tell me about management.", "answer": "Management coordinates resources through planning, organising, leading, and controlling."}
+{"subject": "Business and Management", "topic": "planning", "input": "What is planning?", "answer": "Planning sets objectives and identifies actions to achieve them."}
+{"subject": "Business and Management", "topic": "planning", "input": "Define planning.", "answer": "Planning sets objectives and identifies actions to achieve them."}
+{"subject": "Business and Management", "topic": "planning", "input": "Explain planning.", "answer": "Planning sets objectives and identifies actions to achieve them."}
+{"subject": "Business and Management", "topic": "planning", "input": "What does planning mean?", "answer": "Planning sets objectives and identifies actions to achieve them."}
+{"subject": "Business and Management", "topic": "planning", "input": "Tell me about planning.", "answer": "Planning sets objectives and identifies actions to achieve them."}
+{"subject": "Business and Management", "topic": "leadership", "input": "What is leadership?", "answer": "Leadership guides and influences people toward shared goals."}
+{"subject": "Business and Management", "topic": "leadership", "input": "Define leadership.", "answer": "Leadership guides and influences people toward shared goals."}
+{"subject": "Business and Management", "topic": "leadership", "input": "Explain leadership.", "answer": "Leadership guides and influences people toward shared goals."}
+{"subject": "Business and Management", "topic": "leadership", "input": "What does leadership mean?", "answer": "Leadership guides and influences people toward shared goals."}
+{"subject": "Business and Management", "topic": "leadership", "input": "Tell me about leadership.", "answer": "Leadership guides and influences people toward shared goals."}
+{"subject": "Business and Management", "topic": "marketing", "input": "What is marketing?", "answer": "Marketing identifies customer needs and communicates and delivers value."}
+{"subject": "Business and Management", "topic": "marketing", "input": "Define marketing.", "answer": "Marketing identifies customer needs and communicates and delivers value."}
+{"subject": "Business and Management", "topic": "marketing", "input": "Explain marketing.", "answer": "Marketing identifies customer needs and communicates and delivers value."}
+{"subject": "Business and Management", "topic": "marketing", "input": "What does marketing mean?", "answer": "Marketing identifies customer needs and communicates and delivers value."}
+{"subject": "Business and Management", "topic": "marketing", "input": "Tell me about marketing.", "answer": "Marketing identifies customer needs and communicates and delivers value."}
+{"subject": "Business and Management", "topic": "entrepreneurship", "input": "What is entrepreneurship?", "answer": "Entrepreneurship develops opportunities into ventures under uncertainty."}
+{"subject": "Business and Management", "topic": "entrepreneurship", "input": "Define entrepreneurship.", "answer": "Entrepreneurship develops opportunities into ventures under uncertainty."}
+{"subject": "Business and Management", "topic": "entrepreneurship", "input": "Explain entrepreneurship.", "answer": "Entrepreneurship develops opportunities into ventures under uncertainty."}
+{"subject": "Business and Management", "topic": "entrepreneurship", "input": "What does entrepreneurship mean?", "answer": "Entrepreneurship develops opportunities into ventures under uncertainty."}
+{"subject": "Business and Management", "topic": "entrepreneurship", "input": "Tell me about entrepreneurship.", "answer": "Entrepreneurship develops opportunities into ventures under uncertainty."}
+{"subject": "Business and Management", "topic": "project", "input": "What is project?", "answer": "A project is a temporary effort to produce a defined result."}
+{"subject": "Business and Management", "topic": "project", "input": "Define project.", "answer": "A project is a temporary effort to produce a defined result."}
+{"subject": "Business and Management", "topic": "project", "input": "Explain project.", "answer": "A project is a temporary effort to produce a defined result."}
+{"subject": "Business and Management", "topic": "project", "input": "What does project mean?", "answer": "A project is a temporary effort to produce a defined result."}
+{"subject": "Business and Management", "topic": "project", "input": "Tell me about project.", "answer": "A project is a temporary effort to produce a defined result."}
+{"subject": "Accounting", "topic": "accounting", "input": "What is accounting?", "answer": "Accounting records, classifies, and reports financial transactions."}
+{"subject": "Accounting", "topic": "accounting", "input": "Define accounting.", "answer": "Accounting records, classifies, and reports financial transactions."}
+{"subject": "Accounting", "topic": "accounting", "input": "Explain accounting.", "answer": "Accounting records, classifies, and reports financial transactions."}
+{"subject": "Accounting", "topic": "accounting", "input": "What does accounting mean?", "answer": "Accounting records, classifies, and reports financial transactions."}
+{"subject": "Accounting", "topic": "accounting", "input": "Tell me about accounting.", "answer": "Accounting records, classifies, and reports financial transactions."}
+{"subject": "Accounting", "topic": "asset", "input": "What is asset?", "answer": "An asset is a controlled economic resource arising from past events."}
+{"subject": "Accounting", "topic": "asset", "input": "Define asset.", "answer": "An asset is a controlled economic resource arising from past events."}
+{"subject": "Accounting", "topic": "asset", "input": "Explain asset.", "answer": "An asset is a controlled economic resource arising from past events."}
+{"subject": "Accounting", "topic": "asset", "input": "What does asset mean?", "answer": "An asset is a controlled economic resource arising from past events."}
+{"subject": "Accounting", "topic": "asset", "input": "Tell me about asset.", "answer": "An asset is a controlled economic resource arising from past events."}
+{"subject": "Accounting", "topic": "liability", "input": "What is liability?", "answer": "A liability is a present obligation to transfer an economic resource."}
+{"subject": "Accounting", "topic": "liability", "input": "Define liability.", "answer": "A liability is a present obligation to transfer an economic resource."}
+{"subject": "Accounting", "topic": "liability", "input": "Explain liability.", "answer": "A liability is a present obligation to transfer an economic resource."}
+{"subject": "Accounting", "topic": "liability", "input": "What does liability mean?", "answer": "A liability is a present obligation to transfer an economic resource."}
+{"subject": "Accounting", "topic": "liability", "input": "Tell me about liability.", "answer": "A liability is a present obligation to transfer an economic resource."}
+{"subject": "Accounting", "topic": "equity", "input": "What is equity?", "answer": "Equity is the residual interest in assets after liabilities are deducted."}
+{"subject": "Accounting", "topic": "equity", "input": "Define equity.", "answer": "Equity is the residual interest in assets after liabilities are deducted."}
+{"subject": "Accounting", "topic": "equity", "input": "Explain equity.", "answer": "Equity is the residual interest in assets after liabilities are deducted."}
+{"subject": "Accounting", "topic": "equity", "input": "What does equity mean?", "answer": "Equity is the residual interest in assets after liabilities are deducted."}
+{"subject": "Accounting", "topic": "equity", "input": "Tell me about equity.", "answer": "Equity is the residual interest in assets after liabilities are deducted."}
+{"subject": "Accounting", "topic": "revenue", "input": "What is revenue?", "answer": "Revenue is income arising from ordinary business activities."}
+{"subject": "Accounting", "topic": "revenue", "input": "Define revenue.", "answer": "Revenue is income arising from ordinary business activities."}
+{"subject": "Accounting", "topic": "revenue", "input": "Explain revenue.", "answer": "Revenue is income arising from ordinary business activities."}
+{"subject": "Accounting", "topic": "revenue", "input": "What does revenue mean?", "answer": "Revenue is income arising from ordinary business activities."}
+{"subject": "Accounting", "topic": "revenue", "input": "Tell me about revenue.", "answer": "Revenue is income arising from ordinary business activities."}
+{"subject": "Accounting", "topic": "profit", "input": "What is profit?", "answer": "Profit is income remaining after relevant expenses are deducted."}
+{"subject": "Accounting", "topic": "profit", "input": "Define profit.", "answer": "Profit is income remaining after relevant expenses are deducted."}
+{"subject": "Accounting", "topic": "profit", "input": "Explain profit.", "answer": "Profit is income remaining after relevant expenses are deducted."}
+{"subject": "Accounting", "topic": "profit", "input": "What does profit mean?", "answer": "Profit is income remaining after relevant expenses are deducted."}
+{"subject": "Accounting", "topic": "profit", "input": "Tell me about profit.", "answer": "Profit is income remaining after relevant expenses are deducted."}
+{"subject": "Civics", "topic": "civics", "input": "What is civics?", "answer": "Civics studies citizenship, public institutions, rights, and responsibilities."}
+{"subject": "Civics", "topic": "civics", "input": "Define civics.", "answer": "Civics studies citizenship, public institutions, rights, and responsibilities."}
+{"subject": "Civics", "topic": "civics", "input": "Explain civics.", "answer": "Civics studies citizenship, public institutions, rights, and responsibilities."}
+{"subject": "Civics", "topic": "civics", "input": "What does civics mean?", "answer": "Civics studies citizenship, public institutions, rights, and responsibilities."}
+{"subject": "Civics", "topic": "civics", "input": "Tell me about civics.", "answer": "Civics studies citizenship, public institutions, rights, and responsibilities."}
+{"subject": "Civics", "topic": "constitution", "input": "What is constitution?", "answer": "A constitution establishes fundamental principles and structures of government."}
+{"subject": "Civics", "topic": "constitution", "input": "Define constitution.", "answer": "A constitution establishes fundamental principles and structures of government."}
+{"subject": "Civics", "topic": "constitution", "input": "Explain constitution.", "answer": "A constitution establishes fundamental principles and structures of government."}
+{"subject": "Civics", "topic": "constitution", "input": "What does constitution mean?", "answer": "A constitution establishes fundamental principles and structures of government."}
+{"subject": "Civics", "topic": "constitution", "input": "Tell me about constitution.", "answer": "A constitution establishes fundamental principles and structures of government."}
+{"subject": "Civics", "topic": "democracy", "input": "What is democracy?", "answer": "Democracy involves public participation and accountability in government."}
+{"subject": "Civics", "topic": "democracy", "input": "Define democracy.", "answer": "Democracy involves public participation and accountability in government."}
+{"subject": "Civics", "topic": "democracy", "input": "Explain democracy.", "answer": "Democracy involves public participation and accountability in government."}
+{"subject": "Civics", "topic": "democracy", "input": "What does democracy mean?", "answer": "Democracy involves public participation and accountability in government."}
+{"subject": "Civics", "topic": "democracy", "input": "Tell me about democracy.", "answer": "Democracy involves public participation and accountability in government."}
+{"subject": "Civics", "topic": "rule of law", "input": "What is rule of law?", "answer": "The rule of law requires public power to operate under established laws."}
+{"subject": "Civics", "topic": "rule of law", "input": "Define rule of law.", "answer": "The rule of law requires public power to operate under established laws."}
+{"subject": "Civics", "topic": "rule of law", "input": "Explain rule of law.", "answer": "The rule of law requires public power to operate under established laws."}
+{"subject": "Civics", "topic": "rule of law", "input": "What does rule of law mean?", "answer": "The rule of law requires public power to operate under established laws."}
+{"subject": "Civics", "topic": "rule of law", "input": "Tell me about rule of law.", "answer": "The rule of law requires public power to operate under established laws."}
+{"subject": "Civics", "topic": "citizenship", "input": "What is citizenship?", "answer": "Citizenship describes membership in a political community."}
+{"subject": "Civics", "topic": "citizenship", "input": "Define citizenship.", "answer": "Citizenship describes membership in a political community."}
+{"subject": "Civics", "topic": "citizenship", "input": "Explain citizenship.", "answer": "Citizenship describes membership in a political community."}
+{"subject": "Civics", "topic": "citizenship", "input": "What does citizenship mean?", "answer": "Citizenship describes membership in a political community."}
+{"subject": "Civics", "topic": "citizenship", "input": "Tell me about citizenship.", "answer": "Citizenship describes membership in a political community."}
+{"subject": "Philosophy", "topic": "philosophy", "input": "What is philosophy?", "answer": "Philosophy examines fundamental questions about knowledge, reality, and values."}
+{"subject": "Philosophy", "topic": "philosophy", "input": "Define philosophy.", "answer": "Philosophy examines fundamental questions about knowledge, reality, and values."}
+{"subject": "Philosophy", "topic": "philosophy", "input": "Explain philosophy.", "answer": "Philosophy examines fundamental questions about knowledge, reality, and values."}
+{"subject": "Philosophy", "topic": "philosophy", "input": "What does philosophy mean?", "answer": "Philosophy examines fundamental questions about knowledge, reality, and values."}
+{"subject": "Philosophy", "topic": "philosophy", "input": "Tell me about philosophy.", "answer": "Philosophy examines fundamental questions about knowledge, reality, and values."}
+{"subject": "Philosophy", "topic": "logic", "input": "What is logic?", "answer": "Logic studies principles of valid reasoning."}
+{"subject": "Philosophy", "topic": "logic", "input": "Define logic.", "answer": "Logic studies principles of valid reasoning."}
+{"subject": "Philosophy", "topic": "logic", "input": "Explain logic.", "answer": "Logic studies principles of valid reasoning."}
+{"subject": "Philosophy", "topic": "logic", "input": "What does logic mean?", "answer": "Logic studies principles of valid reasoning."}
+{"subject": "Philosophy", "topic": "logic", "input": "Tell me about logic.", "answer": "Logic studies principles of valid reasoning."}
+{"subject": "Philosophy", "topic": "ethics", "input": "What is ethics?", "answer": "Ethics examines how people ought to act and why."}
+{"subject": "Philosophy", "topic": "ethics", "input": "Define ethics.", "answer": "Ethics examines how people ought to act and why."}
+{"subject": "Philosophy", "topic": "ethics", "input": "Explain ethics.", "answer": "Ethics examines how people ought to act and why."}
+{"subject": "Philosophy", "topic": "ethics", "input": "What does ethics mean?", "answer": "Ethics examines how people ought to act and why."}
+{"subject": "Philosophy", "topic": "ethics", "input": "Tell me about ethics.", "answer": "Ethics examines how people ought to act and why."}
+{"subject": "Philosophy", "topic": "epistemology", "input": "What is epistemology?", "answer": "Epistemology studies knowledge and justification."}
+{"subject": "Philosophy", "topic": "epistemology", "input": "Define epistemology.", "answer": "Epistemology studies knowledge and justification."}
+{"subject": "Philosophy", "topic": "epistemology", "input": "Explain epistemology.", "answer": "Epistemology studies knowledge and justification."}
+{"subject": "Philosophy", "topic": "epistemology", "input": "What does epistemology mean?", "answer": "Epistemology studies knowledge and justification."}
+{"subject": "Philosophy", "topic": "epistemology", "input": "Tell me about epistemology.", "answer": "Epistemology studies knowledge and justification."}
+{"subject": "Philosophy", "topic": "argument", "input": "What is argument?", "answer": "An argument presents premises intended to support a conclusion."}
+{"subject": "Philosophy", "topic": "argument", "input": "Define argument.", "answer": "An argument presents premises intended to support a conclusion."}
+{"subject": "Philosophy", "topic": "argument", "input": "Explain argument.", "answer": "An argument presents premises intended to support a conclusion."}
+{"subject": "Philosophy", "topic": "argument", "input": "What does argument mean?", "answer": "An argument presents premises intended to support a conclusion."}
+{"subject": "Philosophy", "topic": "argument", "input": "Tell me about argument.", "answer": "An argument presents premises intended to support a conclusion."}
+{"subject": "Psychology", "topic": "psychology", "input": "What is psychology?", "answer": "Psychology studies behaviour and mental processes."}
+{"subject": "Psychology", "topic": "psychology", "input": "Define psychology.", "answer": "Psychology studies behaviour and mental processes."}
+{"subject": "Psychology", "topic": "psychology", "input": "Explain psychology.", "answer": "Psychology studies behaviour and mental processes."}
+{"subject": "Psychology", "topic": "psychology", "input": "What does psychology mean?", "answer": "Psychology studies behaviour and mental processes."}
+{"subject": "Psychology", "topic": "psychology", "input": "Tell me about psychology.", "answer": "Psychology studies behaviour and mental processes."}
+{"subject": "Psychology", "topic": "learning", "input": "What is learning?", "answer": "Learning is a relatively lasting change resulting from experience."}
+{"subject": "Psychology", "topic": "learning", "input": "Define learning.", "answer": "Learning is a relatively lasting change resulting from experience."}
+{"subject": "Psychology", "topic": "learning", "input": "Explain learning.", "answer": "Learning is a relatively lasting change resulting from experience."}
+{"subject": "Psychology", "topic": "learning", "input": "What does learning mean?", "answer": "Learning is a relatively lasting change resulting from experience."}
+{"subject": "Psychology", "topic": "learning", "input": "Tell me about learning.", "answer": "Learning is a relatively lasting change resulting from experience."}
+{"subject": "Psychology", "topic": "memory", "input": "What is memory?", "answer": "Memory involves encoding, storing, and retrieving information."}
+{"subject": "Psychology", "topic": "memory", "input": "Define memory.", "answer": "Memory involves encoding, storing, and retrieving information."}
+{"subject": "Psychology", "topic": "memory", "input": "Explain memory.", "answer": "Memory involves encoding, storing, and retrieving information."}
+{"subject": "Psychology", "topic": "memory", "input": "What does memory mean?", "answer": "Memory involves encoding, storing, and retrieving information."}
+{"subject": "Psychology", "topic": "memory", "input": "Tell me about memory.", "answer": "Memory involves encoding, storing, and retrieving information."}
+{"subject": "Psychology", "topic": "motivation", "input": "What is motivation?", "answer": "Motivation concerns processes that initiate and sustain goal directed behaviour."}
+{"subject": "Psychology", "topic": "motivation", "input": "Define motivation.", "answer": "Motivation concerns processes that initiate and sustain goal directed behaviour."}
+{"subject": "Psychology", "topic": "motivation", "input": "Explain motivation.", "answer": "Motivation concerns processes that initiate and sustain goal directed behaviour."}
+{"subject": "Psychology", "topic": "motivation", "input": "What does motivation mean?", "answer": "Motivation concerns processes that initiate and sustain goal directed behaviour."}
+{"subject": "Psychology", "topic": "motivation", "input": "Tell me about motivation.", "answer": "Motivation concerns processes that initiate and sustain goal directed behaviour."}
+{"subject": "Psychology", "topic": "attention", "input": "What is attention?", "answer": "Attention selects information for processing."}
+{"subject": "Psychology", "topic": "attention", "input": "Define attention.", "answer": "Attention selects information for processing."}
+{"subject": "Psychology", "topic": "attention", "input": "Explain attention.", "answer": "Attention selects information for processing."}
+{"subject": "Psychology", "topic": "attention", "input": "What does attention mean?", "answer": "Attention selects information for processing."}
+{"subject": "Psychology", "topic": "attention", "input": "Tell me about attention.", "answer": "Attention selects information for processing."}
+{"subject": "Agriculture", "topic": "agriculture", "input": "What is agriculture?", "answer": "Agriculture involves growing crops and raising animals."}
+{"subject": "Agriculture", "topic": "agriculture", "input": "Define agriculture.", "answer": "Agriculture involves growing crops and raising animals."}
+{"subject": "Agriculture", "topic": "agriculture", "input": "Explain agriculture.", "answer": "Agriculture involves growing crops and raising animals."}
+{"subject": "Agriculture", "topic": "agriculture", "input": "What does agriculture mean?", "answer": "Agriculture involves growing crops and raising animals."}
+{"subject": "Agriculture", "topic": "agriculture", "input": "Tell me about agriculture.", "answer": "Agriculture involves growing crops and raising animals."}
+{"subject": "Agriculture", "topic": "soil", "input": "What is soil?", "answer": "Soil supports plant growth and contains minerals, organic matter, water, and air."}
+{"subject": "Agriculture", "topic": "soil", "input": "Define soil.", "answer": "Soil supports plant growth and contains minerals, organic matter, water, and air."}
+{"subject": "Agriculture", "topic": "soil", "input": "Explain soil.", "answer": "Soil supports plant growth and contains minerals, organic matter, water, and air."}
+{"subject": "Agriculture", "topic": "soil", "input": "What does soil mean?", "answer": "Soil supports plant growth and contains minerals, organic matter, water, and air."}
+{"subject": "Agriculture", "topic": "soil", "input": "Tell me about soil.", "answer": "Soil supports plant growth and contains minerals, organic matter, water, and air."}
+{"subject": "Agriculture", "topic": "irrigation", "input": "What is irrigation?", "answer": "Irrigation supplies water to crops."}
+{"subject": "Agriculture", "topic": "irrigation", "input": "Define irrigation.", "answer": "Irrigation supplies water to crops."}
+{"subject": "Agriculture", "topic": "irrigation", "input": "Explain irrigation.", "answer": "Irrigation supplies water to crops."}
+{"subject": "Agriculture", "topic": "irrigation", "input": "What does irrigation mean?", "answer": "Irrigation supplies water to crops."}
+{"subject": "Agriculture", "topic": "irrigation", "input": "Tell me about irrigation.", "answer": "Irrigation supplies water to crops."}
+{"subject": "Agriculture", "topic": "crop rotation", "input": "What is crop rotation?", "answer": "Crop rotation grows different crops in sequence on the same land."}
+{"subject": "Agriculture", "topic": "crop rotation", "input": "Define crop rotation.", "answer": "Crop rotation grows different crops in sequence on the same land."}
+{"subject": "Agriculture", "topic": "crop rotation", "input": "Explain crop rotation.", "answer": "Crop rotation grows different crops in sequence on the same land."}
+{"subject": "Agriculture", "topic": "crop rotation", "input": "What does crop rotation mean?", "answer": "Crop rotation grows different crops in sequence on the same land."}
+{"subject": "Agriculture", "topic": "crop rotation", "input": "Tell me about crop rotation.", "answer": "Crop rotation grows different crops in sequence on the same land."}
+{"subject": "Agriculture", "topic": "compost", "input": "What is compost?", "answer": "Compost is decomposed organic material used to improve soil."}
+{"subject": "Agriculture", "topic": "compost", "input": "Define compost.", "answer": "Compost is decomposed organic material used to improve soil."}
+{"subject": "Agriculture", "topic": "compost", "input": "Explain compost.", "answer": "Compost is decomposed organic material used to improve soil."}
+{"subject": "Agriculture", "topic": "compost", "input": "What does compost mean?", "answer": "Compost is decomposed organic material used to improve soil."}
+{"subject": "Agriculture", "topic": "compost", "input": "Tell me about compost.", "answer": "Compost is decomposed organic material used to improve soil."}
+{"subject": "Arts and Music", "topic": "art", "input": "What is art?", "answer": "Art uses creative forms to communicate experiences and ideas."}
+{"subject": "Arts and Music", "topic": "art", "input": "Define art.", "answer": "Art uses creative forms to communicate experiences and ideas."}
+{"subject": "Arts and Music", "topic": "art", "input": "Explain art.", "answer": "Art uses creative forms to communicate experiences and ideas."}
+{"subject": "Arts and Music", "topic": "art", "input": "What does art mean?", "answer": "Art uses creative forms to communicate experiences and ideas."}
+{"subject": "Arts and Music", "topic": "art", "input": "Tell me about art.", "answer": "Art uses creative forms to communicate experiences and ideas."}
+{"subject": "Arts and Music", "topic": "colour", "input": "What is colour?", "answer": "Colour is a visual perception related to light."}
+{"subject": "Arts and Music", "topic": "colour", "input": "Define colour.", "answer": "Colour is a visual perception related to light."}
+{"subject": "Arts and Music", "topic": "colour", "input": "Explain colour.", "answer": "Colour is a visual perception related to light."}
+{"subject": "Arts and Music", "topic": "colour", "input": "What does colour mean?", "answer": "Colour is a visual perception related to light."}
+{"subject": "Arts and Music", "topic": "colour", "input": "Tell me about colour.", "answer": "Colour is a visual perception related to light."}
+{"subject": "Arts and Music", "topic": "rhythm", "input": "What is rhythm?", "answer": "Rhythm organises sounds or movements in time."}
+{"subject": "Arts and Music", "topic": "rhythm", "input": "Define rhythm.", "answer": "Rhythm organises sounds or movements in time."}
+{"subject": "Arts and Music", "topic": "rhythm", "input": "Explain rhythm.", "answer": "Rhythm organises sounds or movements in time."}
+{"subject": "Arts and Music", "topic": "rhythm", "input": "What does rhythm mean?", "answer": "Rhythm organises sounds or movements in time."}
+{"subject": "Arts and Music", "topic": "rhythm", "input": "Tell me about rhythm.", "answer": "Rhythm organises sounds or movements in time."}
+{"subject": "Arts and Music", "topic": "melody", "input": "What is melody?", "answer": "A melody is an organised sequence of musical pitches."}
+{"subject": "Arts and Music", "topic": "melody", "input": "Define melody.", "answer": "A melody is an organised sequence of musical pitches."}
+{"subject": "Arts and Music", "topic": "melody", "input": "Explain melody.", "answer": "A melody is an organised sequence of musical pitches."}
+{"subject": "Arts and Music", "topic": "melody", "input": "What does melody mean?", "answer": "A melody is an organised sequence of musical pitches."}
+{"subject": "Arts and Music", "topic": "melody", "input": "Tell me about melody.", "answer": "A melody is an organised sequence of musical pitches."}
+{"subject": "Arts and Music", "topic": "harmony", "input": "What is harmony?", "answer": "Harmony concerns combinations and relationships of simultaneous musical tones."}
+{"subject": "Arts and Music", "topic": "harmony", "input": "Define harmony.", "answer": "Harmony concerns combinations and relationships of simultaneous musical tones."}
+{"subject": "Arts and Music", "topic": "harmony", "input": "Explain harmony.", "answer": "Harmony concerns combinations and relationships of simultaneous musical tones."}
+{"subject": "Arts and Music", "topic": "harmony", "input": "What does harmony mean?", "answer": "Harmony concerns combinations and relationships of simultaneous musical tones."}
+{"subject": "Arts and Music", "topic": "harmony", "input": "Tell me about harmony.", "answer": "Harmony concerns combinations and relationships of simultaneous musical tones."}

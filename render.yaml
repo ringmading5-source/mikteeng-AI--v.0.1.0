@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: mikteeng-ai-chatbot
+    runtime: python
+    plan: free
+    rootDir: deploy/mikteeng-chatbot
+    buildCommand: pip install -r requirements-chatbot-tested.txt && pip install . && python build_model.py
+    startCommand: python start_chatbot.py --host 0.0.0.0
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: OPENBLAS_NUM_THREADS
+        value: "1"
+      - key: OMP_NUM_THREADS
+        value: "1"
