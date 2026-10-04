@@ -1,0 +1,28 @@
+{
+  "checked_calibration_examples": 18,
+  "held_out_coefficients": [
+    5,
+    14
+  ],
+  "linear_quadratic_cubic": {
+    "1": {
+      "correct": 100,
+      "total": 100
+    },
+    "2": {
+      "correct": 100,
+      "total": 100
+    },
+    "3": {
+      "correct": 100,
+      "total": 100
+    }
+  },
+  "untrained_plus_five": 120,
+  "geometric_failure": {
+    "prediction": 58,
+    "expected": 64
+  },
+  "scope": "Synthetic polynomial continuation within a programmed finite-difference representation; not unrestricted pattern discovery.",
+  "unit_tests_passed": 18
+}

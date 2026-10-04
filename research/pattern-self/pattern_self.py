@@ -125,3 +125,54 @@ class AdaptivePredictionSelf:
                              'candidates':result['candidates']})
         if update_patterns: self.learner.feedback(context,actual)
         return self
+
+class RecursiveNumericSelf:
+    """Local transition learning over a designed finite-difference hierarchy."""
+    def __init__(self, max_depth=3, retention=0.95):
+        if max_depth<1 or not 0<retention<=1:raise ValueError('Invalid depth or retention')
+        self.max_depth=max_depth;self.retention=retention
+        self.reliability={};self.history=[]
+
+    def candidates(self, sequence):
+        from numbers import Real
+        sequence=list(sequence)
+        if any(not isinstance(x,Real) or isinstance(x,bool) for x in sequence):
+            raise ValueError('Numeric observations required')
+        levels=[sequence];result=[]
+        for depth in range(1,self.max_depth+1):
+            previous=levels[-1]
+            changes=[b-a for a,b in zip(previous,previous[1:])]
+            levels.append(changes)
+            if len(changes)<2:break
+            # Observe input at this level; do not train on its own forecast.
+            local=PatternSelf().observe(changes)
+            proposal=local.predict(changes)
+            value=proposal['prediction']
+            # Integrate predicted change back through the hierarchy.
+            for earlier in reversed(levels[:-1]):value=earlier[-1]+value
+            success,failure=self.reliability.get(depth,(0.0,0.0))
+            reliability=(success+1)/(success+failure+2)
+            evidence=proposal['frequency']
+            result.append({'depth':depth,'prediction':value,
+                           'predicted_change':proposal['prediction'],
+                           'local_context':proposal['context'],
+                           'support':proposal['support'],'frequency':evidence,
+                           'reliability_score':reliability,
+                           'selection_score':evidence*reliability})
+        return result
+
+    def predict(self, sequence):
+        candidates=self.candidates(sequence)
+        if not candidates:return {'prediction':None,'candidates':[],'depth':None}
+        selected=max(candidates,key=lambda c:(c['selection_score'],-c['depth']))
+        return dict(selected,candidates=candidates)
+
+    def feedback(self, sequence, actual):
+        result=self.predict(sequence)
+        for candidate in result['candidates']:
+            depth=candidate['depth'];success,failure=self.reliability.get(depth,(0.,0.))
+            correct=candidate['prediction']==actual
+            self.reliability[depth]=[self.retention*success+int(correct),
+                                     self.retention*failure+int(not correct)]
+        self.history.append({'observations':list(sequence),'actual':actual,'proposal':result})
+        return self

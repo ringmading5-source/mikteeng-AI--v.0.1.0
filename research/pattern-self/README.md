@@ -63,3 +63,22 @@ print(ai.predict(['a','signal']))
 For an isolated selector experiment use `update_patterns=False` in feedback; normal feedback also updates the base learner with the checked outcome. `history` preserves pre-update predictions for inspection and currently grows without a bound. This remains a research API, not a public deployment component.
 
 Run `python evaluate_adaptive_self.py` to reproduce the latest audit. After 40 feedback examples: 200/200 adaptive versus 0/200 longest-context predictions on deliberately misleading long contexts. All base contexts were known; evaluation prefixes differed from feedback prefixes and targets were excluded from feedback. The base learner was frozen to isolate the selector. Another context family retained 100/100 bindings. In an 80-step reversal test, accuracy was 0/10 in the first ten and 10/10 in the last ten (67/80 overall). Twelve unit checks pass, including earlier failure probes. The task was designed to benefit shorter-context selection, not sampled from general language. Final-token grouping can transfer incorrectly when two situations share a final token but require different selection strategies. The +5 and negation failures of the base mechanism are not solved by this work. No claim of improvements to the chatbot is made.
+
+## Recursive numeric observations
+
+`RecursiveNumericSelf` now learns local transitions within the supplied numeric observations at several finite-difference depths. No +5, square, or cube answer rule is installed. The DIFFERENCE OPERATOR and the maximum depth (default 3) are explicitly designed. This is recursion over transformed observations, not the unfinished general recursion over patterns of predictions.
+
+    D^(0) = observed numbers
+    D^(l+1)_i = D^(l)_(i+1) - D^(l)_i
+
+At each available level, a fresh PatternSelf observes that level and predicts its next change. Reconstruct a candidate next number by adding that predicted value back to the last value at each earlier level, deepest first. Select a candidate using local empirical frequency multiplied by its checked level-reliability score. The multiplication and shallow tie preference are fixed design decisions. Feedback compares all candidates with the actual outcome and updates level success/failure evidence with the same retained-score formula. Prediction does not feed generated values into training. Local transition tables are rebuilt from each input; checked level reliability persists in the object.
+
+```python
+from pattern_self import RecursiveNumericSelf
+ai = RecursiveNumericSelf()
+print(ai.predict([100,105,110,115])['prediction']) # 120
+print(ai.predict([1,4,9,16,25])['prediction'])     # 36
+ai.feedback([1,4,9,16,25],36)
+```
+
+Run `python evaluate_recursive_numeric.py`. After 18 checked calibration cases with coefficients 1,2,3, held-out coefficients 5 through 14 and offsets 100 through 109 scored 100/100 for each of degrees 1,2,3. +5 can also be inferred with no calibration: 100,105,110,115 -> 120. Geometric 2,4,8,16,32 still failed (58 instead of 64 after calibration). All 18 unit checks pass, including failure probes. These are curated noiseless arithmetic families favored by the chosen representation. Finite evidence permits many possible continuations; success does not establish the unique correct rule. No improved negation, text semantics, tool use, learned transformation discovery, noise robustness or universal generalization is claimed. This is separate from the unchanged deployment.
