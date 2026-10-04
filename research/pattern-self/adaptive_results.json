@@ -1,0 +1,28 @@
+{
+  "selection_test": {
+    "baseline_correct": 0,
+    "adaptive_correct": 200,
+    "total": 200,
+    "feedback_examples": 40,
+    "base_patterns_frozen": true,
+    "scope": "Known base contexts; checked reliability transfers to other prefixes with the same final token. Targets in evaluation are not used for training."
+  },
+  "other_context_bindings_retained": {
+    "correct": 100,
+    "total": 100
+  },
+  "changed_outcome_prequential": {
+    "first_10_correct": 0,
+    "last_10_correct": 10,
+    "total_correct": 67,
+    "total": 80
+  },
+  "limitations": [
+    "Designed suffix contexts and final-token reliability grouping",
+    "Fixed exponential retention 0.95",
+    "No unseen transformation discovery",
+    "No learned negation or semantic role discovery",
+    "Reliability scores are not calibrated correctness probabilities",
+    "Single meta level, no arbitrary recursive pattern learning"
+  ]
+}
