@@ -3,9 +3,8 @@ services:
     name: mikteeng-ai-chatbot
     runtime: python
     plan: free
-    rootDir: deploy/mikteeng-chatbot
-    buildCommand: pip install -r requirements-chatbot-tested.txt && pip install . && python build_model.py
-    startCommand: python start_chatbot.py --host 0.0.0.0
+    buildCommand: pip install .
+    startCommand: python -m mikteeng_rspm serve --host 0.0.0.0 --checkpoint models/synthetic_vector_demo.json
     healthCheckPath: /health
     envVars:
       - key: PYTHON_VERSION

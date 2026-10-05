@@ -1,4 +1,3 @@
-"""mikteeng AI: experimental learned prediction components."""
-__version__ = '0.1.0'
-from .api import MikteengAI, RoleSession
-__all__ = ['MikteengAI', 'RoleSession', '__version__']
+"""Import compatibility for the renamed package; legacy learners were retired."""
+from mikteeng_rspm import MikteengRSPM, BoundedRSPM, load, save, __version__
+__all__ = ['MikteengRSPM', 'BoundedRSPM', 'load', 'save']

@@ -1,105 +1,79 @@
-# mikteeng AI
+# Mikteeng RSPM
 
-An installable Python library for the experimental character, word-role, sentence-state and passage predictors developed in this project. Version 0.1.0 is a research prototype, not a universal AI or a production framework.
+Mikteeng RSPM is the primary model in this repository. It replaces the earlier character, role, sentence, self-model and waveform learners in the active package and deployment. Git history preserves the old release; `research/` and `validation/` are historical experiments, not active model code.
+
+The model learns context-local operators over a fixed orthonormal basis and retains bounded, per-trigger outcome hypotheses. It runs on CPU with NumPy. No LLM, RNN or adaptive global basis is involved.
 
 ## Install
-
-Clone this repository and open its folder, or extract the downloadable archive:
-
-```bash
-git clone https://github.com/ringmading5-source/mikteeng-AI--v.0.1.0.git
-cd mikteeng-AI--v.0.1.0
-```
-
-Then install:
 
 ```bash
 python -m pip install .
 ```
 
-Python 3.10 or newer is required. Dependencies: NumPy, SciPy and scikit-learn. A built wheel is included under `dist/`. The project is not published on PyPI: `pip install mikteeng-ai` by name is not the installation route for this release.
-
-## Generate
-
 ```python
-from mikteeng_ai import MikteengAI
-
-ai = MikteengAI.load("models/biology_physics.mkteeng")
-result = ai.generate("Explain cells and velocity.")
-print(result["text"])
+from mikteeng_rspm import MikteengRSPM, save, load
+model = MikteengRSPM(dim=64)
+result = model.train(history_vector, trigger_vector, target_vector)
+answer = model.query(history_vector, trigger_vector)
+save(model, 'trained.json')
+model = load('trained.json')
 ```
 
-The bundled model generates next words from weights. It does not retrieve stored answer sentences. Its scientific vocabulary and composition tests are narrow and familiar; memorized sentence wording remains a limitation. Model files use pickle internally: load trusted files only.
+Each vector must have exactly `dim` finite values and a nonzero norm. History is projected through the fixed positive basis selection. Trigger and target vectors are normalized. Dataset representation is supplied by the caller; this release does not automatically interpret raw text, audio or images.
 
-## Revise word roles
+## Stream larger datasets
 
-```python
-session = ai.role_session()
-for word in ["the", "cat", "was", "chased", "by", "the", "dog", "."]:
-    updated_roles = session.push(word)
+Use JSONL with one observation per line:
 
-roles = ai.predict_roles("The cat was chased by the dog.")
+```json
+{"history": [0.2, 0.8], "trigger": [1.0, 0.0], "target": [0.0, 1.0]}
 ```
 
-Role outputs distinguish grammatical subject, actor, receiver and relation cue, with uncalibrated scores and subject BIO phrase labels. Adding words revises earlier predictions in the current sentence. Starting the next sentence resets the session. Predictions on observed prefixes never read future words. They can still be wrong.
-
-## Train
-
-```python
-ai = MikteengAI()
-ai.train_generation([
-    {"input": "What is speed?", "answer": "Speed is distance divided by time."},
-    {"input": "What is a cell?", "answer": "A cell is a basic unit of life."},
-])
-ai.save("models/my_model.mkteeng")
-ai = MikteengAI.load("models/my_model.mkteeng")
-```
-
-This tiny example demonstrates the API, not meaningful accuracy. Each training call fits that head from the supplied dataset; it does not append knowledge automatically. Retain old data when retraining if you want to preserve it. Training is CPU based and synchronous.
-
-| Method | Purpose |
-|---|---|
-| `train(data, task=...)` | Dispatch to generation, roles, sentences or passages |
-| `train_generation(rows, sentence_state=True, use_subjects=False)` | Fit next-word generation; enable subject features after role training |
-| `train_roles(rows)` | Fit revisable subject, actor, receiver, relation and BIO classifiers |
-| `train_sentences(rows)` | Fit sentence actor/receiver prediction |
-| `train_passages(rows, seed=811)` | Fit action-conditioned passage roles |
-| `generate(prompt, max_words=85)` / `ask(...)` | Generate text and token probability trace |
-| `predict_roles(text)` / `role_session()` | Inspect whole sentences or revisable prefixes |
-| `predict(sentence)` | Predict sentence actor/receiver |
-| `answer_passage(text, action)` | Predict actor/receiver of an action in a passage |
-| `new_character_stream()` | Access the bundled earlier character state for incremental character updates |
-| `save(path)` / `MikteengAI.load(path)` | Save/load a versioned local checkpoint |
-
-Training a new role head does not silently change an already fitted generator. Retrain generation with `use_subjects=True` to connect the new role head. Models are separately trained; this is not joint end-to-end optimization. Older numeric and free-story modules are not included.
-
-## Dataset formats
-
-Generation: dictionaries with `input` and `answer` strings.
-
-Sentence roles: `sentence`, `actor`, `receiver`, where lowercase answer words occur in the sentence.
-
-Word roles: `words` plus equal-length `subject`, `actor`, `receiver`, `relation` lists (0/1, or -1 for unknown labels), and `subject_BIO` (`B`, `I`, `O`). Provide both positive and negative examples for each binary head and multiple BIO classes. See `docs.md` for examples.
-
-Passages: `passage` plus `queries`, each containing `action`, `actor_index`, `receiver_index` into the tokenizer's word/punctuation sequence. Both roles are single token positions in this passage head; it is distinct from BIO word-role learning.
-
-## Command line
+The example above has dimension two. All rows in a training job must use the configured dimension.
 
 ```bash
-mikteeng-ai models/biology_physics.mkteeng "Explain cells and velocity."
-mikteeng-ai models/biology_physics.mkteeng "The cat was chased by the dog." --task roles
+python -m mikteeng_rspm train dataset.jsonl --dim 64 --output trained.json \
+  --max-contexts 24 --max-triggers 32 --max-modes 8 --max-candidates 16 \
+  --ttl 1000 --checkpoint-every 10000
+python -m mikteeng_rspm train next_dataset.jsonl --resume trained.json --output trained.json
 ```
 
-## Included model limitations
+Rows are processed incrementally; the complete dataset is not loaded into RAM. Checkpoints are written atomically and can resume training. Resume uses the checkpoint's dimensions, capacities and hyperparameters. CLI arguments for new-model construction do not override a resumed model. Allocation rejections and ambiguous routes are included in training summaries. Do not infer predictive accuracy from observation counts.
 
-The bundled checkpoint preserves the latest tested research models. Role training: 3,238 annotated rows including repeats. Generation training: 1,028 synthetic single/paired biology/physics examples. Paired generation 108/110; single-answer generation 20/48. Exact subject spans: 720/720 on familiar-structure unseen entity pairs, but 0/120 on the tested new passive-question structure, and only 1/5 on held-out science facts. These are small synthetic experiments. They do not establish general understanding or reliable unseen-problem solving. Earlier single-only generation scored 35/48, so the richer system does not improve every task.
+`python examples/train.py` creates a small dataset using the model's fixed basis. Large training is supported as sequential CPU ingestion with bounded stores, not as a validated multi-GPU or distributed trainer. Dense local operators require approximately 8 × contexts × dim² bytes before other records. Checkpoint loading currently has a 256 MiB file limit.
 
-`experiments/` contains datasets and evaluation results separately from the installed engine. Models are under `models/`; installing the wheel does not automatically install datasets or a default model. Scores describe those saved checkpoints, not any new training run.
+## Serve inference
 
-## Validation
+```bash
+python -m mikteeng_rspm serve --checkpoint trained.json --host 0.0.0.0 --port 8000
+```
 
-Run `python -m unittest discover -s tests`. Source modules never train on import. The saved model uses only `mikteeng_ai` class paths and can load outside the project directory without legacy files on `sys.path`. See `VALIDATION.md` for this release's checks.
+Open `/` for the vector console. `GET /health` identifies the model and dimension. `POST /api/predict` accepts history and trigger arrays and returns routing status, learned vector prediction and copied outcome hypotheses with evidence frequencies. These frequencies are not calibrated confidence scores. The HTTP service exposes no training endpoint and never advances the training clock during inference.
 
-## Latest learning experiments — October 5, 2026
+The committed `models/synthetic_vector_demo.json` checkpoint has dimension 32 and was trained on two synthetic coordinate rules. `/api/example` supplies one compatible query. It is a vector demonstration, not a curriculum-trained chatbot. Old `/api/chat`, text completion and audio endpoints have been retired.
 
-See [research/latest-learning](research/latest-learning/README.md) for recovered predictive composition, word formation, acoustic training code, checkpoints, reproducible scripts, and limitations. The [updated chatbot](deploy/mikteeng-chatbot/README.md) now exposes experimental word completion, structured planning, and WAV continuation using this implementation.
+## Model guarantees tested
+
+- Fixed basis B; independent local R per history context.
+- Context and trigger similarity/margin gates; explicit unmatched and ambiguous statuses.
+- Independent confirmed outcome modes and provisional candidates.
+- Bounded context, trigger, mode and candidate allocations; confirmed memory protection and explicit capacity rejection.
+- Global training-step TTL maintenance; no inference side effects.
+- Complete byte-aware snapshots, copied query outputs and atomic checkpoint writes.
+- Conservative staged merges using exact one-to-one trigger/mode correspondence. Approximate domain union remains unsupported.
+
+## Tests and measured scope
+
+```bash
+python -m unittest discover -s tests -v
+python benchmarks/benchmark_bounded.py
+python benchmarks/train_generalization.py
+```
+
+The core audit passed ten tests; integration tests cover checkpoint/resume and live HTTP inference. The synthetic novelty benchmark allocated 1,000 novel contexts through provisional recycling, retained two established rules and retrieved 100/100 noisy queries. Five training runs of 960 observations learned unseen positive combinations of familiar basis symbols with diagnostic error around 10⁻¹⁵.
+
+**Important:** broad combinations still fail the public trigger gate. Direct operator diagnostics show learned prediction quality but do not establish end-to-end success on rejected queries. Nearby combinations pass public routing. The package does not claim arbitrary unseen-rule learning, language understanding, conversational generation, speech generation or GPU throughput. See `benchmarks/GENERALIZATION_TRAINING.md`.
+
+## Deployment and migration
+
+The Render blueprint starts this package from the repository root. Existing services using the old deployment root can use its thin compatibility launcher; new services use the repository root; see `DEPLOYMENT.md`. Old `.mkteeng` checkpoints are incompatible and are not silently converted. Convert source training records into vector JSONL and retrain RSPM. Import compatibility exposes `MikteengRSPM` from `mikteeng_ai`; the old `MikteengAI` multi-learner API is retired.

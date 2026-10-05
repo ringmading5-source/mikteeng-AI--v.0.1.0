@@ -1,9 +1,8 @@
-from mikteeng_ai import MikteengAI
-# A deliberately tiny API example, not a useful trained knowledge model.
-data=[{'input':'What is speed?','answer':'Speed is distance divided by time.'},
-      {'input':'Explain speed.','answer':'Speed is distance divided by time.'},
-      {'input':'What is a cell?','answer':'A cell is a basic unit of life.'},
-      {'input':'Explain a cell.','answer':'A cell is a basic unit of life.'}]
-model=MikteengAI().train(data,task='generation')
-model.save('models/my_model.mkteeng')
-print(model.generate('Explain speed.')['text'])
+"""Create a tiny reproducible vector dataset, then train the same RSPM learner."""
+import json
+from mikteeng_rspm import MikteengRSPM
+engine=MikteengRSPM(dim=32)
+with open('training.jsonl','w') as f:
+    for _ in range(30):
+        f.write(json.dumps({'history':engine.B[0].tolist(),'trigger':engine.B[1].tolist(),'target':engine.B[2].tolist()})+'\n')
+print('python -m mikteeng_rspm train training.jsonl --dim 32 --output trained.json')

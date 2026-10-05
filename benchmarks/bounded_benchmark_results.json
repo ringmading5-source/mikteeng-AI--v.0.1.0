@@ -1,0 +1,13 @@
+{
+  "novelty_observations": 1000,
+  "novel_context_allocations": 1000,
+  "capacity_rejections": 0,
+  "frozen_noisy_retrieval_correct": 100,
+  "frozen_noisy_retrieval_queries": 100,
+  "rejected_queries": 0,
+  "retained_persistent_contexts": 2,
+  "final_contexts": 10,
+  "basis_unchanged": true,
+  "query_complete_snapshot_unchanged": true,
+  "limitation": "Synthetic anchored outcome retrieval; does not establish language generation or unseen-rule generalization."
+}
