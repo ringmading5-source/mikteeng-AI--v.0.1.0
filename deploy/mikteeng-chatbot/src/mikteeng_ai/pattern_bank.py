@@ -38,6 +38,8 @@ class LearnedPatternBank:
         self.loss,self.models,labels=best
         self.gate=ExtraTreesClassifier(n_estimators=100,min_samples_leaf=2,random_state=self.seed).fit(self.context(x),labels)
         self.counts=np.bincount(labels,minlength=self.patterns).tolist()
+        from .vector_nodes import PatternNodeSpace
+        self.vector_nodes=PatternNodeSpace.from_assignments(x,labels,max_nodes=self.patterns)
         return self
     def predict(self,x):
         x=np.asarray(x);chosen=self.gate.predict(self.context(x))
@@ -48,7 +50,11 @@ class LearnedPatternBank:
         return self.gate.predict_proba(self.context(x))
 
 class AdaptivePredictionPatternLearner(PredictionPatternLearner):
-    def __init__(self, patterns=3, seed=42, recursive_depth=0, **kwargs):
+    def __init__(self, patterns=3, seed=42, recursive_depth=0, upward_depth=None, **kwargs):
+        if upward_depth is not None:
+            if recursive_depth!=0:raise ValueError('use upward_depth or recursive_depth, not both')
+            recursive_depth=upward_depth
+        self.bounded_upward=upward_depth is not None
         if type(recursive_depth) is not int or not 0<=recursive_depth<=3:raise ValueError('recursive_depth must be 0 to 3')
         super().__init__(**kwargs);self.patterns=patterns;self.seed=seed;self.recursive_depth=recursive_depth
     def fit(self, observations, *, self_observations):
@@ -62,7 +68,7 @@ class AdaptivePredictionPatternLearner(PredictionPatternLearner):
         self.higher=LearnedPatternBank(self.patterns,self.seed).fit(x,y,groups=groups)
         if self.recursive_depth:
             from .recursive_patterns import RecursivePatternSystem
-            self.higher=RecursivePatternSystem(self.higher,self.recursive_depth,self.seed).fit(x,y,groups)
+            self.higher=RecursivePatternSystem(self.higher,self.recursive_depth,self.seed,bounded=self.bounded_upward).fit(x,y,groups)
         return self
     def inspect(self,s):
         if s.version!=self.version:raise ValueError('stale self')

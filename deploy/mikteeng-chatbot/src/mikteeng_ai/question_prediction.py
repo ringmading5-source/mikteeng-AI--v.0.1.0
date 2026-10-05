@@ -7,8 +7,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.dummy import DummyClassifier
 
 class QuestionConditionedPredictor:
-    def __init__(self,sentence_model,self_source="predictions",role_model=None):
-        self.sentence_model=sentence_model;self.self_source=self_source;self.role_model=role_model
+    def __init__(self,sentence_model,self_source="predictions"):
+        self.sentence_model=sentence_model;self.self_source=self_source
     def features(self,s,q):
         question=self.vectorizer.transform([q])
         # Predictions carry learned observation transitions, rather than a role parser.
@@ -20,21 +20,6 @@ class QuestionConditionedPredictor:
             intact=np.zeros((self.max_sentences,observations.shape[1]))
             intact[:len(observations)]=observations
             z=np.concatenate([z,intact.ravel()])
-        roles=getattr(self,"role_model",None)
-        if roles is not None:
-            observations=np.asarray(s.observations)
-            if len(observations)>self.max_sentences:raise ValueError('observation exceeds trained sentence capacity')
-            # Preserve each predicted role at its original sentence/token position.
-            shape=(self.max_sentences,self.sentence_model.width,len(self.sentence_model.vocabulary),4)
-            bound=np.zeros(shape)
-            for sentence_index,vector in enumerate(observations):
-                words=self.sentence_model.tokens(self.sentence_model.decode(vector))
-                predictions=roles.predictions(words)
-                for token_index,row in enumerate(predictions):
-                    word_index=self.sentence_model.index[row['word']]
-                    for role_index,role in enumerate(('subject','actor','receiver','relation')):
-                        bound[sentence_index,token_index,word_index,role_index]=row['scores'][role]
-            z=np.concatenate([z,bound.ravel()])
         character_model=getattr(self.sentence_model,"character_model",None)
         if character_model is not None:
             observations=" ".join(self.sentence_model.decode(v) for v in s.observations)

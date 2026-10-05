@@ -102,4 +102,4 @@ Run `python -m unittest discover -s tests`. Source modules never train on import
 
 ## Latest learning experiments — October 5, 2026
 
-See [research/latest-learning](research/latest-learning/README.md) for recovered predictive composition, word formation, acoustic training code, checkpoints, reproducible scripts, and limitations. This candidate is separate from the current chatbot deployment.
+See [research/latest-learning](research/latest-learning/README.md) for recovered predictive composition, word formation, acoustic training code, checkpoints, reproducible scripts, and limitations. The [updated chatbot](deploy/mikteeng-chatbot/README.md) now exposes experimental word completion, structured planning, and WAV continuation using this implementation.

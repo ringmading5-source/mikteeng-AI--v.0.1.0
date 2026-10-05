@@ -6,7 +6,7 @@ from .prediction_patterns import PredictionPatternLearner
 class SentencePatternLearner:
     def __init__(self, adaptive=False, **kwargs):
         from .pattern_bank import AdaptivePredictionPatternLearner
-        self.learner=(AdaptivePredictionPatternLearner if adaptive else PredictionPatternLearner)(**kwargs)
+        self.learner=(AdaptivePredictionPatternLearner if adaptive or "upward_depth" in kwargs else PredictionPatternLearner)(**kwargs)
     @staticmethod
     def tokens(text):
         if not isinstance(text,str) or not text.strip():raise ValueError('sentence must be nonempty text')

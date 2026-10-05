@@ -82,17 +82,6 @@ class MikteengAI:
         if model is None:raise RuntimeError('train sentence representation first')
         self.relational_predictor=RelationalPredictor(model).fit(examples)
         return self
-    def train_subject_conditioned_questions(self, data, *, role_model=None):
-        import copy
-        from .question_prediction import QuestionConditionedPredictor
-        model=getattr(self,'sentence_pattern_model',None)
-        roles=role_model if role_model is not None else self.roles
-        if model is None:raise RuntimeError('train sentence patterns first')
-        if roles is None:raise RuntimeError('train or supply the existing role model first')
-        # Train a replacement before attaching; preserve existing role/sequence weights.
-        predictor=QuestionConditionedPredictor(model,self_source='hybrid',role_model=copy.deepcopy(roles)).fit(data)
-        self.subject_conditioned_predictor=predictor
-        return self
     def train_question_conditioned_predictions(self, data):
         from .question_prediction import QuestionConditionedPredictor
         model=getattr(self,'sentence_pattern_model',None)
@@ -157,6 +146,19 @@ class MikteengAI:
         from .pattern_bank import AdaptivePredictionPatternLearner
         self.prediction_pattern_model=AdaptivePredictionPatternLearner(**kwargs).fit(observations,self_observations=self_observations)
         return self
+    def train_speech_predictions(self, recordings, *, self_recordings, **kwargs):
+        from .speech_prediction import SpeechPredictionModel
+        model=SpeechPredictionModel(**kwargs).fit(recordings,self_recordings=self_recordings)
+        self.speech_prediction_model=model
+        return self
+    def build_speech_prediction_self(self, audio, sample_rate):
+        model=getattr(self,'speech_prediction_model',None)
+        if model is None:raise RuntimeError('train speech predictions first')
+        return model.build_self(audio,sample_rate)
+    def predict_speech(self, learned_self, *, frames=1):
+        model=getattr(self,'speech_prediction_model',None)
+        if model is None:raise RuntimeError('train speech predictions first')
+        return model.predict(learned_self,frames)
     def train_sentence_patterns(self, observations, *, self_observations, **kwargs):
         from .sentence_patterns import SentencePatternLearner
         self.sentence_pattern_model=SentencePatternLearner(**kwargs).fit(observations,self_observations=self_observations)
@@ -210,8 +212,6 @@ class MikteengAI:
     def respond_self(self, predicted_self, question, *, min_score=.65, threshold=.9, joining_contexts=None):
         from .prediction_patterns import PredictionPatternSelf
         if isinstance(predicted_self,PredictionPatternSelf):
-            if getattr(self,'subject_conditioned_predictor',None) is not None:
-                return self.subject_conditioned_predictor.respond(predicted_self,question)
             if getattr(self,'character_conditioned_predictor',None) is not None:
                 return self.character_conditioned_predictor.respond(predicted_self,question)
             if getattr(self,'relational_predictor',None) is not None:
@@ -293,6 +293,12 @@ class MikteengAI:
         return self._transitions().predict(state, action)
     def predict_outcome(self, state, actions, **kwargs):
         return self._transitions().rollout(state, actions, **kwargs)
+    def build_deliberation_self(self, state, goal, actions, *, constraints=()):
+        from .deliberation import build_self
+        return build_self(self,state,goal,actions,constraints)
+    def generate_from_self(self, learned_self, **kwargs):
+        from .deliberation import respond
+        return respond(self,learned_self,**kwargs)
     def plan(self, state, goal, actions, **kwargs):
         return self._transitions().plan(state, goal, actions, **kwargs)
     def learn_feedback(self, state, action, observed_state, *, learn=True):
@@ -474,9 +480,16 @@ class MikteengAI:
             archive.writestr('state.pkl',pickle.dumps(self))
         return path
     @classmethod
-    def load(cls,path):
+    def load_trusted(cls,path):
+        """Compatibility helper for explicitly verified local checkpoints."""
+        return cls.load(path,trusted=True)
+    @classmethod
+    def load(cls,path,*,trusted=False):
         """Load trusted files only: internal pickle can execute Python code."""
+        if not trusted:raise ValueError("Pickle checkpoints require explicit trust; use load(path, trusted=True) only for verified local files")
+        if Path(path).stat().st_size>64*1024*1024:raise ValueError("checkpoint exceeds 64 MiB budget")
         with zipfile.ZipFile(path) as archive:
+            if sum(i.file_size for i in archive.infolist())>128*1024*1024:raise ValueError("expanded checkpoint exceeds budget")
             metadata=json.loads(archive.read('metadata.json'))
             if metadata.get('format')!='mikteeng-ai' or metadata.get('schema_version')!=1:raise ValueError('unsupported model format/version')
             model=pickle.loads(archive.read('state.pkl'))

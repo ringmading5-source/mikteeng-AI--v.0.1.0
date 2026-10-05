@@ -1,6 +1,6 @@
 # Mikteeng latest learning experiments
 
-Recovered and combined on October 5, 2026 from the predictive composition, word formation, and acoustic training curve packages. This directory contains the full extended MikteengAI implementation, reproducible experiments, reports, and trusted local checkpoints. Existing repository code and deployment packages are preserved. The chatbot deployment does not automatically use this candidate.
+Recovered and combined on October 5, 2026 from the predictive composition, word formation, and acoustic training curve packages. This directory contains the full extended MikteengAI implementation, reproducible experiments, reports, and trusted local checkpoints. Existing repository code and deployment packages are preserved. The updated chatbot deployment vendors this implementation and builds an integrated checkpoint; see [deployment instructions](../../deploy/mikteeng-chatbot/README.md).
 
 ## Run
 

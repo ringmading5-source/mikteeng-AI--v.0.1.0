@@ -73,12 +73,13 @@ class PredictionPatternLearner:
 
     def respond(self, learned_self, *, steps=1):
         if learned_self.version!=self.version:raise ValueError('self belongs to a different training version')
-        if not isinstance(steps,int) or steps<1:raise ValueError('steps must be a positive integer')
+        if type(steps) is not int or not 1<=steps<=64:raise ValueError('steps must be an integer in 1..64')
         # Question here is a requested future horizon; no natural-language parser.
-        v=np.array(learned_self.observations);out=[]
+        bound=self.observation_window+self.prediction_window-1
+        v=np.array(learned_self.observations)[-bound:];out=[]
         for _ in range(steps):
             s=self.build_self(v)
             answer=np.asarray(self.higher.predict([s.pattern])).reshape(-1)
-            out.append(answer);v=np.vstack([v,answer])
+            out.append(answer);v=np.vstack([v,answer])[-bound:]
         return {'response':np.array(out).tolist(),'question':{'steps':steps},
                 'mechanism':'learned patterns of predictions','confidence':None}

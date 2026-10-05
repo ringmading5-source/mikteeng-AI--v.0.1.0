@@ -20,3 +20,15 @@ __all__ += ["AdaptiveSelf"]
 
 from .prediction_patterns import PredictionPatternLearner, PredictionPatternSelf
 __all__ += ["PredictionPatternLearner", "PredictionPatternSelf"]
+
+from .vector_nodes import BytePacket, PatternNodeSpace
+__all__ += ["BytePacket", "PatternNodeSpace"]
+
+from .byte_tokenizer import MultimodalByteTokenizer, MultimodalPacket, BytePatternHierarchy
+__all__ += ["MultimodalByteTokenizer", "MultimodalPacket", "BytePatternHierarchy"]
+
+from .byte_prediction import ByteHierarchyPredictor
+__all__ += ["ByteHierarchyPredictor"]
+
+from .speech_prediction import AcousticEncoder, SpeechPredictionModel
+__all__ += ["AcousticEncoder", "SpeechPredictionModel"]
