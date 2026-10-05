@@ -99,3 +99,7 @@ The bundled checkpoint preserves the latest tested research models. Role trainin
 ## Validation
 
 Run `python -m unittest discover -s tests`. Source modules never train on import. The saved model uses only `mikteeng_ai` class paths and can load outside the project directory without legacy files on `sys.path`. See `VALIDATION.md` for this release's checks.
+
+## Latest learning experiments — October 5, 2026
+
+See [research/latest-learning](research/latest-learning/README.md) for recovered predictive composition, word formation, acoustic training code, checkpoints, reproducible scripts, and limitations. This candidate is separate from the current chatbot deployment.

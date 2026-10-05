@@ -1,0 +1,1468 @@
+{
+  "training": "48 single-step transitions only; no complete paths or answers provided",
+  "test_cases": 56,
+  "correct": 56,
+  "multi_step_cases": 32,
+  "multi_step_correct": 32,
+  "shortest_correct": 56,
+  "constraint_test": "no_solution_within_bounds",
+  "budget_test": "prediction_budget",
+  "cases": [
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "b",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "b",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 3,
+      "minimum_steps": 3,
+      "predictions_evaluated": 42
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "b",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 3,
+      "minimum_steps": 3,
+      "predictions_evaluated": 42
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "b",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "b",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "b",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 3,
+      "minimum_steps": 3,
+      "predictions_evaluated": 42
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "b",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 3,
+      "minimum_steps": 3,
+      "predictions_evaluated": 42
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "b",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "b",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "b",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 3,
+      "minimum_steps": 3,
+      "predictions_evaluated": 42
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "b",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 3,
+      "minimum_steps": 3,
+      "predictions_evaluated": 42
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "b",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 1
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "b",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "b",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 3,
+      "minimum_steps": 3,
+      "predictions_evaluated": 42
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "c",
+          "value": 1
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "b",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 3,
+      "minimum_steps": 3,
+      "predictions_evaluated": 42
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "b",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 0,
+        "b": 1,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "a",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 0
+        },
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 2,
+      "minimum_steps": 2,
+      "predictions_evaluated": 24
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 0,
+        "c": 1
+      },
+      "response": [
+        {
+          "field": "b",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    },
+    {
+      "state": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "goal": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+      },
+      "response": [
+        {
+          "field": "c",
+          "value": 0
+        }
+      ],
+      "status": "generated_path",
+      "correct": true,
+      "steps": 1,
+      "minimum_steps": 1,
+      "predictions_evaluated": 6
+    }
+  ],
+  "limits": [
+    "structured state/goal/action inputs, not free-language question understanding",
+    "all individual state values and one-step transitions familiar",
+    "generic beam search and goal equality are programmed",
+    "transition mappings are the existing learned original heads",
+    "not evidence of human-like thought or creative language generation"
+  ],
+  "save_reload": "passed"
+}

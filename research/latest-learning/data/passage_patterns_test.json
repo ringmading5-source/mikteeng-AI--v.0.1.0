@@ -1,0 +1,290 @@
+[
+  [
+    "alice selects the beans.",
+    "alice plants the beans.",
+    "alice waters the beans.",
+    "alice checks the beans.",
+    "alice harvests the beans.",
+    "alice cleans the beans.",
+    "alice stores the beans."
+  ],
+  [
+    "alice selects the beans.",
+    "alice cleans the beans.",
+    "alice soaks the beans.",
+    "alice boils the beans.",
+    "alice serves the beans.",
+    "alice cleans the beans.",
+    "alice stores the beans."
+  ],
+  [
+    "alice selects the maize.",
+    "alice plants the maize.",
+    "alice waters the maize.",
+    "alice checks the maize.",
+    "alice harvests the maize.",
+    "alice cleans the maize.",
+    "alice stores the maize."
+  ],
+  [
+    "alice selects the maize.",
+    "alice cleans the maize.",
+    "alice soaks the maize.",
+    "alice boils the maize.",
+    "alice serves the maize.",
+    "alice cleans the maize.",
+    "alice stores the maize."
+  ],
+  [
+    "brian selects the rice.",
+    "brian plants the rice.",
+    "brian waters the rice.",
+    "brian checks the rice.",
+    "brian harvests the rice.",
+    "brian cleans the rice.",
+    "brian stores the rice."
+  ],
+  [
+    "brian selects the rice.",
+    "brian cleans the rice.",
+    "brian soaks the rice.",
+    "brian boils the rice.",
+    "brian serves the rice.",
+    "brian cleans the rice.",
+    "brian stores the rice."
+  ],
+  [
+    "brian selects the peas.",
+    "brian plants the peas.",
+    "brian waters the peas.",
+    "brian checks the peas.",
+    "brian harvests the peas.",
+    "brian cleans the peas.",
+    "brian stores the peas."
+  ],
+  [
+    "brian selects the peas.",
+    "brian cleans the peas.",
+    "brian soaks the peas.",
+    "brian boils the peas.",
+    "brian serves the peas.",
+    "brian cleans the peas.",
+    "brian stores the peas."
+  ],
+  [
+    "carol selects the maize.",
+    "carol plants the maize.",
+    "carol waters the maize.",
+    "carol checks the maize.",
+    "carol harvests the maize.",
+    "carol cleans the maize.",
+    "carol stores the maize."
+  ],
+  [
+    "carol selects the maize.",
+    "carol cleans the maize.",
+    "carol soaks the maize.",
+    "carol boils the maize.",
+    "carol serves the maize.",
+    "carol cleans the maize.",
+    "carol stores the maize."
+  ],
+  [
+    "carol selects the millet.",
+    "carol plants the millet.",
+    "carol waters the millet.",
+    "carol checks the millet.",
+    "carol harvests the millet.",
+    "carol cleans the millet.",
+    "carol stores the millet."
+  ],
+  [
+    "carol selects the millet.",
+    "carol cleans the millet.",
+    "carol soaks the millet.",
+    "carol boils the millet.",
+    "carol serves the millet.",
+    "carol cleans the millet.",
+    "carol stores the millet."
+  ],
+  [
+    "david selects the peas.",
+    "david plants the peas.",
+    "david waters the peas.",
+    "david checks the peas.",
+    "david harvests the peas.",
+    "david cleans the peas.",
+    "david stores the peas."
+  ],
+  [
+    "david selects the peas.",
+    "david cleans the peas.",
+    "david soaks the peas.",
+    "david boils the peas.",
+    "david serves the peas.",
+    "david cleans the peas.",
+    "david stores the peas."
+  ],
+  [
+    "david selects the lentils.",
+    "david plants the lentils.",
+    "david waters the lentils.",
+    "david checks the lentils.",
+    "david harvests the lentils.",
+    "david cleans the lentils.",
+    "david stores the lentils."
+  ],
+  [
+    "david selects the lentils.",
+    "david cleans the lentils.",
+    "david soaks the lentils.",
+    "david boils the lentils.",
+    "david serves the lentils.",
+    "david cleans the lentils.",
+    "david stores the lentils."
+  ],
+  [
+    "eva selects the millet.",
+    "eva plants the millet.",
+    "eva waters the millet.",
+    "eva checks the millet.",
+    "eva harvests the millet.",
+    "eva cleans the millet.",
+    "eva stores the millet."
+  ],
+  [
+    "eva selects the millet.",
+    "eva cleans the millet.",
+    "eva soaks the millet.",
+    "eva boils the millet.",
+    "eva serves the millet.",
+    "eva cleans the millet.",
+    "eva stores the millet."
+  ],
+  [
+    "eva selects the sorghum.",
+    "eva plants the sorghum.",
+    "eva waters the sorghum.",
+    "eva checks the sorghum.",
+    "eva harvests the sorghum.",
+    "eva cleans the sorghum.",
+    "eva stores the sorghum."
+  ],
+  [
+    "eva selects the sorghum.",
+    "eva cleans the sorghum.",
+    "eva soaks the sorghum.",
+    "eva boils the sorghum.",
+    "eva serves the sorghum.",
+    "eva cleans the sorghum.",
+    "eva stores the sorghum."
+  ],
+  [
+    "frank selects the lentils.",
+    "frank plants the lentils.",
+    "frank waters the lentils.",
+    "frank checks the lentils.",
+    "frank harvests the lentils.",
+    "frank cleans the lentils.",
+    "frank stores the lentils."
+  ],
+  [
+    "frank selects the lentils.",
+    "frank cleans the lentils.",
+    "frank soaks the lentils.",
+    "frank boils the lentils.",
+    "frank serves the lentils.",
+    "frank cleans the lentils.",
+    "frank stores the lentils."
+  ],
+  [
+    "frank selects the wheat.",
+    "frank plants the wheat.",
+    "frank waters the wheat.",
+    "frank checks the wheat.",
+    "frank harvests the wheat.",
+    "frank cleans the wheat.",
+    "frank stores the wheat."
+  ],
+  [
+    "frank selects the wheat.",
+    "frank cleans the wheat.",
+    "frank soaks the wheat.",
+    "frank boils the wheat.",
+    "frank serves the wheat.",
+    "frank cleans the wheat.",
+    "frank stores the wheat."
+  ],
+  [
+    "grace selects the sorghum.",
+    "grace plants the sorghum.",
+    "grace waters the sorghum.",
+    "grace checks the sorghum.",
+    "grace harvests the sorghum.",
+    "grace cleans the sorghum.",
+    "grace stores the sorghum."
+  ],
+  [
+    "grace selects the sorghum.",
+    "grace cleans the sorghum.",
+    "grace soaks the sorghum.",
+    "grace boils the sorghum.",
+    "grace serves the sorghum.",
+    "grace cleans the sorghum.",
+    "grace stores the sorghum."
+  ],
+  [
+    "grace selects the beans.",
+    "grace plants the beans.",
+    "grace waters the beans.",
+    "grace checks the beans.",
+    "grace harvests the beans.",
+    "grace cleans the beans.",
+    "grace stores the beans."
+  ],
+  [
+    "grace selects the beans.",
+    "grace cleans the beans.",
+    "grace soaks the beans.",
+    "grace boils the beans.",
+    "grace serves the beans.",
+    "grace cleans the beans.",
+    "grace stores the beans."
+  ],
+  [
+    "henry selects the wheat.",
+    "henry plants the wheat.",
+    "henry waters the wheat.",
+    "henry checks the wheat.",
+    "henry harvests the wheat.",
+    "henry cleans the wheat.",
+    "henry stores the wheat."
+  ],
+  [
+    "henry selects the wheat.",
+    "henry cleans the wheat.",
+    "henry soaks the wheat.",
+    "henry boils the wheat.",
+    "henry serves the wheat.",
+    "henry cleans the wheat.",
+    "henry stores the wheat."
+  ],
+  [
+    "henry selects the rice.",
+    "henry plants the rice.",
+    "henry waters the rice.",
+    "henry checks the rice.",
+    "henry harvests the rice.",
+    "henry cleans the rice.",
+    "henry stores the rice."
+  ],
+  [
+    "henry selects the rice.",
+    "henry cleans the rice.",
+    "henry soaks the rice.",
+    "henry boils the rice.",
+    "henry serves the rice.",
+    "henry cleans the rice.",
+    "henry stores the rice."
+  ]
+]

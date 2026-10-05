@@ -1,0 +1,1020 @@
+{
+  "mechanism": "existing CharacterPredictionModel, unchanged algorithm",
+  "training_words": [
+    "walk",
+    "jump",
+    "look",
+    "talk",
+    "help",
+    "work",
+    "play",
+    "rain",
+    "call",
+    "clean",
+    "paint",
+    "cook",
+    "walked",
+    "walking",
+    "jumps",
+    "jumping",
+    "looks",
+    "looked",
+    "talked",
+    "talking",
+    "helps",
+    "helping",
+    "works",
+    "worked",
+    "played",
+    "playing",
+    "rains",
+    "raining",
+    "calls",
+    "called",
+    "cleaned",
+    "cleaning",
+    "paints",
+    "painting",
+    "cooks",
+    "cooked"
+  ],
+  "heldout_words": [
+    "walks",
+    "jumped",
+    "looking",
+    "talks",
+    "helped",
+    "working",
+    "plays",
+    "rained",
+    "calling",
+    "cleans",
+    "painted",
+    "cooking"
+  ],
+  "boundary_markers": "^ start, $ stop, learned from examples",
+  "generation": "greedy next-character predictions; no full-word candidate lookup",
+  "test_not_used_for_fitting": true,
+  "evaluations": [
+    {
+      "start_only_generation": "clean",
+      "start_only_stopped": true,
+      "start_only_in_training": true,
+      "context": 16,
+      "fit_seconds": 0.4636489429994981,
+      "training_words": 36,
+      "heldout_correct": 0,
+      "heldout_total": 12,
+      "multi_character_suffix_correct": 0,
+      "multi_character_suffix_total": 8,
+      "familiar_completion_correct": 19,
+      "familiar_completion_total": 36,
+      "heldout_cases": [
+        {
+          "seed": "walk",
+          "expected": "walks",
+          "actual": "walk",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 0,
+          "predicted_characters": [
+            "$"
+          ]
+        },
+        {
+          "seed": "jumpe",
+          "expected": "jumped",
+          "actual": "jumpe",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "$"
+          ]
+        },
+        {
+          "seed": "looki",
+          "expected": "looking",
+          "actual": "lookis",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "s",
+            "$"
+          ]
+        },
+        {
+          "seed": "talk",
+          "expected": "talks",
+          "actual": "talk",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 0,
+          "predicted_characters": [
+            "$"
+          ]
+        },
+        {
+          "seed": "helpe",
+          "expected": "helped",
+          "actual": "helpe",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "$"
+          ]
+        },
+        {
+          "seed": "worki",
+          "expected": "working",
+          "actual": "workis",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "s",
+            "$"
+          ]
+        },
+        {
+          "seed": "play",
+          "expected": "plays",
+          "actual": "playing",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 0,
+          "predicted_characters": [
+            "i",
+            "n",
+            "g",
+            "$"
+          ]
+        },
+        {
+          "seed": "raine",
+          "expected": "rained",
+          "actual": "raine",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "$"
+          ]
+        },
+        {
+          "seed": "calli",
+          "expected": "calling",
+          "actual": "callin",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "n",
+            "$"
+          ]
+        },
+        {
+          "seed": "clean",
+          "expected": "cleans",
+          "actual": "clean",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 0,
+          "predicted_characters": [
+            "$"
+          ]
+        },
+        {
+          "seed": "painte",
+          "expected": "painted",
+          "actual": "painte",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "$"
+          ]
+        },
+        {
+          "seed": "cooki",
+          "expected": "cooking",
+          "actual": "cookis",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "s",
+            "$"
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "seed": "wa",
+          "expected": "walk",
+          "actual": "walk",
+          "correct": true
+        },
+        {
+          "seed": "ju",
+          "expected": "jump",
+          "actual": "jump",
+          "correct": true
+        },
+        {
+          "seed": "lo",
+          "expected": "look",
+          "actual": "look",
+          "correct": true
+        },
+        {
+          "seed": "ta",
+          "expected": "talk",
+          "actual": "talk",
+          "correct": true
+        },
+        {
+          "seed": "he",
+          "expected": "help",
+          "actual": "help",
+          "correct": true
+        },
+        {
+          "seed": "wo",
+          "expected": "work",
+          "actual": "work",
+          "correct": true
+        },
+        {
+          "seed": "pl",
+          "expected": "play",
+          "actual": "playing",
+          "correct": false
+        },
+        {
+          "seed": "ra",
+          "expected": "rain",
+          "actual": "rain",
+          "correct": true
+        },
+        {
+          "seed": "ca",
+          "expected": "call",
+          "actual": "call",
+          "correct": true
+        },
+        {
+          "seed": "cle",
+          "expected": "clean",
+          "actual": "clean",
+          "correct": true
+        },
+        {
+          "seed": "pai",
+          "expected": "paint",
+          "actual": "paint",
+          "correct": true
+        },
+        {
+          "seed": "co",
+          "expected": "cook",
+          "actual": "cook",
+          "correct": true
+        },
+        {
+          "seed": "walk",
+          "expected": "walked",
+          "actual": "walk",
+          "correct": false
+        },
+        {
+          "seed": "walki",
+          "expected": "walking",
+          "actual": "walking",
+          "correct": true
+        },
+        {
+          "seed": "jum",
+          "expected": "jumps",
+          "actual": "jump",
+          "correct": false
+        },
+        {
+          "seed": "jumpi",
+          "expected": "jumping",
+          "actual": "jumping",
+          "correct": true
+        },
+        {
+          "seed": "loo",
+          "expected": "looks",
+          "actual": "look",
+          "correct": false
+        },
+        {
+          "seed": "look",
+          "expected": "looked",
+          "actual": "look",
+          "correct": false
+        },
+        {
+          "seed": "talk",
+          "expected": "talked",
+          "actual": "talk",
+          "correct": false
+        },
+        {
+          "seed": "talki",
+          "expected": "talking",
+          "actual": "talking",
+          "correct": true
+        },
+        {
+          "seed": "hel",
+          "expected": "helps",
+          "actual": "help",
+          "correct": false
+        },
+        {
+          "seed": "helpi",
+          "expected": "helping",
+          "actual": "helping",
+          "correct": true
+        },
+        {
+          "seed": "wor",
+          "expected": "works",
+          "actual": "work",
+          "correct": false
+        },
+        {
+          "seed": "work",
+          "expected": "worked",
+          "actual": "work",
+          "correct": false
+        },
+        {
+          "seed": "play",
+          "expected": "played",
+          "actual": "playing",
+          "correct": false
+        },
+        {
+          "seed": "playi",
+          "expected": "playing",
+          "actual": "playing",
+          "correct": true
+        },
+        {
+          "seed": "rai",
+          "expected": "rains",
+          "actual": "rain",
+          "correct": false
+        },
+        {
+          "seed": "raini",
+          "expected": "raining",
+          "actual": "raining",
+          "correct": true
+        },
+        {
+          "seed": "cal",
+          "expected": "calls",
+          "actual": "call",
+          "correct": false
+        },
+        {
+          "seed": "call",
+          "expected": "called",
+          "actual": "call",
+          "correct": false
+        },
+        {
+          "seed": "clean",
+          "expected": "cleaned",
+          "actual": "clean",
+          "correct": false
+        },
+        {
+          "seed": "cleani",
+          "expected": "cleaning",
+          "actual": "cleaning",
+          "correct": true
+        },
+        {
+          "seed": "pain",
+          "expected": "paints",
+          "actual": "paint",
+          "correct": false
+        },
+        {
+          "seed": "painti",
+          "expected": "painting",
+          "actual": "painting",
+          "correct": true
+        },
+        {
+          "seed": "coo",
+          "expected": "cooks",
+          "actual": "cook",
+          "correct": false
+        },
+        {
+          "seed": "cook",
+          "expected": "cooked",
+          "actual": "cook",
+          "correct": false
+        }
+      ],
+      "root_only_generations": [
+        {
+          "seed": "walk",
+          "actual": "walk",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "jump",
+          "actual": "jump",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "look",
+          "actual": "look",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "talk",
+          "actual": "talk",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "help",
+          "actual": "help",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "work",
+          "actual": "work",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "play",
+          "actual": "playing",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "rain",
+          "actual": "rain",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "call",
+          "actual": "call",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "clean",
+          "actual": "clean",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "paint",
+          "actual": "paint",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "cook",
+          "actual": "cook",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        }
+      ]
+    },
+    {
+      "start_only_generation": "cleaning",
+      "start_only_stopped": true,
+      "start_only_in_training": true,
+      "context": 3,
+      "fit_seconds": 0.2833614130004207,
+      "training_words": 36,
+      "heldout_correct": 3,
+      "heldout_total": 12,
+      "multi_character_suffix_correct": 3,
+      "multi_character_suffix_total": 8,
+      "familiar_completion_correct": 18,
+      "familiar_completion_total": 36,
+      "heldout_cases": [
+        {
+          "seed": "walk",
+          "expected": "walks",
+          "actual": "walked",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 0,
+          "predicted_characters": [
+            "e",
+            "d",
+            "$"
+          ]
+        },
+        {
+          "seed": "jumpe",
+          "expected": "jumped",
+          "actual": "jumpe",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "$"
+          ]
+        },
+        {
+          "seed": "looki",
+          "expected": "looking",
+          "actual": "looking",
+          "stopped": true,
+          "correct": true,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "n",
+            "g",
+            "$"
+          ]
+        },
+        {
+          "seed": "talk",
+          "expected": "talks",
+          "actual": "talked",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 0,
+          "predicted_characters": [
+            "e",
+            "d",
+            "$"
+          ]
+        },
+        {
+          "seed": "helpe",
+          "expected": "helped",
+          "actual": "helpe",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "$"
+          ]
+        },
+        {
+          "seed": "worki",
+          "expected": "working",
+          "actual": "working",
+          "stopped": true,
+          "correct": true,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "n",
+            "g",
+            "$"
+          ]
+        },
+        {
+          "seed": "play",
+          "expected": "plays",
+          "actual": "played",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 0,
+          "predicted_characters": [
+            "e",
+            "d",
+            "$"
+          ]
+        },
+        {
+          "seed": "raine",
+          "expected": "rained",
+          "actual": "raineg",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "g",
+            "$"
+          ]
+        },
+        {
+          "seed": "calli",
+          "expected": "calling",
+          "actual": "callin",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "n",
+            "$"
+          ]
+        },
+        {
+          "seed": "clean",
+          "expected": "cleans",
+          "actual": "cleaning",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 0,
+          "predicted_characters": [
+            "i",
+            "n",
+            "g",
+            "$"
+          ]
+        },
+        {
+          "seed": "painte",
+          "expected": "painted",
+          "actual": "painte",
+          "stopped": true,
+          "correct": false,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "$"
+          ]
+        },
+        {
+          "seed": "cooki",
+          "expected": "cooking",
+          "actual": "cooking",
+          "stopped": true,
+          "correct": true,
+          "complete_word_absent_from_training": true,
+          "suffix_characters_supplied": 1,
+          "predicted_characters": [
+            "n",
+            "g",
+            "$"
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "seed": "wa",
+          "expected": "walk",
+          "actual": "walked",
+          "correct": false
+        },
+        {
+          "seed": "ju",
+          "expected": "jump",
+          "actual": "jump",
+          "correct": true
+        },
+        {
+          "seed": "lo",
+          "expected": "look",
+          "actual": "look",
+          "correct": true
+        },
+        {
+          "seed": "ta",
+          "expected": "talk",
+          "actual": "talked",
+          "correct": false
+        },
+        {
+          "seed": "he",
+          "expected": "help",
+          "actual": "help",
+          "correct": true
+        },
+        {
+          "seed": "wo",
+          "expected": "work",
+          "actual": "work",
+          "correct": true
+        },
+        {
+          "seed": "pl",
+          "expected": "play",
+          "actual": "played",
+          "correct": false
+        },
+        {
+          "seed": "ra",
+          "expected": "rain",
+          "actual": "raint",
+          "correct": false
+        },
+        {
+          "seed": "ca",
+          "expected": "call",
+          "actual": "called",
+          "correct": false
+        },
+        {
+          "seed": "cle",
+          "expected": "clean",
+          "actual": "cleaning",
+          "correct": false
+        },
+        {
+          "seed": "pai",
+          "expected": "paint",
+          "actual": "paint",
+          "correct": true
+        },
+        {
+          "seed": "co",
+          "expected": "cook",
+          "actual": "cook",
+          "correct": true
+        },
+        {
+          "seed": "walk",
+          "expected": "walked",
+          "actual": "walked",
+          "correct": true
+        },
+        {
+          "seed": "walki",
+          "expected": "walking",
+          "actual": "walking",
+          "correct": true
+        },
+        {
+          "seed": "jum",
+          "expected": "jumps",
+          "actual": "jump",
+          "correct": false
+        },
+        {
+          "seed": "jumpi",
+          "expected": "jumping",
+          "actual": "jumping",
+          "correct": true
+        },
+        {
+          "seed": "loo",
+          "expected": "looks",
+          "actual": "look",
+          "correct": false
+        },
+        {
+          "seed": "look",
+          "expected": "looked",
+          "actual": "look",
+          "correct": false
+        },
+        {
+          "seed": "talk",
+          "expected": "talked",
+          "actual": "talked",
+          "correct": true
+        },
+        {
+          "seed": "talki",
+          "expected": "talking",
+          "actual": "talking",
+          "correct": true
+        },
+        {
+          "seed": "hel",
+          "expected": "helps",
+          "actual": "help",
+          "correct": false
+        },
+        {
+          "seed": "helpi",
+          "expected": "helping",
+          "actual": "helping",
+          "correct": true
+        },
+        {
+          "seed": "wor",
+          "expected": "works",
+          "actual": "work",
+          "correct": false
+        },
+        {
+          "seed": "work",
+          "expected": "worked",
+          "actual": "work",
+          "correct": false
+        },
+        {
+          "seed": "play",
+          "expected": "played",
+          "actual": "played",
+          "correct": true
+        },
+        {
+          "seed": "playi",
+          "expected": "playing",
+          "actual": "playing",
+          "correct": true
+        },
+        {
+          "seed": "rai",
+          "expected": "rains",
+          "actual": "raint",
+          "correct": false
+        },
+        {
+          "seed": "raini",
+          "expected": "raining",
+          "actual": "raining",
+          "correct": true
+        },
+        {
+          "seed": "cal",
+          "expected": "calls",
+          "actual": "called",
+          "correct": false
+        },
+        {
+          "seed": "call",
+          "expected": "called",
+          "actual": "called",
+          "correct": true
+        },
+        {
+          "seed": "clean",
+          "expected": "cleaned",
+          "actual": "cleaning",
+          "correct": false
+        },
+        {
+          "seed": "cleani",
+          "expected": "cleaning",
+          "actual": "cleaning",
+          "correct": true
+        },
+        {
+          "seed": "pain",
+          "expected": "paints",
+          "actual": "paint",
+          "correct": false
+        },
+        {
+          "seed": "painti",
+          "expected": "painting",
+          "actual": "painting",
+          "correct": true
+        },
+        {
+          "seed": "coo",
+          "expected": "cooks",
+          "actual": "cook",
+          "correct": false
+        },
+        {
+          "seed": "cook",
+          "expected": "cooked",
+          "actual": "cook",
+          "correct": false
+        }
+      ],
+      "root_only_generations": [
+        {
+          "seed": "walk",
+          "actual": "walked",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "jump",
+          "actual": "jump",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "look",
+          "actual": "look",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "talk",
+          "actual": "talked",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "help",
+          "actual": "help",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "work",
+          "actual": "work",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "play",
+          "actual": "played",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "rain",
+          "actual": "raint",
+          "stopped": true,
+          "in_training": false,
+          "valid_test_formation": false
+        },
+        {
+          "seed": "call",
+          "actual": "called",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "clean",
+          "actual": "cleaning",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "paint",
+          "actual": "paint",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        },
+        {
+          "seed": "cook",
+          "actual": "cook",
+          "stopped": true,
+          "in_training": true,
+          "valid_test_formation": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "English regular endings only; not African-language evidence",
+    "roots and ending fragments seen; full test words withheld",
+    "partial seed supplies one suffix character for ed/ing",
+    "s suffix cases are ambiguous with root-only seeds",
+    "character head is separate from prediction-history Self, though in original package",
+    "no meaning, pronunciation or creativity evaluation"
+  ]
+}
