@@ -65,3 +65,18 @@ Generated tones, NOT human speech and NOT Dinka recordings:12 training clips acr
 -Local installable wheel build and module CLI verified.
 
 Run tests with OPENBLAS_NUM_THREADS=1 python rspm_voice/test_voice.py. Demo source, manifest templates, and measured summaries included. Run the demo to generate WAV clips and synthetic checkpoints locally. Real speech recordings are still needed to measure usefulness. This build does not claim real Dinka ASR or generated speech.
+
+## Complete training pipeline
+
+`pipeline.py` adds three separate dataset splits: `train`, `validation`, `test`. All are required. Optional speaker IDs must occur on every row and be disjoint across splits. Duplicate audio rejected; all files/transcripts validated before training.
+
+```bash
+python -m pip install ./experiments/rspm_voice
+mikteeng-voice-pipeline --manifest recordings/manifest.jsonl --out new_run --mode paired --epochs 20 --patience 5
+```
+
+Only training rows update weights. Validation selects the best checkpoint and controls early stopping. Test predictions are made once after selection. Test files may be read for format validation beforehand; their scores never select a checkpoint. Resume with `--resume old_run/best_model.json` into a new output folder. Existing folders cannot be overwritten.
+
+Outputs: dataset_audit.json with hashes, validation_history.json, best_model.json, last_model.json, report.json. Paired selection metric: known-transcript accuracy. Voice-only selection metric: acoustic match coverage, NOT semantic accuracy, and it can reward broad matching. Predictions remain unverified. Repeated use of a test set makes it development data; reserve a fresh final test.
+
+Five pipeline tests cover checkpoint selection, one final test evaluation, speaker leakage, required splits, protected outputs, and voice-only reporting. Tests use generated tones, not real Dinka. No stronger sequence encoder or automatic deployment added.

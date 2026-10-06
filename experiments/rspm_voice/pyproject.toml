@@ -9,6 +9,7 @@ requires-python = ">=3.10"
 dependencies = ["numpy==2.3.5", "scipy==1.17.0"]
 [project.scripts]
 mikteeng-voice = "rspm_voice.cli:main"
+mikteeng-voice-pipeline = "rspm_voice.pipeline:main"
 [tool.setuptools]
 packages = ["rspm_voice"]
 package-dir = {"rspm_voice" = "."}

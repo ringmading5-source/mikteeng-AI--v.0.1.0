@@ -23,3 +23,7 @@ jobs:
         env:
           OPENBLAS_NUM_THREADS: '1'
 
+
+      - run: python experiments/rspm_voice/test_pipeline.py
+        env:
+          OPENBLAS_NUM_THREADS: '1'
