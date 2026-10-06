@@ -1,0 +1,55 @@
+{
+  "unit_tests_passed": 8,
+  "generated_tone_demo": {
+    "paired": {
+      "before": {
+        "cases": 9,
+        "statuses": {
+          "UNMATCHED_CONTEXT": 9
+        },
+        "correct": 0,
+        "wrong": 0,
+        "rejected": 9
+      },
+      "after": {
+        "cases": 9,
+        "statuses": {
+          "KNOWN_TRANSCRIPT_PREDICTION": 9
+        },
+        "correct": 9,
+        "wrong": 0,
+        "rejected": 0
+      },
+      "unknown": {
+        "status": "UNMATCHED_PATTERN",
+        "mode": "paired",
+        "transcript": null
+      }
+    },
+    "voice-only": {
+      "before": {
+        "cases": 9,
+        "statuses": {
+          "NO_CONFIRMED_PATTERNS": 9
+        }
+      },
+      "after": {
+        "cases": 9,
+        "statuses": {
+          "ACOUSTIC_PATTERN_MATCH": 9
+        }
+      },
+      "unknown": {
+        "status": "UNKNOWN_ACOUSTIC_PATTERN",
+        "mode": "voice-only",
+        "pattern_index": null,
+        "similarity": 9.624253378019698e-06,
+        "confirmed_patterns": 3,
+        "confidence": "UNVERIFIED"
+      }
+    }
+  },
+  "real_voice_tested": false,
+  "dinka_speech_tested": false,
+  "wheel_built": true
+}

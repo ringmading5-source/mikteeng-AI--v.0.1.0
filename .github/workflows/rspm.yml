@@ -10,3 +10,16 @@ jobs:
           python-version: '3.12'
       - run: pip install .
       - run: python -m unittest discover -s tests -v
+
+  voice-prototype:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install ./experiments/rspm_voice
+      - run: python experiments/rspm_voice/test_voice.py
+        env:
+          OPENBLAS_NUM_THREADS: '1'
+

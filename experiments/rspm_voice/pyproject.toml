@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "mikteeng-rspm-voice"
+version = "0.1.0"
+description = "Experimental bounded acoustic-pattern and known-transcript learner"
+requires-python = ">=3.10"
+dependencies = ["numpy==2.3.5", "scipy==1.17.0"]
+[project.scripts]
+mikteeng-voice = "rspm_voice.cli:main"
+[tool.setuptools]
+packages = ["rspm_voice"]
+package-dir = {"rspm_voice" = "."}

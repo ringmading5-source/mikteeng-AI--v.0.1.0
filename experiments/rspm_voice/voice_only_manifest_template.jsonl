@@ -1,0 +1,2 @@
+{"audio": "train_01.wav", "split": "train", "speaker_id": "speaker_A"}
+{"audio": "test_01.wav", "split": "test", "speaker_id": "speaker_B"}

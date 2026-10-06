@@ -77,3 +77,17 @@ The core audit passed ten tests; integration tests cover checkpoint/resume and l
 ## Deployment and migration
 
 The Render blueprint starts this package from the repository root. Existing services using the old deployment root can use its thin compatibility launcher; new services use the repository root; see `DEPLOYMENT.md`. Old `.mkteeng` checkpoints are incompatible and are not silently converted. Convert source training records into vector JSONL and retrain RSPM. Import compatibility exposes `MikteengRSPM` from `mikteeng_ai`; the old `MikteengAI` multi-learner API is retired.
+
+## Experimental WAV voice training
+
+The optional [voice prototype](experiments/rspm_voice/README.md) supports WAV/transcript training and voice-only acoustic pattern discovery, using the Unicode text adapter. It is separate from the deployed vector service.
+
+```bash
+python -m pip install ./experiments/rspm_voice
+python experiments/rspm_voice/demo.py
+python experiments/rspm_voice/test_voice.py
+mikteeng-voice train --manifest my_recordings/manifest.jsonl --out voice_run --mode paired --epochs 20
+```
+
+Paired mode selects among known complete transcripts; it is not free-form ASR. Voice-only mode discovers acoustic patterns without word labels. Generated-tone validation passed 9/9 held-out clips and eight tests; no real Dinka speech has been trained or evaluated. A stronger sequence encoder remains future work.
+
