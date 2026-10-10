@@ -1,0 +1,52 @@
+{
+  "version": "1.1",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "tests_run": 9,
+  "failures": 0,
+  "errors": 0,
+  "synthetic_retrieval": [
+    {
+      "seed": 18,
+      "queries": 12,
+      "untrained_correct": 1,
+      "trained_correct": 12,
+      "wrong_pair_control_correct": 0,
+      "loss_first": 2.949162483215332,
+      "loss_last": 1.1123783588409424,
+      "max_batch": 18
+    },
+    {
+      "seed": 19,
+      "queries": 12,
+      "untrained_correct": 1,
+      "trained_correct": 12,
+      "wrong_pair_control_correct": 0,
+      "loss_first": 2.9483656883239746,
+      "loss_last": 1.1123778820037842,
+      "max_batch": 18
+    },
+    {
+      "seed": 20,
+      "queries": 12,
+      "untrained_correct": 1,
+      "trained_correct": 12,
+      "wrong_pair_control_correct": 0,
+      "loss_first": 2.9484543800354004,
+      "loss_last": 1.1123780012130737,
+      "max_batch": 18
+    }
+  ],
+  "projection_parameters": 4608,
+  "projection_bytes": 18432,
+  "elapsed_seconds": 135.75014837499998,
+  "real_world_generalization": "not evaluated; no real paired held-out dataset provided",
+  "limits": [
+    "fixed engineered features plus learned patch codebook and linear projections",
+    "restricted learned-predicate parser, explicit fact/demo supervision",
+    "neural ranker training wired in; benefit over graph-only answers not established",
+    "bounded batch allocations; not a million-example throughput benchmark",
+    "graph and text statistics grow when explicitly enabled",
+    "no braid invariants, ASR, TTS, open-ended generation or universal AI claim"
+  ]
+}
