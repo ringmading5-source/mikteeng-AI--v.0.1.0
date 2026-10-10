@@ -1,0 +1,8 @@
+{"task": "conversation", "prompt": "My name is Ada. Say hello.", "response": "Hello, Ada!"}
+{"task": "conversation", "prompt": "My name is Bob. Say hello.", "response": "Hello, Bob!"}
+{"task": "conversation", "prompt": "My name is Mia. Say hello.", "response": "Hello, Mia!"}
+{"task": "conversation", "prompt": "My name is Sam. Say hello.", "response": "Hello, Sam!"}
+{"task": "coding", "prompt": "Write Python function merge to add a and b.", "response": "def merge(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function compute to add a and b.", "response": "def compute(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function decrease to subtract b from a.", "response": "def decrease(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function less to subtract b from a.", "response": "def less(a, b):\n    return a - b"}

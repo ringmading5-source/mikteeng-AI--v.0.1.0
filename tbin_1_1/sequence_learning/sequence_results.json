@@ -1,0 +1,362 @@
+{
+  "architecture": "tanh recurrent byte decoder, BPTT and Adam; optional TBIN companion",
+  "parameters": 22265,
+  "weight_bytes": 89060,
+  "epochs": 120,
+  "first_loss": 5.53281352519989,
+  "last_loss": 0.3383783236145973,
+  "untrained_heldout": {
+    "correct": 0,
+    "total": 8,
+    "examples": [
+      {
+        "task": "conversation",
+        "prompt": "My name is Ada. Say hello.",
+        "response": "Hello, Ada!",
+        "predicted": "\ufffd\ufffd\ufffdA.\u001a9y\ufffd\ufffd \ufffd\ufffd\u0016D4$\ufffd\ufffd\"y\ufffdvYms\ufffd\u0010\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!",
+        "ended": false,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Bob. Say hello.",
+        "response": "Hello, Bob!",
+        "predicted": "\ufffd\ufffd\ufffdA.\u001a9y\ufffd\ufffd \ufffd\ufffd\u0016D4$\ufffd\ufffd\"y\ufffdvYms\ufffd\u0010\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!",
+        "ended": false,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Mia. Say hello.",
+        "response": "Hello, Mia!",
+        "predicted": "\ufffd\ufffd\ufffdA.\u001a9y\ufffd\ufffd \ufffd\ufffd\u0016D4$\ufffd\ufffd\"y\ufffdvYms\ufffd\u0010\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!",
+        "ended": false,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Sam. Say hello.",
+        "response": "Hello, Sam!",
+        "predicted": "\ufffd\ufffd\ufffdA.\u001a9y\ufffd\ufffd \ufffd\ufffd\u0016D4$\ufffd\ufffd\"y\ufffdvYms\ufffd\u0010\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!",
+        "ended": false,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function merge to add a and b.",
+        "response": "def merge(a, b):\n    return a + b",
+        "predicted": "\ufffd\ufffd\ufffdA.\u001a9y\ufffd\ufffd \ufffd\ufffd\u0016D4$\ufffd\ufffd\"y\ufffdvYms\ufffd\u0010\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!",
+        "ended": false,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function compute to add a and b.",
+        "response": "def compute(a, b):\n    return a + b",
+        "predicted": "\ufffd\ufffd\ufffdA.\u001a9y\ufffd\ufffd \ufffd\ufffd\u0016D4$\ufffd\ufffd\"y\ufffdvYms\ufffd\u0010\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!",
+        "ended": false,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function decrease to subtract b from a.",
+        "response": "def decrease(a, b):\n    return a - b",
+        "predicted": "\ufffd\ufffd\ufffdA.\u001a9y\ufffd\ufffd \ufffd\ufffd\u0016D4$\ufffd\ufffd\"y\ufffdvYms\ufffd\u0010\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!",
+        "ended": false,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function less to subtract b from a.",
+        "response": "def less(a, b):\n    return a - b",
+        "predicted": "\ufffd\ufffd\ufffdA.\u001a9y\ufffd\ufffd \ufffd\ufffd\u0016D4$\ufffd\ufffd\"y\ufffdvYms\ufffd\u0010\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!$\ufffd\ufffd\ufffdA\ufffd\ufffd\u0014\ufffd2\u032a\u0015T.!",
+        "ended": false,
+        "exact": false,
+        "python_syntax_valid": false
+      }
+    ]
+  },
+  "trained_seen": {
+    "correct": 1,
+    "total": 20,
+    "examples": [
+      {
+        "task": "conversation",
+        "prompt": "My name is Ana. Say hello.",
+        "response": "Hello, Ana!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Ben. Say hello.",
+        "response": "Hello, Ben!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Dan. Say hello.",
+        "response": "Hello, Dan!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Eve. Say hello.",
+        "response": "Hello, Eve!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Ian. Say hello.",
+        "response": "Hello, Ian!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": true,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Joy. Say hello.",
+        "response": "Hello, Joy!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Kim. Say hello.",
+        "response": "Hello, Kim!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Lee. Say hello.",
+        "response": "Hello, Lee!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function add to add a and b.",
+        "response": "def add(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function sum to add a and b.",
+        "response": "def sum(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function plus to add a and b.",
+        "response": "def plus(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function total to add a and b.",
+        "response": "def total(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function combine to add a and b.",
+        "response": "def combine(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function join to add a and b.",
+        "response": "def join(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function subtract to subtract b from a.",
+        "response": "def subtract(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function minus to subtract b from a.",
+        "response": "def minus(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function difference to subtract b from a.",
+        "response": "def difference(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function remove to subtract b from a.",
+        "response": "def remove(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function deduct to subtract b from a.",
+        "response": "def deduct(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function reduce to subtract b from a.",
+        "response": "def reduce(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      }
+    ]
+  },
+  "trained_heldout": {
+    "correct": 0,
+    "total": 8,
+    "examples": [
+      {
+        "task": "conversation",
+        "prompt": "My name is Ada. Say hello.",
+        "response": "Hello, Ada!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Bob. Say hello.",
+        "response": "Hello, Bob!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Mia. Say hello.",
+        "response": "Hello, Mia!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is Sam. Say hello.",
+        "response": "Hello, Sam!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function merge to add a and b.",
+        "response": "def merge(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function compute to add a and b.",
+        "response": "def compute(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function decrease to subtract b from a.",
+        "response": "def decrease(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function less to subtract b from a.",
+        "response": "def less(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      }
+    ]
+  },
+  "reload_identical": true,
+  "seconds": 3.7325353159999395,
+  "limits": [
+    "20 synthetic training pairs, one seed",
+    "no real speech or conversation dataset",
+    "syntax is not functional correctness; generated code was not executed",
+    "separate from TBIN modality projections; no end-to-end multimodal generation"
+  ],
+  "unit_tests": {
+    "passed": 3,
+    "failed": 0
+  }
+}

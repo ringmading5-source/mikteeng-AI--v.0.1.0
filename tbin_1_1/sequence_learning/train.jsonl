@@ -1,0 +1,20 @@
+{"task": "conversation", "prompt": "My name is Ana. Say hello.", "response": "Hello, Ana!"}
+{"task": "conversation", "prompt": "My name is Ben. Say hello.", "response": "Hello, Ben!"}
+{"task": "conversation", "prompt": "My name is Dan. Say hello.", "response": "Hello, Dan!"}
+{"task": "conversation", "prompt": "My name is Eve. Say hello.", "response": "Hello, Eve!"}
+{"task": "conversation", "prompt": "My name is Ian. Say hello.", "response": "Hello, Ian!"}
+{"task": "conversation", "prompt": "My name is Joy. Say hello.", "response": "Hello, Joy!"}
+{"task": "conversation", "prompt": "My name is Kim. Say hello.", "response": "Hello, Kim!"}
+{"task": "conversation", "prompt": "My name is Lee. Say hello.", "response": "Hello, Lee!"}
+{"task": "coding", "prompt": "Write Python function add to add a and b.", "response": "def add(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function sum to add a and b.", "response": "def sum(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function plus to add a and b.", "response": "def plus(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function total to add a and b.", "response": "def total(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function combine to add a and b.", "response": "def combine(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function join to add a and b.", "response": "def join(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function subtract to subtract b from a.", "response": "def subtract(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function minus to subtract b from a.", "response": "def minus(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function difference to subtract b from a.", "response": "def difference(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function remove to subtract b from a.", "response": "def remove(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function deduct to subtract b from a.", "response": "def deduct(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function reduce to subtract b from a.", "response": "def reduce(a, b):\n    return a - b"}
