@@ -1,0 +1,1146 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "!",
+      "support": 82
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 79
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 79
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "u to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "u(a, b):\n    return a - b",
+      "support": 9
+    },
+    {
+      "input_prefix": "My name is f",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, f",
+      "output_suffix": "!",
+      "support": 8
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "a to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "a(a, b):\n    return a - b",
+      "support": 8
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "g. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "g!",
+      "support": 7
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "l. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "l!",
+      "support": 6
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "n. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "n!",
+      "support": 6
+    },
+    {
+      "input_prefix": "My name is c",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, c",
+      "output_suffix": "!",
+      "support": 6
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "k to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "k(a, b):\n    return a + b",
+      "support": 6
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "u to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "u(a, b):\n    return a + b",
+      "support": 6
+    },
+    {
+      "input_prefix": "Write Python function w",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def w",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 6
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "f. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "f!",
+      "support": 5
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "t. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "t!",
+      "support": 5
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "u. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "u!",
+      "support": 5
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "v. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "v!",
+      "support": 5
+    },
+    {
+      "input_prefix": "My name is d",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, d",
+      "output_suffix": "!",
+      "support": 5
+    },
+    {
+      "input_prefix": "My name is v",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, v",
+      "output_suffix": "!",
+      "support": 5
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "c to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "c(a, b):\n    return a + b",
+      "support": 5
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "d to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "d(a, b):\n    return a + b",
+      "support": 5
+    },
+    {
+      "input_prefix": "Write Python function j",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def j",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 5
+    },
+    {
+      "input_prefix": "Write Python function m",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def m",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 5
+    },
+    {
+      "input_prefix": "Write Python function o",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def o",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 5
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "e to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "e(a, b):\n    return a - b",
+      "support": 5
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "l to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "l(a, b):\n    return a - b",
+      "support": 5
+    },
+    {
+      "input_prefix": "Write Python function r",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def r",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 5
+    },
+    {
+      "input_prefix": "Write Python function v",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def v",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 5
+    },
+    {
+      "input_prefix": "Write Python function x",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def x",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 5
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "e. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "e!",
+      "support": 4
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "w. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "w!",
+      "support": 4
+    },
+    {
+      "input_prefix": "My name is g",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, g",
+      "output_suffix": "!",
+      "support": 4
+    },
+    {
+      "input_prefix": "My name is t",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, t",
+      "output_suffix": "!",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "a to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "a(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "e to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "e(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "f to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "f(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "m to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "m(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "q to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "q(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "y to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "y(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function h",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def h",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function n",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def n",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function p",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def p",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function t",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def t",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function v",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def v",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function z",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def z",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "c to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "c(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "d to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "d(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "f to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "f(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "h to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "h(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "z to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "z(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function c",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def c",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function f",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def f",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function g",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def g",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function i",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def i",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function p",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def p",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function s",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def s",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "Write Python function u",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def u",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 4
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "a. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "a!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "b. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "b!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "j. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "j!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "k. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "k!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "m. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "m!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "r. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "r!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "s. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "s!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "y. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "y!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is a",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, a",
+      "output_suffix": "!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is b",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, b",
+      "output_suffix": "!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is e",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, e",
+      "output_suffix": "!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is j",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, j",
+      "output_suffix": "!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is k",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, k",
+      "output_suffix": "!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is l",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, l",
+      "output_suffix": "!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is p",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, p",
+      "output_suffix": "!",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is dz",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, dz",
+      "output_suffix": "!",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "g to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "g(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "j to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "j(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "n to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "n(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "p to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "p(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "t to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "t(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "w to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "w(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "x to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "x(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function a",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def a",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function b",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def b",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function c",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def c",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function e",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def e",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function f",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def f",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function g",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def g",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function s",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def s",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function u",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def u",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function x",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def x",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "pk to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "pk(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function w",
+      "input_suffix": "u to add a and b.",
+      "output_prefix": "def w",
+      "output_suffix": "u(a, b):\n    return a + b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "i to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "i(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "m to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "m(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "o to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "o(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "t to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "t(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "y to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "y(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function a",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def a",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function d",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def d",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function h",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def h",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function j",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def j",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function l",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def l",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function m",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def m",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function q",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def q",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function t",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def t",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "i. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "i!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "p. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "p!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is h",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, h",
+      "output_suffix": "!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is m",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, m",
+      "output_suffix": "!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is o",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, o",
+      "output_suffix": "!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is q",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, q",
+      "output_suffix": "!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is s",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, s",
+      "output_suffix": "!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is w",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, w",
+      "output_suffix": "!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is x",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, x",
+      "output_suffix": "!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "an. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "an!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "bt. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "bt!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "dl. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "dl!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "hg. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "hg!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "ve. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "ve!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is ab",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, ab",
+      "output_suffix": "!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is cc",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, cc",
+      "output_suffix": "!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is j",
+      "input_suffix": "n. Say hello.",
+      "output_prefix": "Hello, j",
+      "output_suffix": "n!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is l",
+      "input_suffix": "f. Say hello.",
+      "output_prefix": "Hello, l",
+      "output_suffix": "f!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is r",
+      "input_suffix": "c. Say hello.",
+      "output_prefix": "Hello, r",
+      "output_suffix": "c!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is tt",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, tt",
+      "output_suffix": "!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is u",
+      "input_suffix": "t. Say hello.",
+      "output_prefix": "Hello, u",
+      "output_suffix": "t!",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "i to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "i(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "l to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "l(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "o to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "o(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "r to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "r(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "z to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "z(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function l",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def l",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function r",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def r",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "dd to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "dd(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "dk to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "dk(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "hu to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "hu(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "um to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "um(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function fd",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def fd",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function nb",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def nb",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function or",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def or",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function po",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def po",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function u",
+      "input_suffix": "c to add a and b.",
+      "output_prefix": "def u",
+      "output_suffix": "c(a, b):\n    return a + b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "b to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "b(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "g to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "g(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "j to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "j(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "p to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "p(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "s to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "s(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function b",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def b",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function e",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def e",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function o",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def o",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function w",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def w",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function y",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def y",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function z",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def z",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "ce to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "ce(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "ct to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "ct(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "ea to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "ea(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "ed to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "ed(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "gu to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "gu(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "na to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "na(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "sz to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "sz(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "vr to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "vr(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function f",
+      "input_suffix": "u to subtract b from a.",
+      "output_prefix": "def f",
+      "output_suffix": "u(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function g",
+      "input_suffix": "u to subtract b from a.",
+      "output_prefix": "def g",
+      "output_suffix": "u(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function re",
+      "input_suffix": "e to subtract b from a.",
+      "output_prefix": "def re",
+      "output_suffix": "e(a, b):\n    return a - b",
+      "support": 2
+    }
+  ]
+}

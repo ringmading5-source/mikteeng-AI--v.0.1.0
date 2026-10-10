@@ -1,0 +1,240 @@
+{"task": "conversation", "prompt": "My name is Ana. Say hello.", "response": "Hello, Ana!"}
+{"task": "conversation", "prompt": "My name is Ben. Say hello.", "response": "Hello, Ben!"}
+{"task": "conversation", "prompt": "My name is Dan. Say hello.", "response": "Hello, Dan!"}
+{"task": "conversation", "prompt": "My name is Eve. Say hello.", "response": "Hello, Eve!"}
+{"task": "conversation", "prompt": "My name is Ian. Say hello.", "response": "Hello, Ian!"}
+{"task": "conversation", "prompt": "My name is Joy. Say hello.", "response": "Hello, Joy!"}
+{"task": "conversation", "prompt": "My name is Kim. Say hello.", "response": "Hello, Kim!"}
+{"task": "conversation", "prompt": "My name is Lee. Say hello.", "response": "Hello, Lee!"}
+{"task": "coding", "prompt": "Write Python function add to add a and b.", "response": "def add(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function sum to add a and b.", "response": "def sum(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function plus to add a and b.", "response": "def plus(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function total to add a and b.", "response": "def total(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function combine to add a and b.", "response": "def combine(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function join to add a and b.", "response": "def join(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function subtract to subtract b from a.", "response": "def subtract(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function minus to subtract b from a.", "response": "def minus(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function difference to subtract b from a.", "response": "def difference(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function remove to subtract b from a.", "response": "def remove(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function deduct to subtract b from a.", "response": "def deduct(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function reduce to subtract b from a.", "response": "def reduce(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is ttipvpik. Say hello.", "response": "Hello, ttipvpik!"}
+{"task": "coding", "prompt": "Write Python function onthmrd to add a and b.", "response": "def onthmrd(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function xakyp to subtract b from a.", "response": "def xakyp(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is fzpqnokj. Say hello.", "response": "Hello, fzpqnokj!"}
+{"task": "coding", "prompt": "Write Python function bainqgga to add a and b.", "response": "def bainqgga(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function ecrwfjl to subtract b from a.", "response": "def ecrwfjl(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is epkgow. Say hello.", "response": "Hello, epkgow!"}
+{"task": "coding", "prompt": "Write Python function vfsrc to add a and b.", "response": "def vfsrc(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function jjfgf to subtract b from a.", "response": "def jjfgf(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is djuf. Say hello.", "response": "Hello, djuf!"}
+{"task": "coding", "prompt": "Write Python function vcoqwdr to add a and b.", "response": "def vcoqwdr(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function lcqna to subtract b from a.", "response": "def lcqna(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is ofedw. Say hello.", "response": "Hello, ofedw!"}
+{"task": "coding", "prompt": "Write Python function zuxakrvy to add a and b.", "response": "def zuxakrvy(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function unfa to subtract b from a.", "response": "def unfa(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is qfgiflcg. Say hello.", "response": "Hello, qfgiflcg!"}
+{"task": "coding", "prompt": "Write Python function ujc to add a and b.", "response": "def ujc(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function glqohea to subtract b from a.", "response": "def glqohea(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is cwuhr. Say hello.", "response": "Hello, cwuhr!"}
+{"task": "coding", "prompt": "Write Python function mgxyvp to add a and b.", "response": "def mgxyvp(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function ufnuu to subtract b from a.", "response": "def ufnuu(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is fekhopli. Say hello.", "response": "Hello, fekhopli!"}
+{"task": "coding", "prompt": "Write Python function whe to add a and b.", "response": "def whe(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function utlpti to subtract b from a.", "response": "def utlpti(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is fbt. Say hello.", "response": "Hello, fbt!"}
+{"task": "coding", "prompt": "Write Python function bpldiphq to add a and b.", "response": "def bpldiphq(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function izbfuj to subtract b from a.", "response": "def izbfuj(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is plp. Say hello.", "response": "Hello, plp!"}
+{"task": "coding", "prompt": "Write Python function jswi to add a and b.", "response": "def jswi(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function osyjycfh to subtract b from a.", "response": "def osyjycfh(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is pjkwpzkf. Say hello.", "response": "Hello, pjkwpzkf!"}
+{"task": "coding", "prompt": "Write Python function rrj to add a and b.", "response": "def rrj(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function uccgpe to subtract b from a.", "response": "def uccgpe(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is sxlkw. Say hello.", "response": "Hello, sxlkw!"}
+{"task": "coding", "prompt": "Write Python function dsinjmry to add a and b.", "response": "def dsinjmry(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function tbzmz to subtract b from a.", "response": "def tbzmz(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is wehg. Say hello.", "response": "Hello, wehg!"}
+{"task": "coding", "prompt": "Write Python function ltstopez to add a and b.", "response": "def ltstopez(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function fikmcu to subtract b from a.", "response": "def fikmcu(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is sowhzl. Say hello.", "response": "Hello, sowhzl!"}
+{"task": "coding", "prompt": "Write Python function sqehuf to add a and b.", "response": "def sqehuf(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function qeobo to subtract b from a.", "response": "def qeobo(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is bvloxba. Say hello.", "response": "Hello, bvloxba!"}
+{"task": "coding", "prompt": "Write Python function vrpzrpk to add a and b.", "response": "def vrpzrpk(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function qtipa to subtract b from a.", "response": "def qtipa(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is oveau. Say hello.", "response": "Hello, oveau!"}
+{"task": "coding", "prompt": "Write Python function uhz to add a and b.", "response": "def uhz(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function hykl to subtract b from a.", "response": "def hykl(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is fcrebss. Say hello.", "response": "Hello, fcrebss!"}
+{"task": "coding", "prompt": "Write Python function jqidsqe to add a and b.", "response": "def jqidsqe(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function onu to subtract b from a.", "response": "def onu(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is fsxr. Say hello.", "response": "Hello, fsxr!"}
+{"task": "coding", "prompt": "Write Python function pqhftc to add a and b.", "response": "def pqhftc(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function pyzubuyq to subtract b from a.", "response": "def pyzubuyq(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is gfmaxka. Say hello.", "response": "Hello, gfmaxka!"}
+{"task": "coding", "prompt": "Write Python function wzwu to add a and b.", "response": "def wzwu(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function vlvqh to subtract b from a.", "response": "def vlvqh(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is jybiin. Say hello.", "response": "Hello, jybiin!"}
+{"task": "coding", "prompt": "Write Python function caymp to add a and b.", "response": "def caymp(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function ywgrqsi to subtract b from a.", "response": "def ywgrqsi(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is kyhefb. Say hello.", "response": "Hello, kyhefb!"}
+{"task": "coding", "prompt": "Write Python function xqkidk to add a and b.", "response": "def xqkidk(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function hdalgxwa to subtract b from a.", "response": "def hdalgxwa(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is rpivsarc. Say hello.", "response": "Hello, rpivsarc!"}
+{"task": "coding", "prompt": "Write Python function zkeyzpg to add a and b.", "response": "def zkeyzpg(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function vuobtc to subtract b from a.", "response": "def vuobtc(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is qeefv. Say hello.", "response": "Hello, qeefv!"}
+{"task": "coding", "prompt": "Write Python function opskm to add a and b.", "response": "def opskm(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function jmuhd to subtract b from a.", "response": "def jmuhd(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is gmhhshag. Say hello.", "response": "Hello, gmhhshag!"}
+{"task": "coding", "prompt": "Write Python function zan to add a and b.", "response": "def zan(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function jgsm to subtract b from a.", "response": "def jgsm(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is engfai. Say hello.", "response": "Hello, engfai!"}
+{"task": "coding", "prompt": "Write Python function ttfcyk to add a and b.", "response": "def ttfcyk(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function hnbhmvr to subtract b from a.", "response": "def hnbhmvr(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is yqoqtg. Say hello.", "response": "Hello, yqoqtg!"}
+{"task": "coding", "prompt": "Write Python function jlsq to add a and b.", "response": "def jlsq(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function cmlaed to subtract b from a.", "response": "def cmlaed(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is akpvcoj. Say hello.", "response": "Hello, akpvcoj!"}
+{"task": "coding", "prompt": "Write Python function hrud to add a and b.", "response": "def hrud(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function qinap to subtract b from a.", "response": "def qinap(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is ciaohg. Say hello.", "response": "Hello, ciaohg!"}
+{"task": "coding", "prompt": "Write Python function umc to add a and b.", "response": "def umc(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function tea to subtract b from a.", "response": "def tea(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is fpv. Say hello.", "response": "Hello, fpv!"}
+{"task": "coding", "prompt": "Write Python function mesikhfa to add a and b.", "response": "def mesikhfa(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function soy to subtract b from a.", "response": "def soy(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is klkrdu. Say hello.", "response": "Hello, klkrdu!"}
+{"task": "coding", "prompt": "Write Python function oriesnpk to add a and b.", "response": "def oriesnpk(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function iemc to subtract b from a.", "response": "def iemc(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is lsiskjb. Say hello.", "response": "Hello, lsiskjb!"}
+{"task": "coding", "prompt": "Write Python function bdqvlst to add a and b.", "response": "def bdqvlst(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function sdm to subtract b from a.", "response": "def sdm(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is ghcinll. Say hello.", "response": "Hello, ghcinll!"}
+{"task": "coding", "prompt": "Write Python function mcniendf to add a and b.", "response": "def mcniendf(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function ljqsdrrz to subtract b from a.", "response": "def ljqsdrrz(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is ckfuh. Say hello.", "response": "Hello, ckfuh!"}
+{"task": "coding", "prompt": "Write Python function yujpy to add a and b.", "response": "def yujpy(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function zkozkvzy to subtract b from a.", "response": "def zkozkvzy(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is jvtxdncn. Say hello.", "response": "Hello, jvtxdncn!"}
+{"task": "coding", "prompt": "Write Python function gxzm to add a and b.", "response": "def gxzm(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function fwholhec to subtract b from a.", "response": "def fwholhec(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is covhvm. Say hello.", "response": "Hello, covhvm!"}
+{"task": "coding", "prompt": "Write Python function hkum to add a and b.", "response": "def hkum(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function agoedo to subtract b from a.", "response": "def agoedo(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is ccs. Say hello.", "response": "Hello, ccs!"}
+{"task": "coding", "prompt": "Write Python function allgwf to add a and b.", "response": "def allgwf(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function vgsfiivg to subtract b from a.", "response": "def vgsfiivg(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is abjgsfng. Say hello.", "response": "Hello, abjgsfng!"}
+{"task": "coding", "prompt": "Write Python function nmwh to add a and b.", "response": "def nmwh(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function rwdvf to subtract b from a.", "response": "def rwdvf(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is hogf. Say hello.", "response": "Hello, hogf!"}
+{"task": "coding", "prompt": "Write Python function popwkoyw to add a and b.", "response": "def popwkoyw(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function xsz to subtract b from a.", "response": "def xsz(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is fworn. Say hello.", "response": "Hello, fworn!"}
+{"task": "coding", "prompt": "Write Python function mqxvpk to add a and b.", "response": "def mqxvpk(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function wth to subtract b from a.", "response": "def wth(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is vkgnemgm. Say hello.", "response": "Hello, vkgnemgm!"}
+{"task": "coding", "prompt": "Write Python function oodkve to add a and b.", "response": "def oodkve(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function lfykds to subtract b from a.", "response": "def lfykds(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is krgrg. Say hello.", "response": "Hello, krgrg!"}
+{"task": "coding", "prompt": "Write Python function laivmydk to add a and b.", "response": "def laivmydk(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function mxml to subtract b from a.", "response": "def mxml(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is dzcdtnve. Say hello.", "response": "Hello, dzcdtnve!"}
+{"task": "coding", "prompt": "Write Python function htykx to add a and b.", "response": "def htykx(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function ikalfite to subtract b from a.", "response": "def ikalfite(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is wodiuv. Say hello.", "response": "Hello, wodiuv!"}
+{"task": "coding", "prompt": "Write Python function tfx to add a and b.", "response": "def tfx(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function ggobu to subtract b from a.", "response": "def ggobu(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is vjhwy. Say hello.", "response": "Hello, vjhwy!"}
+{"task": "coding", "prompt": "Write Python function wvrnu to add a and b.", "response": "def wvrnu(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function sed to subtract b from a.", "response": "def sed(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is bjwdl. Say hello.", "response": "Hello, bjwdl!"}
+{"task": "coding", "prompt": "Write Python function tdd to add a and b.", "response": "def tdd(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function mokknk to subtract b from a.", "response": "def mokknk(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is mjqu. Say hello.", "response": "Hello, mjqu!"}
+{"task": "coding", "prompt": "Write Python function hpeyf to add a and b.", "response": "def hpeyf(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function rqcurtx to subtract b from a.", "response": "def rqcurtx(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is mpiv. Say hello.", "response": "Hello, mpiv!"}
+{"task": "coding", "prompt": "Write Python function gcp to add a and b.", "response": "def gcp(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function xwggu to subtract b from a.", "response": "def xwggu(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is vafspbt. Say hello.", "response": "Hello, vafspbt!"}
+{"task": "coding", "prompt": "Write Python function vszvfmd to add a and b.", "response": "def vszvfmd(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function vaw to subtract b from a.", "response": "def vaw(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is iqmsbl. Say hello.", "response": "Hello, iqmsbl!"}
+{"task": "coding", "prompt": "Write Python function cpt to add a and b.", "response": "def cpt(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function yqf to subtract b from a.", "response": "def yqf(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is vro. Say hello.", "response": "Hello, vro!"}
+{"task": "coding", "prompt": "Write Python function gwyduo to add a and b.", "response": "def gwyduo(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function bvksau to subtract b from a.", "response": "def bvksau(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is abcyjufy. Say hello.", "response": "Hello, abcyjufy!"}
+{"task": "coding", "prompt": "Write Python function wbxl to add a and b.", "response": "def wbxl(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function xgndlsan to subtract b from a.", "response": "def xgndlsan(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is togcayl. Say hello.", "response": "Hello, togcayl!"}
+{"task": "coding", "prompt": "Write Python function xsw to add a and b.", "response": "def xsw(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function gdf to subtract b from a.", "response": "def gdf(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is xdqwe. Say hello.", "response": "Hello, xdqwe!"}
+{"task": "coding", "prompt": "Write Python function qgdtrlu to add a and b.", "response": "def qgdtrlu(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function gxffu to subtract b from a.", "response": "def gxffu(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is ccx. Say hello.", "response": "Hello, ccx!"}
+{"task": "coding", "prompt": "Write Python function oreg to add a and b.", "response": "def oreg(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function armrnm to subtract b from a.", "response": "def armrnm(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is xifu. Say hello.", "response": "Hello, xifu!"}
+{"task": "coding", "prompt": "Write Python function nby to add a and b.", "response": "def nby(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function dnqvr to subtract b from a.", "response": "def dnqvr(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is dzu. Say hello.", "response": "Hello, dzu!"}
+{"task": "coding", "prompt": "Write Python function xjpiug to add a and b.", "response": "def xjpiug(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function cgrbahdl to subtract b from a.", "response": "def cgrbahdl(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is pps. Say hello.", "response": "Hello, pps!"}
+{"task": "coding", "prompt": "Write Python function eeo to add a and b.", "response": "def eeo(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function ana to subtract b from a.", "response": "def ana(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is ulivewjt. Say hello.", "response": "Hello, ulivewjt!"}
+{"task": "coding", "prompt": "Write Python function mvfhu to add a and b.", "response": "def mvfhu(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function pnzsz to subtract b from a.", "response": "def pnzsz(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is lqqf. Say hello.", "response": "Hello, lqqf!"}
+{"task": "coding", "prompt": "Write Python function fdnjpvj to add a and b.", "response": "def fdnjpvj(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function fvuxb to subtract b from a.", "response": "def fvuxb(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is vduhq. Say hello.", "response": "Hello, vduhq!"}
+{"task": "coding", "prompt": "Write Python function wckbu to add a and b.", "response": "def wckbu(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function fmlcfhwu to subtract b from a.", "response": "def fmlcfhwu(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is dzanp. Say hello.", "response": "Hello, dzanp!"}
+{"task": "coding", "prompt": "Write Python function poejezj to add a and b.", "response": "def poejezj(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function brvhcta to subtract b from a.", "response": "def brvhcta(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is rqrywcc. Say hello.", "response": "Hello, rqrywcc!"}
+{"task": "coding", "prompt": "Write Python function nxa to add a and b.", "response": "def nxa(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function ckszcgt to subtract b from a.", "response": "def ckszcgt(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is ttmlbnr. Say hello.", "response": "Hello, ttmlbnr!"}
+{"task": "coding", "prompt": "Write Python function emzqun to add a and b.", "response": "def emzqun(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function ekzvdg to subtract b from a.", "response": "def ekzvdg(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is nsmeb. Say hello.", "response": "Hello, nsmeb!"}
+{"task": "coding", "prompt": "Write Python function rupqr to add a and b.", "response": "def rupqr(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function twjzboj to subtract b from a.", "response": "def twjzboj(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is tgbst. Say hello.", "response": "Hello, tgbst!"}
+{"task": "coding", "prompt": "Write Python function fkhu to add a and b.", "response": "def fkhu(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function rsc to subtract b from a.", "response": "def rsc(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is lglf. Say hello.", "response": "Hello, lglf!"}
+{"task": "coding", "prompt": "Write Python function fdvstgx to add a and b.", "response": "def fdvstgx(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function zxnh to subtract b from a.", "response": "def zxnh(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is dfhrw. Say hello.", "response": "Hello, dfhrw!"}
+{"task": "coding", "prompt": "Write Python function slopxrmt to add a and b.", "response": "def slopxrmt(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function pbsbagil to subtract b from a.", "response": "def pbsbagil(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is uyyt. Say hello.", "response": "Hello, uyyt!"}
+{"task": "coding", "prompt": "Write Python function aaxhsjq to add a and b.", "response": "def aaxhsjq(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function xlsnto to subtract b from a.", "response": "def xlsnto(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is bzxwkund. Say hello.", "response": "Hello, bzxwkund!"}
+{"task": "coding", "prompt": "Write Python function ztq to add a and b.", "response": "def ztq(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function crici to subtract b from a.", "response": "def crici(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is gzek. Say hello.", "response": "Hello, gzek!"}
+{"task": "coding", "prompt": "Write Python function nbehi to add a and b.", "response": "def nbehi(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function whoxgu to subtract b from a.", "response": "def whoxgu(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is jouathdk. Say hello.", "response": "Hello, jouathdk!"}
+{"task": "coding", "prompt": "Write Python function wlpdgw to add a and b.", "response": "def wlpdgw(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function iiwquy to subtract b from a.", "response": "def iiwquy(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is hvwv. Say hello.", "response": "Hello, hvwv!"}
+{"task": "coding", "prompt": "Write Python function jzhja to add a and b.", "response": "def jzhja(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function pwd to subtract b from a.", "response": "def pwd(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is edkvj. Say hello.", "response": "Hello, edkvj!"}
+{"task": "coding", "prompt": "Write Python function exepikc to add a and b.", "response": "def exepikc(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function voxnmngb to subtract b from a.", "response": "def voxnmngb(a, b):\n    return a - b"}
+{"task": "conversation", "prompt": "My name is fksxgtdl. Say hello.", "response": "Hello, fksxgtdl!"}

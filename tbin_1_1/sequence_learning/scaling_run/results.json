@@ -1,0 +1,1649 @@
+{
+  "runs": [
+    {
+      "mode": "from_scratch",
+      "examples": 20,
+      "epochs": 120,
+      "seed": 7,
+      "first_loss": 5.53281352519989,
+      "last_loss": 0.3383783236145973,
+      "training_correct": 1,
+      "training_total": 20,
+      "test_correct": 0,
+      "test_total": 30,
+      "test_examples": [
+        {
+          "task": "conversation",
+          "prompt": "My name is kqoqvf. Say hello.",
+          "response": "Hello, kqoqvf!",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function wsnld to add a and b.",
+          "response": "def wsnld(a, b):\n    return a + b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function pxgjxijx to subtract b from a.",
+          "response": "def pxgjxijx(a, b):\n    return a - b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is xoa. Say hello.",
+          "response": "Hello, xoa!",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function bly to add a and b.",
+          "response": "def bly(a, b):\n    return a + b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function dnscci to subtract b from a.",
+          "response": "def dnscci(a, b):\n    return a - b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is grji. Say hello.",
+          "response": "Hello, grji!",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function dnmp to add a and b.",
+          "response": "def dnmp(a, b):\n    return a + b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function ldinesx to subtract b from a.",
+          "response": "def ldinesx(a, b):\n    return a - b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is rhn. Say hello.",
+          "response": "Hello, rhn!",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function kbvzqkp to add a and b.",
+          "response": "def kbvzqkp(a, b):\n    return a + b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function rdqaot to subtract b from a.",
+          "response": "def rdqaot(a, b):\n    return a - b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is hbv. Say hello.",
+          "response": "Hello, hbv!",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function ystad to add a and b.",
+          "response": "def ystad(a, b):\n    return a + b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qep to subtract b from a.",
+          "response": "def qep(a, b):\n    return a - b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is qjonj. Say hello.",
+          "response": "Hello, qjonj!",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function otl to add a and b.",
+          "response": "def otl(a, b):\n    return a + b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function wowgbzyw to subtract b from a.",
+          "response": "def wowgbzyw(a, b):\n    return a - b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is mhpvh. Say hello.",
+          "response": "Hello, mhpvh!",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function oipc to add a and b.",
+          "response": "def oipc(a, b):\n    return a + b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function smpnqnu to subtract b from a.",
+          "response": "def smpnqnu(a, b):\n    return a - b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is ondswor. Say hello.",
+          "response": "Hello, ondswor!",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qlu to add a and b.",
+          "response": "def qlu(a, b):\n    return a + b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function sucatrt to subtract b from a.",
+          "response": "def sucatrt(a, b):\n    return a - b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is gsfp. Say hello.",
+          "response": "Hello, gsfp!",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function acjmh to add a and b.",
+          "response": "def acjmh(a, b):\n    return a + b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function sly to subtract b from a.",
+          "response": "def sly(a, b):\n    return a - b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is nduixy. Say hello.",
+          "response": "Hello, nduixy!",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function bfis to add a and b.",
+          "response": "def bfis(a, b):\n    return a + b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qxbpzbrx to subtract b from a.",
+          "response": "def qxbpzbrx(a, b):\n    return a - b",
+          "predicted": "Hello, Ian!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        }
+      ],
+      "seconds": 3.523632669000108
+    },
+    {
+      "mode": "from_scratch",
+      "examples": 80,
+      "epochs": 120,
+      "seed": 7,
+      "first_loss": 5.326945650577545,
+      "last_loss": 0.3426213437691331,
+      "training_correct": 1,
+      "training_total": 80,
+      "test_correct": 0,
+      "test_total": 30,
+      "test_examples": [
+        {
+          "task": "conversation",
+          "prompt": "My name is kqoqvf. Say hello.",
+          "response": "Hello, kqoqvf!",
+          "predicted": "Hello, fbt!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function wsnld to add a and b.",
+          "response": "def wsnld(a, b):\n    return a + b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function pxgjxijx to subtract b from a.",
+          "response": "def pxgjxijx(a, b):\n    return a - b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is xoa. Say hello.",
+          "response": "Hello, xoa!",
+          "predicted": "Hello, fbt!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function bly to add a and b.",
+          "response": "def bly(a, b):\n    return a + b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function dnscci to subtract b from a.",
+          "response": "def dnscci(a, b):\n    return a - b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is grji. Say hello.",
+          "response": "Hello, grji!",
+          "predicted": "Hello, fbt!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function dnmp to add a and b.",
+          "response": "def dnmp(a, b):\n    return a + b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function ldinesx to subtract b from a.",
+          "response": "def ldinesx(a, b):\n    return a - b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is rhn. Say hello.",
+          "response": "Hello, rhn!",
+          "predicted": "Hello, fbt!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function kbvzqkp to add a and b.",
+          "response": "def kbvzqkp(a, b):\n    return a + b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function rdqaot to subtract b from a.",
+          "response": "def rdqaot(a, b):\n    return a - b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is hbv. Say hello.",
+          "response": "Hello, hbv!",
+          "predicted": "Hello, fbt!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function ystad to add a and b.",
+          "response": "def ystad(a, b):\n    return a + b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qep to subtract b from a.",
+          "response": "def qep(a, b):\n    return a - b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is qjonj. Say hello.",
+          "response": "Hello, qjonj!",
+          "predicted": "Hello, fbt!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function otl to add a and b.",
+          "response": "def otl(a, b):\n    return a + b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function wowgbzyw to subtract b from a.",
+          "response": "def wowgbzyw(a, b):\n    return a - b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is mhpvh. Say hello.",
+          "response": "Hello, mhpvh!",
+          "predicted": "Hello, fbt!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function oipc to add a and b.",
+          "response": "def oipc(a, b):\n    return a + b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function smpnqnu to subtract b from a.",
+          "response": "def smpnqnu(a, b):\n    return a - b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is ondswor. Say hello.",
+          "response": "Hello, ondswor!",
+          "predicted": "Hello, fbt!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qlu to add a and b.",
+          "response": "def qlu(a, b):\n    return a + b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function sucatrt to subtract b from a.",
+          "response": "def sucatrt(a, b):\n    return a - b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is gsfp. Say hello.",
+          "response": "Hello, gsfp!",
+          "predicted": "Hello, fbt!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function acjmh to add a and b.",
+          "response": "def acjmh(a, b):\n    return a + b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function sly to subtract b from a.",
+          "response": "def sly(a, b):\n    return a - b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is nduixy. Say hello.",
+          "response": "Hello, nduixy!",
+          "predicted": "Hello, fbt!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function bfis to add a and b.",
+          "response": "def bfis(a, b):\n    return a + b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qxbpzbrx to subtract b from a.",
+          "response": "def qxbpzbrx(a, b):\n    return a - b",
+          "predicted": "def ufnfu(a, b):\n    return a - b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        }
+      ],
+      "seconds": 14.541674876999878
+    },
+    {
+      "mode": "from_scratch",
+      "examples": 240,
+      "epochs": 120,
+      "seed": 7,
+      "first_loss": 4.130286832650502,
+      "last_loss": 0.537769254297018,
+      "training_correct": 1,
+      "training_total": 240,
+      "test_correct": 0,
+      "test_total": 30,
+      "test_examples": [
+        {
+          "task": "conversation",
+          "prompt": "My name is kqoqvf. Say hello.",
+          "response": "Hello, kqoqvf!",
+          "predicted": "Hello, ccs!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function wsnld to add a and b.",
+          "response": "def wsnld(a, b):\n    return a + b",
+          "predicted": "def vro!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function pxgjxijx to subtract b from a.",
+          "response": "def pxgjxijx(a, b):\n    return a - b",
+          "predicted": "def vedu(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is xoa. Say hello.",
+          "response": "Hello, xoa!",
+          "predicted": "Hello, ccs!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function bly to add a and b.",
+          "response": "def bly(a, b):\n    return a + b",
+          "predicted": "def vro!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function dnscci to subtract b from a.",
+          "response": "def dnscci(a, b):\n    return a - b",
+          "predicted": "def vedu(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is grji. Say hello.",
+          "response": "Hello, grji!",
+          "predicted": "Hello, ccs!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function dnmp to add a and b.",
+          "response": "def dnmp(a, b):\n    return a + b",
+          "predicted": "def vro!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function ldinesx to subtract b from a.",
+          "response": "def ldinesx(a, b):\n    return a - b",
+          "predicted": "def vedu(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is rhn. Say hello.",
+          "response": "Hello, rhn!",
+          "predicted": "Hello, ccs!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function kbvzqkp to add a and b.",
+          "response": "def kbvzqkp(a, b):\n    return a + b",
+          "predicted": "def vro!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function rdqaot to subtract b from a.",
+          "response": "def rdqaot(a, b):\n    return a - b",
+          "predicted": "def vedu(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is hbv. Say hello.",
+          "response": "Hello, hbv!",
+          "predicted": "Hello, ccs!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function ystad to add a and b.",
+          "response": "def ystad(a, b):\n    return a + b",
+          "predicted": "def vro!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qep to subtract b from a.",
+          "response": "def qep(a, b):\n    return a - b",
+          "predicted": "def vedu(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is qjonj. Say hello.",
+          "response": "Hello, qjonj!",
+          "predicted": "Hello, ccs!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function otl to add a and b.",
+          "response": "def otl(a, b):\n    return a + b",
+          "predicted": "def vro!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function wowgbzyw to subtract b from a.",
+          "response": "def wowgbzyw(a, b):\n    return a - b",
+          "predicted": "def vedu(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is mhpvh. Say hello.",
+          "response": "Hello, mhpvh!",
+          "predicted": "Hello, ccs!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function oipc to add a and b.",
+          "response": "def oipc(a, b):\n    return a + b",
+          "predicted": "def vro!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function smpnqnu to subtract b from a.",
+          "response": "def smpnqnu(a, b):\n    return a - b",
+          "predicted": "def vedu(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is ondswor. Say hello.",
+          "response": "Hello, ondswor!",
+          "predicted": "Hello, ccs!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qlu to add a and b.",
+          "response": "def qlu(a, b):\n    return a + b",
+          "predicted": "def vro!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function sucatrt to subtract b from a.",
+          "response": "def sucatrt(a, b):\n    return a - b",
+          "predicted": "def vedu(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is gsfp. Say hello.",
+          "response": "Hello, gsfp!",
+          "predicted": "Hello, ccs!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function acjmh to add a and b.",
+          "response": "def acjmh(a, b):\n    return a + b",
+          "predicted": "def vro!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function sly to subtract b from a.",
+          "response": "def sly(a, b):\n    return a - b",
+          "predicted": "def vedu(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is nduixy. Say hello.",
+          "response": "Hello, nduixy!",
+          "predicted": "Hello, ccs!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function bfis to add a and b.",
+          "response": "def bfis(a, b):\n    return a + b",
+          "predicted": "def vro!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": false
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qxbpzbrx to subtract b from a.",
+          "response": "def qxbpzbrx(a, b):\n    return a - b",
+          "predicted": "def vedu(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        }
+      ],
+      "seconds": 43.907196612999996
+    },
+    {
+      "mode": "continued_prior_pilot",
+      "examples": 240,
+      "additional_epochs": 120,
+      "optimizer_reset": true,
+      "first_loss": 1.517552998661995,
+      "last_loss": 0.41064567615588504,
+      "training_correct": 1,
+      "training_total": 240,
+      "test_correct": 0,
+      "test_total": 30,
+      "test_examples": [
+        {
+          "task": "conversation",
+          "prompt": "My name is kqoqvf. Say hello.",
+          "response": "Hello, kqoqvf!",
+          "predicted": "Hello, fsxr!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function wsnld to add a and b.",
+          "response": "def wsnld(a, b):\n    return a + b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function pxgjxijx to subtract b from a.",
+          "response": "def pxgjxijx(a, b):\n    return a - b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is xoa. Say hello.",
+          "response": "Hello, xoa!",
+          "predicted": "Hello, fsxr!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function bly to add a and b.",
+          "response": "def bly(a, b):\n    return a + b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function dnscci to subtract b from a.",
+          "response": "def dnscci(a, b):\n    return a - b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is grji. Say hello.",
+          "response": "Hello, grji!",
+          "predicted": "Hello, fsxr!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function dnmp to add a and b.",
+          "response": "def dnmp(a, b):\n    return a + b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function ldinesx to subtract b from a.",
+          "response": "def ldinesx(a, b):\n    return a - b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is rhn. Say hello.",
+          "response": "Hello, rhn!",
+          "predicted": "Hello, fsxr!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function kbvzqkp to add a and b.",
+          "response": "def kbvzqkp(a, b):\n    return a + b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function rdqaot to subtract b from a.",
+          "response": "def rdqaot(a, b):\n    return a - b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is hbv. Say hello.",
+          "response": "Hello, hbv!",
+          "predicted": "Hello, fsxr!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function ystad to add a and b.",
+          "response": "def ystad(a, b):\n    return a + b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qep to subtract b from a.",
+          "response": "def qep(a, b):\n    return a - b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is qjonj. Say hello.",
+          "response": "Hello, qjonj!",
+          "predicted": "Hello, fsxr!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function otl to add a and b.",
+          "response": "def otl(a, b):\n    return a + b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function wowgbzyw to subtract b from a.",
+          "response": "def wowgbzyw(a, b):\n    return a - b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is mhpvh. Say hello.",
+          "response": "Hello, mhpvh!",
+          "predicted": "Hello, fsxr!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function oipc to add a and b.",
+          "response": "def oipc(a, b):\n    return a + b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function smpnqnu to subtract b from a.",
+          "response": "def smpnqnu(a, b):\n    return a - b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is ondswor. Say hello.",
+          "response": "Hello, ondswor!",
+          "predicted": "Hello, fsxr!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qlu to add a and b.",
+          "response": "def qlu(a, b):\n    return a + b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function sucatrt to subtract b from a.",
+          "response": "def sucatrt(a, b):\n    return a - b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is gsfp. Say hello.",
+          "response": "Hello, gsfp!",
+          "predicted": "Hello, fsxr!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function acjmh to add a and b.",
+          "response": "def acjmh(a, b):\n    return a + b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function sly to subtract b from a.",
+          "response": "def sly(a, b):\n    return a - b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "conversation",
+          "prompt": "My name is nduixy. Say hello.",
+          "response": "Hello, nduixy!",
+          "predicted": "Hello, fsxr!",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": null
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function bfis to add a and b.",
+          "response": "def bfis(a, b):\n    return a + b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        },
+        {
+          "task": "coding",
+          "prompt": "Write Python function qxbpzbrx to subtract b from a.",
+          "response": "def qxbpzbrx(a, b):\n    return a - b",
+          "predicted": "def vaxa(a, b):\n    return a + b",
+          "ended": true,
+          "exact": false,
+          "python_syntax_valid": true
+        }
+      ],
+      "seconds": 45.961982399000135
+    }
+  ],
+  "continued_before": {
+    "training_correct": 1,
+    "training_total": 240,
+    "test_correct": 0,
+    "test_total": 30,
+    "test_examples": [
+      {
+        "task": "conversation",
+        "prompt": "My name is kqoqvf. Say hello.",
+        "response": "Hello, kqoqvf!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function wsnld to add a and b.",
+        "response": "def wsnld(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function pxgjxijx to subtract b from a.",
+        "response": "def pxgjxijx(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is xoa. Say hello.",
+        "response": "Hello, xoa!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function bly to add a and b.",
+        "response": "def bly(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function dnscci to subtract b from a.",
+        "response": "def dnscci(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is grji. Say hello.",
+        "response": "Hello, grji!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function dnmp to add a and b.",
+        "response": "def dnmp(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function ldinesx to subtract b from a.",
+        "response": "def ldinesx(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is rhn. Say hello.",
+        "response": "Hello, rhn!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function kbvzqkp to add a and b.",
+        "response": "def kbvzqkp(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function rdqaot to subtract b from a.",
+        "response": "def rdqaot(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is hbv. Say hello.",
+        "response": "Hello, hbv!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function ystad to add a and b.",
+        "response": "def ystad(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function qep to subtract b from a.",
+        "response": "def qep(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is qjonj. Say hello.",
+        "response": "Hello, qjonj!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function otl to add a and b.",
+        "response": "def otl(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function wowgbzyw to subtract b from a.",
+        "response": "def wowgbzyw(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is mhpvh. Say hello.",
+        "response": "Hello, mhpvh!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function oipc to add a and b.",
+        "response": "def oipc(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function smpnqnu to subtract b from a.",
+        "response": "def smpnqnu(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is ondswor. Say hello.",
+        "response": "Hello, ondswor!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function qlu to add a and b.",
+        "response": "def qlu(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function sucatrt to subtract b from a.",
+        "response": "def sucatrt(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is gsfp. Say hello.",
+        "response": "Hello, gsfp!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function acjmh to add a and b.",
+        "response": "def acjmh(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function sly to subtract b from a.",
+        "response": "def sly(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "conversation",
+        "prompt": "My name is nduixy. Say hello.",
+        "response": "Hello, nduixy!",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": null
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function bfis to add a and b.",
+        "response": "def bfis(a, b):\n    return a + b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      },
+      {
+        "task": "coding",
+        "prompt": "Write Python function qxbpzbrx to subtract b from a.",
+        "response": "def qxbpzbrx(a, b):\n    return a - b",
+        "predicted": "Hello, Ian!",
+        "ended": true,
+        "exact": false,
+        "python_syntax_valid": false
+      }
+    ]
+  },
+  "copy_rules": 163,
+  "copy_correct": 30,
+  "copy_total": 30,
+  "copy_examples": [
+    {
+      "prompt": "My name is kqoqvf. Say hello.",
+      "expected": "Hello, kqoqvf!",
+      "text": "Hello, kqoqvf!",
+      "route": "learned_copy",
+      "support": 82
+    },
+    {
+      "prompt": "Write Python function wsnld to add a and b.",
+      "expected": "def wsnld(a, b):\n    return a + b",
+      "text": "def wsnld(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "Write Python function pxgjxijx to subtract b from a.",
+      "expected": "def pxgjxijx(a, b):\n    return a - b",
+      "text": "def pxgjxijx(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "My name is xoa. Say hello.",
+      "expected": "Hello, xoa!",
+      "text": "Hello, xoa!",
+      "route": "learned_copy",
+      "support": 82
+    },
+    {
+      "prompt": "Write Python function bly to add a and b.",
+      "expected": "def bly(a, b):\n    return a + b",
+      "text": "def bly(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "Write Python function dnscci to subtract b from a.",
+      "expected": "def dnscci(a, b):\n    return a - b",
+      "text": "def dnscci(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "My name is grji. Say hello.",
+      "expected": "Hello, grji!",
+      "text": "Hello, grji!",
+      "route": "learned_copy",
+      "support": 82
+    },
+    {
+      "prompt": "Write Python function dnmp to add a and b.",
+      "expected": "def dnmp(a, b):\n    return a + b",
+      "text": "def dnmp(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "Write Python function ldinesx to subtract b from a.",
+      "expected": "def ldinesx(a, b):\n    return a - b",
+      "text": "def ldinesx(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "My name is rhn. Say hello.",
+      "expected": "Hello, rhn!",
+      "text": "Hello, rhn!",
+      "route": "learned_copy",
+      "support": 82
+    },
+    {
+      "prompt": "Write Python function kbvzqkp to add a and b.",
+      "expected": "def kbvzqkp(a, b):\n    return a + b",
+      "text": "def kbvzqkp(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "Write Python function rdqaot to subtract b from a.",
+      "expected": "def rdqaot(a, b):\n    return a - b",
+      "text": "def rdqaot(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "My name is hbv. Say hello.",
+      "expected": "Hello, hbv!",
+      "text": "Hello, hbv!",
+      "route": "learned_copy",
+      "support": 82
+    },
+    {
+      "prompt": "Write Python function ystad to add a and b.",
+      "expected": "def ystad(a, b):\n    return a + b",
+      "text": "def ystad(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "Write Python function qep to subtract b from a.",
+      "expected": "def qep(a, b):\n    return a - b",
+      "text": "def qep(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "My name is qjonj. Say hello.",
+      "expected": "Hello, qjonj!",
+      "text": "Hello, qjonj!",
+      "route": "learned_copy",
+      "support": 82
+    },
+    {
+      "prompt": "Write Python function otl to add a and b.",
+      "expected": "def otl(a, b):\n    return a + b",
+      "text": "def otl(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "Write Python function wowgbzyw to subtract b from a.",
+      "expected": "def wowgbzyw(a, b):\n    return a - b",
+      "text": "def wowgbzyw(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "My name is mhpvh. Say hello.",
+      "expected": "Hello, mhpvh!",
+      "text": "Hello, mhpvh!",
+      "route": "learned_copy",
+      "support": 82
+    },
+    {
+      "prompt": "Write Python function oipc to add a and b.",
+      "expected": "def oipc(a, b):\n    return a + b",
+      "text": "def oipc(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "Write Python function smpnqnu to subtract b from a.",
+      "expected": "def smpnqnu(a, b):\n    return a - b",
+      "text": "def smpnqnu(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "My name is ondswor. Say hello.",
+      "expected": "Hello, ondswor!",
+      "text": "Hello, ondswor!",
+      "route": "learned_copy",
+      "support": 82
+    },
+    {
+      "prompt": "Write Python function qlu to add a and b.",
+      "expected": "def qlu(a, b):\n    return a + b",
+      "text": "def qlu(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "Write Python function sucatrt to subtract b from a.",
+      "expected": "def sucatrt(a, b):\n    return a - b",
+      "text": "def sucatrt(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "My name is gsfp. Say hello.",
+      "expected": "Hello, gsfp!",
+      "text": "Hello, gsfp!",
+      "route": "learned_copy",
+      "support": 82
+    },
+    {
+      "prompt": "Write Python function acjmh to add a and b.",
+      "expected": "def acjmh(a, b):\n    return a + b",
+      "text": "def acjmh(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "Write Python function sly to subtract b from a.",
+      "expected": "def sly(a, b):\n    return a - b",
+      "text": "def sly(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "My name is nduixy. Say hello.",
+      "expected": "Hello, nduixy!",
+      "text": "Hello, nduixy!",
+      "route": "learned_copy",
+      "support": 82
+    },
+    {
+      "prompt": "Write Python function bfis to add a and b.",
+      "expected": "def bfis(a, b):\n    return a + b",
+      "text": "def bfis(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "support": 79
+    },
+    {
+      "prompt": "Write Python function qxbpzbrx to subtract b from a.",
+      "expected": "def qxbpzbrx(a, b):\n    return a - b",
+      "text": "def qxbpzbrx(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "support": 79
+    }
+  ],
+  "out_of_template_abstentions": 6,
+  "out_of_template_total": 6,
+  "seconds": 108.20775274899961,
+  "checkpoint_reload_identical": true,
+  "limits": [
+    "synthetic data: varied names/identifiers, only three templates",
+    "one initialization seed",
+    "fixed epochs means larger datasets also receive more optimization steps",
+    "no real speech or conversation corpus",
+    "exact answer accuracy, not functional execution of generated code",
+    "neural architecture unchanged; copy results separate"
+  ]
+}
