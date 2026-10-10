@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": ". Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "!",
+      "support": 8
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": " to add a and b.",
+      "output_prefix": "def ",
+      "output_suffix": "(a, b):\n    return a + b",
+      "support": 6
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 6
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "n. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "n!",
+      "support": 3
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "e to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "e(a, b):\n    return a - b",
+      "support": 3
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "e. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "e!",
+      "support": 2
+    },
+    {
+      "input_prefix": "My name is ",
+      "input_suffix": "an. Say hello.",
+      "output_prefix": "Hello, ",
+      "output_suffix": "an!",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function d",
+      "input_suffix": " to subtract b from a.",
+      "output_prefix": "def d",
+      "output_suffix": "(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "ce to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "ce(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function ",
+      "input_suffix": "ct to subtract b from a.",
+      "output_prefix": "def ",
+      "output_suffix": "ct(a, b):\n    return a - b",
+      "support": 2
+    },
+    {
+      "input_prefix": "Write Python function re",
+      "input_suffix": "e to subtract b from a.",
+      "output_prefix": "def re",
+      "output_suffix": "e(a, b):\n    return a - b",
+      "support": 2
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "method": "single-span copying via learned prompt/response templates; not neural generalization",
+  "training_examples": 20,
+  "fresh_test_count": 14,
+  "learned_rules": 11,
+  "neural_only_correct": 0,
+  "copy_conditioned_correct": 14,
+  "copy_disabled_correct": 0,
+  "unknown_abstentions": 6,
+  "unknown_count": 6,
+  "seconds": 0.022340484999858745,
+  "tests": [
+    {
+      "task": "conversation",
+      "prompt": "My name is Mading. Say hello.",
+      "response": "Hello, Mading!",
+      "predicted": "Hello, Mading!",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": null
+    },
+    {
+      "task": "conversation",
+      "prompt": "My name is Nyandeng. Say hello.",
+      "response": "Hello, Nyandeng!",
+      "predicted": "Hello, Nyandeng!",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": null
+    },
+    {
+      "task": "conversation",
+      "prompt": "My name is Akol. Say hello.",
+      "response": "Hello, Akol!",
+      "predicted": "Hello, Akol!",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": null
+    },
+    {
+      "task": "conversation",
+      "prompt": "My name is Aluel. Say hello.",
+      "response": "Hello, Aluel!",
+      "predicted": "Hello, Aluel!",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": null
+    },
+    {
+      "task": "conversation",
+      "prompt": "My name is Zoë. Say hello.",
+      "response": "Hello, Zoë!",
+      "predicted": "Hello, Zoë!",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": null
+    },
+    {
+      "task": "conversation",
+      "prompt": "My name is Mary Jane. Say hello.",
+      "response": "Hello, Mary Jane!",
+      "predicted": "Hello, Mary Jane!",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": null
+    },
+    {
+      "task": "coding",
+      "prompt": "Write Python function aggregate_values to add a and b.",
+      "response": "def aggregate_values(a, b):\n    return a + b",
+      "predicted": "def aggregate_values(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": true
+    },
+    {
+      "task": "coding",
+      "prompt": "Write Python function sum_two to add a and b.",
+      "response": "def sum_two(a, b):\n    return a + b",
+      "predicted": "def sum_two(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": true
+    },
+    {
+      "task": "coding",
+      "prompt": "Write Python function combine_numbers to add a and b.",
+      "response": "def combine_numbers(a, b):\n    return a + b",
+      "predicted": "def combine_numbers(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": true
+    },
+    {
+      "task": "coding",
+      "prompt": "Write Python function add_pair to add a and b.",
+      "response": "def add_pair(a, b):\n    return a + b",
+      "predicted": "def add_pair(a, b):\n    return a + b",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": true
+    },
+    {
+      "task": "coding",
+      "prompt": "Write Python function take_away to subtract b from a.",
+      "response": "def take_away(a, b):\n    return a - b",
+      "predicted": "def take_away(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": true
+    },
+    {
+      "task": "coding",
+      "prompt": "Write Python function subtract_pair to subtract b from a.",
+      "response": "def subtract_pair(a, b):\n    return a - b",
+      "predicted": "def subtract_pair(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": true
+    },
+    {
+      "task": "coding",
+      "prompt": "Write Python function difference_two to subtract b from a.",
+      "response": "def difference_two(a, b):\n    return a - b",
+      "predicted": "def difference_two(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": true
+    },
+    {
+      "task": "coding",
+      "prompt": "Write Python function net_value to subtract b from a.",
+      "response": "def net_value(a, b):\n    return a - b",
+      "predicted": "def net_value(a, b):\n    return a - b",
+      "route": "learned_copy",
+      "exact": true,
+      "required_ast_match": true
+    }
+  ],
+  "unknown_tests": [
+    {
+      "prompt": "Please greet Mading.",
+      "text": null,
+      "route": "abstain",
+      "reason": "unmatched_template"
+    },
+    {
+      "prompt": "Write a sorting algorithm.",
+      "text": null,
+      "route": "abstain",
+      "reason": "unmatched_template"
+    },
+    {
+      "prompt": "Translate this Bor sentence.",
+      "text": null,
+      "route": "abstain",
+      "reason": "unmatched_template"
+    },
+    {
+      "prompt": "What is 19 times 23?",
+      "text": null,
+      "route": "abstain",
+      "reason": "unmatched_template"
+    },
+    {
+      "prompt": "My name is Akol. Say goodbye.",
+      "text": null,
+      "route": "abstain",
+      "reason": "unmatched_template"
+    },
+    {
+      "prompt": "Write Python function product to multiply a and b.",
+      "text": null,
+      "route": "abstain",
+      "reason": "unmatched_template"
+    }
+  ],
+  "limits": [
+    "same templates, new copied spans only",
+    "no paraphrase or new-operation understanding",
+    "no speech transcription",
+    "no arbitrary code execution",
+    "neural model itself unchanged",
+    "pairwise template fitting capped at 256 examples; no large-scale training claim"
+  ],
+  "unit_tests": {
+    "passed": 8,
+    "failed": 0
+  }
+}

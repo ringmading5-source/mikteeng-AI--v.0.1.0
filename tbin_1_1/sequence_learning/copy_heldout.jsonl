@@ -1,0 +1,14 @@
+{"task": "conversation", "prompt": "My name is Mading. Say hello.", "response": "Hello, Mading!"}
+{"task": "conversation", "prompt": "My name is Nyandeng. Say hello.", "response": "Hello, Nyandeng!"}
+{"task": "conversation", "prompt": "My name is Akol. Say hello.", "response": "Hello, Akol!"}
+{"task": "conversation", "prompt": "My name is Aluel. Say hello.", "response": "Hello, Aluel!"}
+{"task": "conversation", "prompt": "My name is Zoë. Say hello.", "response": "Hello, Zoë!"}
+{"task": "conversation", "prompt": "My name is Mary Jane. Say hello.", "response": "Hello, Mary Jane!"}
+{"task": "coding", "prompt": "Write Python function aggregate_values to add a and b.", "response": "def aggregate_values(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function sum_two to add a and b.", "response": "def sum_two(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function combine_numbers to add a and b.", "response": "def combine_numbers(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function add_pair to add a and b.", "response": "def add_pair(a, b):\n    return a + b"}
+{"task": "coding", "prompt": "Write Python function take_away to subtract b from a.", "response": "def take_away(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function subtract_pair to subtract b from a.", "response": "def subtract_pair(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function difference_two to subtract b from a.", "response": "def difference_two(a, b):\n    return a - b"}
+{"task": "coding", "prompt": "Write Python function net_value to subtract b from a.", "response": "def net_value(a, b):\n    return a - b"}
